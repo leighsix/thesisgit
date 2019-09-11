@@ -9,45 +9,28 @@
 %\bibliographystyle{sjtu2}%[此处用于每章都生产参考文献]
 \chapter{Introduction}
 \label{chap:intro}
- People have their own opinions, and sometimes they change their opinions in response to others that hold views on given issues. Their opinions are reflected to the leader to make laws and vital decision for their countries. Also, the leaders or representatives affect the indivisuals that belong to their groups. In this case, the social phenomenon can be explained by dividing two layers, social opinion layer and decision making layer. It has to be considered as interconnected networks, where nodes belonging to different layers interact\cite{newman2010,boccaletti2014,domenico2013,tomasini2015,namkhanhvu2017}. In various situations ranging from voting to adoption of new policies, it is widely recognized that opinion formation and decision making formation have mutual interaction as interconnected network\cite{mikko2013, halu2013}. And sometimes, opinion formation could be opposed to decision making formation. That situations often make social conflict and cause social confusion. To figure out these social phenomenon, it is needed to understand and analyze the competition of interconnected networks. So far, physics and computer science have researched these social conflict by modeling and analyzing the complex systems\cite{huberman2004, zuev2012, laguna2004, masuda2015}. The researches include opinion dynamics, voter model, game theory and etc\cite{bianconi2018}. 
- 
- In this paper, opinion dynamics are discussed by analyzing the dynamics of a competing two-layer social network, based on the pre-existed research\cite{alvarez2016, gomez2015, diep2017, rocca2014}. The model consists of interconnected two layer networks. One layer has the function of social opinion and its own dynamics. The dynamics of the social opinion layer is a kind of opinion dynamics which are also known as M-model\cite{rocca2014}, that includes compromise function and persuasion function. The other layer also has the function of decision-making and its own dynamics. The dynamics of the decision making layer is the language competition dynamics that are also called as Abrams-Strogatz model\cite{abrams2003, vazquez2010}. And, the initial condition of the two layers is assumed to be in opposite states, social opinion layer has all positive states, decision making layer has all negative states.
- 
-As the result of pre-existed research, interconnected competition of the social network have been researched by finding the threshold or critical point for consensus\cite{alvarez2016, gomez2015, diep2017}. It has been proved that the system can make positive consensus, negative consensus or coexistence parts in interconnected competition of the social network\cite{alvarez2016}. And it is shown that the number of external degree is very important to change the state of layers\cite{gomez2015}. We develop the previous modeling and research to find out the characteristics of interconnected networks. By switching the network structure of each layer, such as changing the number of nodes or the number of edges, we can see how the consensus or coexistence states change and what conditions make the social consensus. This can help to explain social networks phenomena, such as conflict between social opinion and the congress. Therefore, this research could be used as a tool for analyzing legislation problems and making efficient decision-making system. 
+People have their own opinions, and sometimes they change their opinions in response to others that hold views on given issues. Their opinions are reflected to the leader to make laws and vital decision. These phenomena can be found out  in some cases, such as voting, legislation and adoption of new policies. It is widely recognized that opinion formation and decision making formation have mutual interaction as interconnected networks.\cite{mikko2013, danziger2019, newman2010, boccaletti2014, domenico2013, tomasini2015, namkhanhvu2017}. And sometimes, opinion formation could be opposed to decision making formation. These situations often make social conflict and cause social confusion. To figure out these social conflicts, it is needed to understand and analyze the competition of interconnected networks. So far, physics and computer science have researched these social conflict by modeling and analyzing the complex systems\cite{huberman2004, zuev2012, laguna2004, masuda2015}. The researches include opinion dynamics, voter model, game theory and many more\cite{bianconi2018}. 
+Competition of interconnected networks has been researched in many ways. These networks can be applied to the dissemination of computer viruses, messages, opinions, memes, diseases and rumors\cite{hua2014,shenyu2018, zhou2018, alvarez2016,gomez2015,diep2017,rocca2014,velasquez2018}. Opinion dynamics on interconnected networks are investigated with various network models such as \textit{Abrams-Strogatz(AS)} model\cite{abrams2003,vazquez2010} and $M$ model\cite{rocca2014}. So far, main researches have focused on what factors make a consensus or dissent, which have shown that the system can make positive consensus, negative consensus or coexistence under certain range of parameters, such as volatility, reinforcement, and prestige. Also, it is found out that the thresholds make the transition of states and they can explain and analyze the social phenomena in real world such as the legislation, election result, and social network\cite{alvarez2016, amato2017, diep2017}. In \cite{gomez2015}, it is shown that the transition from localized to mixed status occurs through a cascade from poorly connected nodes in the layers to the highly connected ones. In addition, the main features, such as transition and cascade, found in Monte Carlo simulation are exactly characterized by the mean-field theory and magnetization\cite{alvarez2016, diep2017, amato2017, gomez2015}. Based on the previous researches, we would study the main features of competing two-layer networks by changing network structures. 
+
+\section{Related Work}
+this work
+The model consists of interconnected two layer networks. One layer has the function of social opinion and its own dynamics. The dynamics of the social opinion layer is a kind of opinion dynamics which are also known as M-model\cite{rocca2014}, that includes compromise function and persuasion function. The other layer also has the function of decision-making and its own dynamics. The dynamics of the decision making layer is the language competition dynamics that are also called as Abrams-Strogatz model\cite{abrams2003, vazquez2010}. And, the initial condition of the two layers is assumed to be in opposite states, social opinion layer has all positive states, decision making layer has all negative states.
+
+
+
+
+\section{Motivation}
+
+
+
+
+\section{Thesis Objective}
+In this paper, opinion dynamics of a competing two-layer social network are investigated on the basis of the pre-existed research\cite{alvarez2016, gomez2015, diep2017, rocca2014}.
+Researching directions have 4 main topics. First, it would be found out what factors make consensus by changing network structures. Second, it would be analyzed whether dynamics orders have an influence on status of two-layer. Third, it would be investigated which method is the best to identify key nodes based on node centralities. Forth, it would be researched which algorithm is the best to find key edges based on edge properties. 
+As the result of pre-existed research, interconnected competition of the social network have been researched by finding the threshold or critical point for consensus\cite{alvarez2016, gomez2015, diep2017}. It has been proved that the system can make positive consensus, negative consensus or coexistence parts in interconnected competition of the social network\cite{alvarez2016}. And it is shown that the number of external degree is very important to change the state of layers\cite{gomez2015}. We develop the previous modeling and research to find out the characteristics of interconnected networks. By switching the network structure of each layer, such as changing the number of nodes or the number of edges, we can see how the consensus or coexistence states change and what conditions make the social consensus. This can help to explain social networks phenomena, such as social conflict between social opinion and the congress. Therefore, this research could be used as a tool for analyzing legislation problems, making efficient decision-making system and solving the social conflict. 
 
 The paper is organized as follows. In section 2, the Basic Model is introduced and the dynamics, that is applied to each layer, are described.  In section 3, the simulation results for the basic model and revised models are presented. In section 4 the characteristics of each model are described through the comparison and analysis. Finally, in section 5, the simulation results will be summarized and our findings are concluded.
 
-
-
-
-
-
-
-
-
-
-
-
-这是上海交通大学(非官方)学位论文 \LaTeX 模板，当前版本是 \version 。
-
-最早的一版学位模板是一位热心的物理系同学制作的。
-那份模板参考了自动化所学位论文模板，使用了CASthesis.cls文档类，中文字符处理则采用当时最为流行的 \CJKLaTeX 方案。
-我根据交大研究生院对学位论文的要求
-\footnote{\url{http://www.gs.sjtu.edu.cn/policy/fileShow.ahtml?id=130}}
-，结合少量个人审美喜好，完成了一份基本可用的交大 \LaTeX 学位论文模板。
-但是，搭建一个 \CJKLaTeX 环境并不简单，单单在Linux下配置环境和添加中文字体，就足够让新手打退堂鼓。
-在William Wang的建议下，我开始着手把模板向 \XeTeX 引擎移植。
-他完成了最初的移植，多亏了他出色的工作，后续的改善工作也得以顺利进行。
-
-随着我对 \LaTeX 系统认知增加，我又断断续续做了一些完善模板的工作，在原有硕士学位论文模板的基础上完成了交大学士和博士学位论文模板。
-
-现在，交大学位论文模板SJTUTHesis代码在github
-\footnote{\url{https://github.com/sjtug/SJTUThesis}}
-上维护。
-你可以\href{https://github.com/sjtug/SJTUThesis/issues}{在github上开issue}
-、或者在\href{https://bbs.sjtu.edu.cn/bbsdoc?board=TeX_LaTeX}{水源LaTeX版}发帖来反映遇到的问题。
-
-\section{使用模板}
 
 \subsection{准备工作}
 \label{sec:requirements}
@@ -78,67 +61,6 @@ sjtuthesis提供了一些常用选项，在thesis.tex在导入sjtuthesis模板�
 
 模板默认使用GNUMake构建，GNUMake将调用latemk工具自动完成模板多轮编译：
 
-\begin{lstlisting}[basicstyle=\small\ttfamily, caption={编译模板}, numbers=none]
-make clean thesis.pdf
-\end{lstlisting}
-
-若需要生成包含“原创性声明扫描件”的学位论文文档，请将扫描件保存为statement.pdf，然后调用make生成submit.pdf。
-
-\begin{lstlisting}[basicstyle=\small\ttfamily, caption={生成用于提交的学位论文}, numbers=none]
-make clean submit.pdf
-\end{lstlisting}
-
-编译失败时，可以尝试手动逐次编译，定位故障。
-
-\begin{lstlisting}[basicstyle=\small\ttfamily, caption={手动逐次编译}, numbers=none]
-xelatex -no-pdf thesis
-biber --debug thesis
-xelatex thesis
-xelatex thesis
-\end{lstlisting}
-
-\subsection{模板文件布局}
-\label{sec:layout}
-
-\begin{lstlisting}[basicstyle=\small\ttfamily,caption={模板文件布局},label=layout,float,numbers=none]
-├── LICENSE
-├── Makefile
-├── README.md
-├── bib
-│   ├── chap1.bib
-│   └── chap2.bib
-├── bst
-│   └── GBT7714-2005NLang.bst
-├── figure
-│   ├── chap2
-│   │   ├── sjtulogo.eps
-│   │   ├── sjtulogo.jpg
-│   │   ├── sjtulogo.pdf
-│   │   └── sjtulogo.png
-│   └── sjtubanner.png
-├── sjtuthesis.cfg
-├── sjtuthesis.cls
-├── statement.pdf
-├── submit.pdf
-├── tex
-│   ├── abstract.tex
-│   ├── ack.tex
-│   ├── app_cjk.tex
-│   ├── app_eq.tex
-│   ├── app_log.tex
-│   ├── chapter01.tex
-│   ├── chapter02.tex
-│   ├── chapter03.tex
-│   ├── conclusion.tex
-│   ├── id.tex
-│   ├── patents.tex
-│   ├── projects.tex
-│   ├── pub.tex
-│   └── symbol.tex
-└── thesis.tex
-\end{lstlisting}
-
-本节介绍学位论文模板中木要文件和目录的功能。
 
 \subsubsection{格式控制文件}
 \label{sec:format}

@@ -4,7 +4,7 @@
 %%==================================================
 
 % 双面打印
-\documentclass[master, openright, windows, twoside, english]{sjtuthesis}
+\documentclass[master, windows, openright, twoside, english]{sjtuthesis}
 % \documentclass[bachelor, openany, oneside, submit]{sjtuthesis}
 % \documentclass[master, review]{sjtuthesis}
 % \documentclass[%
@@ -18,7 +18,7 @@
 % ]
 
 % 逐个导入参考文献数据库
-\addbibresource{bib/thesis.bib}
+\addbibresource{bib/thesis3.bib}
 % \addbibresource{bib/chap2.bib}
 
 \input{tex/id}  % NOTE: the enclosed commands must be executed in preamble
@@ -26,7 +26,7 @@
 \begin{document}
 
 % 无编号内容：中英文论文封面、授权页
-\maketitle{}
+\maketitle
 \makeatletter
 
 \ifsjtu@coursepaper
@@ -108,9 +108,9 @@
       \include{tex/projectsreview}
     \else
       \include{tex/pub}       % 发表论文
-      \include{tex/projects}  % 参与的项目
+      % \include{tex/projects}  % 参与的项目
       % \include{tex/patents}   % 申请专利
-      \include{tex/resume}    % 个人简历
+      % \include{tex/resume}    % 个人简历
     \fi
   \fi
 \fi
