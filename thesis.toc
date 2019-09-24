@@ -34,7 +34,10 @@
 \contentsline {subsection}{\numberline {5.2.3}Order of edges}{23}{subsection.5.2.3}% 
 \contentsline {subsection}{\numberline {5.2.4}Comparison and Analysis}{25}{subsection.5.2.4}% 
 \contentsline {chapter}{\numberline {Chapter 6}Finding key nodes on two layer networks}{29}{chapter.6}% 
-\contentsline {chapter}{\numberline {Chapter 7}Finding key nodes on two layer networks}{31}{chapter.7}% 
+\contentsline {section}{\numberline {6.1}Key nodes on layer A}{29}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Key nodes on layer B}{29}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Key nodes on two layers with different structures}{29}{section.6.3}% 
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion}{31}{chapter.7}% 
 \contentsline {chapter}{\numberline {Chapter 8}常见问题}{33}{chapter.8}% 
 \contentsline {chapter}{Summary}{35}{chapter*.26}% 
 \contentsline {chapter}{\numberline {Appendix A}搭建模板编译环境}{37}{appendix.A}% 
