@@ -11,10 +11,9 @@
 
 \chapter{Modeling and Analysis}
 \label{chap:modeling and analysis methods}
-
+In this chapter, basic model would introduced for competition on two-layer network and some indexes would be provided to analyze the interaction between two-layers.  
 \section{Modeling of two layer network}
 \label{sec:modeling of two layer network}
-
 The model consists of two layers, and each layer has different dynamics. For layer A, the node change its states according to $M$ model as introduced in \cite{rocca2014}. Here, we choose $M=2$, that each node has four states $(-2, -1, +1, +2)$. For each link $(k, j)$ belong to layer A,  the dynamics are designed as follows:
 \begin{itemize}
 	\item Compromise : if two nodes connected with link$(k, j)$ have opposite orientations, their states become more moderate with probability $q$ :

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  24 SEP 2019 14:09
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  29 SEP 2019 14:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2403,13 +2403,9 @@ LaTeX Warning: Label `Fig5' multiply defined.
 
 LaTeX Warning: Label `Fig6' multiply defined.
 
-) (./tex/chap4.aux) (./tex/chap5.aux) (./tex/chap6.aux
-
-LaTeX Warning: Label `chap:finding key nodes on two layer networks' multiply de
-fined.
-
-) (./tex/faq.aux) (./tex/summary.aux) (./tex/app_setup.aux) (./tex/app_eq.aux)
-(./tex/app_cjk.aux) (./tex/app_log.aux) (./tex/ack.aux) (./tex/pub.aux)
+) (./tex/chap4.aux) (./tex/chap5.aux) (./tex/chap6.aux) (./tex/faq.aux)
+(./tex/summary.aux) (./tex/app_setup.aux) (./tex/app_eq.aux) (./tex/app_cjk.aux
+) (./tex/app_log.aux) (./tex/ack.aux) (./tex/pub.aux)
 \c@pagesLTS.arabic.1.local.cnt=\count548
 )
 \openout1 = `thesis.aux'.
@@ -2847,9 +2843,9 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 48.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 48.
+(Font)              scaled to size 8.0pt on input line 51.
 )
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
@@ -2984,218 +2980,252 @@ Overfull \hbox (18.69368pt too wide) detected at line 8
 (./tex/intro.tex
 Chapter 1
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 12.
+(Font)              scaled to size 8.0pt on input line 13.
 
-LaTeX Warning: Citation 'mikko2013' on page 1 undefined on input line 12.
-
-
-LaTeX Warning: Citation 'danziger2019' on page 1 undefined on input line 12.
+LaTeX Warning: Citation 'mikko2013' on page 1 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'newman2010' on page 1 undefined on input line 12.
+LaTeX Warning: Citation 'danziger2019' on page 1 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'boccaletti2014' on page 1 undefined on input line 12.
+LaTeX Warning: Citation 'newman2010' on page 1 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'domenico2013' on page 1 undefined on input line 12.
+LaTeX Warning: Citation 'boccaletti2014' on page 1 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'tomasini2015' on page 1 undefined on input line 12.
+LaTeX Warning: Citation 'domenico2013' on page 1 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'namkhanhvu2017' on page 1 undefined on input line 12.
+LaTeX Warning: Citation 'tomasini2015' on page 1 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'huberman2004' on page 1 undefined on input line 12.
+LaTeX Warning: Citation 'namkhanhvu2017' on page 1 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'zuev2012' on page 1 undefined on input line 12.
+LaTeX Warning: Citation 'huberman2004' on page 1 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'laguna2004' on page 1 undefined on input line 12.
+LaTeX Warning: Citation 'zuev2012' on page 1 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'masuda2015' on page 1 undefined on input line 12.
+LaTeX Warning: Citation 'laguna2004' on page 1 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'bianconi2018' on page 1 undefined on input line 12.
+LaTeX Warning: Citation 'masuda2015' on page 1 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'hua2014' on page 1 undefined on input line 13.
+LaTeX Warning: Citation 'bianconi2018' on page 1 undefined on input line 13.
 
 
-LaTeX Warning: Citation 'shenyu2018' on page 1 undefined on input line 13.
+LaTeX Warning: Citation 'hua2014' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'zhou2018' on page 1 undefined on input line 13.
+LaTeX Warning: Citation 'shenyu2018' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'alvarez2016' on page 1 undefined on input line 13.
+LaTeX Warning: Citation 'zhou2018' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'gomez2015' on page 1 undefined on input line 13.
+LaTeX Warning: Citation 'alvarez2016' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'diep2017' on page 1 undefined on input line 13.
+LaTeX Warning: Citation 'gomez2015' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'rocca2014' on page 1 undefined on input line 13.
+LaTeX Warning: Citation 'diep2017' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'velasquez2018' on page 1 undefined on input line 13.
+LaTeX Warning: Citation 'rocca2014' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'abrams2003' on page 1 undefined on input line 13.
+LaTeX Warning: Citation 'velasquez2018' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'vazquez2010' on page 1 undefined on input line 13.
+LaTeX Warning: Citation 'abrams2003' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'rocca2014' on page 1 undefined on input line 13.
+LaTeX Warning: Citation 'vazquez2010' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'alvarez2016' on page 1 undefined on input line 13.
+LaTeX Warning: Citation 'rocca2014' on page 1 undefined on input line 15.
 
 
-LaTeX Warning: Citation 'amato2017' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'diep2017' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'gomez2015' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'alvarez2016' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'diep2017' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'amato2017' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'gomez2015' on page 1 undefined on input line 13.
-
-
-Overfull \hbox (34.60555pt too wide) in paragraph at lines 12--14
+Overfull \hbox (34.60555pt too wide) in paragraph at lines 15--16
 \T1/ntxtlf/m/n/12.045 memes, dis-eases and ru-mors$[]$.
  []
 
 
-LaTeX Warning: Citation 'rocca2014' on page 1 undefined on input line 17.
+LaTeX Warning: Citation 'alvarez2016' on page 1 undefined on input line 18.
 
 
-LaTeX Warning: Citation 'abrams2003' on page 1 undefined on input line 17.
+LaTeX Warning: Citation 'naim2003' on page 1 undefined on input line 18.
 
 
-LaTeX Warning: Citation 'vazquez2010' on page 1 undefined on input line 17.
+LaTeX Warning: Citation 'chau2014' on page 1 undefined on input line 18.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation 'rocca2014' on page 1 undefined on input line 18.
 
- [1
+
+LaTeX Warning: Citation 'abrams2003' on page 1 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'vazquez2010' on page 1 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'patriarca2012' on page 1 undefined on input line 18.
+
+[1
 
 
 
 
 ]
 
-LaTeX Warning: Citation 'alvarez2016' on page 2 undefined on input line 28.
+LaTeX Warning: Citation 'alvarez2016' on page 2 undefined on input line 20.
 
 
-LaTeX Warning: Citation 'gomez2015' on page 2 undefined on input line 28.
+LaTeX Warning: Citation 'amato2017' on page 2 undefined on input line 20.
 
 
-LaTeX Warning: Citation 'diep2017' on page 2 undefined on input line 28.
+LaTeX Warning: Citation 'diep2017' on page 2 undefined on input line 20.
 
 
-LaTeX Warning: Citation 'rocca2014' on page 2 undefined on input line 28.
+LaTeX Warning: Citation 'gomez2015' on page 2 undefined on input line 20.
 
 
-LaTeX Warning: Citation 'alvarez2016' on page 2 undefined on input line 30.
+LaTeX Warning: Citation 'alvarez2016' on page 2 undefined on input line 20.
 
 
-LaTeX Warning: Citation 'gomez2015' on page 2 undefined on input line 30.
+LaTeX Warning: Citation 'diep2017' on page 2 undefined on input line 20.
 
 
-LaTeX Warning: Citation 'diep2017' on page 2 undefined on input line 30.
+LaTeX Warning: Citation 'amato2017' on page 2 undefined on input line 20.
 
 
-LaTeX Warning: Citation 'alvarez2016' on page 2 undefined on input line 30.
+LaTeX Warning: Citation 'gomez2015' on page 2 undefined on input line 20.
 
 
-LaTeX Warning: Citation 'gomez2015' on page 2 undefined on input line 30.
+LaTeX Warning: Citation 'erdos1960' on page 2 undefined on input line 24.
 
-[2]
+
+LaTeX Warning: Citation 'watts1998' on page 2 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'barabasi1999' on page 2 undefined on input line 24.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+
+LaTeX Warning: Citation 'freeman1979' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Citation 'koschutzki2008' on page 3 undefined on input line 37.
+
+
+LaTeX Warning: Citation 'francisco2019' on page 3 undefined on input line 41.
+
+
+LaTeX Warning: Citation 'bianconi2018' on page 3 undefined on input line 41.
+
+
+LaTeX Warning: Citation 'alvarez2016' on page 3 undefined on input line 44.
+
+
+LaTeX Warning: Citation 'gomez2015' on page 3 undefined on input line 44.
+
+
+LaTeX Warning: Citation 'diep2017' on page 3 undefined on input line 44.
+
+
+LaTeX Warning: Citation 'rocca2014' on page 3 undefined on input line 44.
+
+
+LaTeX Warning: Citation 'alvarez2016' on page 3 undefined on input line 44.
+
+
+LaTeX Warning: Citation 'gomez2015' on page 3 undefined on input line 44.
+
+
+LaTeX Warning: Citation 'diep2017' on page 3 undefined on input line 44.
+
+
+LaTeX Warning: Citation 'alvarez2016' on page 3 undefined on input line 44.
+
+
+LaTeX Warning: Citation 'gomez2015' on page 3 undefined on input line 44.
+
+[3]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 43.
+(Font)              scaled to size 9.03374pt on input line 61.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.0pt on input line 43.
+(Font)              scaled to size 5.0pt on input line 61.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.1303pt on input line 43.
+(Font)              scaled to size 8.1303pt on input line 61.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 4.49997pt on input line 43.
+(Font)              scaled to size 4.49997pt on input line 61.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 43.
+(Font)              scaled to size 9.03374pt on input line 61.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 5.0pt on input line 43.
+(Font)              scaled to size 5.0pt on input line 61.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 43.
- [3]
+(Font)              scaled to size 6.0pt on input line 61.
+ [4] [5]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 12.045pt on input line 97.
+(Font)              scaled to size 12.045pt on input line 115.
 
 
-LaTeX Warning: Reference `chap:example' on page 4 undefined on input line 103.
+LaTeX Warning: Reference `chap:example' on page 6 undefined on input line 121.
 
-) [4]
+) [6]
 \openout2 = `tex/chap2.aux'.
 
  (./tex/chap2.tex
 Chapter 2
 
-LaTeX Warning: Citation 'rocca2014' on page 5 undefined on input line 18.
+LaTeX Warning: Citation 'rocca2014' on page 7 undefined on input line 17.
 
-[5
+[7
 
 
 
 ]
 
-LaTeX Warning: Citation 'abrams2003' on page 6 undefined on input line 67.
+LaTeX Warning: Citation 'abrams2003' on page 8 undefined on input line 66.
 
 
-LaTeX Warning: Citation 'vazquez2010' on page 6 undefined on input line 67.
+LaTeX Warning: Citation 'vazquez2010' on page 8 undefined on input line 66.
 
 File: figure/FIG1.png Graphic file (type bmp)
 <figure/FIG1.png>
-[6] [7]
+[8] [9]
 File: figure/AS_2d.png Graphic file (type bmp)
 <figure/AS_2d.png>
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 111.
+(Font)              scaled to size 7.0pt on input line 110.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 111.
+(Font)              scaled to size 6.29996pt on input line 110.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 7.0pt on input line 111.
+(Font)              scaled to size 7.0pt on input line 110.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.53937pt on input line 111.
+(Font)              scaled to size 10.53937pt on input line 110.
 File: figure/p_v_AS_3d.png Graphic file (type bmp)
 <figure/p_v_AS_3d.png>
- [8] [9] [10
+ [10] [11] [12
 
 ]
 Chapter 3
-[11]
+[13]
 
-LaTeX Warning: File `FIG4.png' not found on input line 141.
+LaTeX Warning: File `FIG4.png' not found on input line 140.
 
 ! Unable to load picture or PDF file 'FIG4.png'.
 <to be read again> 
                    }
-l.141 ^^I\includegraphics[width=\hsize]{FIG4.png}
+l.140 ^^I\includegraphics[width=\hsize]{FIG4.png}
                                                  
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -3207,7 +3237,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.141 ^^I\includegraphics[width=\hsize]{FIG4.png}
+l.140 ^^I\includegraphics[width=\hsize]{FIG4.png}
                                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3216,12 +3246,12 @@ or  <return>  to continue without it.
 File: FIG4.png Graphic file (type bmp)
 <FIG4.png>
 
-LaTeX Warning: File `FIG5.png' not found on input line 151.
+LaTeX Warning: File `FIG5.png' not found on input line 150.
 
 ! Unable to load picture or PDF file 'FIG5.png'.
 <to be read again> 
                    }
-l.151 ^^I\includegraphics[width=\hsize]{FIG5.png}
+l.150 ^^I\includegraphics[width=\hsize]{FIG5.png}
                                                  
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -3233,7 +3263,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.151 ^^I\includegraphics[width=\hsize]{FIG5.png}
+l.150 ^^I\includegraphics[width=\hsize]{FIG5.png}
                                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3241,14 +3271,14 @@ or  <return>  to continue without it.
 
 File: FIG5.png Graphic file (type bmp)
 <FIG5.png>
-[12]
+[14]
 
-LaTeX Warning: File `FIG6.png' not found on input line 164.
+LaTeX Warning: File `FIG6.png' not found on input line 163.
 
 ! Unable to load picture or PDF file 'FIG6.png'.
 <to be read again> 
                    }
-l.164 ^^I\includegraphics[width=\hsize]{FIG6.png}
+l.163 ^^I\includegraphics[width=\hsize]{FIG6.png}
                                                  
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -3260,7 +3290,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.164 ^^I\includegraphics[width=\hsize]{FIG6.png}
+l.163 ^^I\includegraphics[width=\hsize]{FIG6.png}
                                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3269,18 +3299,18 @@ or  <return>  to continue without it.
 File: FIG6.png Graphic file (type bmp)
 <FIG6.png>
 
-LaTeX Warning: Citation 'barabasi1999' on page 13 undefined on input line 169.
+LaTeX Warning: Citation 'barabasi1999' on page 15 undefined on input line 168.
 
-) [13]
+) [15]
 \openout2 = `tex/chap3.aux'.
 
- (./tex/chap3.tex [14
+ (./tex/chap3.tex [16
 
 
 
 ]
 Chapter 4
-[15]
+[17]
 
 LaTeX Warning: File `FIG4.png' not found on input line 30.
 
@@ -3325,7 +3355,7 @@ or  <return>  to continue without it.
 
 File: figure/FIG5.png Graphic file (type bmp)
 <figure/FIG5.png>
-[16]
+[18]
 
 LaTeX Warning: File `FIG6.png' not found on input line 53.
 
@@ -3345,29 +3375,29 @@ or  <return>  to continue without it.
 File: FIG6.png Graphic file (type bmp)
 <FIG6.png>
 
-LaTeX Warning: Citation 'barabasi1999' on page 17 undefined on input line 58.
+LaTeX Warning: Citation 'barabasi1999' on page 19 undefined on input line 58.
 
-) [17]
+) [19]
 \openout2 = `tex/chap4.aux'.
 
- (./tex/chap4.tex [18
+ (./tex/chap4.tex [20
 
 
 
 ]
 Chapter 5
 
-LaTeX Warning: Citation 'barabasi1999' on page 19 undefined on input line 15.
+LaTeX Warning: Citation 'barabasi1999' on page 21 undefined on input line 15.
 
 File: figure/timeflow_AS.png Graphic file (type bmp)
 <figure/timeflow_AS.png>
 File: figure/timeflow_CI.png Graphic file (type bmp)
 <figure/timeflow_CI.png>
-[19]
+[21]
 Underfull \vbox (badness 3058) has occurred while \output is active []
 
- [20]
-[21]
+ [22]
+[23]
 
 LaTeX Warning: File `figure/layerorder.png' not found on input line 87.
 
@@ -3396,10 +3426,10 @@ File: figure/layerorder.png Graphic file (type bmp)
 <figure/layerorder.png>
 File: figure/nodeorder.png Graphic file (type bmp)
 <figure/nodeorder.png>
-[22]
+[24]
 File: figure/edgeorder_explanation.png Graphic file (type bmp)
 <figure/edgeorder_explanation.png>
- [23]
+ [25]
 
 ! Package enumitem Error: (1) undefined.
 
@@ -3414,44 +3444,44 @@ If that doesn't work, type  X <return>  to quit.
 
 File: figure/edgeorder.png Graphic file (type bmp)
 <figure/edgeorder.png>
-[24]
+[26]
 File: figure/ordertotal.png Graphic file (type bmp)
 <figure/ordertotal.png>
 File: figure/ordertotal2.png Graphic file (type bmp)
 <figure/ordertotal2.png>
-) [25]
+) [27]
 Underfull \vbox (badness 3930) has occurred while \output is active []
 
- [26]
+ [28]
 
-LaTeX Warning: Text page 27 contains only floats.
+LaTeX Warning: Text page 29 contains only floats.
 
 
 Overfull \vbox (5.87914pt too high) has occurred while \output is active []
 
 
-[27] [28]
+[29] [30]
 \openout2 = `tex/chap5.aux'.
 
  (./tex/chap5.tex
 Chapter 6
-) [29
+) [31
 
 
 
 ]
 \openout2 = `tex/chap6.aux'.
 
- (./tex/chap6.tex [30
+ (./tex/chap6.tex [32
 
 
 
 ]
 Chapter 7
-) [31]
+) [33]
 \openout2 = `tex/faq.aux'.
 
- (./tex/faq.tex [32
+ (./tex/faq.tex [34
 
 
 
@@ -3464,26 +3494,26 @@ Overfull \hbox (103.67839pt too wide) in paragraph at lines 26--27
 ographyStrings{english}{in={}}
  []
 
-[33]
+[35]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
 (Font)              scaled to size 10.53937pt on input line 68.
-) [34]
+) [36]
 \openout2 = `tex/summary.aux'.
 
- (./tex/summary.tex) [35
+ (./tex/summary.tex) [37
 
 
 
 ]
 \openout2 = `tex/app_setup.aux'.
 
- (./tex/app_setup.tex [36
+ (./tex/app_setup.tex [38
 
 
 
 ]
 Appendix A
-[37]) [38]
+[39]) [40]
 \openout2 = `tex/app_eq.aux'.
 
  (./tex/app_eq.tex
@@ -3494,14 +3524,14 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 8.0pt on input line 18.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 6.0pt on input line 18.
-) [39
+) [41
 
 
 
 ]
 \openout2 = `tex/app_cjk.aux'.
 
- (./tex/app_cjk.tex [40
+ (./tex/app_cjk.tex [42
 
 
 
@@ -3526,10 +3556,10 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 9.03374pt on input line 82.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 5.0pt on input line 82.
- [41]
+ [43]
 \openout2 = `tex/app_log.aux'.
 
- (./tex/app_log.tex [42
+ (./tex/app_log.tex [44
 
 
 
@@ -3537,13 +3567,13 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 Appendix D
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 12.045pt on input line 16.
-[43]) [44]
+[45]) [46]
 
 LaTeX Warning: Empty bibliography on input line 88.
 
 \openout2 = `tex/ack.aux'.
 
-(./tex/ack.tex) [45
+(./tex/ack.tex) [47
 
 
 
@@ -3551,11 +3581,11 @@ LaTeX Warning: Empty bibliography on input line 88.
 ]
 \openout2 = `tex/pub.aux'.
 
- (./tex/pub.tex [46
+ (./tex/pub.tex [48
 
 
 
-]) [47]
+]) [49]
 
 AED: pageslts setting LastPage 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
@@ -3577,15 +3607,9 @@ Package pageslts Info: Total number of pages is odd.
 (./tex/pub.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 83690CB819A941789110BDEE71E40DF2.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 82F4CE253A410DAE171FE1EB145363FD
-(rerunfilecheck)             After:  1ADFDED16C8AFD9D3F29700D67ABB0E4.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3605,12 +3629,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54050 strings out of 492933
- 1089077 string characters out of 6134842
- 1642781 words of memory out of 5000000
- 57060 multiletter control sequences out of 15000+600000
+ 54051 strings out of 492933
+ 1089088 string characters out of 6134842
+ 1643046 words of memory out of 5000000
+ 57061 multiletter control sequences out of 15000+600000
  688931 words of font info for 263 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,17n,94p,1591b,1347s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,94p,1555b,1347s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (69 pages).
+Output written on thesis.pdf (71 pages).
