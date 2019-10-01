@@ -12,11 +12,41 @@
 
 \chapter{Competition on two layer with different structural network}
 \label{chap:competition on two layer with different structural network}
+In this chapter, based on the competition model described in previous chapter, simulation would be implemented with changing the network structures. Network structures would be altered by changing the internal and external edges with random regular network and Barabasi-Albert network. 
 
+\section{Competition on Random Regular Networks}
+In this section, each layer consists of random regular network that has $N$ nodes with $k$ internal edges as introduced in \cite{kimsangwoo2012, bela2001}. Each node of one layer is connected with a random node on the other layer. This means each node has only $1$ external un-directed edge. Simulations are preformed on network with $N=2048$, and $k = 5$. 
+
+The simulation results are shown in Fig.~\ref{Fig2} and Fig.~\ref{Fig3}. Fig.~\ref{Fig2}(a) shows that when $\gamma > 0.4$, $1.2 < \beta < 1.95$, it normally tends to positive consensus. But, if $\beta$ is lower or larger than certain values, it doesn't make consensus.
+In Fig.~\ref{Fig2}(b), as $\beta$ increases, it normally change from positive to negative consensus. But, when $\gamma$ is very low($\gamma \le 0.1$), it doesn't make positive consensus. On the other hand, when $\gamma$ is large enough, it makes positive consensus. But, when $\beta$ is large enough, it is changed into negative consensus. When both of $\gamma$ and $\beta$ are large enough, the state is in a coexistence part.
+
+\begin{figure*}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{AS_2d.png}
+	\caption{(a) $p$-\textit{AS} chart according to certain $v$ values. (b) $v$-\textit{AS} chart according to certain $p$ values.}
+	\label{AS_2d}
+\end{figure*}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{p_v_AS_3d.png}
+	\caption{Two layer networks with sequential updating rule : \textit{AS} changing with all $p$ and $v$}
+	\label{p_v_AS_3d}
+\end{figure}
+
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{FIG3.png}
+	\caption{Random Regular Networks : \textit{AS} changing with $\gamma$ and $\beta$}
+	\label{Fig3}
+\end{figure}
+
+Fig.~\ref{Fig3} shows the states of two layers according to all $\gamma$s and all $\beta$s. The $X$-axis is the $\gamma$ and the $Y$-axis is the $\beta$, and the $Z$-axis represents \textit{AS}. The closer the color is to blue, the more it has positive consensus. And the closer the color is to red, the more it has negative consensus. A light and white areas have coexistence with positive states and negative states. This chart has two areas for coexistence, when $\beta$ is very low or very high. When $\beta$ is in certain range, interconnected network can perform positive or negative consensus with different $\gamma$ values
 
 \section{Competition on Networks with different number of external links}
 
-In this subsection, we consider the influence of external links. Based on the basic model in Subsection 3.1, we reduce the number of nodes in layer B at a certain rate and increase the external links from nodes in layer B accordingly.  We denote \textit{HM(n)} as a hierarchical model with a level $n$, which means that the number of nodes in layer B is $1/n$ of the number of nodes in layer A, and the number of external links from node in layer B is $n$ in view that the number of external links from node in layer A is $1$. In other words, each node in layer A has one external edge, but each node in layer B has $n$ external edges for \textit{HM(n)}, which means one node in layer B can be influenced by $n$ nodes in layer A. $\gamma$ scale is same as the Random Regular Networks Model. But, $\beta$ scale depends on the number of degrees. So the $\beta$ scale is adjusted to have the same probability of volatility with Random Regular Networks Model(\textit{RRM}) as following Equation.
+In this section, we consider the influence of external links. Based on the basic model in Subsection 3.1, we reduce the number of nodes in layer B at a certain rate and increase the external links from nodes in layer B accordingly.  We denote \textit{HM(n)} as a hierarchical model with a level $n$, which means that the number of nodes in layer B is $1/n$ of the number of nodes in layer A, and the number of external links from node in layer B is $n$ in view that the number of external links from node in layer A is $1$. In other words, each node in layer A has one external edge, but each node in layer B has $n$ external edges for \textit{HM(n)}, which means one node in layer B can be influenced by $n$ nodes in layer A. $\gamma$ scale is same as the Random Regular Networks Model. But, $\beta$ scale depends on the number of degrees. So the $\beta$ scale is adjusted to have the same probability of volatility with Random Regular Networks Model(\textit{RRM}) as following Equation.
 \begin{equation}
 {\beta _{h,\max}} = {\beta _{rr,\max}} \cdot \log \left( {\frac{{{n_{rr}}^{ - {S_i}}}}{{{i_{rr,i}} + {e_{rr,i}}}} \cdot \frac{{{i_{h,i}} + {e_{h,i}}}}{{{n_{h}}^{ - {S_i}}}}} \right). 
 \end{equation}

@@ -11,8 +11,10 @@
 
 \chapter{Competition on two layer with different updating rules}
 \label{chap:competition on two layer with different updating rules}
+Here, we would control dynamics orders between layers and updating rules of nodes states. With changing dynamics orders and updating rules, it would be investigated how state of network change.
+
 \section{Competition on two-layer Networks with sequential updating rule}
-In this subsection, each layer consists of \textit{Barabasi-Albert(BA)} network that has $N$ nodes with attaching new nodes each with $K$ edges that are preferentially attached to existing nodes with high degree as introduced in \cite{barabasi1999}. Each node of one layer is connected with a random node on the other layer. This means each node has only $1$ external un-directed edge. Simulations are preformed on network with $N=2048$, and $K = 3$.
+In this section, each layer consists of \textit{Barabasi-Albert(BA)} network that has $N$ nodes with attaching new nodes each with $K$ edges that are preferentially attached to existing nodes with high degree as introduced in \cite{barabasi1999}. Each node of one layer is connected with a random node on the other layer. This means each node has only $1$ external un-directed edge. Simulations are preformed on network with $N=2048$, and $K = 3$.
 
 The simulation results are shown in Fig.~\ref{AS_2d} and Fig.~\ref{p_v_AS_3d}. Fig.~\ref{AS_2d}(a) shows that when $p > 0.2$, $0.37 < v < 0.47$, it normally tends to positive consensus. But, if $v$ is lower or larger than certain values, it doesn't make consensus.
 In Fig.~\ref{AS_2d}(b), as $v$ increases, the state of networks changes continuously. But, when $p$ is very low($p \le 0.05$), it doesn't make positive consensus. On the other hands, when $p$ is large enough, it has the most positive consensus parts. When $v$ are large enough($>0.6$) and less than $1$, the state is in a coexistence part.

@@ -3,25 +3,22 @@
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {2--1}{\ignorespaces Competition of Interconnected Network\relax }}{9}{figure.caption.8}% 
-\contentsline {figure}{\numberline {2--2}{\ignorespaces (a) $p$-\textit {AS} chart according to certain $v$ values. (b) $v$-\textit {AS} chart according to certain $p$ values.\relax }}{11}{figure.caption.9}% 
-\contentsline {figure}{\numberline {2--3}{\ignorespaces Two layer networks with sequential updating rule : \textit {AS} changing with all $p$ and $v$\relax }}{11}{figure.caption.10}% 
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {3--1}{\ignorespaces Hierarchical Model(\textit {HM(n)})\relax }}{14}{figure.caption.11}% 
-\contentsline {figure}{\numberline {3--2}{\ignorespaces Comparison of Networks with different internal degrees(\textit {RR(n)-RR(m)}: layer A has random regular network with $n$ internal edges, layer B has random regular network with $m$ internal edges)\relax }}{14}{figure.caption.12}% 
-\contentsline {figure}{\numberline {3--3}{\ignorespaces Comparison of Networks with different structures\relax }}{15}{figure.caption.13}% 
+\contentsline {figure}{\numberline {3--1}{\ignorespaces (a) $p$-\textit {AS} chart according to certain $v$ values. (b) $v$-\textit {AS} chart according to certain $p$ values.\relax }}{14}{figure.caption.9}% 
+\contentsline {figure}{\numberline {3--2}{\ignorespaces Two layer networks with sequential updating rule : \textit {AS} changing with all $p$ and $v$\relax }}{14}{figure.caption.10}% 
+\contentsline {figure}{\numberline {3--3}{\ignorespaces Random Regular Networks : \textit {AS} changing with $\gamma $ and $\beta $\relax }}{14}{figure.caption.11}% 
+\contentsline {figure}{\numberline {3--4}{\ignorespaces Hierarchical Model(\textit {HM(n)})\relax }}{15}{figure.caption.12}% 
+\contentsline {figure}{\numberline {3--5}{\ignorespaces Comparison of Networks with different internal degrees(\textit {RR(n)-RR(m)}: layer A has random regular network with $n$ internal edges, layer B has random regular network with $m$ internal edges)\relax }}{16}{figure.caption.13}% 
+\contentsline {figure}{\numberline {3--6}{\ignorespaces Comparison of Networks with different structures\relax }}{16}{figure.caption.14}% 
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {4--1}{\ignorespaces Hierarchical Model(\textit {HM(n)})\relax }}{18}{figure.caption.14}% 
-\contentsline {figure}{\numberline {4--2}{\ignorespaces Comparison of Networks with different internal degrees(\textit {RR(n)-RR(m)}: layer A has random regular network with $n$ internal edges, layer B has random regular network with $m$ internal edges)\relax }}{18}{figure.caption.15}% 
-\contentsline {figure}{\numberline {4--3}{\ignorespaces Comparison of Networks with different structures\relax }}{19}{figure.caption.16}% 
-\addvspace {10.0pt}
-\contentsline {figure}{\numberline {5--1}{\ignorespaces Two layer networks with sequential updating rule : \textit {steps-AS} changing with all $p$ and $v$\relax }}{22}{figure.caption.17}% 
-\contentsline {figure}{\numberline {5--2}{\ignorespaces Two layer networks with sequential updating rule :\textit {steps-CI} changing with all $p$ and $v$\relax }}{22}{figure.caption.18}% 
-\contentsline {figure}{\numberline {5--3}{\ignorespaces Simulation results according to orders of layers\relax }}{24}{figure.caption.20}% 
-\contentsline {figure}{\numberline {5--4}{\ignorespaces Simulation results according to orders of nodes: comparison between order of nodes under same conditions such as order of layers and edges.\relax }}{25}{figure.caption.21}% 
-\contentsline {figure}{\numberline {5--5}{\ignorespaces one node connected with other nodes changes its state with sequential or simultaneous order of edges\relax }}{26}{figure.caption.22}% 
-\contentsline {figure}{\numberline {5--6}{\ignorespaces Simulation results according to orders of edges: comparison between order of edges under same conditions such as order of layers and nodes\relax }}{27}{figure.caption.23}% 
-\contentsline {figure}{\numberline {5--7}{\ignorespaces Total results of 25 updating rules with \textit {AS}\relax }}{28}{figure.caption.24}% 
-\contentsline {figure}{\numberline {5--8}{\ignorespaces Total results of 25 updating rules with \textit {CI}\relax }}{29}{figure.caption.25}% 
+\contentsline {figure}{\numberline {4--1}{\ignorespaces Two layer networks with sequential updating rule : \textit {steps-AS} changing with all $p$ and $v$\relax }}{20}{figure.caption.15}% 
+\contentsline {figure}{\numberline {4--2}{\ignorespaces Two layer networks with sequential updating rule :\textit {steps-CI} changing with all $p$ and $v$\relax }}{20}{figure.caption.16}% 
+\contentsline {figure}{\numberline {4--3}{\ignorespaces Simulation results according to orders of layers\relax }}{22}{figure.caption.18}% 
+\contentsline {figure}{\numberline {4--4}{\ignorespaces Simulation results according to orders of nodes: comparison between order of nodes under same conditions such as order of layers and edges.\relax }}{23}{figure.caption.19}% 
+\contentsline {figure}{\numberline {4--5}{\ignorespaces one node connected with other nodes changes its state with sequential or simultaneous order of edges\relax }}{24}{figure.caption.20}% 
+\contentsline {figure}{\numberline {4--6}{\ignorespaces Simulation results according to orders of edges: comparison between order of edges under same conditions such as order of layers and nodes\relax }}{25}{figure.caption.21}% 
+\contentsline {figure}{\numberline {4--7}{\ignorespaces Total results of 25 updating rules with \textit {AS}\relax }}{26}{figure.caption.22}% 
+\contentsline {figure}{\numberline {4--8}{\ignorespaces Total results of 25 updating rules with \textit {CI}\relax }}{28}{figure.caption.23}% 
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
