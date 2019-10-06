@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  1 OCT 2019 14:08
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  6 OCT 2019 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2390,9 +2390,7 @@ LaTeX Warning: Unused global option(s):
 \c@pagesLTS.Roman.1.local.cnt=\count547
  (./tex/intro.aux)
 (./tex/chap2.aux) (./tex/chap3.aux) (./tex/chap4.aux) (./tex/chap5.aux)
-(./tex/chap6.aux) (./tex/faq.aux) (./tex/summary.aux) (./tex/app_setup.aux)
-(./tex/app_eq.aux) (./tex/app_cjk.aux) (./tex/app_log.aux) (./tex/ack.aux)
-(./tex/pub.aux)
+(./tex/chap6.aux) (./tex/faq.aux) (./tex/ack.aux) (./tex/pub.aux)
 \c@pagesLTS.arabic.1.local.cnt=\count548
 )
 \openout1 = `thesis.aux'.
@@ -2400,7 +2398,8 @@ LaTeX Warning: Unused global option(s):
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 26.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 26
 .
- (c:/usr/texlive/2018/texmf-dist/tex/latex/newtx/omlntxmi.fd
+
+(c:/usr/texlive/2018/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 26.
@@ -2827,12 +2826,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.045pt on input line 2.
  [5
 
-]
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 48.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 48.
-)
+])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
@@ -2960,6 +2954,10 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 LaTeX Warning: Citation 'mikko2013' on page 1 undefined on input line 13.
 
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 13.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 13.
 
 LaTeX Warning: Citation 'danziger2019' on page 1 undefined on input line 13.
 
@@ -3402,8 +3400,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [25]
 File: figure/ordertotal2.png Graphic file (type bmp)
 <figure/ordertotal2.png>
-)
-[26] [27]
+
+[26]) [27]
 
 LaTeX Warning: Text page 28 contains only floats.
 
@@ -3429,102 +3427,13 @@ Chapter 5
 
 ]
 Chapter 6
-) [31]
-\openout2 = `tex/faq.aux'.
-
- (./tex/faq.tex [32
-
-
-
-]
-Chapter 7
-
-Overfull \hbox (103.67839pt too wide) in paragraph at lines 26--27
-\TU/SimSun(0)/m/n/12.045 项 将 其 还 原 成 \T1/ntxtlf/m/n/12.045 in:\TU/SimSun(0)/m/n
-/12.045 ，|  进 一 步 可 以 在 导 言 区 加 入[]\TU/SourceCodePro(0)/m/n/12.045 \DefineBibli
-ographyStrings{english}{in={}}
- []
-
-[33]
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 68.
-) [34]
-\openout2 = `tex/summary.aux'.
-
- (./tex/summary.tex) [35
-
-
-
-]
-\openout2 = `tex/app_setup.aux'.
-
- (./tex/app_setup.tex [36
-
-
-
-]
-Appendix A
-[37]) [38]
-\openout2 = `tex/app_eq.aux'.
-
- (./tex/app_eq.tex
-Appendix B
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.045pt on input line 18.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 18.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 6.0pt on input line 18.
-) [39
-
-
-
-]
-\openout2 = `tex/app_cjk.aux'.
-
- (./tex/app_cjk.tex [40
-
-
-
-]
-Appendix C
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 16.06pt on input line 5.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 14.45389pt on input line 5.
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 16.06pt on input line 5.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 16.06pt on input line 5.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.05249pt on input line 5.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.53937pt on input line 5.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 15.05624pt on input line 11.
-)
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.03374pt on input line 82.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 5.0pt on input line 82.
- [41]
-\openout2 = `tex/app_log.aux'.
-
- (./tex/app_log.tex [42
-
-
-
-]
-Appendix D
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 12.045pt on input line 16.
-[43]) [44]
+[31]) [32]
 
 LaTeX Warning: Empty bibliography on input line 88.
 
 \openout2 = `tex/ack.aux'.
 
-(./tex/ack.tex) [45
+(./tex/ack.tex) [33
 
 
 
@@ -3532,11 +3441,14 @@ LaTeX Warning: Empty bibliography on input line 88.
 ]
 \openout2 = `tex/pub.aux'.
 
- (./tex/pub.tex [46
+ (./tex/pub.tex [34
 
 
 
-]) [47]
+]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
+(Font)              scaled to size 12.045pt on input line 11.
+) [35]
 
 AED: pageslts setting LastPage 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
@@ -3553,19 +3465,26 @@ Package pageslts Info: Total number of pages is odd.
 
 (./thesis.aux (./tex/abstract.aux) (./tex/symbol.aux) (./tex/intro.aux)
 (./tex/chap2.aux) (./tex/chap3.aux) (./tex/chap4.aux) (./tex/chap5.aux)
-(./tex/chap6.aux) (./tex/faq.aux) (./tex/summary.aux) (./tex/app_setup.aux)
-(./tex/app_eq.aux) (./tex/app_cjk.aux) (./tex/app_log.aux) (./tex/ack.aux)
-(./tex/pub.aux))
+(./tex/chap6.aux) (./tex/ack.aux) (./tex/pub.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D4BFACE15E697110679FA2C97792B832.
 
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: CF78C26E7B66435FC73144052E62B7A7
+(rerunfilecheck)             After:  E9E15837DAA3DF8133C7835DA78EF6F6.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -3577,12 +3496,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54053 strings out of 492933
- 1089093 string characters out of 6134842
- 1643131 words of memory out of 5000000
- 57062 multiletter control sequences out of 15000+600000
- 688931 words of font info for 263 fonts, out of 8000000 for 9000
+ 53853 strings out of 492933
+ 1080481 string characters out of 6134842
+ 1607428 words of memory out of 5000000
+ 56903 multiletter control sequences out of 15000+600000
+ 671302 words of font info for 234 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,17n,94p,1552b,1347s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,94p,1552b,1357s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (69 pages).
+Output written on thesis.pdf (57 pages).

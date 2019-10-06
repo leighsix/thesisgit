@@ -23,29 +23,21 @@
 \contentsline {section}{\numberline {3.2}Competition on Networks with different number of external links}{14}{section.3.2}% 
 \contentsline {section}{\numberline {3.3}Competition on Networks with different number of internal links}{15}{section.3.3}% 
 \contentsline {section}{\numberline {3.4}Competition on Networks with different structures}{16}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Conclusion}{17}{section.3.5}% 
 \contentsline {chapter}{\numberline {Chapter 4}Competition on two layer with different updating rules}{19}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Competition on two-layer Networks with sequential updating rule}{19}{section.4.1}% 
 \contentsline {section}{\numberline {4.2}Competition on two-layer Networks with different updating rules}{21}{section.4.2}% 
 \contentsline {subsection}{\numberline {4.2.1}Order of layers}{22}{subsection.4.2.1}% 
 \contentsline {subsection}{\numberline {4.2.2}Order of nodes}{22}{subsection.4.2.2}% 
 \contentsline {subsection}{\numberline {4.2.3}Order of edges}{23}{subsection.4.2.3}% 
-\contentsline {subsection}{\numberline {4.2.4}Comparison and Analysis}{26}{subsection.4.2.4}% 
+\contentsline {section}{\numberline {4.3}Comparison and Analysis}{26}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Conclusion}{27}{section.4.4}% 
 \contentsline {chapter}{\numberline {Chapter 5}Finding key nodes on two layer networks}{29}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Key nodes on layer A}{29}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Key nodes on layer B}{29}{section.5.2}% 
 \contentsline {section}{\numberline {5.3}Key nodes on two layers with different structures}{29}{section.5.3}% 
 \contentsline {chapter}{\numberline {Chapter 6}Conclusion}{31}{chapter.6}% 
-\contentsline {chapter}{\numberline {Chapter 7}常见问题}{33}{chapter.7}% 
-\contentsline {chapter}{Summary}{35}{chapter*.24}% 
-\contentsline {chapter}{\numberline {Appendix A}搭建模板编译环境}{37}{appendix.A}% 
-\contentsline {section}{\numberline {A.1}安装TeX发行版}{37}{section.A.1}% 
-\contentsline {subsection}{\numberline {A.1.1}Mac OS X}{37}{subsection.A.1.1}% 
-\contentsline {subsection}{\numberline {A.1.2}Linux}{37}{subsection.A.1.2}% 
-\contentsline {section}{\numberline {A.2}安装中文字体}{37}{section.A.2}% 
-\contentsline {subsection}{\numberline {A.2.1}Mac OS X、Deepin}{37}{subsection.A.2.1}% 
-\contentsline {subsection}{\numberline {A.2.2}RedHat/CentOS用户}{38}{subsection.A.2.2}% 
-\contentsline {chapter}{\numberline {Appendix B}Maxwell Equations}{39}{appendix.B}% 
-\contentsline {chapter}{\numberline {Appendix C}从 {CJK--\LaTeX } 转向 \XeTeX }{41}{appendix.C}% 
-\contentsline {chapter}{\numberline {Appendix D}模板更新记录}{43}{appendix.D}% 
-\contentsline {chapter}{Acknowledgements}{45}{appendix*.25}% 
-\contentsline {chapter}{Publications}{47}{appendix*.26}% 
+\contentsline {section}{\numberline {6.1}Summary}{31}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Discussion}{32}{section.6.2}% 
+\contentsline {chapter}{Acknowledgements}{33}{appendix*.24}% 
+\contentsline {chapter}{Publications}{35}{appendix*.25}% 
