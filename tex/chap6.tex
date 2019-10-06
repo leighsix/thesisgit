@@ -11,6 +11,7 @@
 
 \chapter{Conclusion}
 \label{chap:conclusion}
+\section{Summary}
 We have researched the competition of two layer networks. To begin with, competing interconnected networks were introduced to have different dynamics on each layer. And some indexes were provided to measure how the network state is changed and evaluate the consensus on two layer. Based on this modeling, various simulations were implemented according to 3 main topics.
 \begin{itemize}
 \item Competition on two layer with different structural network
@@ -18,8 +19,18 @@ We have researched the competition of two layer networks. To begin with, competi
 \item Finding key nodes on two layer networks
 \end{itemize}
 
-In chapter 3,
+In chapter 3, we have investigated competition on two layer with different structural network. With changing network structure, it was measured that how the interconnected network change its state and make consensus. As the method to revise the network structure, 3 ways were provided. First, as the result of changing the internal edges, 
+Second, as the result of changing the external edges, 
 
-In chapter 4, 
+Third, as the result of changing the network type,  
 
-In chapter 5, 
+In chapter 4, it has been researched that how the dynamics orders and updating rules have influence on the competition of two-layers network. Dynamics orders are divided into whether layer A first begin the dynamics or layer B first start the dynamics, or two layer begin together. Updating rules are divided into two categories. As one category, it could be considered that whether it is simultaneous updating rule or sequential updating rule. As the other category, it could be thought that how the updating rules are applied. When each node changes its state, it can be considered that all nodes are changed simultaneously or each node is changed sequentially. When a node change its state, it can be also thought that all connected edges are operated simultaneously or each edge is operated sequentially. 
+According to dynamics orders and updating rules, 25 simulations were implemented.   
+
+Through Simulation results, there are several conclusion. First, networks with more simultaneous updating rules make slow consensus or coexistence, sometimes make transition to opposite orientation. On the other hands, networks with more sequential updating rules make fast consensus. In other words, if opinion layer has more rash nodes, more time to have some conversation and decision making layer has more time to  discuss topics, the network have more probabilities to make consensus for opinion layer. Second, dynamics order between layers does not have an influence for network state, though there exists tiny consensus time gap. Third, order of nodes in layer B has more influence for network states than order of nodes in layer A. order of nodes in layer B makes the first branch point. But order of nodes in layer A does not make any branch point, though there exists tiny consensus time gap. Forth, order of edges in layer A is very influential so that it makes different network states. So to speak, characteristics of nodes in layer A, such as rash and considerate, affects consensus time and sometimes makes transition to coexistence or opposite orientation. 
+
+
+
+In chapter 5, it has been studied that how the key nodes can be found out on the interconnected network.
+
+\section{Discussion} 
