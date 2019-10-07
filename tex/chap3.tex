@@ -12,10 +12,17 @@
 
 \chapter{Competition on two layer with different structural network}
 \label{chap:competition on two layer with different structural network}
-In this chapter, based on the competition model described in previous chapter, simulation would be implemented with changing the network structures. Network structures would be altered by changing the internal and external edges with random regular network and Barabasi-Albert network. 
+In this chapter, based on the competition model described in previous chapter, simulation would be implemented with changing the network structures. As the basic model, interconnected layers with random regular network would be provided. And the,  network structures would be altered by changing the internal and external edges with random regular network and Barabasi-Albert network. 
 
 \section{Competition on Random Regular Networks}
 In this section, each layer consists of random regular network that has $N$ nodes with $k$ internal edges as introduced in \cite{kimsangwoo2012, bela2001}. Each node of one layer is connected with a random node on the other layer. This means each node has only $1$ external un-directed edge. Simulations are preformed on network with $N=2048$, and $k = 5$. 
+\begin{figure*}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{chap3_RR(5)_RR(5).png}
+	\caption{Competition on random regular network}
+	\label{chap3_RR(5)_RR(5)}
+\end{figure*}
+
 
 The simulation results are shown in Fig.~\ref{Fig2} and Fig.~\ref{Fig3}. Fig.~\ref{Fig2}(a) shows that when $\gamma > 0.4$, $1.2 < \beta < 1.95$, it normally tends to positive consensus. But, if $\beta$ is lower or larger than certain values, it doesn't make consensus.
 In Fig.~\ref{Fig2}(b), as $\beta$ increases, it normally change from positive to negative consensus. But, when $\gamma$ is very low($\gamma \le 0.1$), it doesn't make positive consensus. On the other hand, when $\gamma$ is large enough, it makes positive consensus. But, when $\beta$ is large enough, it is changed into negative consensus. When both of $\gamma$ and $\beta$ are large enough, the state is in a coexistence part.
@@ -42,14 +49,19 @@ In Fig.~\ref{Fig2}(b), as $\beta$ increases, it normally change from positive to
 	\label{Fig3}
 \end{figure}
 
-Fig.~\ref{Fig3} shows the states of two layers according to all $\gamma$s and all $\beta$s. The $X$-axis is the $\gamma$ and the $Y$-axis is the $\beta$, and the $Z$-axis represents \textit{AS}. The closer the color is to blue, the more it has positive consensus. And the closer the color is to red, the more it has negative consensus. A light and white areas have coexistence with positive states and negative states. This chart has two areas for coexistence, when $\beta$ is very low or very high. When $\beta$ is in certain range, interconnected network can perform positive or negative consensus with different $\gamma$ values
+
 
 \section{Competition on Networks with different number of external links}
 
 In this section, we consider the influence of external links. Based on the basic model in Subsection 3.1, we reduce the number of nodes in layer B at a certain rate and increase the external links from nodes in layer B accordingly.  We denote \textit{HM(n)} as a hierarchical model with a level $n$, which means that the number of nodes in layer B is $1/n$ of the number of nodes in layer A, and the number of external links from node in layer B is $n$ in view that the number of external links from node in layer A is $1$. In other words, each node in layer A has one external edge, but each node in layer B has $n$ external edges for \textit{HM(n)}, which means one node in layer B can be influenced by $n$ nodes in layer A. $\gamma$ scale is same as the Random Regular Networks Model. But, $\beta$ scale depends on the number of degrees. So the $\beta$ scale is adjusted to have the same probability of volatility with Random Regular Networks Model(\textit{RRM}) as following Equation.
-\begin{equation}
-{\beta _{h,\max}} = {\beta _{rr,\max}} \cdot \log \left( {\frac{{{n_{rr}}^{ - {S_i}}}}{{{i_{rr,i}} + {e_{rr,i}}}} \cdot \frac{{{i_{h,i}} + {e_{h,i}}}}{{{n_{h}}^{ - {S_i}}}}} \right). 
-\end{equation}
+\begin{figure*}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{chap3_HM.png}
+	\caption{Competition on hierarchical model}
+	\label{chap3_HM}
+\end{figure*}
+
+
 
 Eq(6) is derived from Eq(1) at the initial states. $\beta _{h,\max}$ is the maximum value of $\beta$ scale in \textit{HM}, and $\beta _{rr,\max}$ is the maximum value of $\beta$ scale in \textit{RRM}. When \textit{RRM} begins with initial state and the maximum of $\beta$ scale, it has the lowest volatility except $0$. In order to have the same probability in layer B dynamics for different network structures at the initial time, maximum value of $\beta$ in \textit{HM} is calculated based on Eq(6). 
 
@@ -65,6 +77,14 @@ Fig.~\ref{Fig4} shows the Hierarchical Model simulation results. Comparing \text
 In summary, all the Hierarchical Models have more consensus ratio than Random Regular Networks Model. Among \textit{HMs}, \textit{HM(16)} has the most positive consensus part. When the number of nodes in layer B is more or less than \textit{HM(16)}, \textit{CR} and \textit{PCR} are decreased. This shows that there exists an efficient number for the decision making layer to perform positive consensus.  
 
 \section{Competition on Networks with different number of internal links}
+
+\begin{figure*}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{chap3_changing_internal_edges.png}
+	\caption{Competition on interconnected networks with different internal edges}
+	\label{chap3_changing_internal_edges}
+\end{figure*}
+
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{figure/FIG5.png}
@@ -80,9 +100,9 @@ So far, each layer of the interconnected network consisted of random regular net
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=\hsize]{FIG6.png}
-	\caption{Comparison of Networks with different structures}
-	\label{Fig6}
+	\includegraphics[width=\hsize]{chap3_changing_structure_type.png}
+	\caption{Competition on interconnected networks with different structures}
+	\label{chap3_changing_structure_type}
 \end{figure}
 
 Here, we use \textit{Barabasi-Albert network(BA)} structure as introduced in \cite{barabasi1999}. To evaluate the influence of network structure, 5 simulations are implemented with changing network structures. The \textit{BA} network is applied for both layers or switched on each layer. And, because layer A with \textit{BA} network structure has total $10,215$ internal edges, \textit{RR(10)-RR(5)}, under the similar conditions such as the number of nodes and edges, is also simulated. The simulation results are shown in Fig.~\ref{Fig6}. The result of \textit{BA-RR} and \textit{RR(10)-RR(5)} have almost the same features. The gap of \textit{CR} is almost same(less than 0.01). The structure of network make no obvious difference of consensus results. In case of \textit{BA-BA}, the \textit{CR} has the least ratio for consensus. \textit{BA-BA} structure has lots of internal edges on each layer. Therefore, it is hard to make consensus due to inner conflict on each layer. 

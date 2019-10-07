@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  6 OCT 2019 21:33
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  7 OCT 2019 21:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2389,8 +2389,18 @@ LaTeX Warning: Unused global option(s):
  (./tex/abstract.aux) (./tex/symbol.aux)
 \c@pagesLTS.Roman.1.local.cnt=\count547
  (./tex/intro.aux)
-(./tex/chap2.aux) (./tex/chap3.aux) (./tex/chap4.aux) (./tex/chap5.aux)
-(./tex/chap6.aux) (./tex/faq.aux) (./tex/ack.aux) (./tex/pub.aux)
+(./tex/chap2.aux) (./tex/chap3.aux
+
+LaTeX Warning: Label `Fig3' multiply defined.
+
+
+LaTeX Warning: Label `Fig4' multiply defined.
+
+
+LaTeX Warning: Label `Fig5' multiply defined.
+
+) (./tex/chap4.aux) (./tex/chap5.aux) (./tex/chap6.aux) (./tex/ack.aux)
+(./tex/pub.aux)
 \c@pagesLTS.arabic.1.local.cnt=\count548
 )
 \openout1 = `thesis.aux'.
@@ -2398,8 +2408,7 @@ LaTeX Warning: Unused global option(s):
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 26.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 26
 .
-
-(c:/usr/texlive/2018/texmf-dist/tex/latex/newtx/omlntxmi.fd
+ (c:/usr/texlive/2018/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 26.
@@ -2837,74 +2846,111 @@ Overfull \hbox (23.4394pt too wide) detected at line 5
  []
 
 
-Overfull \hbox (23.4394pt too wide) detected at line 7
-\T1/ntxtlf/m/n/12.045 Figure 3--1 
+Overfull \hbox (23.4394pt too wide) detected at line 6
+\T1/ntxtlf/m/n/12.045 Figure 2--2 
  []
 
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.045pt on input line 7.
+
+Overfull \hbox (23.4394pt too wide) detected at line 7
+\T1/ntxtlf/m/n/12.045 Figure 2--3 
+ []
+
 
 Overfull \hbox (23.4394pt too wide) detected at line 8
-\T1/ntxtlf/m/n/12.045 Figure 3--2 
+\T1/ntxtlf/m/n/12.045 Figure 2--4 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 9
-\T1/ntxtlf/m/n/12.045 Figure 3--3 
- []
-
-
-Overfull \hbox (23.4394pt too wide) detected at line 10
-\T1/ntxtlf/m/n/12.045 Figure 3--4 
+\T1/ntxtlf/m/n/12.045 Figure 2--5 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 11
-\T1/ntxtlf/m/n/12.045 Figure 3--5 
+\T1/ntxtlf/m/n/12.045 Figure 3--1 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 12
-\T1/ntxtlf/m/n/12.045 Figure 3--6 
+\T1/ntxtlf/m/n/12.045 Figure 3--2 
+ []
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.045pt on input line 12.
+
+Overfull \hbox (23.4394pt too wide) detected at line 13
+\T1/ntxtlf/m/n/12.045 Figure 3--3 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 14
-\T1/ntxtlf/m/n/12.045 Figure 4--1 
+\T1/ntxtlf/m/n/12.045 Figure 3--4 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 15
-\T1/ntxtlf/m/n/12.045 Figure 4--2 
+\T1/ntxtlf/m/n/12.045 Figure 3--5 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 16
-\T1/ntxtlf/m/n/12.045 Figure 4--3 
+\T1/ntxtlf/m/n/12.045 Figure 3--6 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 17
-\T1/ntxtlf/m/n/12.045 Figure 4--4 
+\T1/ntxtlf/m/n/12.045 Figure 3--7 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 18
-\T1/ntxtlf/m/n/12.045 Figure 4--5 
+\T1/ntxtlf/m/n/12.045 Figure 3--8 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 19
-\T1/ntxtlf/m/n/12.045 Figure 4--6 
- []
-
-
-Overfull \hbox (23.4394pt too wide) detected at line 20
-\T1/ntxtlf/m/n/12.045 Figure 4--7 
+\T1/ntxtlf/m/n/12.045 Figure 3--9 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 21
+\T1/ntxtlf/m/n/12.045 Figure 4--1 
+ []
+
+
+Overfull \hbox (23.4394pt too wide) detected at line 22
+\T1/ntxtlf/m/n/12.045 Figure 4--2 
+ []
+
+
+Overfull \hbox (23.4394pt too wide) detected at line 23
+\T1/ntxtlf/m/n/12.045 Figure 4--3 
+ []
+
+
+Overfull \hbox (23.4394pt too wide) detected at line 24
+\T1/ntxtlf/m/n/12.045 Figure 4--4 
+ []
+
+
+Overfull \hbox (23.4394pt too wide) detected at line 25
+\T1/ntxtlf/m/n/12.045 Figure 4--5 
+ []
+
+
+Overfull \hbox (23.4394pt too wide) detected at line 26
+\T1/ntxtlf/m/n/12.045 Figure 4--6 
+ []
+
+[7
+
+]
+Overfull \hbox (23.4394pt too wide) detected at line 27
+\T1/ntxtlf/m/n/12.045 Figure 4--7 
+ []
+
+
+Overfull \hbox (23.4394pt too wide) detected at line 28
 \T1/ntxtlf/m/n/12.045 Figure 4--8 
  []
 
@@ -2912,11 +2958,7 @@ Overfull \hbox (23.4394pt too wide) detected at line 21
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [7
-
-] [8
-
-] (./thesis.lot
+ [8] (./thesis.lot
 Overfull \hbox (18.69368pt too wide) detected at line 7
 \T1/ntxtlf/m/n/12.045 Table 4--1 
  []
@@ -2925,7 +2967,9 @@ Overfull \hbox (18.69368pt too wide) detected at line 7
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [9] [10
+ [9
+
+] [10
 
 ] (./thesis.loa)
 \tf@loa=\write9
@@ -3132,50 +3176,211 @@ LaTeX Warning: Citation 'alvarez2016' on page 3 undefined on input line 44.
 
 LaTeX Warning: Citation 'gomez2015' on page 3 undefined on input line 44.
 
-[3]
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 61.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.0pt on input line 61.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.1303pt on input line 61.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 4.49997pt on input line 61.
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 61.
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 5.0pt on input line 61.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 61.
- [4] [5]
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 12.045pt on input line 115.
-
-
-LaTeX Warning: Reference `chap:example' on page 6 undefined on input line 121.
-
-) [6]
+[3]) [4]
 \openout2 = `tex/chap2.aux'.
 
  (./tex/chap2.tex
 Chapter 2
 
-LaTeX Warning: Citation 'rocca2014' on page 7 undefined on input line 18.
+LaTeX Warning: Citation 'rocca2014' on page 5 undefined on input line 18.
 
-[7
+[5
 
 
 
 ]
 
-LaTeX Warning: Citation 'abrams2003' on page 8 undefined on input line 67.
+LaTeX Warning: Citation 'abrams2003' on page 6 undefined on input line 67.
 
 
-LaTeX Warning: Citation 'vazquez2010' on page 8 undefined on input line 67.
+LaTeX Warning: Citation 'vazquez2010' on page 6 undefined on input line 67.
 
-File: figure/FIG1.png Graphic file (type bmp)
-<figure/FIG1.png>
-[8] [9] [10]) [11]
+File: figure/chap2_modeling.png Graphic file (type bmp)
+<figure/chap2_modeling.png>
+[6] [7]
+File: figure/chap2_timeflow_AS(BA3_BA3).png Graphic file (type bmp)
+<figure/chap2_timeflow_AS(BA3_BA3).png>
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.0pt on input line 109.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.0pt on input line 109.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 6.29996pt on input line 109.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 4.49997pt on input line 109.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 7.0pt on input line 109.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 5.0pt on input line 109.
+ [8]
+File: figure/chap2_CI_values.png Graphic file (type bmp)
+<figure/chap2_CI_values.png>
+File: figure/chap2_timeflow_CI(BA3_BA3).png Graphic file (type bmp)
+<figure/chap2_timeflow_CI(BA3_BA3).png>
+ [9]
+File: figure/chap2_AS_total(BA3_BA3).png Graphic file (type bmp)
+<figure/chap2_AS_total(BA3_BA3).png>
+
+! Undefined control sequence.
+<recently read> \p 
+                   
+l.156 ...states of two layers according to all $\p
+                                                  $s and all $\v$s. The $X$-...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \v invalid in math mode on input line 156.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.156 ...ayers according to all $\p$s and all $\v$
+                                                  s. The $X$-axis is the $\p...
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \accent #1 #2\egroup \spac...
+l.156 ...ayers according to all $\p$s and all $\v$
+                                                  s. The $X$-axis is the $\p...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.156 ...ayers according to all $\p$s and all $\v$
+                                                  s. The $X$-axis is the $\p...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.156 ...ayers according to all $\p$s and all $\v$
+                                                  s. The $X$-axis is the $\p...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.156 ...ayers according to all $\p$s and all $\v$
+                                                  s. The $X$-axis is the $\p...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.156 ...ayers according to all $\p$s and all $\v$
+                                                  s. The $X$-axis is the $\p...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.156 ...cording to all $\p$s and all $\v$s. The $
+                                                  X$-axis is the $\p$ and th...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+l.156 ...$s and all $\v$s. The $X$-axis is the $\p
+                                                  $ and the $Y$-axis is the ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Improper \spacefactor.
+<recently read> \spacefactor 
+                             
+l.156 ... is the $\p$ and the $Y$-axis is the $\v$
+                                                  , and the $Z$-axis represe...
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! Extra }, or forgotten $.
+\add@accent ... \accent@spacefactor \spacefactor }
+                                                  \accent #1 #2\egroup \spac...
+l.156 ... is the $\p$ and the $Y$-axis is the $\v$
+                                                  , and the $Z$-axis represe...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.156 ... is the $\p$ and the $Y$-axis is the $\v$
+                                                  , and the $Z$-axis represe...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.156 ... is the $\p$ and the $Y$-axis is the $\v$
+                                                  , and the $Z$-axis represe...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.156 ... is the $\p$ and the $Y$-axis is the $\v$
+                                                  , and the $Z$-axis represe...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Bad space factor (0).
+<recently read> \accent@spacefactor 
+                                    
+l.156 ... is the $\p$ and the $Y$-axis is the $\v$
+                                                  , and the $Z$-axis represe...
+I allow only values in the range 1..32767 here.
+
+
+Overfull \hbox (106.36942pt too wide) in paragraph at lines 156--157
+[]\T1/ntxtlf/m/n/12.045 Figure.[][]3--8[][] shows the states of two lay-ers ac-
+cord-ing to all $$s and all $[]$X$\LMS/ntxsy/m/n/12.045 ^^@\OML/ntxmi/m/it/12.0
+45 axisisthe$$andthe$\T1/ntxtlf/m/n/12.045 Y$\LMS/ntxsy/m/n/12.045 ^^@\OML/ntxm
+i/m/it/12.045 axisisthe$\T1/ntxtlf/m/n/12.045 ,
+ []
+
+[10]) [11]
 \openout2 = `tex/chap3.aux'.
 
  (./tex/chap3.tex [12
@@ -3191,34 +3396,47 @@ LaTeX Warning: Citation 'kimsangwoo2012' on page 13 undefined on input line 18.
 
 LaTeX Warning: Citation 'bela2001' on page 13 undefined on input line 18.
 
-
-LaTeX Warning: Reference `Fig2' on page 13 undefined on input line 20.
-
-
-LaTeX Warning: Reference `Fig2' on page 13 undefined on input line 20.
-
-
-LaTeX Warning: Reference `Fig2' on page 13 undefined on input line 21.
-
+File: figure/chap3_RR(5)_RR(5).png Graphic file (type bmp)
+<figure/chap3_RR(5)_RR(5).png>
+[13]
 File: figure/AS_2d.png Graphic file (type bmp)
 <figure/AS_2d.png>
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 26.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 26.
-LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 7.0pt on input line 26.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.53937pt on input line 26.
-File: figure/p_v_AS_3d.png Graphic file (type bmp)
-<figure/p_v_AS_3d.png>
+(Font)              scaled to size 10.53937pt on input line 33.
 
-LaTeX Warning: File `FIG3.png' not found on input line 40.
+
+LaTeX Warning: File `p_v_AS_3d.png' not found on input line 39.
+
+! Unable to load picture or PDF file 'p_v_AS_3d.png'.
+<to be read again> 
+                   }
+l.39 ...cludegraphics[width=\hsize]{p_v_AS_3d.png}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...cludegraphics[width=\hsize]{p_v_AS_3d.png}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: p_v_AS_3d.png Graphic file (type bmp)
+<p_v_AS_3d.png>
+
+LaTeX Warning: File `FIG3.png' not found on input line 47.
 
 ! Unable to load picture or PDF file 'FIG3.png'.
 <to be read again> 
                    }
-l.40 ^^I\includegraphics[width=\hsize]{FIG3.png}
+l.47 ^^I\includegraphics[width=\hsize]{FIG3.png}
                                                 
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -3230,7 +3448,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 ^^I\includegraphics[width=\hsize]{FIG3.png}
+l.47 ^^I\includegraphics[width=\hsize]{FIG3.png}
                                                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3238,18 +3456,16 @@ or  <return>  to continue without it.
 
 File: FIG3.png Graphic file (type bmp)
 <FIG3.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13]
+File: figure/chap3_HM.png Graphic file (type bmp)
+<figure/chap3_HM.png>
 [14]
 
-LaTeX Warning: File `FIG4.png' not found on input line 60.
+LaTeX Warning: File `FIG4.png' not found on input line 72.
 
 ! Unable to load picture or PDF file 'FIG4.png'.
 <to be read again> 
                    }
-l.60 ^^I\includegraphics[width=\hsize]{FIG4.png}
+l.72 ^^I\includegraphics[width=\hsize]{FIG4.png}
                                                 
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -3261,7 +3477,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 ^^I\includegraphics[width=\hsize]{FIG4.png}
+l.72 ^^I\includegraphics[width=\hsize]{FIG4.png}
                                                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3269,13 +3485,17 @@ or  <return>  to continue without it.
 
 File: FIG4.png Graphic file (type bmp)
 <FIG4.png>
+[15]
+File: figure/chap3_changing_internal_edges.png Graphic file (type bmp)
+<figure/chap3_changing_internal_edges.png>
 
-LaTeX Warning: File `figure/FIG5.png' not found on input line 70.
+
+LaTeX Warning: File `figure/FIG5.png' not found on input line 90.
 
 ! Unable to load picture or PDF file 'figure/FIG5.png'.
 <to be read again> 
                    }
-l.70 ...udegraphics[width=\hsize]{figure/FIG5.png}
+l.90 ...udegraphics[width=\hsize]{figure/FIG5.png}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -3287,7 +3507,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...udegraphics[width=\hsize]{figure/FIG5.png}
+l.90 ...udegraphics[width=\hsize]{figure/FIG5.png}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3295,15 +3515,29 @@ or  <return>  to continue without it.
 
 File: figure/FIG5.png Graphic file (type bmp)
 <figure/FIG5.png>
-[15]
+[16]
+File: figure/chap3_changing_structure_type.png Graphic file (type bmp)
+<figure/chap3_changing_structure_type.png>
 
-LaTeX Warning: File `FIG6.png' not found on input line 83.
 
-! Unable to load picture or PDF file 'FIG6.png'.
+LaTeX Warning: Citation 'barabasi1999' on page 17 undefined on input line 108.
+
+) [17] [18]
+\openout2 = `tex/chap4.aux'.
+
+ (./tex/chap4.tex
+Chapter 4
+
+LaTeX Warning: Citation 'barabasi1999' on page 19 undefined on input line 17.
+
+
+LaTeX Warning: File `figure/timeflow_AS.png' not found on input line 27.
+
+! Unable to load picture or PDF file 'figure/timeflow_AS.png'.
 <to be read again> 
                    }
-l.83 ^^I\includegraphics[width=\hsize]{FIG6.png}
-                                                
+l.27 ...hics[width=\hsize]{figure/timeflow_AS.png}
+                                                  
 The requested image couldn't be read because
 it was not a recognized image format.
 
@@ -3314,34 +3548,45 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 ^^I\includegraphics[width=\hsize]{FIG6.png}
-                                                
+l.27 ...hics[width=\hsize]{figure/timeflow_AS.png}
+                                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-File: FIG6.png Graphic file (type bmp)
-<FIG6.png>
+File: figure/timeflow_AS.png Graphic file (type bmp)
+<figure/timeflow_AS.png>
 
-LaTeX Warning: Citation 'barabasi1999' on page 16 undefined on input line 88.
+LaTeX Warning: File `figure/timeflow_CI.png' not found on input line 35.
 
-[16]) [17]
-\openout2 = `tex/chap4.aux'.
+! Unable to load picture or PDF file 'figure/timeflow_CI.png'.
+<to be read again> 
+                   }
+l.35 ...hics[width=\hsize]{figure/timeflow_CI.png}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
 
- (./tex/chap4.tex [18
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...hics[width=\hsize]{figure/timeflow_CI.png}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: figure/timeflow_CI.png Graphic file (type bmp)
+<figure/timeflow_CI.png>
+[19
 
 
 
 ]
-Chapter 4
-
-LaTeX Warning: Citation 'barabasi1999' on page 19 undefined on input line 17.
-
-File: figure/timeflow_AS.png Graphic file (type bmp)
-<figure/timeflow_AS.png>
-File: figure/timeflow_CI.png Graphic file (type bmp)
-<figure/timeflow_CI.png>
-[19] [20] [21]
 
 LaTeX Warning: File `figure/layerorder.png' not found on input line 89.
 
@@ -3368,12 +3613,19 @@ or  <return>  to continue without it.
 
 File: figure/layerorder.png Graphic file (type bmp)
 <figure/layerorder.png>
-[22]
+[20]
+Underfull \vbox (badness 4792) has occurred while \output is active []
+
+ [21]
 File: figure/nodeorder.png Graphic file (type bmp)
 <figure/nodeorder.png>
+
+Underfull \vbox (badness 1728) has occurred while \output is active []
+
+ [22]
 File: figure/edgeorder_explanation.png Graphic file (type bmp)
 <figure/edgeorder_explanation.png>
- [23]
+
 
 ! Package enumitem Error: (1) undefined.
 
@@ -3386,39 +3638,32 @@ l.119 \begin{enumerate}[(1)]
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24]
+[23]
 File: figure/edgeorder.png Graphic file (type bmp)
 <figure/edgeorder.png>
+ [24]
 File: figure/ordertotal.png Graphic file (type bmp)
 <figure/ordertotal.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
 File: figure/ordertotal2.png Graphic file (type bmp)
 <figure/ordertotal2.png>
+ [25]) [26]
 
-[26]) [27]
-
-LaTeX Warning: Text page 28 contains only floats.
+LaTeX Warning: Text page 27 contains only floats.
 
 
 Overfull \vbox (5.87914pt too high) has occurred while \output is active []
 
 
-[28]
+[27]
 \openout2 = `tex/chap5.aux'.
 
- (./tex/chap5.tex
-Chapter 5
-) [29
+ (./tex/chap5.tex [28
 
 
 
 ]
+Chapter 5
+) [29]
 \openout2 = `tex/chap6.aux'.
 
  (./tex/chap6.tex [30
@@ -3468,15 +3713,9 @@ Package pageslts Info: Total number of pages is odd.
 (./tex/chap6.aux) (./tex/ack.aux) (./tex/pub.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: AE2550DBF28E3432367F6B5C3BE11100.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: CF78C26E7B66435FC73144052E62B7A7
-(rerunfilecheck)             After:  E9E15837DAA3DF8133C7835DA78EF6F6.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3484,7 +3723,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -3494,14 +3733,18 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 156 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 53853 strings out of 492933
- 1080481 string characters out of 6134842
- 1607428 words of memory out of 5000000
- 56903 multiletter control sequences out of 15000+600000
- 671302 words of font info for 234 fonts, out of 8000000 for 9000
+ 53729 strings out of 492933
+ 1073726 string characters out of 6134842
+ 1608889 words of memory out of 5000000
+ 56781 multiletter control sequences out of 15000+600000
+ 659644 words of font info for 213 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,17n,94p,1552b,1357s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,94p,1552b,1398s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on thesis.pdf (57 pages).
