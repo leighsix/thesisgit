@@ -11,7 +11,13 @@
 
 \chapter{Modeling and Analysis}
 \label{chap:modeling and analysis methods}
-In this chapter, a basic model would be introduced for competition on two-layer network. It would be also explained that how each layer is made up and what kind of function and dynamics it has. After modeling, many simulations would be fulfilled under the various conditions. Simulation results would be analyzed with proper indexes. Therefore, some indexes would be provided to analyze the interaction between two-layers. 
+In this chapter, a basic model would be introduced for competition on two-layer network. It would be also explained that how each layer is made up and what kind of function and dynamics it has. After modeling, many simulations would be fulfilled under the various conditions. Some indexes would be provided to analyze the interaction between two-layers. Simulation results would be analyzed with these indexes. 
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{chap2_modeling.png}
+	\caption{Competition of Interconnected Network}
+	\label{chap2_modeling}
+\end{figure}
  
 \section{Modeling of two layer network}
 \label{sec:modeling of two layer network}
@@ -29,6 +35,7 @@ The model consists of two layers, and each layer has different dynamics. For lay
 	\\(-1, -1)\mbox{ with } prob.q/2.
 	\end{matrix}\right.
 	\end{align}
+		
 	\item Persuasion : if two nodes connected with link$(k, j)$ have the same orientation, their states become more extreme with probability $p$ :
 	\begin{align}
 	\mbox{if } S_k<0 \mbox{ and } S_j<0  \Rightarrow (S_k, S_j) \rightarrow (S_k^l, S_j^l) \mbox{ with } prob.p,\\
@@ -77,18 +84,19 @@ The dynamics of layer B follows the decision-making dynamics as introduced in \c
 where $i_i$ is the number of internal edges and $e_i$ is the number of external edges. $n^{-S_i}$ is the number of neighbors of i with opposite state $-S_i$. $v$ represents the volatility that measures how prone a node change its state. The scale of $v$ is from $0$ to $1$. If $v \simeq 0$,  a node is unlikely to change its state. On the other hand, if $v \simeq 1$, a node is very likely to change its state. Also, this formula shows that the more the number of nodes connected with the opposite state is, the easier the nodes are to change into the opposite state.\\
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=\hsize]{chap2_modeling.png}
-	\caption{Competition of Interconnected Network}
-	\label{Fig1}
+	\includegraphics[width=\hsize]{chap2_dynamics.png}
+	\caption{Dynamics on two layers}
+	\label{chap2_dynamics}
 \end{figure}
 
+
 \section{Simulations and Analysis}
-To start with a polarized competition, as the initial conditions,  nodes in layer A are all positive, and nodes in layer B are all negative as shown in Fig.~\ref{Fig1}. For nodes in layer A, it begins with the status where half of nodes are $+1$ and the others are $+2$. The initial state of nodes in layer B have only $-1$. 
+To start with a polarized competition, as the initial conditions,  nodes in layer A are all positive, and nodes in layer B are all negative as shown in Fig.~\ref{chap2_modeling}. For nodes in layer A, it begins with the status where half of nodes are $+1$ and the others are $+2$. The initial state of nodes in layer B have only $-1$. 
 
 There are two parameters in the dynamics of layer A. To simply represent the probability $p$ and probability $q$ together, we set $p+q=1$. So, $p$ represents the tendency of opinion such as extreme or moderate, which is scaled to be $0$ to $1$. And, the scale of $v$, in the dynamics of layer B, is also $0$ to $1$. 
 
 
-To implement the interconnected dynamics, one step consists of two layers dynamics, where every node in layer A is checked with opinion dynamics, and every node in layer B updates its state according to the decision-making dynamics.       
+To implement the interconnected dynamics, one step consists of two layers dynamics, where every node in layer A is checked with opinion dynamics, and every node in layer B updates its state according to the decision-making dynamics. Basically, the dynamics order follows updating state of layer B after updating state of layer A. The dynamics orders and updating rules would be discussed specifically in chapter 4.      
 
 Each simulation takes $100$ steps, and $100$ simulations are considered for average results. In the following simulations, we use \textit{`Average State'(AS)} and \textit{`Consensus Index'(CI)} to measure the competition result.
 
@@ -106,9 +114,11 @@ With \textit{AS}, it could be verified whether the consensus happens in accordan
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{chap2_timeflow_AS(BA3_BA3).png}
-	\caption{CI values according to all ${K_ + }^A$ and ${K_ + }^B$  }
-	\label{Fig2}
+	\caption{AS values per each step according to all parameters}
+	\label{chap2_timeflow_AS(BA3_BA3)}
 \end{figure}
+Figure.~\ref{chap2_timeflow_AS(BA3_BA3)} shows that AS values are convergent to $+1$, $-1$ or other values as step(time) goes by. $+1$ means making positive consensus. $-1$ means making negative consensus. The other values mean coexistence state. 
+
 
 With \textit{CI}, it could be measured how close the network state is to consensus. If the CI is close to $0$, the state is close to positive or negative consensus. If the CI is close to $1$, the state is separated coexistence where states of all nodes in layer A is opposed to states of all nodes in layer B. If the CI is close to $0.5$, the state is mixed coexistence where each layer has both positive and negative states of nodes.
 
@@ -116,17 +126,19 @@ With \textit{CI}, it could be measured how close the network state is to consens
 	\centering
 	\includegraphics[width=\hsize]{chap2_CI_values.png}
 	\caption{CI values according to all ${K_ + }^A$ and ${K_ + }^B$  }
-	\label{Fig3}
+	\label{chap2_CI_values}
 \end{figure}
+Figure.~\ref{chap2_CI_values} shows the characteristics of \textit{CI}. Same orientation in two layers makes \texit{CI} 0. Opposite orientation between two layers makes \texit{CI} 1. And Mixed orientation in two layers makes \texit{CI} close to 0.5. 
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{chap2_timeflow_CI(BA3_BA3).png}
 	\caption{CI values according to all ${K_ + }^A$ and ${K_ + }^B$  }
-	\label{Fig4}
+	\label{chap2_timeflow_CI(BA3_BA3)}
 \end{figure}
+As Figure.~\ref{chap2_timeflow_CI(BA3_BA3)} shown, \texit{CI} values are convergent to $+1$, $0$, or other values as step(time) goes by. $0$ means positive or negative consensus. $+1$ means opposite state between two layers. The other values means mixed state. By using \texit{CI}, coexistence states can be divided into two categories, opposite state and mixed state.   
 
-To estimate and evaluate the consensus results regarding different parameters $p$ and $v$, we use four kinds of measures including \textit{`AS total'}, \textit{`Positive Consensus Ratio'(PCR)}, \textit{`Negative Consensus ratio'(NCR)}, and \textit{`Consensus Ratio'(CR)}. \textit{AS total} means the summation of \textit{AS} for all $p$s and all $v$s. In Eq(3), ${A{S_{{p _i},{v _j}}}}$ means $AS$ value with parameters $p_i$ and $v_j$, which shows the total orientation and intensity when considering different networks. \textit{PCR} is the ratio of positive consensus over all simulations. Here, positive consensus means  ${A{S_{{p _i},{v _j}}} \simeq  1}$. Similarly, \textit{NCR} is the ratio of experiments with negative consensus. \textit{CR} is the ratio of experiments reaching consensus, i.e. summation of \textit{PCR} and \textit{NCR}.
+To estimate and evaluate the consensus results regarding to different parameters $p$ and $v$, we use four kinds of measures including \textit{`AS total'}, \textit{`Positive Consensus Ratio'(PCR)}, \textit{`Negative Consensus ratio'(NCR)}, and \textit{`Consensus Ratio'(CR)}. \textit{AS total} means the summation of \textit{AS} for all $p$s and all $v$s. \textit{PCR} is the ratio of positive consensus over all simulations. Similarly, \textit{NCR} is the ratio of experiments with negative consensus. \textit{CR} is the ratio of experiments reaching consensus, i.e. summation of \textit{PCR} and \textit{NCR}.
 
 \begin{equation}
 \begin{array}{cl}
@@ -136,24 +148,34 @@ p  = \left\{ {{p _{\rm{1}}},{p _{\rm{2}}},\left. {\cdot\cdot\cdot,{p _n}} \right
 v {\rm{ = }}\left\{ {{v _{\rm{1}}},{v _{\rm{2}}},\left. {\cdot\cdot\cdot,{v _m}} \right\}} \right.
 \end{array}.\
 \end{array}
+\label{AS_total}
 \end{equation}
+
+In Eq(\ref{AS_total}), ${A{S_{{p _i},{v _j}}}}$ means $AS$ value with parameters $p_i$ and $v_j$, which shows the total orientation and intensity of interconnected network.
 
 \begin{equation}
 PCR = \frac{{\sum\limits_j^m {\sum\limits_i^n {(A{S_{{p _i},{v _j}}} \simeq  1)} } }}{{n \times m}}.
+\label{PCR}
 \end{equation}
+
+In Eq(\ref{PCR}),  ${A{S_{{p _i},{v _j}}} \simeq  1}$ means positive consensus.
 
 \begin{equation}
 NCR = \frac{{\sum\limits_j^m {\sum\limits_i^n {(A{S_{{p _i},{v _j}}} \simeq   - 1)} } }}{{n \times m}}.
+\label{NCR}
 \end{equation}
+
+In Eq(\ref{NCR}), ${A{S_{{p _i},{v _j}}} \simeq  -1}$ means negative consensus.
+
 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{chap2_AS_total(BA3_BA3).png}
-	\caption{Simulation results according to all parameters : BA-BA network}
-	\label{Fig5}
+	\caption{The example of simulation : BA-BA network}
+	\label{chap2_AS_total(BA3_BA3)}
 \end{figure}
 
-Figure.\ref{Fig5} shows the states of two layers according to all $\p$s and all $\v$s. The $X$-axis is the $\p$ and the $Y$-axis is the $\v$, and the $Z$-axis represents \textit{AS}. The closer the color is to blue, the more it has positive consensus. And the closer the color is to red, the more it has negative consensus. A light and white areas have coexistence with positive states and negative states. So, we can measure the consensus by using indexes, \textit{`AS total'}, \textit{`PCR'}, \textit{`NCR'}, and \textit{`CR'}. The average value of this chart means \textit{`AS total'}. The blue part area means \textit{`PCR'}, the red part area means \textit{`NCR'}, and the summation of those means \textit{`CR'}. 
+Figure.~\ref{chap2_AS_total(BA3_BA3)} shows the states of two layers according to all $p$s and all $v$s. The $X$-axis is the $p$ and the $Y$-axis is the $v$, and the $Z$-axis represents \textit{AS}. The closer the color is to blue, the more it has positive consensus. And the closer the color is to red, the more it has negative consensus. A light and white areas have coexistence with positive states and negative states. Here, we can measure the consensus by using indexes, \textit{`AS total'}, \textit{`PCR'}, \textit{`NCR'}, and \textit{`CR'}. The average value of this chart means \textit{`AS total'}. The blue part area means \textit{`PCR'}, the red part area means \textit{`NCR'}, and the summation of those means \textit{`CR'}. 
 
 
 

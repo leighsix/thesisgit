@@ -15,6 +15,13 @@ People have their own opinions, and sometimes they change their opinions in resp
 Competition of interconnected networks has been researched in many ways. These networks can be applied to the dissemination of computer viruses, messages, opinions, memes, diseases and rumors\cite{hua2014,shenyu2018, zhou2018, alvarez2016,gomez2015,diep2017,rocca2014,velasquez2018}. Opinion dynamics on interconnected networks are investigated with various network models such as \textit{Abrams-Strogatz(AS)} model\cite{abrams2003,vazquez2010} and $M$ model\cite{rocca2014}.  Based on the previous researches, we would study the main features of competing two-layer networks by changing network structures, changing the way to interact, and finding the key nodes on layers. 
 
 \section{Related Work}
+In this research, we focus on social conflict and competition on multi layer network or interconnected network. Comparing with single layer, interconnected network has 2 dynamics, 2 parameters and include internal edge and external edge. Therefore, multi layer network would be more complex than single layer network.
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{chap1_singlemulti.png}
+	\caption{Comparison between single layer and multi layer}
+	\label{chap1_singlemulti}
+\end{figure}
 To make two layer networks under competition, each layer is made up with different dynamics network. Network dynamics are based on previous research such as \cite{alvarez2016} One layer has the function of social opinion and its own dynamics. Some opinion models provide social mechanism by means of a compromise process.\cite{naim2003} Some opinion models represent persuasive process.\cite{chau2014} In this paper, the social opinion layer is affected by the opinion dynamics which are also known as M-model\cite{rocca2014}, that includes compromise function and persuasion function. The other layer also has the function of decision-making and its own dynamics. The dynamics of the decision making layer is the language competition dynamics that are also called as Abrams-Strogatz model\cite{abrams2003, vazquez2010, patriarca2012}. This model is useful to decide only one opinion from two opinions. For competition condition, the initial condition of the two layers is assumed to be in opposite states, social opinion layer has all positive states, decision making layer has all negative states.
 
 So far, main researches have focused on what factors make a consensus or dissent, which have shown that the system can make positive consensus, negative consensus or coexistence under certain range of parameters, such as volatility, reinforcement, and prestige. Also, it is found out that the thresholds make the transition of states and they can explain and analyze the social phenomena in real world such as the legislation, election result, and social network\cite{alvarez2016, amato2017, diep2017}. In \cite{gomez2015}, it is shown that the transition from localized to mixed status occurs through a cascade from poorly connected nodes in the layers to the highly connected ones. In addition, the main features, such as transition and cascade, found in Monte Carlo simulation are exactly characterized by the mean-field theory and magnetization\cite{alvarez2016, diep2017, amato2017, gomez2015}.
@@ -45,5 +52,11 @@ In this paper, opinion dynamics of a competing two-layer social network are inve
 
 Researching directions have 4 main topics. First, it would be provided how to make up competition models and how to measure the consensus for analysis. Second, it would be found out what factors make consensus by changing network structures. Second, it would be analyzed whether dynamics orders have an influence on status of two-layer. Third, it would be investigated which method is the best to identify key nodes based on node centralities.
 
-The paper is organized as follows. In section 2, the Basic Model is introduced and the dynamics, that is applied to each layer, are described.  In section 3, the simulation results for the basic model and revised models are presented. In section 4 the characteristics of each model are described through the comparison and analysis. Finally, in section 5, the simulation results will be summarized and our findings are concluded.
+This paper is organized as follows. In chapter 2, it is introduced that how competing two layers are made up and how the dynamics of each layer works. And some indexes are provided to measure and evaluate the simulation results. In chapter 3, with changing network structure, it would be found out that how the network structures have the influence on the consensus of two layers. In chapter 4, considering the dynamics orders and updating rules, simulation results would be compared and analyzed. In chapter 5, it would be researched that which nodes are important to affect the state of network by using node centralities. Finally, in chapter 6, all simulation results will be summarized and our findings are concluded. And it is considered that how the results are applied to the real world. 
 
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{chap1_topic.png}
+	\caption{The example of competition on two-layer network}
+	\label{chap1_topic}
+\end{figure}

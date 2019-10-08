@@ -12,9 +12,10 @@
 
 \chapter{Competition on two layer with different structural network}
 \label{chap:competition on two layer with different structural network}
-In this chapter, based on the competition model described in previous chapter, simulation would be implemented with changing the network structures. As the basic model, interconnected layers with random regular network would be provided. And the,  network structures would be altered by changing the internal and external edges with random regular network and Barabasi-Albert network. 
+In this chapter, based on the competition model described in previous chapter, simulation would be implemented with changing the network structures. As the basic model, interconnected layers with random regular network would be provided. And then,  network structures would be altered by changing the internal edges, external edges and network types. 
 
 \section{Competition on Random Regular Networks}
+\label{competition on Random Regular Networks}
 In this section, each layer consists of random regular network that has $N$ nodes with $k$ internal edges as introduced in \cite{kimsangwoo2012, bela2001}. Each node of one layer is connected with a random node on the other layer. This means each node has only $1$ external un-directed edge. Simulations are preformed on network with $N=2048$, and $k = 5$. 
 \begin{figure*}[!htb]
 	\centering
@@ -53,7 +54,7 @@ In Fig.~\ref{Fig2}(b), as $\beta$ increases, it normally change from positive to
 
 \section{Competition on Networks with different number of external links}
 
-In this section, we consider the influence of external links. Based on the basic model in Subsection 3.1, we reduce the number of nodes in layer B at a certain rate and increase the external links from nodes in layer B accordingly.  We denote \textit{HM(n)} as a hierarchical model with a level $n$, which means that the number of nodes in layer B is $1/n$ of the number of nodes in layer A, and the number of external links from node in layer B is $n$ in view that the number of external links from node in layer A is $1$. In other words, each node in layer A has one external edge, but each node in layer B has $n$ external edges for \textit{HM(n)}, which means one node in layer B can be influenced by $n$ nodes in layer A. $\gamma$ scale is same as the Random Regular Networks Model. But, $\beta$ scale depends on the number of degrees. So the $\beta$ scale is adjusted to have the same probability of volatility with Random Regular Networks Model(\textit{RRM}) as following Equation.
+In this section, we consider the influence of external links. Based on the basic model in section~\ref{competition on Random Regular Networks}, we reduce the number of nodes in layer B at a certain rate and increase the external links from nodes in layer B accordingly.  We denote \textit{HM(n)} as a hierarchical model with a level $n$, which means that the number of nodes in layer B is $1/n$ of the number of nodes in layer A, and the number of external links from node in layer B is $n$ in view that the number of external links from node in layer A is $1$. In other words, each node in layer A has one external edge, but each node in layer B has $n$ external edges for \textit{HM(n)}, which means one node in layer B can be influenced by $n$ nodes in layer A. $\gamma$ scale is same as the Random Regular Networks Model. But, $\beta$ scale depends on the number of degrees. So the $\beta$ scale is adjusted to have the same probability of volatility with Random Regular Networks Model(\textit{RRM}) as following Equation.
 \begin{figure*}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{chap3_HM.png}
@@ -108,4 +109,30 @@ So far, each layer of the interconnected network consisted of random regular net
 Here, we use \textit{Barabasi-Albert network(BA)} structure as introduced in \cite{barabasi1999}. To evaluate the influence of network structure, 5 simulations are implemented with changing network structures. The \textit{BA} network is applied for both layers or switched on each layer. And, because layer A with \textit{BA} network structure has total $10,215$ internal edges, \textit{RR(10)-RR(5)}, under the similar conditions such as the number of nodes and edges, is also simulated. The simulation results are shown in Fig.~\ref{Fig6}. The result of \textit{BA-RR} and \textit{RR(10)-RR(5)} have almost the same features. The gap of \textit{CR} is almost same(less than 0.01). The structure of network make no obvious difference of consensus results. In case of \textit{BA-BA}, the \textit{CR} has the least ratio for consensus. \textit{BA-BA} structure has lots of internal edges on each layer. Therefore, it is hard to make consensus due to inner conflict on each layer. 
 
 \section{Conclusion}
+\begin{table}[!htb]
+	\centering
+    \caption{Consensus properties of Simulation Models}
+	\label{Consensus properties of Simulation Models}
+	\begin{center}
+		\begin{tabular}{c|c|c|c|c|c|c|c|c} \hline\hline
+			Div                    & A nodes& B nodes & A edges & B edges & AS total  & PCR    & NCR    & CR       \\ \hline \hline
+			RR(5)-RR(5)            & 2,048  & 2,048   & 5,120   & 5,120   & 0.5658    & 0.4828 & 0.0637 & 0.5466   \\ \hline
+			RR-BA             	   & 2,048 	& 2,048   & 5,120   & 10,215  & 0.1397    & 0.1208 & 0.0839 & 0.2046   \\ \hline 
+			BA-RR             	   & 2,048 	& 2,048   & 10,215  & 5,120   & 0.5622    & 0.4206 & 0.0220 & 0.4426   \\ \hline
+			BA-BA             	   & 2,048 	& 2,048   & 10,215  & 10,215  & 0.2197    & 0.1273 & 0.0190 & 0.1463   \\ \hline
+			RR(10)-RR(5)      	   & 2,048 	& 2,048   & 10,240  & 5,120   & 0.5776    & 0.4289 & 0.0220 & 0.4509   \\ \hline
+			RR(2)-RR(2)            & 2,048 	& 2,048   & 2,048   & 2,048   & 0.7115    & 0.6377 & 0.0173 & 0.6550   \\ \hline 
+			RR(2)-RR(5)            & 2,048 	& 2,048   & 2,048   & 5,120   & 0.0643    & 0.2272 & 0.1975 & 0.4247   \\ \hline 
+			RR(5)-RR(2)            & 2,048 	& 2,048   & 5,120   & 2,048   & 0.8811    & 0.9060 & 0.0303 & 0.9363   \\ \hline
+			HM(2)  				   & 2,048 	& 1,024   & 5,120   & 2,560   & 0.7098    & 0.7144 & 0.0750 & 0.7894   \\ \hline    
+			HM(4) 				   & 2,048 	&  512    & 5,120   & 1,280   & 0.7383    & 0.7881 & 0.0781 & 0.8662   \\ \hline
+			HM(8)  				   & 2,048 	&  256    & 5,120   & 640     & 0.6755    & 0.7163 & 0.0838 & 0.8001   \\ \hline
+			HM(16)				   & 2,048 	&  128    & 5,120   & 320     & 0.7153    & 0.8300 & 0.0988 & 0.9288   \\ \hline
+			HM(32) 				   & 2,048 	&   64    & 5,120   & 160     & 0.6714    & 0.8006 & 0.1175 & 0.9181   \\ \hline
+			HM(64) 				   & 2,048 	&   32    & 5,120   & 80      & 0.6077    & 0.7494 & 0.1313 & 0.8806   \\ \hline  \hline
+		\end{tabular}
+
+	\end{center}
+\end{table} 
+
  Especially, we provide three conclusions about the roles of edges. First, as hierarchical models show, when the number of external edges in decision making is more than opinion layer, it is easy to make consensus on both layers.  Also, it is found out that there exists the efficient number of nodes in decision making layer for performing consensus. Second, a layer with more internal edges has more tendency to keep its own states. Third, too many internal edges on each layer can cause inner conflict, and that makes it hard to have consensus state.  
