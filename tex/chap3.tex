@@ -16,7 +16,7 @@ In this chapter, based on the competition model described in previous chapter, s
 
 \section{Competition on Random Regular Networks}
 \label{competition on Random Regular Networks}
-In this section, each layer consists of random regular network that has $N$ nodes with $k$ internal edges as introduced in \cite{kimsangwoo2012, bela2001}. Each node of one layer is connected with a random node on the other layer. This means each node has only $1$ external un-directed edge. Simulations are preformed on network with $N=2048$, and $k = 5$. 
+In this section, simulation results on random regular network would be provided. Each layer consists of random regular network that has $N$ nodes with $k$ internal edges as introduced in \cite{kimsangwoo2012, bela2001}. Each node of one layer is connected with a random node on the other layer. This means each node has only $1$ external un-directed edge. Simulations are preformed on network with $N=2048$, and $k = 5$. 
 \begin{figure*}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{chap3_RR(5)_RR(5).png}
@@ -25,36 +25,30 @@ In this section, each layer consists of random regular network that has $N$ node
 \end{figure*}
 
 
-The simulation results are shown in Fig.~\ref{Fig2} and Fig.~\ref{Fig3}. Fig.~\ref{Fig2}(a) shows that when $\gamma > 0.4$, $1.2 < \beta < 1.95$, it normally tends to positive consensus. But, if $\beta$ is lower or larger than certain values, it doesn't make consensus.
-In Fig.~\ref{Fig2}(b), as $\beta$ increases, it normally change from positive to negative consensus. But, when $\gamma$ is very low($\gamma \le 0.1$), it doesn't make positive consensus. On the other hand, when $\gamma$ is large enough, it makes positive consensus. But, when $\beta$ is large enough, it is changed into negative consensus. When both of $\gamma$ and $\beta$ are large enough, the state is in a coexistence part.
+The simulation results are shown in Fig.~\ref{chap3_RR(5)_RR(5)_2d} and Fig.~\ref{chap3_RR(5)_RR(5)_total}.  Fig.~\ref{chap3_RR(5)_RR(5)_2d} presents that how the Average State(\textit{AS}) are changed according to each parameter, $p$ and $v$. So we can know that how each parameter works on the network. Fig.~\ref{chap3_RR(5)_RR(5)_total} provides total results with all parameters. Through these figures, the characteristics of network would be analyzed.
 
 \begin{figure*}[!htb]
 	\centering
-	\includegraphics[width=\hsize]{AS_2d.png}
+	\includegraphics[width=\hsize]{chap3_RR(5)_RR(5)_2d.png}
 	\caption{(a) $p$-\textit{AS} chart according to certain $v$ values. (b) $v$-\textit{AS} chart according to certain $p$ values.}
-	\label{AS_2d}
+	\label{chap3_RR(5)_RR(5)_2d}
 \end{figure*}
+Fig.~\ref{chap3_RR(5)_RR(5)_2d}(a) shows that when $p > 0.3$, $0.32 < v < 0.47$, it normally tends to positive consensus. But, if $v$ is lower or larger than certain values, it doesn't make consensus.
+In Fig.~\ref{chap3_RR(5)_RR(5)_2d}(b), as $v$ increases, it normally change from negative to positive consensus. But, when $p$ is very low($p \le 0.11$), it doesn't make positive consensus. On the other hand, when $p$ is large enough, it makes positive consensus. But, when $v$ is small enough, it is changed into negative consensus. When both of $p$ and $v$ are large enough, the state is in a coexistence part.
+Through these charts, several facts can be arranged. First, large $p$ tends to make positive consensus and small $p$ tends to make negative consensus. Second, small $v$ tends to make negative consensus, and large $v$ tends to make coexistence state.  
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=\hsize]{p_v_AS_3d.png}
-	\caption{Two layer networks with sequential updating rule : \textit{AS} changing with all $p$ and $v$}
-	\label{p_v_AS_3d}
+	\includegraphics[width=\hsize]{chap3_RR(5)_RR(5)_total.png}
+	\caption{simulation result : \textit{AS} changing with all $p$ and $v$}
+	\label{chap3_RR(5)_RR(5)_total}
 \end{figure}
-
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=\hsize]{FIG3.png}
-	\caption{Random Regular Networks : \textit{AS} changing with $\gamma$ and $\beta$}
-	\label{Fig3}
-\end{figure}
-
-
+Fig.~\ref{chap3_RR(5)_RR(5)_total} shows the states of two layers according to all $p$s and all $v$s. As previously described, indexes were measured. Positive consensus area is 0.2475, and negative consensus area is 0.1575. Coexistence area is $1 - CR = 0.5950$. By using these values and figures, this model would be compared with different structural networks in next section. 
 
 \section{Competition on Networks with different number of external links}
 
-In this section, we consider the influence of external links. Based on the basic model in section~\ref{competition on Random Regular Networks}, we reduce the number of nodes in layer B at a certain rate and increase the external links from nodes in layer B accordingly.  We denote \textit{HM(n)} as a hierarchical model with a level $n$, which means that the number of nodes in layer B is $1/n$ of the number of nodes in layer A, and the number of external links from node in layer B is $n$ in view that the number of external links from node in layer A is $1$. In other words, each node in layer A has one external edge, but each node in layer B has $n$ external edges for \textit{HM(n)}, which means one node in layer B can be influenced by $n$ nodes in layer A. $\gamma$ scale is same as the Random Regular Networks Model. But, $\beta$ scale depends on the number of degrees. So the $\beta$ scale is adjusted to have the same probability of volatility with Random Regular Networks Model(\textit{RRM}) as following Equation.
+In this section, we consider the influence of external links. Based on the basic model in section~\ref{competition on Random Regular Networks}, we reduce the number of nodes in layer B at a certain rate and increase the external links from nodes in layer B accordingly as shown in Fig.~\ref{chap3_HM}.  We denote \textit{HM(n)} as a hierarchical model with a level $n$, which means that the number of nodes in layer B is $1/n$ of the number of nodes in layer A, and the number of external links from node in layer B is $n$ in view that the number of external links from node in layer A is $1$. In other words, each node in layer A has one external edge, but each node in layer B has $n$ external edges for \textit{HM(n)}, which means one node in layer B can be influenced by $n$ nodes in layer A.
+
 \begin{figure*}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{chap3_HM.png}
@@ -62,17 +56,13 @@ In this section, we consider the influence of external links. Based on the basic
 	\label{chap3_HM}
 \end{figure*}
 
-
-
-Eq(6) is derived from Eq(1) at the initial states. $\beta _{h,\max}$ is the maximum value of $\beta$ scale in \textit{HM}, and $\beta _{rr,\max}$ is the maximum value of $\beta$ scale in \textit{RRM}. When \textit{RRM} begins with initial state and the maximum of $\beta$ scale, it has the lowest volatility except $0$. In order to have the same probability in layer B dynamics for different network structures at the initial time, maximum value of $\beta$ in \textit{HM} is calculated based on Eq(6). 
-
 Fig.~\ref{Fig4} shows the Hierarchical Model simulation results. Comparing \textit{HMs} with \textit{RRM}, \textit{CR} and \textit{PCR} are all increased remarkably. \textit{HMs} have more positive consensus part than \textit{RRM}. It shows that as the number of B nodes are decreased, it is easy to make positive consensus. Comparing \textit{HM(16)} with other \textit{HMs}, \textit{HM(16)} has the most positive consensus part. In case of models where the number of nodes in layer B is less than \textit{HM(16)},  \textit{CR} and \textit{PCR} of the models are decreased and \textit{NCR} is increased slightly. Also, for models where the number of nodes in layer B is more than \textit{HM(16)}, \textit{CR} and \textit{PCR} are also decreased. However, \textit{HM(4)} has the most \textit{AS total}. Although \textit{HM(4)} doesn't have the most consensus part, it has more intensity for positive social opinion. It can be analyzed that strong social intensity usually can not make more consensus. These results indicate that network structure can contribute more for consensus. 
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=\hsize]{FIG4.png}
-	\caption{Hierarchical Model(\textit{HM(n)})}
-	\label{Fig4}
+	\includegraphics[width=\hsize]{chap3_HMs_total.png}
+	\caption{Simulation results of Hierarchical Models(\textit{HM(n)})}
+	\label{chap3_HMs_total}
 \end{figure}
 
 In summary, all the Hierarchical Models have more consensus ratio than Random Regular Networks Model. Among \textit{HMs}, \textit{HM(16)} has the most positive consensus part. When the number of nodes in layer B is more or less than \textit{HM(16)}, \textit{CR} and \textit{PCR} are decreased. This shows that there exists an efficient number for the decision making layer to perform positive consensus.  
@@ -110,6 +100,7 @@ Here, we use \textit{Barabasi-Albert network(BA)} structure as introduced in \ci
 
 \section{Conclusion}
 \begin{table}[!htb]
+	\scriptsize
 	\centering
     \caption{Consensus properties of Simulation Models}
 	\label{Consensus properties of Simulation Models}
