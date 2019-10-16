@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  9 OCT 2019 17:52
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  16 OCT 2019 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2943,23 +2943,15 @@ Overfull \hbox (23.4394pt too wide) detected at line 28
 \T1/ntxtlf/m/n/12.045 Figure 4--6 
  []
 
-[7
-
-]
-Overfull \hbox (23.4394pt too wide) detected at line 29
-\T1/ntxtlf/m/n/12.045 Figure 4--7 
- []
-
-
-Overfull \hbox (23.4394pt too wide) detected at line 30
-\T1/ntxtlf/m/n/12.045 Figure 4--8 
- []
-
 )
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [8] (./thesis.lot
+ [7
+
+] [8
+
+] (./thesis.lot
 Overfull \hbox (18.69368pt too wide) detected at line 6
 \T1/ntxtlf/m/n/12.045 Table 3--1 
  []
@@ -2973,9 +2965,7 @@ Overfull \hbox (18.69368pt too wide) detected at line 8
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [9
-
-] [10
+ [9] [10
 
 ] (./thesis.loa)
 \tf@loa=\write9
@@ -3215,10 +3205,14 @@ LaTeX Warning: Citation 'vazquez2010' on page 9 undefined on input line 74.
 
 File: figure/chap2_dynamics.png Graphic file (type bmp)
 <figure/chap2_dynamics.png>
-[9] [10]
+[9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
 File: figure/chap2_timeflow_AS(BA3_BA3).png Graphic file (type bmp)
 <figure/chap2_timeflow_AS(BA3_BA3).png>
- [11]
+
+[11]
 File: figure/chap2_CI_values.png Graphic file (type bmp)
 <figure/chap2_CI_values.png>
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
@@ -3233,55 +3227,9 @@ LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 7.0pt on input line 128.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 5.0pt on input line 128.
-
-! Undefined control sequence.
-l.131 ...me orientation in two layers makes \texit
-                                                  {CI} 0. Opposite orientati...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.131 ...ientation between two layers makes \texit
-                                                  {CI} 1. And Mixed orientat...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.131 ...ed orientation in two layers makes \texit
-                                                  {CI} close to 0.5.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 File: figure/chap2_timeflow_CI(BA3_BA3).png Graphic file (type bmp)
 <figure/chap2_timeflow_CI(BA3_BA3).png>
-! Undefined control sequence.
-l.139 ...chap2_timeflow_CI(BA3_BA3)} shown, \texit
-                                                  {CI} values are convergent...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.139 ...values means mixed state. By using \texit
-                                                  {CI}, coexistence states c...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[12]
+ [12]
 File: figure/chap2_AS_total(BA3_BA3).png Graphic file (type bmp)
 <figure/chap2_AS_total(BA3_BA3).png>
  [13]) [14]
@@ -3319,12 +3267,12 @@ File: figure/chap3_changing_internal_edges.png Graphic file (type bmp)
 <figure/chap3_changing_internal_edges.png>
 
 
-LaTeX Warning: File `figure/FIG5.png' not found on input line 81.
+LaTeX Warning: File `figure/FIG5.png' not found on input line 85.
 
 ! Unable to load picture or PDF file 'figure/FIG5.png'.
 <to be read again> 
                    }
-l.81 ...udegraphics[width=\hsize]{figure/FIG5.png}
+l.85 ...udegraphics[width=\hsize]{figure/FIG5.png}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -3336,7 +3284,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 ...udegraphics[width=\hsize]{figure/FIG5.png}
+l.85 ...udegraphics[width=\hsize]{figure/FIG5.png}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3352,10 +3300,10 @@ File: figure/chap3_changing_structure_type.png Graphic file (type bmp)
 <figure/chap3_changing_structure_type.png>
 
 
-LaTeX Warning: Citation 'barabasi1999' on page 20 undefined on input line 99.
+LaTeX Warning: Citation 'barabasi1999' on page 20 undefined on input line 103.
 
 
-LaTeX Warning: Reference `Fig6' on page 20 undefined on input line 99.
+LaTeX Warning: Reference `Fig6' on page 20 undefined on input line 103.
 
 ) [20] [21]
 \openout2 = `tex/chap4.aux'.
@@ -3367,83 +3315,15 @@ LaTeX Warning: Reference `Fig6' on page 20 undefined on input line 99.
 ]
 Chapter 4
 
-LaTeX Warning: Citation 'barabasi1999' on page 23 undefined on input line 17.
+LaTeX Warning: Citation 'barabasi1999' on page 23 undefined on input line 15.
 
 
-LaTeX Warning: Reference `AS_2d' on page 23 undefined on input line 19.
-
-
-LaTeX Warning: Reference `p_v_AS_3d' on page 23 undefined on input line 19.
-
-
-LaTeX Warning: Reference `AS_2d' on page 23 undefined on input line 19.
-
-
-LaTeX Warning: Reference `AS_2d' on page 23 undefined on input line 20.
-
-
-LaTeX Warning: Reference `p_v_AS_3d' on page 23 undefined on input line 23.
-
-
-LaTeX Warning: File `figure/timeflow_AS.png' not found on input line 27.
-
-! Unable to load picture or PDF file 'figure/timeflow_AS.png'.
-<to be read again> 
-                   }
-l.27 ...hics[width=\hsize]{figure/timeflow_AS.png}
-                                                  
-The requested image couldn't be read because
-it was not a recognized image format.
-
-
-! Package graphics Error: Division by 0.
-
-See the graphics package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 ...hics[width=\hsize]{figure/timeflow_AS.png}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-File: figure/timeflow_AS.png Graphic file (type bmp)
-<figure/timeflow_AS.png>
-
-LaTeX Warning: File `figure/timeflow_CI.png' not found on input line 35.
-
-! Unable to load picture or PDF file 'figure/timeflow_CI.png'.
-<to be read again> 
-                   }
-l.35 ...hics[width=\hsize]{figure/timeflow_CI.png}
-                                                  
-The requested image couldn't be read because
-it was not a recognized image format.
-
-
-! Package graphics Error: Division by 0.
-
-See the graphics package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 ...hics[width=\hsize]{figure/timeflow_CI.png}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-File: figure/timeflow_CI.png Graphic file (type bmp)
-<figure/timeflow_CI.png>
-[23]
-
-LaTeX Warning: File `figure/layerorder.png' not found on input line 89.
+LaTeX Warning: File `figure/layerorder.png' not found on input line 64.
 
 ! Unable to load picture or PDF file 'figure/layerorder.png'.
 <to be read again> 
                    }
-l.89 ...phics[width=\hsize]{figure/layerorder.png}
+l.64 ...phics[width=\hsize]{figure/layerorder.png}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -3455,7 +3335,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.89 ...phics[width=\hsize]{figure/layerorder.png}
+l.64 ...phics[width=\hsize]{figure/layerorder.png}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3463,18 +3343,18 @@ or  <return>  to continue without it.
 
 File: figure/layerorder.png Graphic file (type bmp)
 <figure/layerorder.png>
-[24]
-Underfull \vbox (badness 4792) has occurred while \output is active []
+[23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
-File: figure/nodeorder.png Graphic file (type bmp)
-<figure/nodeorder.png>
+ [24]
+File: figure/chap4_nodeorder.png Graphic file (type bmp)
+<figure/chap4_nodeorder.png>
 
 Underfull \vbox (badness 1728) has occurred while \output is active []
 
- [26]
-File: figure/edgeorder_explanation.png Graphic file (type bmp)
-<figure/edgeorder_explanation.png>
+ [25]
+File: figure/chap4_edgeorder_explanation.png Graphic file (type bmp)
+<figure/chap4_edgeorder_explanation.png>
 
 
 ! Package enumitem Error: (1) undefined.
@@ -3483,52 +3363,68 @@ See the enumitem package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 \begin{enumerate}[(1)]
-                            
+l.94 \begin{enumerate}[(1)]
+                           
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[27]
-File: figure/edgeorder.png Graphic file (type bmp)
-<figure/edgeorder.png>
- [28]
-File: figure/ordertotal.png Graphic file (type bmp)
-<figure/ordertotal.png>
-File: figure/ordertotal2.png Graphic file (type bmp)
-<figure/ordertotal2.png>
- [29]) [30]
+[26]
+File: figure/chap4_edgeorder.png Graphic file (type bmp)
+<figure/chap4_edgeorder.png>
+ [27]
+File: figure/chap4_ordertotal.png Graphic file (type bmp)
+<figure/chap4_ordertotal.png>
+File: figure/chap4_ordertotal2.png Graphic file (type bmp)
+<figure/chap4_ordertotal2.png>
+ [28]) [29]
 
-LaTeX Warning: Text page 31 contains only floats.
+LaTeX Warning: Text page 30 contains only floats.
 
 
 Overfull \vbox (5.87914pt too high) has occurred while \output is active []
 
 
-[31]
+[30]
 \openout2 = `tex/chap5.aux'.
 
- (./tex/chap5.tex [32
+ (./tex/chap5.tex
+Chapter 5
+
+! Package enumitem Error: (1) undefined.
+
+See the enumitem package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \begin{enumerate}[(1)]
+                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31
 
 
 
 ]
-Chapter 5
-) [33]
+[32]
 \openout2 = `tex/chap6.aux'.
 
- (./tex/chap6.tex [34
-
-
-
-]
+ (./tex/chap6.tex
 Chapter 6
-[35]) [36]
+[33
+
+
+
+]) [34]
 
 LaTeX Warning: Empty bibliography on input line 88.
 
 \openout2 = `tex/ack.aux'.
 
-(./tex/ack.tex) [37
+(./tex/ack.tex) [35
 
 
 
@@ -3536,14 +3432,14 @@ LaTeX Warning: Empty bibliography on input line 88.
 ]
 \openout2 = `tex/pub.aux'.
 
- (./tex/pub.tex [38
+ (./tex/pub.tex [36
 
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 12.045pt on input line 11.
-) [39]
+) [37]
 
 AED: pageslts setting LastPage 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
@@ -3564,7 +3460,7 @@ Package pageslts Info: Total number of pages is odd.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 725ABC481514536EDE993B8C8A2BBBD6.
+(rerunfilecheck)             Checksum: 8316611AD58A4094CB7A8C5221B39041.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3585,12 +3481,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53742 strings out of 492933
- 1074445 string characters out of 6134842
- 1609536 words of memory out of 5000000
- 56799 multiletter control sequences out of 15000+600000
+ 53728 strings out of 492933
+ 1074314 string characters out of 6134842
+ 1608302 words of memory out of 5000000
+ 56787 multiletter control sequences out of 15000+600000
  659644 words of font info for 213 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,17n,94p,1552b,1357s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (61 pages).
+Output written on thesis.pdf (59 pages).

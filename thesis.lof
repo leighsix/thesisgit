@@ -20,14 +20,12 @@
 \contentsline {figure}{\numberline {3--7}{\ignorespaces Comparison of Networks with different internal degrees(\textit {RR(n)-RR(m)}: layer A has random regular network with $n$ internal edges, layer B has random regular network with $m$ internal edges)\relax }}{19}{figure.caption.22}% 
 \contentsline {figure}{\numberline {3--8}{\ignorespaces Competition on interconnected networks with different structures\relax }}{20}{figure.caption.23}% 
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {4--1}{\ignorespaces Two layer networks with sequential updating rule : \textit {steps-AS} changing with all $p$ and $v$\relax }}{23}{figure.caption.25}% 
-\contentsline {figure}{\numberline {4--2}{\ignorespaces Two layer networks with sequential updating rule :\textit {steps-CI} changing with all $p$ and $v$\relax }}{24}{figure.caption.26}% 
-\contentsline {figure}{\numberline {4--3}{\ignorespaces Simulation results according to orders of layers\relax }}{25}{figure.caption.28}% 
-\contentsline {figure}{\numberline {4--4}{\ignorespaces Simulation results according to orders of nodes: comparison between order of nodes under same conditions such as order of layers and edges.\relax }}{26}{figure.caption.29}% 
-\contentsline {figure}{\numberline {4--5}{\ignorespaces one node connected with other nodes changes its state with sequential or simultaneous order of edges\relax }}{27}{figure.caption.30}% 
-\contentsline {figure}{\numberline {4--6}{\ignorespaces Simulation results according to orders of edges: comparison between order of edges under same conditions such as order of layers and nodes\relax }}{28}{figure.caption.31}% 
-\contentsline {figure}{\numberline {4--7}{\ignorespaces Total results of 25 updating rules with \textit {AS}\relax }}{29}{figure.caption.32}% 
-\contentsline {figure}{\numberline {4--8}{\ignorespaces Total results of 25 updating rules with \textit {CI}\relax }}{31}{figure.caption.33}% 
+\contentsline {figure}{\numberline {4--1}{\ignorespaces Simulation results according to orders of layers\relax }}{24}{figure.caption.26}% 
+\contentsline {figure}{\numberline {4--2}{\ignorespaces Simulation results according to orders of nodes: comparison between order of nodes under same conditions such as order of layers and edges.\relax }}{25}{figure.caption.27}% 
+\contentsline {figure}{\numberline {4--3}{\ignorespaces one node connected with other nodes changes its state with sequential or simultaneous order of edges\relax }}{26}{figure.caption.28}% 
+\contentsline {figure}{\numberline {4--4}{\ignorespaces Simulation results according to orders of edges: comparison between order of edges under same conditions such as order of layers and nodes\relax }}{27}{figure.caption.29}% 
+\contentsline {figure}{\numberline {4--5}{\ignorespaces Total results of 25 updating rules with \textit {AS}\relax }}{28}{figure.caption.30}% 
+\contentsline {figure}{\numberline {4--6}{\ignorespaces Total results of 25 updating rules with \textit {CI}\relax }}{30}{figure.caption.31}% 
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}

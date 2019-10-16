@@ -13,9 +13,15 @@
 \label{chap:finding key nodes on two layer networks}
 In this chapter, it would be investigated that what nodes are important for keep orientation on two-layer networks. There exist many methods to find key nodes, such as pagerank, degree centrality, and eigenvector centrality. Based on these methods, it would be researched that which method is the most effective and the most influential for changing state on two layers.  
 
-Here is the way to find key nodes on two-layer networks by using centrality. All nodes are ranked by node centrality, and the ratio of unchanged nodes are increased according to ranked order, until the average states of network have different states. 
-When the ratio of unchanged nodes according to node centrality is the least, that centrality is the most influential property for interconnected network.
-As initial condition for finding key nodes, each layer is made of BA network with 2048 nodes and 1 external edge. 
+\section{Method for finding key nodes}
+We would find important nodes on two-layer networks by using node centrality. Here is the way to find key nodes.
+\begin{enumerate}[(1)]
+	\item All nodes are ranked by 6 node centralities(pagerank, degree, eigenvector, closeness, betweenness, random).
+	\item The nodes would be deactivated from high ranked order until the state of network has significant difference, i.e. the ratio of stubborn node would be increased according to high ranked order. 
+	\item The results would be compared according to node centralities. If the least ratio of stubborn node makes the largest difference of network state, its node centrality is the most influential for competition of the interconnected network
+\end{enumerate}
+
+As initial condition for finding key nodes, each layer is made of BA network with $2048$ nodes and $1$ external edge. Each simulation takes $100$ steps, and $100$ simulations are considered for average results. To demonstrate the difference of network state clearly, for finding key nodes on layer A, the parameters would be set to be negative state. Then, as the stubborn nodes on layer A are increased, the network state would be gradually changed into positive state.  Inversely for finding key nodes on layer B, the parameters would be set to be positive. Then, as the stubborn nodes on layer B are increased, the network state would be gradually changed into negative state.   
 
 \section{Key nodes on layer A}
 
@@ -26,5 +32,6 @@ As initial condition for finding key nodes, each layer is made of BA network wit
 
 
 \section{Key nodes on two layers with different structures}
+
 
 \section{Conclusion}
