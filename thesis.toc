@@ -10,18 +10,18 @@
 \contentsline {chapter}{\numberline {Chapter 2}Modeling and Analysis}{7}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}Modeling of two layer network}{7}{section.2.1}% 
 \contentsline {section}{\numberline {2.2}Simulations and Analysis}{9}{section.2.2}% 
-\contentsline {chapter}{\numberline {Chapter 3}Competition on two layer with different structural network}{15}{chapter.3}% 
+\contentsline {chapter}{\numberline {Chapter 3}Competition on two layer with various structural network}{15}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Competition on Random Regular Networks}{15}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Competition on Networks with different number of external links}{16}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Competition on Networks with different number of internal links}{18}{section.3.3}% 
+\contentsline {section}{\numberline {3.2}Competition on Networks with different number of external links}{17}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Competition on Networks with different number of internal links}{19}{section.3.3}% 
 \contentsline {section}{\numberline {3.4}Competition on Networks with different structures}{20}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Conclusion}{20}{section.3.5}% 
+\contentsline {section}{\numberline {3.5}Conclusion}{21}{section.3.5}% 
 \contentsline {chapter}{\numberline {Chapter 4}Competition on two layer with various updating rules}{23}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Order of layers}{23}{section.4.1}% 
 \contentsline {section}{\numberline {4.2}Order of nodes}{25}{section.4.2}% 
 \contentsline {section}{\numberline {4.3}Order of edges}{26}{section.4.3}% 
 \contentsline {section}{\numberline {4.4}Comparison and Analysis}{28}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Conclusion}{29}{section.4.5}% 
+\contentsline {section}{\numberline {4.5}Conclusion}{28}{section.4.5}% 
 \contentsline {chapter}{\numberline {Chapter 5}Finding key nodes on two layer networks}{31}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Method for finding key nodes}{31}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Key nodes on layer A}{32}{section.5.2}% 
@@ -31,5 +31,5 @@
 \contentsline {chapter}{\numberline {Chapter 6}Conclusion}{33}{chapter.6}% 
 \contentsline {section}{\numberline {6.1}Summary}{33}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Discussion}{34}{section.6.2}% 
-\contentsline {chapter}{Acknowledgements}{35}{appendix*.32}% 
-\contentsline {chapter}{Publications}{37}{appendix*.33}% 
+\contentsline {chapter}{Acknowledgements}{35}{appendix*.33}% 
+\contentsline {chapter}{Publications}{37}{appendix*.34}% 

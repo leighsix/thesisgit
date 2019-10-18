@@ -2,7 +2,7 @@
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {1--1}{\ignorespaces Comparison between single layer and multi layer\relax }}{2}{figure.caption.8}% 
-\contentsline {figure}{\numberline {1--2}{\ignorespaces The example of competition on two-layer network\relax }}{5}{figure.caption.9}% 
+\contentsline {figure}{\numberline {1--2}{\ignorespaces The example of competition on two-layer network\relax }}{6}{figure.caption.9}% 
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {2--1}{\ignorespaces Competition of Interconnected Network\relax }}{7}{figure.caption.10}% 
 \contentsline {figure}{\numberline {2--2}{\ignorespaces Dynamics on two layers\relax }}{10}{figure.caption.11}% 
@@ -11,21 +11,22 @@
 \contentsline {figure}{\numberline {2--5}{\ignorespaces CI values according to all ${K_ + }^A$ and ${K_ + }^B$ \relax }}{13}{figure.caption.14}% 
 \contentsline {figure}{\numberline {2--6}{\ignorespaces The example of simulation : BA-BA network\relax }}{14}{figure.caption.15}% 
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {3--1}{\ignorespaces Competition on random regular network\relax }}{15}{figure.caption.16}% 
+\contentsline {figure}{\numberline {3--1}{\ignorespaces Competition on random regular network\relax }}{16}{figure.caption.16}% 
 \contentsline {figure}{\numberline {3--2}{\ignorespaces (a) $p$-\textit {AS} chart according to certain $v$ values. (b) $v$-\textit {AS} chart according to certain $p$ values.\relax }}{16}{figure.caption.17}% 
 \contentsline {figure}{\numberline {3--3}{\ignorespaces simulation result : \textit {AS} changing with all $p$ and $v$\relax }}{17}{figure.caption.18}% 
 \contentsline {figure}{\numberline {3--4}{\ignorespaces Competition on hierarchical model\relax }}{17}{figure.caption.19}% 
-\contentsline {figure}{\numberline {3--5}{\ignorespaces Simulation results of Hierarchical Models(\textit {HM(n)})\relax }}{18}{figure.caption.20}% 
-\contentsline {figure}{\numberline {3--6}{\ignorespaces Competition on interconnected networks with different internal edges\relax }}{19}{figure.caption.21}% 
-\contentsline {figure}{\numberline {3--7}{\ignorespaces Comparison of Networks with different internal degrees(\textit {RR(n)-RR(m)}: layer A has random regular network with $n$ internal edges, layer B has random regular network with $m$ internal edges)\relax }}{19}{figure.caption.22}% 
-\contentsline {figure}{\numberline {3--8}{\ignorespaces Competition on interconnected networks with different structures\relax }}{20}{figure.caption.23}% 
+\contentsline {figure}{\numberline {3--5}{\ignorespaces Competition on hierarchical model\relax }}{18}{figure.caption.20}% 
+\contentsline {figure}{\numberline {3--6}{\ignorespaces Simulation results of Hierarchical Models(\textit {HM(n)})\relax }}{19}{figure.caption.21}% 
+\contentsline {figure}{\numberline {3--7}{\ignorespaces Competition on interconnected networks with different internal edges\relax }}{20}{figure.caption.22}% 
+\contentsline {figure}{\numberline {3--8}{\ignorespaces Comparison of Networks with different internal degrees(\textit {RR(n)-RR(m)}: layer A has random regular network with $n$ internal edges, layer B has random regular network with $m$ internal edges)\relax }}{20}{figure.caption.23}% 
+\contentsline {figure}{\numberline {3--9}{\ignorespaces Competition on interconnected networks with different structures\relax }}{21}{figure.caption.24}% 
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {4--1}{\ignorespaces Simulation results according to orders of layers\relax }}{24}{figure.caption.26}% 
-\contentsline {figure}{\numberline {4--2}{\ignorespaces Simulation results according to orders of nodes: comparison between order of nodes under same conditions such as order of layers and edges.\relax }}{25}{figure.caption.27}% 
-\contentsline {figure}{\numberline {4--3}{\ignorespaces one node connected with other nodes changes its state with sequential or simultaneous order of edges\relax }}{26}{figure.caption.28}% 
-\contentsline {figure}{\numberline {4--4}{\ignorespaces Simulation results according to orders of edges: comparison between order of edges under same conditions such as order of layers and nodes\relax }}{27}{figure.caption.29}% 
-\contentsline {figure}{\numberline {4--5}{\ignorespaces Total results of 25 updating rules with \textit {AS}\relax }}{28}{figure.caption.30}% 
-\contentsline {figure}{\numberline {4--6}{\ignorespaces Total results of 25 updating rules with \textit {CI}\relax }}{30}{figure.caption.31}% 
+\contentsline {figure}{\numberline {4--1}{\ignorespaces Simulation results according to orders of layers\relax }}{24}{figure.caption.27}% 
+\contentsline {figure}{\numberline {4--2}{\ignorespaces Simulation results according to orders of nodes: comparison between order of nodes under same conditions such as order of layers and edges.\relax }}{25}{figure.caption.28}% 
+\contentsline {figure}{\numberline {4--3}{\ignorespaces one node connected with other nodes changes its state with sequential or simultaneous order of edges\relax }}{26}{figure.caption.29}% 
+\contentsline {figure}{\numberline {4--4}{\ignorespaces Simulation results according to orders of edges: comparison between order of edges under same conditions such as order of layers and nodes\relax }}{27}{figure.caption.30}% 
+\contentsline {figure}{\numberline {4--5}{\ignorespaces Total results of 25 updating rules with \textit {AS}\relax }}{29}{figure.caption.31}% 
+\contentsline {figure}{\numberline {4--6}{\ignorespaces Total results of 25 updating rules with \textit {CI}\relax }}{30}{figure.caption.32}% 
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
