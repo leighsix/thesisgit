@@ -14,22 +14,22 @@
 \contentsline {section}{\numberline {3.1}Competition on Random Regular Networks}{15}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Competition on Networks with different number of external links}{17}{section.3.2}% 
 \contentsline {section}{\numberline {3.3}Competition on Networks with different number of internal links}{19}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Competition on Networks with different structures}{20}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Conclusion}{21}{section.3.5}% 
-\contentsline {chapter}{\numberline {Chapter 4}Competition on two layer with various updating rules}{23}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Order of layers}{23}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Order of nodes}{25}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Order of edges}{26}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Comparison and Analysis}{28}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Conclusion}{28}{section.4.5}% 
-\contentsline {chapter}{\numberline {Chapter 5}Finding key nodes on two layer networks}{31}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Method for finding key nodes}{31}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Key nodes on layer A}{32}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Key nodes on layer B}{32}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Key nodes on two layers with different structures}{32}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Conclusion}{32}{section.5.5}% 
-\contentsline {chapter}{\numberline {Chapter 6}Conclusion}{33}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Summary}{33}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}Discussion}{34}{section.6.2}% 
-\contentsline {chapter}{Acknowledgements}{35}{appendix*.33}% 
-\contentsline {chapter}{Publications}{37}{appendix*.34}% 
+\contentsline {section}{\numberline {3.4}Competition on Networks with different structures}{21}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Conclusion}{23}{section.3.5}% 
+\contentsline {chapter}{\numberline {Chapter 4}Competition on two layer with various updating rules}{25}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Order of layers}{25}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Order of nodes}{27}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Order of edges}{28}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Comparison and Analysis}{30}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Conclusion}{30}{section.4.5}% 
+\contentsline {chapter}{\numberline {Chapter 5}Finding key nodes on two layer networks}{33}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Method for finding key nodes}{33}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Key nodes on layer A}{34}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Key nodes on layer B}{34}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Key nodes on two layers with different structures}{34}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Conclusion}{34}{section.5.5}% 
+\contentsline {chapter}{\numberline {Chapter 6}Conclusion}{35}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Summary}{35}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Discussion}{36}{section.6.2}% 
+\contentsline {chapter}{Acknowledgements}{37}{appendix*.35}% 
+\contentsline {chapter}{Publications}{39}{appendix*.36}% 

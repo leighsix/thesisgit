@@ -75,24 +75,55 @@ To clearly find out the difference between models, we use the indexes, \textit{P
 In summary, all the Hierarchical Models have more consensus ratio than Random Regular Networks Model. However, positive consensus ratio is increased, but negative consensus ratio is decreased. It is found out that as the number of B nodes are more decreased, it makes easier to make positive consensus and harder to make negative consensus. In real world, it would be analyzed that as the number of leaders is less, social conflict are decreased and the opinion is convergent to social opinion(layer A). But, sometimes there are some dangers to ignore the leader opinion(layer B), or to cause more social conflict when there are stubborn leaders. 
 
 \section{Competition on Networks with different number of internal links}
-Next, the interconnected networks are simulated with different internal degrees in order to define and evaluate the influence of internal degrees. The number of internal degrees on each node is switched to various numbers as shown in Fig.~\ref{chap3_changing_internal_edges}. But, there is no change on external degree, which would be fixed to only $1$.
-
+Next, the interconnected networks are simulated with different internal degrees in order to define and evaluate the influence of internal degrees. Random regular network would be applied. And the number of internal degrees on each node is switched to various numbers as shown in Fig.~\ref{chap3_changing_internal_edges}. But, there is no change on external degree, which would be fixed to only $1$. Here, \textit{RR(n)-RR(m)} represents layer A has random regular network with $n$ internal edges, layer B has random regular network with $m$ internal edges.
 \begin{figure*}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{chap3_changing_internal_edges.png}
 	\caption{Competition on interconnected networks with different internal edges}
 	\label{chap3_changing_internal_edges}
 \end{figure*}
+Firstly, the internal degrees on layer A are changed. The internal degrees on layer B are fixed to $5,120$, which means each node has $5$ internal degrees on layer B, and the internal degrees on layer A are switched into $2,048$, $3,072$, $4,096$, or $5,120$, which means each node has $2$, $3$, $4$, or $5$ internal degrees on layer A. Fig.~\ref{chap3_internal_edge_A_total} shows the simulation results for changing the internal degrees on layer A. As shows in Fig.~\ref{chap3_internal_edge_A} (a), as the number of internal degrees on layer A is increased, the red part is decreased and the blue part is increased.  
+   
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{chap3_internal_edge_A_total.png}
+	\caption{Simulation results with different internal degrees on layer A}
+	\label{chap3_internal_edge_A_total}
+\end{figure}
+
+To clearly compare and analyze the results, the results are presented with the indexes, \textit{PCR, NCR, AS total} in Fig.~\ref{chap3_internal_edge_A_total} (b), which shows that as the number of internal degrees on layer A is increased, negative consensus is decreased and positive consensus is increased. As shown in Fig.~\ref{chap3_internal_edge_A_total}, RR(5)-RR(5) has the most \textit{PCR}, and RR(2)-RR(5) has the most \text{NCR}. However, \textit{CR} is almost same with all models in Fig.~\ref{chap3_interal_edge_A_total}. It can be analyzed that the number of internal degrees on layer A has the tendency to keep positive state and to change negative state into positive state. 
+
+Next, the internal degrees on layer B are changed. The internal degrees on layer A are fixed to  $5,120$, which means each node has $5$ internal degrees on layer A, and the internal degrees on layer B are switched into $2,048$, $3,072$, $4,096$, or $5,120$, which means each node has $2$, $3$, $4$, or $5$ internal degrees on layer B.  
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{chap3_internal_edge_B_total.png}
+	\caption{Simulation results with different internal degrees on layer B}
+	\label{chap3_internal_edge_B_total}
+\end{figure}
+
+Fig.~\ref{chap3_internal_edge_B_total} shows the simulation results with changing the number of internal degrees on layer B. As shows in Fig.~\ref{chap3_internal_edge_B} (a), as the number of internal degrees on layer B is increased, the blue part is decreased, the white and light color part is increased, and the red part is almost same, though the shape of red area is changed.  As shown in Fig.~\ref{chap3_internal_edge_B_total} (b), RR(5)-RR(2) has the most \textit{PCR} and \textit{CR}, and RR(5)-RR(5) has the least \text{PCR} and \textit{CR}. However, \textit{NCR} is almost same with all models in Fig.~\ref{chap3_interal_edge_B_total}. It can be analyzed that the number of internal degrees on layer B has the tendency to hinder positive state and has the inverse relation with \textit{CR}. As the number of internal degrees on layer B is increased, \textit{PCR} and \textit{CR} is inversely decreased. It is recognized that the role of internal degrees on layer A is different with internal degrees on layer B. The internal degrees on layer A has the function to keep the state of layer A, and the internal degrees on layer B has the function to restrain the state of layer A and make coexistence part. 
+
+Next, it is simulated that internal degrees are changed on both layer A and layer B, such as RR(2)-RR(2), RR(3)-RR(3), RR(4)-RR(4) and RR(5)-RR(5). Through these simulations, it would be found out that how total internal degrees affect the interconnected network.
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=\hsize]{FIG5.png}
-	\caption{Comparison of Networks with different internal degrees(\textit{RR(n)-RR(m)}: layer A has random regular network with $n$ internal edges, layer B has random regular network with $m$ internal edges)}
-	\label{Fig5}
+	\includegraphics[width=\hsize]{chap3_internal_edge_two_total.png}
+	\caption{Simulation results with different internal degrees on layer B}
+	\label{chap3_internal_edge_two_total}
 \end{figure}
+  
 
 
-Fig.~\ref{Fig5} shows the simulation results with changing the number of internal edges. \textit{RR(5)-RR(2)} has the most \textit{PCR}. \textit{RR(2)-RR(5)} has the most \textit{NCR}. When the number of internal edges in layer A are more than layer B, it has more positive consensus. On the other hand, when the number of internal edges in layer B are more than layer A, it has relatively more negative consensus. These results provide that the number of edges on layer A has the tendency to keep positive state, and the number of edges on layer B has the tendency to keep negative state. The number of internal edges have the influence on consensus result and a layer with more internal edges has the tendency to maintain its own state. In case of networks with same internal edges, \textit{RR(2)-RR(2)} has more \textit{PCR} and \textit{AS total} than \textit{RR(5)-RR(5)}. It can be analyzed that \textit{RR(5)-RR(5)} is hard to make consensus, because it has more internal edges to cause inner conflict. Also, \textit{RR(2)-RR(2)} has less \textit{NCR} than \textit{RR(5)-RR(5)}. It shows that the number of internal edges in layer B is more sensitive than layer A. As Eq(1) shows, layer B dynamics can have more various and extreme probabilities when it has more degrees. For example, in case of \textit{RR(2)-RR(2)} with $\beta = 1$, the dynamics starts with $P_B=1/3$ and in case of \textit{RR(5)-RR(5)} with $\beta = 1$, the dynamics starts with $P_B=1/6$.    
+
+In summary,  
+\textit{RR(5)-RR(2)} has the most \textit{PCR}. \textit{RR(2)-RR(5)} has the most \textit{NCR}. When the number of internal edges in layer A are more than layer B, it has more positive consensus. On the other hand, when the number of internal edges in layer B are more than layer A, it has relatively more negative consensus. These results provide that the number of edges on layer A has the tendency to keep positive state, and the number of edges on layer B has the tendency to keep negative state. The number of internal edges have the influence on consensus result and a layer with more internal edges has the tendency to maintain its own state. In case of networks with same internal edges, \textit{RR(2)-RR(2)} has more \textit{PCR} and \textit{AS total} than \textit{RR(5)-RR(5)}. It can be analyzed that \textit{RR(5)-RR(5)} is hard to make consensus, because it has more internal edges to cause inner conflict. Also, \textit{RR(2)-RR(2)} has less \textit{NCR} than \textit{RR(5)-RR(5)}. It shows that the number of internal edges in layer B is more sensitive than layer A. As Eq(1) shows, layer B dynamics can have more various and extreme probabilities when it has more degrees. For example, in case of \textit{RR(2)-RR(2)} with $\beta = 1$, the dynamics starts with $P_B=1/3$ and in case of \textit{RR(5)-RR(5)} with $\beta = 1$, the dynamics starts with $P_B=1/6$. 
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{chap3_internal_edge_AB_total.png}
+	\caption{Simulation results with different internal degrees on two layers}
+	\label{chap3_internal_edge_AB_total}
+\end{figure}
 
 \section{Competition on Networks with different structures}
 So far, each layer of the interconnected network consisted of random regular networks that has the same number of edges for each node. Now, the simulation would be implemented on different network type. Here, we use \textit{Barabasi-Albert network(BA)} structure as introduced in \cite{barabasi1999}. \textit{Barabasi-Albert(BA)} network has $N$ nodes with attaching new nodes each with $K$ edges that are preferentially attached to existing nodes with high degree. But, there is no change on external degree, which would be fixed to only $1$.
@@ -121,7 +152,7 @@ To evaluate the influence of network structure, 5 simulations are implemented wi
 			RR(4)-RR(5)            & 2,048  & 2,048   & 4,096   & 5,120   &  0.0804   & 0.2250 & 0.2275 & 0.4525   \\ \hline
 			RR(5)-RR(2)            & 2,048 	& 2,048   & 5,120   & 2,048   &  0.4927   & 0.6725 & 0.1725 & 0.8450   \\ \hline 
 			RR(5)-RR(3)            & 2,048 	& 2,048   & 5,120   & 3,072   &  0.3555   & 0.3800 & 0.1525 & 0.5325   \\ \hline
-			RR(5)-RR(4)            & 2,048  & 2,048   & 5,120   & 4,096   & 0.5658    & 0.4828 & 0.0637 & 0.5466   \\ \hline
+			RR(5)-RR(4)            & 2,048  & 2,048   & 5,120   & 4,096   &  0.2633   & 0.2850 & 0.1525 & 0.4375   \\ \hline
 			RR(2)-RR(2)            & 2,048  & 2,048   & 2,048   & 2,048   & -0.1412   & 0.1475 & 0.4050 & 0.5525   \\ \hline
 			RR(3)-RR(3)            & 2,048  & 2,048   & 3,072   & 3,072   & 0.5658    & 0.4828 & 0.0637 & 0.5466   \\ \hline
 			RR(4)-RR(4)            & 2,048  & 2,048   & 4,096   & 4,096   & 0.5658    & 0.4828 & 0.0637 & 0.5466   \\ \hline
