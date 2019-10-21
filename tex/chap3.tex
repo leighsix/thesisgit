@@ -111,7 +111,9 @@ Next, it is simulated that internal degrees are changed on both layer A and laye
 	\caption{Simulation results with different internal degrees on layer B}
 	\label{chap3_internal_edge_two_total}
 \end{figure}
-  
+
+
+Fig.~\ref{chap3_internal_edge_two_total} presents that as the total number of internal degrees is increased, \textit{CR} is inversely decreased. 
 
 
 
@@ -126,8 +128,7 @@ In summary,
 \end{figure}
 
 \section{Competition on Networks with different structures}
-So far, each layer of the interconnected network consisted of random regular networks that has the same number of edges for each node. Now, the simulation would be implemented on different network type. Here, we use \textit{Barabasi-Albert network(BA)} structure as introduced in \cite{barabasi1999}. \textit{Barabasi-Albert(BA)} network has $N$ nodes with attaching new nodes each with $K$ edges that are preferentially attached to existing nodes with high degree. But, there is no change on external degree, which would be fixed to only $1$.
-
+So far, each layer of the interconnected network consisted of \textit{RR(random regular networks)} that has the same number of edges for each node. Now, the simulation would be implemented on different network type. Here, we use \textit{Barabasi-Albert network(BA)} structure as introduced in \cite{barabasi1999}. \textit{Barabasi-Albert(BA)} network has $N$ nodes with attaching new nodes each with $K$ edges that are preferentially attached to existing nodes with high degree. But, there is no change on external degree, which would be fixed to only $1$.
 
 \begin{figure}[!htb]
 	\centering
@@ -135,7 +136,16 @@ So far, each layer of the interconnected network consisted of random regular net
 	\caption{Competition on interconnected networks with different structures}
 	\label{chap3_changing_structure_type}
 \end{figure}
-To evaluate the influence of network structure, 5 simulations are implemented with changing network structures. The \textit{BA} network is applied for both layers or switched on each layer. And, because layer A with \textit{BA} network structure has total $10,215$ internal edges, \textit{RR(10)-RR(5)}, under the similar conditions such as the number of nodes and edges, is also simulated. The simulation results are shown in Fig.~\ref{Fig6}. The result of \textit{BA-RR} and \textit{RR(10)-RR(5)} have almost the same features. The gap of \textit{CR} is almost same(less than 0.01). The structure of network make no obvious difference of consensus results. In case of \textit{BA-BA}, the \textit{CR} has the least ratio for consensus. \textit{BA-BA} structure has lots of internal edges on each layer. Therefore, it is hard to make consensus due to inner conflict on each layer. 
+To evaluate the influence of network structure, 4 simulations are implemented with switching network structures. The \textit{BA} or \textit{RR} network is applied for both layers or switched on each layer. To restrain the influence of internal degree number, the number of internal degrees in \textit{BA} is set up to be similar with the number of internal degrees in \textit{RR}. The number of internal degrees in \textit{BA} is $6,135$, and the number of internal degrees in \textit{RR} is $6,144$. 
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{chap3_network_type_total.png}
+	\caption{Simulation results with different network types}
+	\label{chap3_network_type_total}
+\end{figure}
+
+The simulation results are shown in Fig.~\ref{Fig6}. The result of \textit{BA-RR} and \textit{RR(10)-RR(5)} have almost the same features. The gap of \textit{CR} is almost same(less than 0.01). The structure of network make no obvious difference of consensus results. In case of \textit{BA-BA}, the \textit{CR} has the least ratio for consensus. \textit{BA-BA} structure has lots of internal edges on each layer. Therefore, it is hard to make consensus due to inner conflict on each layer. 
 
 
 \section{Conclusion}
@@ -150,17 +160,35 @@ To evaluate the influence of network structure, 5 simulations are implemented wi
 			RR(2)-RR(5)            & 2,048  & 2,048   & 2,048   & 5,120   & -0.3186   & 0.0550 & 0.3175 & 0.3725   \\ \hline
 			RR(3)-RR(5)            & 2,048  & 2,048   & 3,072   & 5,120   & -0.1368   & 0.1400 & 0.2925 & 0.4325   \\ \hline
 			RR(4)-RR(5)            & 2,048  & 2,048   & 4,096   & 5,120   &  0.0804   & 0.2250 & 0.2275 & 0.4525   \\ \hline
-			RR(5)-RR(2)            & 2,048 	& 2,048   & 5,120   & 2,048   &  0.4927   & 0.6725 & 0.1725 & 0.8450   \\ \hline 
-			RR(5)-RR(3)            & 2,048 	& 2,048   & 5,120   & 3,072   &  0.3555   & 0.3800 & 0.1525 & 0.5325   \\ \hline
-			RR(5)-RR(4)            & 2,048  & 2,048   & 5,120   & 4,096   &  0.2633   & 0.2850 & 0.1525 & 0.4375   \\ \hline
-			RR(2)-RR(2)            & 2,048  & 2,048   & 2,048   & 2,048   & -0.1412   & 0.1475 & 0.4050 & 0.5525   \\ \hline
-			RR(3)-RR(3)            & 2,048  & 2,048   & 3,072   & 3,072   & 0.5658    & 0.4828 & 0.0637 & 0.5466   \\ \hline
-			RR(4)-RR(4)            & 2,048  & 2,048   & 4,096   & 4,096   & 0.5658    & 0.4828 & 0.0637 & 0.5466   \\ \hline
 			RR(5)-RR(5)            & 2,048  & 2,048   & 5,120   & 5,120   &  0.2034   & 0.2475 & 0.1575 & 0.4050   \\ \hline
+		*	RR(6)-RR(5)            & 2,048 	& 2,048   & 6,135   & 6,135   & 0.2197    & 0.1273 & 0.0190 & 0.1463   \\ \hline
+		*	RR(7)-RR(5)            & 2,048 	& 2,048   & 6,135   & 6,135   & 0.2197    & 0.1273 & 0.0190 & 0.1463   \\ \hline
+			RR(2)-RR(2)            & 2,048  & 2,048   & 2,048   & 2,048   & -0.1412   & 0.1475 & 0.4050 & 0.5525   \\ \hline
+		*	RR(3)-RR(2)            & 2,048 	& 2,048   & 6,135   & 6,135   & 0.2197    & 0.1273 & 0.0190 & 0.1463   \\ \hline
+		*	RR(4)-RR(2)            & 2,048 	& 2,048   & 6,135   & 6,135   & 0.2197    & 0.1273 & 0.0190 & 0.1463   \\ \hline
+			RR(5)-RR(2)            & 2,048 	& 2,048   & 5,120   & 2,048   &  0.4927   & 0.6725 & 0.1725 & 0.8450   \\ \hline
+		*	RR(6)-RR(2)            & 2,048  & 2,048   & 5,120   & 4,096   & 0.2633    & 0.2850 & 0.1525 & 0.4375   \\ \hline
+		*	RR(7)-RR(2)            & 2,048  & 2,048   & 5,120   & 4,096   & 0.2633    & 0.2850 & 0.1525 & 0.4375   \\ \hline
+		*	RR(2)-RR(3)            & 2,048 	& 2,048   & 6,135   & 6,135   & 0.2197    & 0.1273 & 0.0190 & 0.1463   \\ \hline
+			RR(3)-RR(3)            & 2,048  & 2,048   & 3,072   & 3,072   &  0.0084   & 0.2275 & 0.2825 & 0.5100   \\ \hline
+		*	RR(4)-RR(3)            & 2,048 	& 2,048   & 6,135   & 6,135   & 0.2197    & 0.1273 & 0.0190 & 0.1463   \\ \hline
+			RR(5)-RR(3)            & 2,048 	& 2,048   & 5,120   & 3,072   &  0.3555   & 0.3800 & 0.1525 & 0.5325   \\ \hline
+		*	RR(6)-RR(3)            & 2,048  & 2,048   & 5,120   & 4,096   & 0.2633    & 0.2850 & 0.1525 & 0.4375   \\ \hline
+		*	RR(7)-RR(3)            & 2,048  & 2,048   & 5,120   & 4,096   & 0.2633    & 0.2850 & 0.1525 & 0.4375   \\ \hline
+		*	RR(2)-RR(4)            & 2,048 	& 2,048   & 6,135   & 6,135   & 0.2197    & 0.1273 & 0.0190 & 0.1463   \\ \hline
+		*	RR(3)-RR(4)            & 2,048 	& 2,048   & 6,135   & 6,135   & 0.2197    & 0.1273 & 0.0190 & 0.1463   \\ \hline
+		*	RR(4)-RR(4)            & 2,048  & 2,048   & 4,096   & 4,096   & 0.5658    & 0.4828 & 0.0637 & 0.5466   \\ \hline
+			RR(5)-RR(4)            & 2,048  & 2,048   & 5,120   & 4,096   &  0.2633   & 0.2850 & 0.1525 & 0.4375   \\ \hline
+		*	RR(6)-RR(4)            & 2,048  & 2,048   & 5,120   & 4,096   & 0.2633    & 0.2850 & 0.1525 & 0.4375   \\ \hline
+		*	RR(7)-RR(4)            & 2,048  & 2,048   & 5,120   & 4,096   & 0.2633    & 0.2850 & 0.1525 & 0.4375   \\ \hline
+		*	RR(5)-RR(6)            & 2,048 	& 2,048   & 6,135   & 6,135   & 0.2197    & 0.1273 & 0.0190 & 0.1463   \\ \hline
+		*	RR(5)-RR(7)            & 2,048 	& 2,048   & 6,135   & 6,135   & 0.2197    & 0.1273 & 0.0190 & 0.1463   \\ \hline
 			RR(6)-RR(6)            & 2,048  & 2,048   & 6,144   & 6,144   &  0.2444   & 0.2350 & 0.1375 & 0.3725   \\ \hline
 			RR(6)-BA(3)            & 2,048 	& 2,048   & 6,144   & 6,135   &  0.2541   & 0.2275 & 0.1300 & 0.3575   \\ \hline 
 			BA(3)-RR(6)            & 2,048 	& 2,048   & 6,135   & 6,144   &  0.2242   & 0.2300 & 0.1425 & 0.3725   \\ \hline
-			BA(3)-BA(3)            & 2,048 	& 2,048   & 6,135   & 6,135   & 0.2197    & 0.1273 & 0.0190 & 0.1463   \\ \hline
+		*	BA(2)-BA(2)            & 2,048 	& 2,048   & 6,135   & 6,135   & 0.2197    & 0.1273 & 0.0190 & 0.1463   \\ \hline
+		*	BA(3)-BA(3)            & 2,048 	& 2,048   & 6,135   & 6,135   & 0.2197    & 0.1273 & 0.0190 & 0.1463   \\ \hline
+		*   BA(4)-BA(4)            & 2,048 	& 2,048   & 6,135   & 6,135   & 0.2197    & 0.1273 & 0.0190 & 0.1463   \\ \hline
 			BA(5)-BA(5)            & 2,048 	& 2,048   & 10,215  & 10,215  &  0.2496   & 0.1675 & 0.0675 & 0.2350   \\ \hline
 			HM(2)  				   & 2,048 	& 1,024   & 5,120   & 2,560   &  0.3073   & 0.3275 & 0.1425 & 0.4700   \\ \hline    
 			HM(4) 				   & 2,048 	&  512    & 5,120   & 1,280   &  0.4128   & 0.4125 & 0.1275 & 0.5400   \\ \hline

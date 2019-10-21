@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  20 OCT 2019 14:45
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  21 OCT 2019 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2924,32 +2924,49 @@ Overfull \hbox (27.05295pt too wide) detected at line 23
  []
 
 
-Overfull \hbox (23.4394pt too wide) detected at line 25
-\T1/ntxtlf/m/n/12.045 Figure 4--1 
+Overfull \hbox (27.05295pt too wide) detected at line 24
+\T1/ntxtlf/m/n/12.045 Figure 3--11 
  []
 
 
-Overfull \hbox (23.4394pt too wide) detected at line 26
-\T1/ntxtlf/m/n/12.045 Figure 4--2 
+Overfull \hbox (27.05295pt too wide) detected at line 25
+\T1/ntxtlf/m/n/12.045 Figure 3--12 
  []
 
 
-Overfull \hbox (23.4394pt too wide) detected at line 27
-\T1/ntxtlf/m/n/12.045 Figure 4--3 
+Overfull \hbox (27.05295pt too wide) detected at line 26
+\T1/ntxtlf/m/n/12.045 Figure 3--13 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 28
-\T1/ntxtlf/m/n/12.045 Figure 4--4 
+\T1/ntxtlf/m/n/12.045 Figure 4--1 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 29
-\T1/ntxtlf/m/n/12.045 Figure 4--5 
+\T1/ntxtlf/m/n/12.045 Figure 4--2 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 30
+\T1/ntxtlf/m/n/12.045 Figure 4--3 
+ []
+
+
+Overfull \hbox (23.4394pt too wide) detected at line 31
+\T1/ntxtlf/m/n/12.045 Figure 4--4 
+ []
+
+[7
+
+]
+Overfull \hbox (23.4394pt too wide) detected at line 32
+\T1/ntxtlf/m/n/12.045 Figure 4--5 
+ []
+
+
+Overfull \hbox (23.4394pt too wide) detected at line 33
 \T1/ntxtlf/m/n/12.045 Figure 4--6 
  []
 
@@ -2957,11 +2974,7 @@ Overfull \hbox (23.4394pt too wide) detected at line 30
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [7
-
-] [8
-
-] (./thesis.lot
+ [8] (./thesis.lot
 Overfull \hbox (18.69368pt too wide) detected at line 6
 \T1/ntxtlf/m/n/12.045 Table 3--1 
  []
@@ -2975,7 +2988,16 @@ Overfull \hbox (18.69368pt too wide) detected at line 8
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [9] [10
+
+! Too many }'s.
+l.57 ...dcontentsline{toc}{chapter}\listtablename}
+                                                        % 将表格目录加入全文目录
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+[9
+
+] [10
 
 ] (./thesis.loa)
 \tf@loa=\write9
@@ -2996,8 +3018,7 @@ Overfull \hbox (18.69368pt too wide) detected at line 8
 \c@pagesLTS.current.local.arabic=\count563
 \openout2 = `tex/intro.aux'.
 
-
-(./tex/intro.tex
+ (./tex/intro.tex
 Chapter 1
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 13.
@@ -3303,38 +3324,163 @@ line 85.
 
 File: figure/chap3_internal_edge_A_total.png Graphic file (type bmp)
 <figure/chap3_internal_edge_A_total.png>
+
+LaTeX Warning: Reference `chap3_interal_edge_A_total' on page 19 undefined on i
+nput line 94.
+
 [19]
 File: figure/chap3_internal_edge_B_total.png Graphic file (type bmp)
 <figure/chap3_internal_edge_B_total.png>
 
 
-LaTeX Warning: Reference `chap3_internal_edge_AB_total' on page 20 undefined on
- input line 106.
+LaTeX Warning: Reference `chap3_internal_edge_B' on page 20 undefined on input 
+line 104.
 
 
-Underfull \vbox (badness 2653) has occurred while \output is active []
+LaTeX Warning: Reference `chap3_interal_edge_B_total' on page 20 undefined on i
+nput line 104.
+
+
+Underfull \vbox (badness 4582) has occurred while \output is active []
 
  [20]
+
+LaTeX Warning: File `chap3_internal_edge_two_total.png' not found on input line
+ 110.
+
+! Unable to load picture or PDF file 'chap3_internal_edge_two_total.png'.
+<to be read again> 
+                   }
+l.110 ...hsize]{chap3_internal_edge_two_total.png}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...hsize]{chap3_internal_edge_two_total.png}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: chap3_internal_edge_two_total.png Graphic file (type bmp)
+<chap3_internal_edge_two_total.png>
+! Argument of \caption@ifstrut has an extra }.
+<inserted text> 
+                \par 
+l.112 ^^I\label
+               {chap3_internal_edge_two_total}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \caption@ifstrut was complete.
+<to be read again> 
+                   \par 
+l.112 ^^I\label
+               {chap3_internal_edge_two_total}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.112 ^^I\label{chap3_
+                      internal_edge_two_total}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.112 ^^I\label{chap3_internal_edge_two_total}
+                                              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.113 \end{figure}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.113 \end{figure}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[21]
 File: figure/chap3_internal_edge_AB_total.png Graphic file (type bmp)
 <figure/chap3_internal_edge_AB_total.png>
 
 
-LaTeX Warning: Citation 'barabasi1999' on page 21 undefined on input line 116.
+LaTeX Warning: Citation 'barabasi1999' on page 22 undefined on input line 131.
 
-[21]
+[22]
 File: figure/chap3_changing_structure_type.png Graphic file (type bmp)
 <figure/chap3_changing_structure_type.png>
 
 
-LaTeX Warning: Reference `Fig6' on page 22 undefined on input line 125.
+LaTeX Warning: File `chap3_network_type_total.png' not found on input line 143.
 
-[22]) [23] [24]
+
+! Unable to load picture or PDF file 'chap3_network_type_total.png'.
+<to be read again> 
+                   }
+l.143 ...dth=\hsize]{chap3_network_type_total.png}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.143 ...dth=\hsize]{chap3_network_type_total.png}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: chap3_network_type_total.png Graphic file (type bmp)
+<chap3_network_type_total.png>
+
+LaTeX Warning: Reference `Fig6' on page 23 undefined on input line 148.
+
+[23]) [24] [25]
 \openout2 = `tex/chap4.aux'.
 
- (./tex/chap4.tex
+ (./tex/chap4.tex [26
+
+
+
+]
 Chapter 4
 
-LaTeX Warning: Citation 'barabasi1999' on page 25 undefined on input line 15.
+LaTeX Warning: Citation 'barabasi1999' on page 27 undefined on input line 15.
 
 
 LaTeX Warning: File `figure/layerorder.png' not found on input line 64.
@@ -3362,14 +3508,10 @@ or  <return>  to continue without it.
 
 File: figure/layerorder.png Graphic file (type bmp)
 <figure/layerorder.png>
-[25
-
-
-
-] [26]
+[27] [28]
 File: figure/chap4_nodeorder.png Graphic file (type bmp)
 <figure/chap4_nodeorder.png>
- [27]
+ [29]
 File: figure/chap4_edgeorder_explanation.png Graphic file (type bmp)
 <figure/chap4_edgeorder_explanation.png>
 
@@ -3385,55 +3527,43 @@ l.93 \begin{enumerate}[(1)]
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[28]
+[30]
 File: figure/chap4_edgeorder.png Graphic file (type bmp)
 <figure/chap4_edgeorder.png>
- [29]
+ [31]
 File: figure/chap4_ordertotal.png Graphic file (type bmp)
 <figure/chap4_ordertotal.png>
 File: figure/chap4_ordertotal2.png Graphic file (type bmp)
 <figure/chap4_ordertotal2.png>
-) [30] [31] [32]
+) [32] [33] [34]
 \openout2 = `tex/chap5.aux'.
 
  (./tex/chap5.tex
 Chapter 5
-
-! Package enumitem Error: (1) undefined.
-
-See the enumitem package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \begin{enumerate}[(1)]
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33
+ [35
 
 
 
 ]
-[34]
+[36]
 \openout2 = `tex/chap6.aux'.
 
  (./tex/chap6.tex
 Chapter 6
-[35
+[37
 
 
 
-]) [36]
+]) [38]
 
 LaTeX Warning: Empty bibliography on input line 88.
 
 \openout2 = `tex/ack.aux'.
 
-(./tex/ack.tex) [37
+(./tex/ack.tex) [39
 
 
 
@@ -3441,14 +3571,14 @@ LaTeX Warning: Empty bibliography on input line 88.
 ]
 \openout2 = `tex/pub.aux'.
 
- (./tex/pub.tex [38
+ (./tex/pub.tex [40
 
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 12.045pt on input line 11.
-) [39]
+) [41]
 
 AED: pageslts setting LastPage 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
@@ -3464,19 +3594,30 @@ Package pageslts Info: Total number of pages is odd.
 
 
 (./thesis.aux (./tex/abstract.aux) (./tex/symbol.aux) (./tex/intro.aux)
-(./tex/chap2.aux) (./tex/chap3.aux) (./tex/chap4.aux) (./tex/chap5.aux)
-(./tex/chap6.aux) (./tex/ack.aux) (./tex/pub.aux))
+(./tex/chap2.aux) (./tex/chap3.aux
+! Missing \endcsname inserted.
+<to be read again> 
+                   \@@par 
+l.32 ...s on layer B\relax }{figure.caption.25}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \@@par 
+l.32 ...s on layer B\relax }{figure.caption.25}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+) (./tex/chap4.aux) (./tex/chap5.aux) (./tex/chap6.aux) (./tex/ack.aux)
+(./tex/pub.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: E4CDAFC5447B57C150176B4C28FC933A.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 614DC237F3EBD8662C70F0400277A518
-(rerunfilecheck)             After:  8349656B64776AFDD236316A81909167.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3496,12 +3637,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53744 strings out of 492933
- 1074966 string characters out of 6134842
- 1608434 words of memory out of 5000000
- 56800 multiletter control sequences out of 15000+600000
+ 53767 strings out of 492933
+ 1075533 string characters out of 6134842
+ 1611717 words of memory out of 5000000
+ 56815 multiletter control sequences out of 15000+600000
  659644 words of font info for 213 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,17n,94p,1554b,1357s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,94p,1552b,1357s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (61 pages).
+Output written on thesis.pdf (63 pages).
