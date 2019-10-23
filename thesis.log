@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  22 OCT 2019 15:47
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  23 OCT 2019 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2944,34 +2944,39 @@ Overfull \hbox (27.05295pt too wide) detected at line 27
  []
 
 
-Overfull \hbox (23.4394pt too wide) detected at line 29
-\T1/ntxtlf/m/n/12.045 Figure 4--1 
+Overfull \hbox (27.05295pt too wide) detected at line 28
+\T1/ntxtlf/m/n/12.045 Figure 3--15 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 30
-\T1/ntxtlf/m/n/12.045 Figure 4--2 
+\T1/ntxtlf/m/n/12.045 Figure 4--1 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 31
-\T1/ntxtlf/m/n/12.045 Figure 4--3 
+\T1/ntxtlf/m/n/12.045 Figure 4--2 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 32
-\T1/ntxtlf/m/n/12.045 Figure 4--4 
+\T1/ntxtlf/m/n/12.045 Figure 4--3 
  []
 
 [7
 
 ]
 Overfull \hbox (23.4394pt too wide) detected at line 33
-\T1/ntxtlf/m/n/12.045 Figure 4--5 
+\T1/ntxtlf/m/n/12.045 Figure 4--4 
  []
 
 
 Overfull \hbox (23.4394pt too wide) detected at line 34
+\T1/ntxtlf/m/n/12.045 Figure 4--5 
+ []
+
+
+Overfull \hbox (23.4394pt too wide) detected at line 35
 \T1/ntxtlf/m/n/12.045 Figure 4--6 
  []
 
@@ -3349,53 +3354,35 @@ nput line 104.
 Underfull \vbox (badness 4582) has occurred while \output is active []
 
  [20]
+File: figure/chap3_internal_edge_two_total.png Graphic file (type bmp)
+<figure/chap3_internal_edge_two_total.png>
 
-LaTeX Warning: File `chap3_internal_edge_two_total.png' not found on input line
- 109.
+Underfull \vbox (badness 6078) has occurred while \output is active []
 
-! Unable to load picture or PDF file 'chap3_internal_edge_two_total.png'.
-<to be read again> 
-                   }
-l.109 ...hsize]{chap3_internal_edge_two_total.png}
-                                                  
-The requested image couldn't be read because
-it was not a recognized image format.
+ [21]
+Underfull \vbox (badness 4543) has occurred while \output is active []
 
-
-! Package graphics Error: Division by 0.
-
-See the graphics package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 ...hsize]{chap3_internal_edge_two_total.png}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-File: chap3_internal_edge_two_total.png Graphic file (type bmp)
-<chap3_internal_edge_two_total.png>
-[21]
+ [22]
 File: figure/chap3_internal_edge_AB_total.png Graphic file (type bmp)
 <figure/chap3_internal_edge_AB_total.png>
 File: figure/chap3_internal_edge_summary.png Graphic file (type bmp)
 <figure/chap3_internal_edge_summary.png>
- [22]
 
-LaTeX Warning: Citation 'barabasi1999' on page 23 undefined on input line 136.
 
+LaTeX Warning: Citation 'barabasi1999' on page 23 undefined on input line 138.
+
+[23]
 File: figure/chap3_changing_structure_type.png Graphic file (type bmp)
 <figure/chap3_changing_structure_type.png>
-[23]
 
-LaTeX Warning: File `chap3_network_type_total.png' not found on input line 148.
+
+LaTeX Warning: File `chap3_network_type_total.png' not found on input line 151.
 
 
 ! Unable to load picture or PDF file 'chap3_network_type_total.png'.
 <to be read again> 
                    }
-l.148 ...dth=\hsize]{chap3_network_type_total.png}
+l.151 ...dth=\hsize]{chap3_network_type_total.png}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -3407,7 +3394,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 ...dth=\hsize]{chap3_network_type_total.png}
+l.151 ...dth=\hsize]{chap3_network_type_total.png}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3415,17 +3402,38 @@ or  <return>  to continue without it.
 
 File: chap3_network_type_total.png Graphic file (type bmp)
 <chap3_network_type_total.png>
+[24]
 
-LaTeX Warning: Reference `Fig6' on page 24 undefined on input line 153.
+LaTeX Warning: File `chap3_network_type_internal_degree.png' not found on input
+ line 160.
 
-) [24] [25]
+! Unable to load picture or PDF file 'chap3_network_type_internal_degree.png'.
+<to be read again> 
+                   }
+l.160 ...]{chap3_network_type_internal_degree.png}
+                                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 ...]{chap3_network_type_internal_degree.png}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: chap3_network_type_internal_degree.png Graphic file (type bmp)
+<chap3_network_type_internal_degree.png>
+) [25] [26]
 \openout2 = `tex/chap4.aux'.
 
- (./tex/chap4.tex [26
-
-
-
-]
+ (./tex/chap4.tex
 Chapter 4
 
 LaTeX Warning: Citation 'barabasi1999' on page 27 undefined on input line 15.
@@ -3456,7 +3464,11 @@ or  <return>  to continue without it.
 
 File: figure/layerorder.png Graphic file (type bmp)
 <figure/layerorder.png>
-[27] [28]
+[27
+
+
+
+] [28]
 File: figure/chap4_nodeorder.png Graphic file (type bmp)
 <figure/chap4_nodeorder.png>
  [29]
@@ -3542,23 +3554,14 @@ Package pageslts Info: Total number of pages is odd.
 (./tex/chap6.aux) (./tex/ack.aux) (./tex/pub.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 8BF518F4E71690EC572BE0504BCE2575.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 4B5B2F8A948F2BF124430C675220BBE1
-(rerunfilecheck)             After:  1C13B04068EA77021A160D4BF91F7BED.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -3570,10 +3573,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53768 strings out of 492933
- 1075649 string characters out of 6134842
- 1610821 words of memory out of 5000000
- 56815 multiletter control sequences out of 15000+600000
+ 53772 strings out of 492933
+ 1075870 string characters out of 6134842
+ 1608909 words of memory out of 5000000
+ 56818 multiletter control sequences out of 15000+600000
  659644 words of font info for 213 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,17n,94p,1552b,1357s stack positions out of 5000i,500n,10000p,200000b,80000s

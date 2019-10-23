@@ -20,18 +20,19 @@
 \contentsline {figure}{\numberline {3--7}{\ignorespaces Competition on interconnected networks with different internal edges\relax }}{20}{figure.caption.22}% 
 \contentsline {figure}{\numberline {3--8}{\ignorespaces Simulation results with different internal degrees on layer A\relax }}{20}{figure.caption.23}% 
 \contentsline {figure}{\numberline {3--9}{\ignorespaces Simulation results with different internal degrees on layer B\relax }}{21}{figure.caption.24}% 
-\contentsline {figure}{\numberline {3--10}{\ignorespaces Simulation results with changing internal degrees on both layers\relax }}{21}{figure.caption.25}% 
-\contentsline {figure}{\numberline {3--11}{\ignorespaces Simulation results with different internal degrees on two layers\relax }}{22}{figure.caption.26}% 
-\contentsline {figure}{\numberline {3--12}{\ignorespaces Categorizing network state according to internal degrees on two layers\relax }}{23}{figure.caption.27}% 
-\contentsline {figure}{\numberline {3--13}{\ignorespaces Competition on interconnected networks with different structures\relax }}{24}{figure.caption.28}% 
-\contentsline {figure}{\numberline {3--14}{\ignorespaces Simulation results with different network types\relax }}{24}{figure.caption.29}% 
+\contentsline {figure}{\numberline {3--10}{\ignorespaces Simulation results with changing internal degrees on both layers\relax }}{22}{figure.caption.25}% 
+\contentsline {figure}{\numberline {3--11}{\ignorespaces Simulation results with different internal degrees on two layers\relax }}{23}{figure.caption.26}% 
+\contentsline {figure}{\numberline {3--12}{\ignorespaces Categorizing network state according to internal degrees on two layers\relax }}{24}{figure.caption.27}% 
+\contentsline {figure}{\numberline {3--13}{\ignorespaces Competition on interconnected networks with different structures\relax }}{25}{figure.caption.28}% 
+\contentsline {figure}{\numberline {3--14}{\ignorespaces Simulation results with different network types\relax }}{25}{figure.caption.29}% 
+\contentsline {figure}{\numberline {3--15}{\ignorespaces BA-BA networks with changing internal degrees\relax }}{25}{figure.caption.30}% 
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {4--1}{\ignorespaces Simulation results according to orders of layers\relax }}{28}{figure.caption.32}% 
-\contentsline {figure}{\numberline {4--2}{\ignorespaces Simulation results according to orders of nodes: comparison between order of nodes under same conditions such as order of layers and edges.\relax }}{29}{figure.caption.33}% 
-\contentsline {figure}{\numberline {4--3}{\ignorespaces one node connected with other nodes changes its state with sequential or simultaneous order of edges\relax }}{30}{figure.caption.34}% 
-\contentsline {figure}{\numberline {4--4}{\ignorespaces Simulation results according to orders of edges: comparison between order of edges under same conditions such as order of layers and nodes\relax }}{31}{figure.caption.35}% 
-\contentsline {figure}{\numberline {4--5}{\ignorespaces Total results of 25 updating rules with \textit {AS}\relax }}{33}{figure.caption.36}% 
-\contentsline {figure}{\numberline {4--6}{\ignorespaces Total results of 25 updating rules with \textit {CI}\relax }}{34}{figure.caption.37}% 
+\contentsline {figure}{\numberline {4--1}{\ignorespaces Simulation results according to orders of layers\relax }}{28}{figure.caption.33}% 
+\contentsline {figure}{\numberline {4--2}{\ignorespaces Simulation results according to orders of nodes: comparison between order of nodes under same conditions such as order of layers and edges.\relax }}{29}{figure.caption.34}% 
+\contentsline {figure}{\numberline {4--3}{\ignorespaces one node connected with other nodes changes its state with sequential or simultaneous order of edges\relax }}{30}{figure.caption.35}% 
+\contentsline {figure}{\numberline {4--4}{\ignorespaces Simulation results according to orders of edges: comparison between order of edges under same conditions such as order of layers and nodes\relax }}{31}{figure.caption.36}% 
+\contentsline {figure}{\numberline {4--5}{\ignorespaces Total results of 25 updating rules with \textit {AS}\relax }}{33}{figure.caption.37}% 
+\contentsline {figure}{\numberline {4--6}{\ignorespaces Total results of 25 updating rules with \textit {CI}\relax }}{34}{figure.caption.38}% 
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}

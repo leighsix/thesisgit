@@ -14,8 +14,8 @@
 \contentsline {section}{\numberline {3.1}Competition on Random Regular Networks}{15}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Competition on Networks with different number of external links}{17}{section.3.2}% 
 \contentsline {section}{\numberline {3.3}Competition on Networks with different number of internal links}{19}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Competition on networks with different structures}{23}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Conclusion}{24}{section.3.5}% 
+\contentsline {section}{\numberline {3.4}Competition on networks with different structures}{24}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Conclusion}{25}{section.3.5}% 
 \contentsline {chapter}{\numberline {Chapter 4}Competition on two layer with various updating rules}{27}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Order of layers}{27}{section.4.1}% 
 \contentsline {section}{\numberline {4.2}Order of nodes}{29}{section.4.2}% 
@@ -31,5 +31,5 @@
 \contentsline {chapter}{\numberline {Chapter 6}Conclusion}{37}{chapter.6}% 
 \contentsline {section}{\numberline {6.1}Summary}{37}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Discussion}{38}{section.6.2}% 
-\contentsline {chapter}{Acknowledgements}{39}{appendix*.38}% 
-\contentsline {chapter}{Publications}{41}{appendix*.39}% 
+\contentsline {chapter}{Acknowledgements}{39}{appendix*.39}% 
+\contentsline {chapter}{Publications}{41}{appendix*.40}% 
