@@ -16,7 +16,7 @@ In this chapter, based on the competition model described in chapter. ~\ref{chap
 
 \section{Competition on Random Regular Networks}
 \label{competition on Random Regular Networks}
-In this section, simulation results on random regular network would be provided to comprehend the competition of two layers. Each layer consists of random regular network that has $N$ nodes with $k$ internal edges as introduced in \cite{kimsangwoo2012, bela2001}. Each node of one layer is connected with a random node on the other layer. This means each node has only $1$ external un-directed edge. Simulations are preformed on network with $N=2048$, and $k = 5$. 
+In this section, simulation results on random regular network would be provided to comprehend the competition of two layers. Each layer consists of random regular network that has $N$ nodes with $k$ internal edges as introduced in \parencite{kimsangwoo2012, bela2001}. Each node of one layer is connected with a random node on the other layer. This means each node has only $1$ external un-directed edge. Simulations are preformed on network with $N=2048$, and $k = 5$. 
 \begin{figure*}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{chap3_RR(5)_RR(5).png}
@@ -135,7 +135,7 @@ Through these simulation results, we can analyze that how network state is chang
 
 \section{Competition on networks with different structures}
 
-So far, each layer of the interconnected network consisted of \textit{RR(random regular networks)} that has the same number of edges for each node. Now, the simulation would be implemented on different network type. Here, we use \textit{Barabasi-Albert network(BA)} structure as introduced in \cite{barabasi1999}. \textit{Barabasi-Albert(BA)} network has $N$ nodes with attaching new nodes each with $K$ edges that are preferentially attached to existing nodes with high degrees. But, there is no change on external degree, which would be fixed to only $1$.
+So far, each layer of the interconnected network consisted of \textit{RR(random regular networks)} that has the same number of edges for each node. Now, the simulation would be implemented on different network type. Here, we use \textit{Barabasi-Albert network(BA)} structure as introduced in \parencite{barabasi1999}. \textit{Barabasi-Albert(BA)} network has $N$ nodes with attaching new nodes each with $K$ edges that are preferentially attached to existing nodes with high degrees. But, there is no change on external degree, which would be fixed to only $1$.
 
 \begin{figure}[!htb]
 	\centering
@@ -148,20 +148,20 @@ To evaluate the influence of network structure, 4 simulations are implemented wi
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=\hsize]{chap3_network_type_total.png}
+	\includegraphics[width=\hsize]{chap3_changing_network_type1.png}
 	\caption{Simulation results with different network types}
-	\label{chap3_network_type_total}
+	\label{chap3_changing_network_type1}
 \end{figure}
 
-The simulation results are shown in Fig.~\ref{chap3_network_type_total}. The results of all simulations have almost the same features. The gap of \textit{PCR, NCR} and \textit{CR} is less than 0.02. The structure of network make no obvious difference of consensus results. Next, the number of internal degrees would be increased on the network, where consists of two \textit{BA}. It would be found out that how the number of internal degree work on different network type. 2 models, BA(3)-BA(3) and BA(5)-BA(5) would be simulated. BA(3)-BA(3) model has $6,135$ internal degrees on each layer, and BA(5)-BA(5) model has $10,215$ internal degrees on each layer. 
+The simulation results are shown in Fig.~\ref{chap3_changing_network_type1}. The results of all simulations have almost the same features. The gap of \textit{PCR, NCR} and \textit{CR} is less than 0.02. The structure of network make no obvious difference of consensus results. Next, the number of internal degrees would be increased on the network, where consists of two \textit{BA}. It would be found out that how the number of internal degree work on different network type. 2 models, BA(3)-BA(3) and BA(5)-BA(5) would be simulated. BA(3)-BA(3) model has $6,135$ internal degrees on each layer, and BA(5)-BA(5) model has $10,215$ internal degrees on each layer. 
 
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=\hsize]{chap3_network_type_internal_degree.png}
+	\includegraphics[width=\hsize]{chap3_changing_network_type2.png}
 	\caption{BA-BA networks with changing internal degrees}
-	\label{chap3_network_type_internal_degree}
+	\label{chap3_changing_network_type2}
 \end{figure}
-As shown in Fig.~\ref{chap3_network_type_internal_degree}, BA(5)-BA(5) has more coexistence area because of too many internal degrees. The influence of internal and external degrees number is more important to make network state than the influence of network type. However, If there are stubborn nodes on networks, the simulation results would be changed because node centrality of stubborn nodes would be changed according to network type. Finding key nodes on \textit{BA} network would be simulated and analyzed in chapter.~\ref{chap:finding key nodes on two layer networks}.
+As shown in Fig.~\ref{chap3_changing_network_type2}, BA(5)-BA(5) has more coexistence area because of too many internal degrees. The influence of internal and external degrees number is more important to make network state and consensus than the influence of network type. However, If there are stubborn nodes on networks, the simulation results would be changed because node centrality of stubborn nodes would be changed according to network type. Finding key nodes on \textit{BA} network would be simulated and analyzed in chapter.~\ref{chap:finding key nodes on two layer networks}.
 
 \section{Conclusion}
 Various simulations have been simulated to find out the role of internal and external degrees and the influence of network types. All results of simulations are shown in Table.~\ref{Consensus properties of Simulation Models}. 
@@ -186,7 +186,7 @@ Various simulations have been simulated to find out the role of internal and ext
 			RR(6)-RR(6)            & 2,048  & 2,048   & 6,144   & 6,144   &  0.2444   & 0.2350 & 0.1375 & 0.3725   \\ \hline
 			RR(6)-BA(3)            & 2,048 	& 2,048   & 6,144   & 6,135   &  0.2541   & 0.2275 & 0.1300 & 0.3575   \\ \hline 
 			BA(3)-RR(6)            & 2,048 	& 2,048   & 6,135   & 6,144   &  0.2242   & 0.2300 & 0.1425 & 0.3725   \\ \hline
-			BA(3)-BA(3)            & 2,048 	& 2,048   & 6,135   & 6,135   & 0.2242   & 0.2300 & 0.1425 & 0.3725   \\ \hline
+			BA(3)-BA(3)            & 2,048 	& 2,048   & 6,135   & 6,135   &  0.2329   & 0.2200 & 0.1400 & 0.3600   \\ \hline
 			BA(5)-BA(5)            & 2,048 	& 2,048   & 10,215  & 10,215  &  0.2496   & 0.1675 & 0.0675 & 0.2350   \\ \hline
 			HM(2)  				   & 2,048 	& 1,024   & 5,120   & 2,560   &  0.3073   & 0.3275 & 0.1425 & 0.4700   \\ \hline    
 			HM(4) 				   & 2,048 	&  512    & 5,120   & 1,280   &  0.4128   & 0.4125 & 0.1275 & 0.5400   \\ \hline

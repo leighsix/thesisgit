@@ -1,0 +1,1645 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{mikko2014}{article}{}
+      \name{author}{6}{}{%
+        {{hash=fe73b144805636058df0aec5e27fbe4e}{%
+           family={Kivel{ä}},
+           familyi={K\bibinitperiod},
+           given={Mikko},
+           giveni={M\bibinitperiod}}}%
+        {{hash=990cd2985ce8dd2bd08a26c3afc058f2}{%
+           family={Arenas},
+           familyi={A\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dccb20a7c90ae422e209daa791149063}{%
+           family={Barthelemy},
+           familyi={B\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3d09e13b4c2b38b1e9ccef67af7feeb7}{%
+           family={Gleeson},
+           familyi={G\bibinitperiod},
+           given={James\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=fd7704b9919bacabcce647fd178fd1e6}{%
+           family={Moreno},
+           familyi={M\bibinitperiod},
+           given={Yamir},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0c0f609a339310df23209cf68aba3b6e}{%
+           family={Porter},
+           familyi={P\bibinitperiod},
+           given={Mason\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{733f718dd883ce68ce655eb3ab8cf1e9}
+      \strng{fullhash}{a23081c79354a4c3146f4023a91aa38a}
+      \strng{bibnamehash}{be2d4a596be4105fefbb6862af1e93fc}
+      \strng{authorbibnamehash}{be2d4a596be4105fefbb6862af1e93fc}
+      \strng{authornamehash}{733f718dd883ce68ce655eb3ab8cf1e9}
+      \strng{authorfullhash}{a23081c79354a4c3146f4023a91aa38a}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Complex Networks}
+      \field{langid}{english}
+      \field{title}{Multilayer networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{2}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{203\bibrangedash 271}
+      \range{pages}{69}
+      \keyw{mikko2014}
+    \endentry
+    \entry{danziger2019}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7e30569722b783b3fe7f3f12bf66303f}{%
+           family={Danziger},
+           familyi={D\bibinitperiod},
+           given={Michael\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3c545363371b36de4ef563331a532940}{%
+           family={Bonamassa},
+           familyi={B\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=82381b60efdbc301418650460ee2a4fb}{%
+           family={Boccaletti},
+           familyi={B\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7732cb6fef8133afc7ac6853f94078ba}{%
+           family={Havlin},
+           familyi={H\bibinitperiod}}}%
+        {{hash=8a9173f8d5a419f276a4e293601fc7b2}{%
+           family={Shlomo},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{f34b07515094e4015de5ca0b6f9558b3}
+      \strng{fullhash}{63e653490a2ba75a93020e08376185b9}
+      \strng{bibnamehash}{c11ec5f728a46c728bff6bd6f51f8228}
+      \strng{authorbibnamehash}{c11ec5f728a46c728bff6bd6f51f8228}
+      \strng{authornamehash}{f34b07515094e4015de5ca0b6f9558b3}
+      \strng{authorfullhash}{63e653490a2ba75a93020e08376185b9}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Physics}
+      \field{langid}{english}
+      \field{title}{Dynamic interdependence and competition in multilayer networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{15}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{178\bibrangedash 185}
+      \range{pages}{8}
+      \keyw{danziger2019}
+    \endentry
+    \entry{newman2010}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f4273fa44cef39f09057c2f8a36d1be6}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={Michael\bibnamedelima John},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Oxford Scholarship Online}%
+      }
+      \strng{namehash}{f4273fa44cef39f09057c2f8a36d1be6}
+      \strng{fullhash}{f4273fa44cef39f09057c2f8a36d1be6}
+      \strng{bibnamehash}{f4273fa44cef39f09057c2f8a36d1be6}
+      \strng{authorbibnamehash}{f4273fa44cef39f09057c2f8a36d1be6}
+      \strng{authornamehash}{f4273fa44cef39f09057c2f8a36d1be6}
+      \strng{authorfullhash}{f4273fa44cef39f09057c2f8a36d1be6}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Networks: An Introduction}
+      \field{usera}{M}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \keyw{newman2010}
+    \endentry
+    \entry{boccaletti2014}{article}{}
+      \name{author}{9}{}{%
+        {{hash=82381b60efdbc301418650460ee2a4fb}{%
+           family={Boccaletti},
+           familyi={B\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4cd18b85ef5745178ffbaf9b01920c77}{%
+           family={Bianconi},
+           familyi={B\bibinitperiod},
+           given={Ginestra},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f4b17c7a88a5611e2b9531f912d39dda}{%
+           family={Criado},
+           familyi={C\bibinitperiod},
+           given={Regino},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d3274d2a5ffca3f365f60189f19e6aaa}{%
+           family={Genio},
+           familyi={G\bibinitperiod},
+           given={Charo\bibnamedelimb I.\bibnamedelimi Del},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=2e8ac8fd6c83854a5ebf10dab31ea6e1}{%
+           family={G{ó}mez-Garde{ñ}es},
+           familyi={G\bibinithyphendelim G\bibinitperiod},
+           given={Jes{ú}s},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2621f841d1339e828bb50b868cf2488b}{%
+           family={Romance},
+           familyi={R\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bfb07867b83e7cc6b9240de083c0b803}{%
+           family={Sendi{ñ}a-Nadal},
+           familyi={S\bibinithyphendelim N\bibinitperiod},
+           given={Irene},
+           giveni={I\bibinitperiod}}}%
+        {{hash=7fa6f3f29fddbd94590f3acee09d32de}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhongliang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=06e661e6205015680c6d1ae20209b932}{%
+           family={Zanin},
+           familyi={Z\bibinitperiod},
+           given={Massimiliano},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{c1c55023361f80d9f415fc8be85499fc}
+      \strng{fullhash}{90211a6abaf6da2db6b06deddbfb299b}
+      \strng{bibnamehash}{e52a6c91b05f1370318e262610526c4d}
+      \strng{authorbibnamehash}{e52a6c91b05f1370318e262610526c4d}
+      \strng{authornamehash}{c1c55023361f80d9f415fc8be85499fc}
+      \strng{authorfullhash}{90211a6abaf6da2db6b06deddbfb299b}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CoRR}
+      \field{langid}{english}
+      \field{title}{The structure and dynamics of multilayer networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{abs/1407.0742}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \keyw{boccaletti2014}
+    \endentry
+    \entry{domenico2013}{article}{}
+      \name{author}{8}{}{%
+        {{hash=6d536daa70fa51099e4f65e72e27f797}{%
+           family={De\bibnamedelima Domenico},
+           familyi={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Manlio},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7807956bf1ec558a013c5dc0636c92fe}{%
+           family={Sol{é}-Ribalta},
+           familyi={S\bibinithyphendelim R\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cc74f7ea221f9c60642e17126da15de5}{%
+           family={Cozzo},
+           familyi={C\bibinitperiod},
+           given={Emanuele},
+           giveni={E\bibinitperiod}}}%
+        {{hash=fe73b144805636058df0aec5e27fbe4e}{%
+           family={Kivel{ä}},
+           familyi={K\bibinitperiod},
+           given={Mikko},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fd7704b9919bacabcce647fd178fd1e6}{%
+           family={Moreno},
+           familyi={M\bibinitperiod},
+           given={Yamir},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0c0f609a339310df23209cf68aba3b6e}{%
+           family={Porter},
+           familyi={P\bibinitperiod},
+           given={Mason\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c857454925fd025cd349bfaafb6b24a0}{%
+           family={G{ó}mez},
+           familyi={G\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6a357114624f649b1b1dedd6e3c92cbd}{%
+           family={Arenas},
+           familyi={A\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{017027c2e9b71155a5365cb9584cff73}
+      \strng{fullhash}{81a140578f83d587bcc17288b010d2df}
+      \strng{bibnamehash}{677336859c34c1f1770517264873150a}
+      \strng{authorbibnamehash}{677336859c34c1f1770517264873150a}
+      \strng{authornamehash}{017027c2e9b71155a5365cb9584cff73}
+      \strng{authorfullhash}{81a140578f83d587bcc17288b010d2df}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. X}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{title}{Mathematical Formulation of Multilayer Networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{3}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{041022}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevX.3.041022
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevX.3.041022
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevX.3.041022
+      \endverb
+      \keyw{domenico2013}
+    \endentry
+    \entry{tomasini2015}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=045e668a31e511e909c546fc3cb4c496}{%
+           family={Tomasini},
+           familyi={T\bibinitperiod},
+           given={Marcello},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{045e668a31e511e909c546fc3cb4c496}
+      \strng{fullhash}{045e668a31e511e909c546fc3cb4c496}
+      \strng{bibnamehash}{045e668a31e511e909c546fc3cb4c496}
+      \strng{authorbibnamehash}{045e668a31e511e909c546fc3cb4c496}
+      \strng{authornamehash}{045e668a31e511e909c546fc3cb4c496}
+      \strng{authorfullhash}{045e668a31e511e909c546fc3cb4c496}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{title}{An Introduction to Multilayer Networks}
+      \field{usera}{C}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.13140/RG.2.2.16830.18243
+      \endverb
+      \keyw{tomasini2015}
+    \endentry
+    \entry{namkhanhvu2017}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=74856068c91776c9b14e420471a29e73}{%
+           family={Vu},
+           familyi={V\bibinitperiod},
+           given={Nam\bibnamedelima Khanh},
+           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Yonsei University Department of Computer Science}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{74856068c91776c9b14e420471a29e73}
+      \strng{fullhash}{74856068c91776c9b14e420471a29e73}
+      \strng{bibnamehash}{74856068c91776c9b14e420471a29e73}
+      \strng{authorbibnamehash}{74856068c91776c9b14e420471a29e73}
+      \strng{authornamehash}{74856068c91776c9b14e420471a29e73}
+      \strng{authorfullhash}{74856068c91776c9b14e420471a29e73}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Robustness of Interconnected Complex Networks with Directed Dependency}
+      \field{type}{phdthesis}
+      \field{usera}{D}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \keyw{namkhanhvu2017}
+    \endentry
+    \entry{fangwu2004}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ad46257c63194a437fd68061d437aa1f}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Fang},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a61365e36fd08190ec9d9aaa520f8199}{%
+           family={Huberman},
+           familyi={H\bibinitperiod},
+           given={Bernardo\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{914645ff05e266018e0f5e4c86a5c2cc}
+      \strng{fullhash}{be1f708e0ecd7ec36e8117de45e80af4}
+      \strng{bibnamehash}{be1f708e0ecd7ec36e8117de45e80af4}
+      \strng{authorbibnamehash}{be1f708e0ecd7ec36e8117de45e80af4}
+      \strng{authornamehash}{914645ff05e266018e0f5e4c86a5c2cc}
+      \strng{authorfullhash}{be1f708e0ecd7ec36e8117de45e80af4}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Social Structure and Opinion Formation}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \keyw{fangwu2004}
+    \endentry
+    \entry{zuev2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0f2d2536d1a46f709c70585227581c1e}{%
+           family={S},
+           familyi={S\bibinitperiod},
+           given={Zuev\bibnamedelima A},
+           giveni={Z\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d35c344eca038573f764f5ccba3e7fdf}{%
+           family={Fedyanin},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{09cf7993c90f6a7ed69e4af4f567cb7e}
+      \strng{fullhash}{8b0be20518004a2fa31479b9ec53280d}
+      \strng{bibnamehash}{8b0be20518004a2fa31479b9ec53280d}
+      \strng{authorbibnamehash}{8b0be20518004a2fa31479b9ec53280d}
+      \strng{authornamehash}{09cf7993c90f6a7ed69e4af4f567cb7e}
+      \strng{authorfullhash}{8b0be20518004a2fa31479b9ec53280d}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Automation and Remote Control}
+      \field{langid}{english}
+      \field{title}{Models of opinion control for agents in social networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{73}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{1753\bibrangedash 1764}
+      \range{pages}{12}
+      \keyw{zuev2012}
+    \endentry
+    \entry{laguna2004}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5e384576a0f753254c9fd66b1599b196}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={M.\bibnamedelimi F.\bibnamedelimi Laguna},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim L\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{5e384576a0f753254c9fd66b1599b196}
+      \strng{fullhash}{5e384576a0f753254c9fd66b1599b196}
+      \strng{bibnamehash}{5e384576a0f753254c9fd66b1599b196}
+      \strng{authorbibnamehash}{5e384576a0f753254c9fd66b1599b196}
+      \strng{authornamehash}{5e384576a0f753254c9fd66b1599b196}
+      \strng{authorfullhash}{5e384576a0f753254c9fd66b1599b196}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+      \field{langid}{english}
+      \field{title}{The dynamics of opinion in hierarchical organizations}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{351}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{pages}{580\bibrangedash 592}
+      \range{pages}{13}
+      \keyw{laguna2004}
+    \endentry
+    \entry{masuda2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7df048eb2aad541fce900a6741f5d272}{%
+           family={Masuda},
+           familyi={M\bibinitperiod},
+           given={Naoki},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {IOP(Institute of Physics}%
+      }
+      \strng{namehash}{7df048eb2aad541fce900a6741f5d272}
+      \strng{fullhash}{7df048eb2aad541fce900a6741f5d272}
+      \strng{bibnamehash}{7df048eb2aad541fce900a6741f5d272}
+      \strng{authorbibnamehash}{7df048eb2aad541fce900a6741f5d272}
+      \strng{authornamehash}{7df048eb2aad541fce900a6741f5d272}
+      \strng{authorfullhash}{7df048eb2aad541fce900a6741f5d272}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{langid}{english}
+      \field{title}{Opinion control in complex networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{abs/1412.2170}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \verb{eprint}
+      \verb 1412.2170
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1412.2170
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1412.2170
+      \endverb
+      \keyw{masuda2014}
+    \endentry
+    \entry{bianconi2018}{book}{}
+      \name{author}{1}{}{%
+        {{hash=aebe511a004007053d73a0a6a9fe706b}{%
+           family={Bianconi},
+           familyi={B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{aebe511a004007053d73a0a6a9fe706b}
+      \strng{fullhash}{aebe511a004007053d73a0a6a9fe706b}
+      \strng{bibnamehash}{aebe511a004007053d73a0a6a9fe706b}
+      \strng{authorbibnamehash}{aebe511a004007053d73a0a6a9fe706b}
+      \strng{authornamehash}{aebe511a004007053d73a0a6a9fe706b}
+      \strng{authorfullhash}{aebe511a004007053d73a0a6a9fe706b}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780198753919}
+      \field{langid}{english}
+      \field{title}{Multilayer Networks: Structure and Function}
+      \field{usera}{M}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://books.google.co.kr/books?id=6v5cDwAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.co.kr/books?id=6v5cDwAAQBAJ
+      \endverb
+      \keyw{bianconi2018}
+    \endentry
+    \entry{hua2014}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=5245344e7a0198d0d0d0d0f9bce9e0fa}{%
+           family={Hua},
+           familyi={H\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=90363e7455b37d0f07cd7e927b294868}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f6a2853c4b9185877c0c86f08bafe05f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaofan},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{64832330008b94836c1f83a685e70ef6}
+      \strng{fullhash}{244f69238eaca9d29759f128b6d344c6}
+      \strng{bibnamehash}{244f69238eaca9d29759f128b6d344c6}
+      \strng{authorbibnamehash}{244f69238eaca9d29759f128b6d344c6}
+      \strng{authornamehash}{64832330008b94836c1f83a685e70ef6}
+      \strng{authorfullhash}{244f69238eaca9d29759f128b6d344c6}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 33rd Chinese Control Conference, CCC 2014}
+      \field{langid}{english}
+      \field{month}{07}
+      \field{title}{An information diffusion model based on individual characteristics}
+      \field{usera}{C}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{2866\bibrangedash 2871}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ChiCC.2014.6897094
+      \endverb
+      \keyw{hua2014}
+    \endentry
+    \entry{shenyu2018}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=b2b58500eed817d3bf469021087e22e8}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Shenyu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d8cc6b5ca9dd7e31b4349b763b4b7cf5}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Shuyang},
+           giveni={S\bibinitperiod}}}%
+        {{hash=90363e7455b37d0f07cd7e927b294868}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{708180d0a50398f8b0c68fa30d64ad7a}
+      \strng{fullhash}{98da34badcbb421dd186aff5f7f06310}
+      \strng{bibnamehash}{98da34badcbb421dd186aff5f7f06310}
+      \strng{authorbibnamehash}{98da34badcbb421dd186aff5f7f06310}
+      \strng{authornamehash}{708180d0a50398f8b0c68fa30d64ad7a}
+      \strng{authorfullhash}{98da34badcbb421dd186aff5f7f06310}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{month}{07}
+      \field{title}{Immunizations of Interacting Diseases}
+      \field{usera}{C}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{9686\bibrangedash 9691}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.23919/ChiCC.2018.8482798
+      \endverb
+      \keyw{shenyu2018}
+    \endentry
+    \entry{zhou2018}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b2b58500eed817d3bf469021087e22e8}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Shenyu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=279ab503ee09be566755322d14a85d89}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Shuangdie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=90363e7455b37d0f07cd7e927b294868}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f5a1a98ed32219c4754c1b2ce9c81a73}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhixin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=c2465aadc98c418b040e810d4f8c1b79}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Guanrong},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f6a2853c4b9185877c0c86f08bafe05f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaofan},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{708180d0a50398f8b0c68fa30d64ad7a}
+      \strng{fullhash}{1292a48264e140a17d3e9ab401a4439c}
+      \strng{bibnamehash}{234c2a79d64ec3947f8ba18419c341b6}
+      \strng{authorbibnamehash}{234c2a79d64ec3947f8ba18419c341b6}
+      \strng{authornamehash}{708180d0a50398f8b0c68fa30d64ad7a}
+      \strng{authorfullhash}{1292a48264e140a17d3e9ab401a4439c}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. E}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{Propagation of interacting diseases on multilayer networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{98}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{012303}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevE.98.012303
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevE.98.012303
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevE.98.012303
+      \endverb
+      \keyw{zhou2018}
+    \endentry
+    \entry{alvarez2016}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=d3e00968d11f9129a3e717387a6838cb}{%
+           family={Alvarez-Zuzek},
+           familyi={A\bibinithyphendelim Z\bibinitperiod},
+           given={Lucila\bibnamedelima G},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=fbb8495ae240388fcad555b6ec83fd98}{%
+           family={Rocca},
+           familyi={R\bibinitperiod},
+           given={Cristian\bibnamedelimb E.\bibnamedelimi La},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=fd3d3c8458c1ead30ac17bb2fad9dba2}{%
+           family={Vazquez},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f666a781e51c0da0a97fa895449b00f2}{%
+           family={Braunstein},
+           familyi={B\bibinitperiod},
+           given={Lidia\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{f836dae6d76082a875f6c515492e2cec}
+      \strng{fullhash}{97714f880d42bf1e3829c206db7dfa18}
+      \strng{bibnamehash}{deadaac68397f3077c4b8ca2466c3d2f}
+      \strng{authorbibnamehash}{deadaac68397f3077c4b8ca2466c3d2f}
+      \strng{authornamehash}{f836dae6d76082a875f6c515492e2cec}
+      \strng{authorfullhash}{97714f880d42bf1e3829c206db7dfa18}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{PloS one}
+      \field{langid}{english}
+      \field{title}{Interacting Social Processes on Interconnected Networks}
+      \field{usera}{C}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \keyw{alvarez2016}
+    \endentry
+    \entry{gomez2015}{article}{}
+      \name{author}{5}{}{%
+        {{hash=2e8ac8fd6c83854a5ebf10dab31ea6e1}{%
+           family={G{ó}mez-Garde{ñ}es},
+           familyi={G\bibinithyphendelim G\bibinitperiod},
+           given={Jes{ú}s},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5585efc173184b8f7dd7d6f7dd16fc91}{%
+           family={Domenico},
+           familyi={D\bibinitperiod},
+           given={Manlio\bibnamedelima De},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f67608e8bdcaacfab7263925741f39d7}{%
+           family={Guti{é}rrez},
+           familyi={G\bibinitperiod},
+           given={Gerardo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=990cd2985ce8dd2bd08a26c3afc058f2}{%
+           family={Arenas},
+           familyi={A\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c857454925fd025cd349bfaafb6b24a0}{%
+           family={G{ó}mez},
+           familyi={G\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{a9ab8bccd2dce10643caad110e305d48}
+      \strng{fullhash}{4c2817bd248022b3dbbecf39302819c2}
+      \strng{bibnamehash}{5d6a1c96ea0d1ae88f19fbaca3b84d0e}
+      \strng{authorbibnamehash}{5d6a1c96ea0d1ae88f19fbaca3b84d0e}
+      \strng{authornamehash}{a9ab8bccd2dce10643caad110e305d48}
+      \strng{authorfullhash}{4c2817bd248022b3dbbecf39302819c2}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical transactions. Series A, Mathematical, physical, and engineering sciences}
+      \field{langid}{english}
+      \field{title}{Layer-layer competition in multiplex complex networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{373 2056}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \keyw{gomez2015}
+    \endentry
+    \entry{diep2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6869b106c7cc3f25839c1739e1133304}{%
+           family={Diep(LPTM)},
+           familyi={D\bibinitperiod},
+           given={Hung\bibnamedelima The},
+           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=37f674005b3e8f8723cf220ce9919ef0}{%
+           family={Kaufman},
+           familyi={K\bibinitperiod},
+           given={Miron},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7c74bb9d51a744478cb22ca0b5423806}{%
+           family={Kaufman},
+           familyi={K\bibinitperiod},
+           given={Sanda},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{ae9cc6156c31ba73ce0e926b28c9a1fd}
+      \strng{fullhash}{e180f140266cfd161cfbb31bcaac3e59}
+      \strng{bibnamehash}{e180f140266cfd161cfbb31bcaac3e59}
+      \strng{authorbibnamehash}{e180f140266cfd161cfbb31bcaac3e59}
+      \strng{authornamehash}{ae9cc6156c31ba73ce0e926b28c9a1fd}
+      \strng{authorfullhash}{e180f140266cfd161cfbb31bcaac3e59}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica A: Statistical Mechanics and its Applications, Elsevier}
+      \field{langid}{english}
+      \field{title}{Dynamics of two-group conflicts: A statistical physics model}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{469}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{183\bibrangedash 199}
+      \range{pages}{17}
+      \keyw{diep2017}
+    \endentry
+    \entry{rocca2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fbb8495ae240388fcad555b6ec83fd98}{%
+           family={Rocca},
+           familyi={R\bibinitperiod},
+           given={Cristian\bibnamedelimb E.\bibnamedelimi La},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f666a781e51c0da0a97fa895449b00f2}{%
+           family={Braunstein},
+           familyi={B\bibinitperiod},
+           given={Lidia\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=fd3d3c8458c1ead30ac17bb2fad9dba2}{%
+           family={Vazquez},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{84e039b088180ef882221d02a26f00d3}
+      \strng{fullhash}{e7e4f6afe36bd94633fe1a97f0dfdb87}
+      \strng{bibnamehash}{e7e4f6afe36bd94633fe1a97f0dfdb87}
+      \strng{authorbibnamehash}{e7e4f6afe36bd94633fe1a97f0dfdb87}
+      \strng{authornamehash}{84e039b088180ef882221d02a26f00d3}
+      \strng{authorfullhash}{e7e4f6afe36bd94633fe1a97f0dfdb87}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CoRR}
+      \field{langid}{english}
+      \field{title}{The influence of persuasion in opinion formation and polarization}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{abs/1403.3011}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \keyw{rocca2014}
+    \endentry
+    \entry{velasquez2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=501967640893b9a97e589a7e3cea589b}{%
+           family={Vel{á}squez-Rojas},
+           familyi={V\bibinithyphendelim R\bibinitperiod},
+           given={F{á}tima},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0034fc9aae2f03f619a56cb45adf3bb4}{%
+           family={Vazquez},
+           familyi={V\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{fa08b72ba85e29dbb3bdf5948df0ed58}
+      \strng{fullhash}{b5f0944d3d429f7957342e0e62a942a7}
+      \strng{bibnamehash}{b5f0944d3d429f7957342e0e62a942a7}
+      \strng{authorbibnamehash}{b5f0944d3d429f7957342e0e62a942a7}
+      \strng{authornamehash}{fa08b72ba85e29dbb3bdf5948df0ed58}
+      \strng{authorfullhash}{b5f0944d3d429f7957342e0e62a942a7}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Statistical Mechanics: Theory and Experiment}
+      \field{langid}{english}
+      \field{month}{03}
+      \field{title}{Opinion dynamics in two dimensions: Domain coarsening leads to stable bi-polarization and anomalous scaling exponents}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1088/1742-5468/aab1b4
+      \endverb
+      \keyw{velasquez2018}
+    \endentry
+    \entry{abrams2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=66fcde7c39454520801ef3397f761d67}{%
+           family={Abrams},
+           familyi={A\bibinitperiod},
+           given={Daniel\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b0115f77df78376c68429033349375fc}{%
+           family={Strogatz},
+           familyi={S\bibinitperiod},
+           given={Steven\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{242c344fa3ed2dc41da29811a8a62948}
+      \strng{fullhash}{ba55fbdb4e4f41efefe8e185d33894e9}
+      \strng{bibnamehash}{ba55fbdb4e4f41efefe8e185d33894e9}
+      \strng{authorbibnamehash}{ba55fbdb4e4f41efefe8e185d33894e9}
+      \strng{authornamehash}{242c344fa3ed2dc41da29811a8a62948}
+      \strng{authorfullhash}{ba55fbdb4e4f41efefe8e185d33894e9}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{langid}{english}
+      \field{title}{Linguistics: Modelling the dynamics of language death}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{424}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{900\bibrangedash 900}
+      \range{pages}{1}
+      \keyw{abrams2003}
+    \endentry
+    \entry{vazquez2010}{article}{}
+      \name{author}{3}{}{%
+        {{hash=054769849ee2c48b8b0fc5c51b69ec9d}{%
+           family={V{á}zquez},
+           familyi={V\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ee0bd0a354d9b9e6991a3baef1cb1483}{%
+           family={Castell{ó}},
+           familyi={C\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=1ccec3b0e939977f4e4b4846f7d8c6c2}{%
+           family={Miguel},
+           familyi={M\bibinitperiod},
+           given={Maxi\bibnamedelima San},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{714c206186a228cf173bfd2837b335d2}
+      \strng{fullhash}{13f5edf148086fa2f57e3b3d7ea7d1a0}
+      \strng{bibnamehash}{13f5edf148086fa2f57e3b3d7ea7d1a0}
+      \strng{authorbibnamehash}{13f5edf148086fa2f57e3b3d7ea7d1a0}
+      \strng{authornamehash}{714c206186a228cf173bfd2837b335d2}
+      \strng{authorfullhash}{13f5edf148086fa2f57e3b3d7ea7d1a0}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Statistical Mechanics: Theory and Experiment}
+      \field{langid}{english}
+      \field{title}{Agent Based Models of Language Competition : Macroscopic descriptions and Order-Disorder transitions}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \keyw{vazquez2010}
+    \endentry
+    \entry{naim2003}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3d80c6ceec305006e507a13de12a43c6}{%
+           family={E.\bibnamedelimi Ben-Naim},
+           familyi={E\bibinitperiod\bibinitdelim B\bibinithyphendelim N\bibinitperiod},
+           given={S.\bibnamedelimi Redner},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           suffix={P.\bibnamedelimi L.\bibnamedelimi Krapivsky},
+           suffixi={P\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Physica D: Nonlinear Phenomena}%
+      }
+      \strng{namehash}{3d80c6ceec305006e507a13de12a43c6}
+      \strng{fullhash}{3d80c6ceec305006e507a13de12a43c6}
+      \strng{bibnamehash}{3d80c6ceec305006e507a13de12a43c6}
+      \strng{authorbibnamehash}{3d80c6ceec305006e507a13de12a43c6}
+      \strng{authornamehash}{3d80c6ceec305006e507a13de12a43c6}
+      \strng{authorfullhash}{3d80c6ceec305006e507a13de12a43c6}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3-4}
+      \field{langid}{english}
+      \field{month}{09}
+      \field{title}{Bifurcations and patterns in compromise processes}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{183}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{190\bibrangedash 204}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/S0167-2789(03)00171-4
+      \endverb
+      \keyw{naim2003}
+    \endentry
+    \entry{patriarca2012}{article}{}
+      \name{author}{5}{}{%
+        {{hash=86217e977d22e093bc9c3adca7529f8f}{%
+           family={Patriarca},
+           familyi={P\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ee0bd0a354d9b9e6991a3baef1cb1483}{%
+           family={Castell{ó}},
+           familyi={C\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=39ce8ff19fc914726b6af72911ed41d8}{%
+           family={Uriarte},
+           familyi={U\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=359ebd4a69f46e5d16088686bd77dadc}{%
+           family={Egu{í}luz},
+           familyi={E\bibinitperiod},
+           given={V{í}ctor\bibnamedelima M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1ccec3b0e939977f4e4b4846f7d8c6c2}{%
+           family={Miguel},
+           familyi={M\bibinitperiod},
+           given={Maxi\bibnamedelima San},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{8b482b0c598aa371662bd3c7db9b174c}
+      \strng{fullhash}{75d8f779769156c2021e7710cbf8598c}
+      \strng{bibnamehash}{7b926595e0dd3d690e62e50ea119637b}
+      \strng{authorbibnamehash}{7b926595e0dd3d690e62e50ea119637b}
+      \strng{authornamehash}{8b482b0c598aa371662bd3c7db9b174c}
+      \strng{authorfullhash}{75d8f779769156c2021e7710cbf8598c}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Complex Systems}
+      \field{langid}{english}
+      \field{title}{Modeling Two-Language Competition Dynamics}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{15}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \keyw{patriarca2012}
+    \endentry
+    \entry{amato2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=341a3fcee776244201e8e74e8b111ee0}{%
+           family={Amato},
+           familyi={A\bibinitperiod},
+           given={Roberta},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d8fcc72e1c2a9668f99fb840addbff9e}{%
+           family={Kouvaris},
+           familyi={K\bibinitperiod},
+           given={Nikos},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6fc367b65e90b5c13537b916f8a401e4}{%
+           family={San\bibnamedelima Miguel},
+           familyi={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Maxi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=685d9adb1fdb8e575f5225ad7a1d7845}{%
+           family={Diaz-Guilera},
+           familyi={D\bibinithyphendelim G\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d2d05bbbb8384ff0be2404a469167884}
+      \strng{fullhash}{d9bb7fd4004ecaef7a16f183d4882140}
+      \strng{bibnamehash}{f12d2192f403331554a931e55ad53655}
+      \strng{authorbibnamehash}{f12d2192f403331554a931e55ad53655}
+      \strng{authornamehash}{d2d05bbbb8384ff0be2404a469167884}
+      \strng{authorfullhash}{d9bb7fd4004ecaef7a16f183d4882140}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Journal of Physics}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{title}{Opinion competition dynamics on multiplex networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{19}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{123019}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1367-2630/aa936a
+      \endverb
+      \keyw{amato2017}
+    \endentry
+    \entry{erdos1960}{article}{}
+      \name{author}{1}{}{%
+        {{hash=34988b2875db74607f89a2a58f877bf7}{%
+           family={P.\bibnamedelimi Erd{ö}s},
+           familyi={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={A.\bibnamedelimi R{é}nyi},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Publication of the Mathematical Institute of the Hungarian Academy of Sciences}%
+      }
+      \strng{namehash}{34988b2875db74607f89a2a58f877bf7}
+      \strng{fullhash}{34988b2875db74607f89a2a58f877bf7}
+      \strng{bibnamehash}{34988b2875db74607f89a2a58f877bf7}
+      \strng{authorbibnamehash}{34988b2875db74607f89a2a58f877bf7}
+      \strng{authornamehash}{34988b2875db74607f89a2a58f877bf7}
+      \strng{authorfullhash}{34988b2875db74607f89a2a58f877bf7}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{On the Evolution of Random Graphs}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{5}
+      \field{pages}{17\bibrangedash 61}
+      \range{pages}{45}
+      \keyw{erdos1960}
+    \endentry
+    \entry{watts1998}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8749174d8ea73cb9cc7eda222618b353}{%
+           family={Watts},
+           familyi={W\bibinitperiod},
+           given={Duncan\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b0115f77df78376c68429033349375fc}{%
+           family={Strogatz},
+           familyi={S\bibinitperiod},
+           given={Steven\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{2}{%
+        {Department of Theoretical}%
+        {Applied Mechanics, Cornell University, Ithaca, New York 14853, USA. djw24@columbia.edu}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{ee9792bbb2e954df92ca30b62b3feef1}
+      \strng{fullhash}{61ec8115bb61a3bd19135c7c8b217c6a}
+      \strng{bibnamehash}{61ec8115bb61a3bd19135c7c8b217c6a}
+      \strng{authorbibnamehash}{61ec8115bb61a3bd19135c7c8b217c6a}
+      \strng{authornamehash}{ee9792bbb2e954df92ca30b62b3feef1}
+      \strng{authorfullhash}{61ec8115bb61a3bd19135c7c8b217c6a}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{Networks of coupled dynamical systems have been used to model biological oscillators1, 2, 3, 4, Josephson junction arrays5,6, excitable media7, neural networks8, 9, 10, spatial games11, genetic control networks12 and many other self-organizing systems. Ordinarily, the connection topology is assumed to be either completely regular or completely random. But many biological, technological and social networks lie somewhere between these two extremes. Here we explore simple models of networks that can be tuned through this middle ground: regular networks 'rewired' to introduce increasing amounts of disorder. We find that these systems can be highly clustered, like regular lattices, yet have small characteristic path lengths, like random graphs. We call them 'small-world' networks, by analogy with the small-world phenomenon13,14 (popularly known as six degrees of separation15). The neural network of the worm Caenorhabditis elegans, the power grid of the western United States, and the collaboration graph of film actors are shown to be small-world networks. Models of dynamical systems with small-world coupling display enhanced signal-propagation speed, computational power, and synchronizability. In particular, infectious diseases spread more easily in small-world networks than in regular lattices.}}
+      \field{issn}{0028-0836}
+      \field{journaltitle}{Nature}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{6684}
+      \field{title}{{Collective dynamics of 'small-world' networks}}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{393}
+      \field{year}{1998}
+      \field{dateera}{ce}
+      \field{pages}{440\bibrangedash 442}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1038/30918
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1038/30918
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/30918
+      \endverb
+      \keyw{small-world networks}
+    \endentry
+    \entry{barabasi1999}{article}{}
+      \name{author}{2}{}{%
+        {{hash=15bacd7ddfc866c5dd96976d4b0244d5}{%
+           family={Barab{á}si},
+           familyi={B\bibinitperiod},
+           given={Albert-L{á}szl{ó}},
+           giveni={A\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=d85e8d2b76e8626b1a45373f4e027914}{%
+           family={Albert},
+           familyi={A\bibinitperiod},
+           given={R{é}ka},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{5ec330763e285359b8f14e1705b366b0}
+      \strng{fullhash}{b4063d5171bad9750494dbdb05406431}
+      \strng{bibnamehash}{b4063d5171bad9750494dbdb05406431}
+      \strng{authorbibnamehash}{b4063d5171bad9750494dbdb05406431}
+      \strng{authornamehash}{5ec330763e285359b8f14e1705b366b0}
+      \strng{authorfullhash}{b4063d5171bad9750494dbdb05406431}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Systems as diverse as genetic networks or the World Wide Web are best described as networks with complex topology. A common property of many large networks is that the vertex connectivities follow a scale-free power-law distribution. This feature was found to be a consequence of two generic mechanisms: (i) networks expand continuously by the addition of new vertices, and (ii) new vertices attach preferentially to sites that are already well connected. A model based on these two ingredients reproduces the observed stationary scale-free distributions, which indicates that the development of large networks is governed by robust self-organizing phenomena that go beyond the particulars of the individual systems.}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science}
+      \field{langid}{english}
+      \field{number}{5439}
+      \field{title}{Emergence of Scaling in Random Networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{286}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{pages}{509\bibrangedash 512}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.286.5439.509
+      \endverb
+      \verb{eprint}
+      \verb https://science.sciencemag.org/content/286/5439/509.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://science.sciencemag.org/content/286/5439/509
+      \endverb
+      \verb{url}
+      \verb https://science.sciencemag.org/content/286/5439/509
+      \endverb
+      \keyw{barabasi1999}
+    \endentry
+    \entry{sirbu2017}{inbook}{}
+      \name{author}{4}{}{%
+        {{hash=329081639ca005c503cf2a2dfedcf5d7}{%
+           family={S{í}rbu},
+           familyi={S\bibinitperiod},
+           given={Alina},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7144c0bfd01cbf1afe3f7fd7b9650abe}{%
+           family={Loreto},
+           familyi={L\bibinitperiod},
+           given={Vittorio},
+           giveni={V\bibinitperiod}}}%
+        {{hash=9c58d4c59f5e82c11ea5c12c54ff1b6f}{%
+           family={Servedio},
+           familyi={S\bibinitperiod},
+           given={Vito},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a57e6a5b5ce6eee5df4e5c3deb97a96b}{%
+           family={Tria},
+           familyi={T\bibinitperiod},
+           given={Francesca},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{c987eec951811edc50628a31f0a3be10}
+      \strng{fullhash}{3b380280ff47dbcad9d476d8afa63bca}
+      \strng{bibnamehash}{f3be5f47583d81d12cac61213cecc3e0}
+      \strng{authorbibnamehash}{f3be5f47583d81d12cac61213cecc3e0}
+      \strng{authornamehash}{c987eec951811edc50628a31f0a3be10}
+      \strng{authorfullhash}{3b380280ff47dbcad9d476d8afa63bca}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-319-25656-6}
+      \field{journaltitle}{Understanding Complex Systems}
+      \field{langid}{english}
+      \field{month}{05}
+      \field{title}{Opinion Dynamics: Models, Extensions and External Effects}
+      \field{usera}{M}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{363\bibrangedash 401}
+      \range{pages}{39}
+      \verb{doi}
+      \verb 10.1007/978-3-319-25658-0_17
+      \endverb
+      \keyw{sirbu2017}
+    \endentry
+    \entry{hoffman2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3894451bdf396ab02989e3209bf45461}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ddf50dd7d5ccfd529013573e2f048666}{%
+           family={Kagel},
+           familyi={K\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5bdb47b5ce65672717bdb78265b2073e}{%
+           family={Levin},
+           familyi={L\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{a1d87b880b60b6b043c35709fa99ee69}
+      \strng{fullhash}{c37300682b865a3daae57303791808b3}
+      \strng{bibnamehash}{c37300682b865a3daae57303791808b3}
+      \strng{authorbibnamehash}{c37300682b865a3daae57303791808b3}
+      \strng{authornamehash}{a1d87b880b60b6b043c35709fa99ee69}
+      \strng{authorfullhash}{c37300682b865a3daae57303791808b3}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Economics Letters}
+      \field{langid}{english}
+      \field{month}{07}
+      \field{title}{Simultaneous versus Sequential Information Processing*}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{112}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{16\bibrangedash 18}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1016/j.econlet.2011.03.006
+      \endverb
+      \keyw{hoffman2011}
+    \endentry
+    \entry{dietrich2004}{article}{}
+      \name{author}{1}{}{%
+        {{hash=675ef0bdd0b4b4135b48c838ade149ef}{%
+           family={Stauffer},
+           familyi={S\bibinitperiod},
+           given={Dietrich},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{675ef0bdd0b4b4135b48c838ade149ef}
+      \strng{fullhash}{675ef0bdd0b4b4135b48c838ade149ef}
+      \strng{bibnamehash}{675ef0bdd0b4b4135b48c838ade149ef}
+      \strng{authorbibnamehash}{675ef0bdd0b4b4135b48c838ade149ef}
+      \strng{authornamehash}{675ef0bdd0b4b4135b48c838ade149ef}
+      \strng{authorfullhash}{675ef0bdd0b4b4135b48c838ade149ef}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Mathematical Sociology}
+      \field{langid}{english}
+      \field{number}{1}
+      \field{title}{DIFFICULTY FOR CONSENSUS IN SIMULTANEOUS OPINION FORMATION OF SZNAJD MODEL}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{28}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{25\bibrangedash 33}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1080/00222500490278531
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/00222500490278531
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/00222500490278531
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/00222500490278531
+      \endverb
+      \keyw{dietrich2004}
+    \endentry
+    \entry{freeman1979}{article}{}
+      \name{author}{1}{}{%
+        {{hash=add53b08df5983f0ea44ff5fe673830f}{%
+           family={Freeman},
+           familyi={F\bibinitperiod},
+           given={L.C.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Social Networks}%
+      }
+      \strng{namehash}{add53b08df5983f0ea44ff5fe673830f}
+      \strng{fullhash}{add53b08df5983f0ea44ff5fe673830f}
+      \strng{bibnamehash}{add53b08df5983f0ea44ff5fe673830f}
+      \strng{authorbibnamehash}{add53b08df5983f0ea44ff5fe673830f}
+      \strng{authornamehash}{add53b08df5983f0ea44ff5fe673830f}
+      \strng{authorfullhash}{add53b08df5983f0ea44ff5fe673830f}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Centrality in Social Networks Conceptual Clarification}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{1}
+      \field{year}{1979}
+      \field{dateera}{ce}
+      \field{pages}{215\bibrangedash 239}
+      \range{pages}{25}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/0378-8733(78)90021-7
+      \endverb
+      \keyw{freeman1979}
+    \endentry
+    \entry{francisco2019}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=d2a9c4a5cd57d45d605c24481934ff2c}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Francisco\bibnamedelima Aparecido},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d2a9c4a5cd57d45d605c24481934ff2c}
+      \strng{fullhash}{d2a9c4a5cd57d45d605c24481934ff2c}
+      \strng{bibnamehash}{d2a9c4a5cd57d45d605c24481934ff2c}
+      \strng{authorbibnamehash}{d2a9c4a5cd57d45d605c24481934ff2c}
+      \strng{authornamehash}{d2a9c4a5cd57d45d605c24481934ff2c}
+      \strng{authorfullhash}{d2a9c4a5cd57d45d605c24481934ff2c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Network Centrality: An Introduction}
+      \field{usera}{C}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \keyw{francisco2019}
+    \endentry
+    \entry{kimsangwoo2012}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=02bb34c6a047b9af45fe5c79aac7af1f}{%
+           family={Sangwoo},
+           familyi={S\bibinitperiod},
+           given={Kim},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Yonsei Univ, Department of physics}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{02bb34c6a047b9af45fe5c79aac7af1f}
+      \strng{fullhash}{02bb34c6a047b9af45fe5c79aac7af1f}
+      \strng{bibnamehash}{02bb34c6a047b9af45fe5c79aac7af1f}
+      \strng{authorbibnamehash}{02bb34c6a047b9af45fe5c79aac7af1f}
+      \strng{authornamehash}{02bb34c6a047b9af45fe5c79aac7af1f}
+      \strng{authorfullhash}{02bb34c6a047b9af45fe5c79aac7af1f}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Structure and dynamics of complex networks}
+      \field{usera}{D}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \keyw{kimsangwoo2012}
+    \endentry
+    \entry{bela2001}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8f9aa69d12cd51c21f06c094b77eb30d}{%
+           family={Bollob{á}s},
+           familyi={B\bibinitperiod},
+           given={B{é}la},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{8f9aa69d12cd51c21f06c094b77eb30d}
+      \strng{fullhash}{8f9aa69d12cd51c21f06c094b77eb30d}
+      \strng{bibnamehash}{8f9aa69d12cd51c21f06c094b77eb30d}
+      \strng{authorbibnamehash}{8f9aa69d12cd51c21f06c094b77eb30d}
+      \strng{authornamehash}{8f9aa69d12cd51c21f06c094b77eb30d}
+      \strng{authorfullhash}{8f9aa69d12cd51c21f06c094b77eb30d}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{langid}{english}
+      \field{series}{Cambridge Studies in Advanced Mathematics}
+      \field{title}{Random Graphs}
+      \field{usera}{M}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1017/CBO9780511814068
+      \endverb
+      \keyw{bela2001}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

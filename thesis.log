@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  23 OCT 2019 16:06
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  27 OCT 2019 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2513,9 +2513,8 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `thesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'thesis.bbl' not found.
-
-No file thesis.bbl.
+Package biblatex Info: ... file 'thesis.bbl' found.
+ (./thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 26.
 Package biblatex Info: Reference segment=0 on input line 26.
 \c@lstlisting=\count551
@@ -2998,14 +2997,7 @@ Overfull \hbox (18.69368pt too wide) detected at line 8
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
-
-! Too many }'s.
-l.57 ...dcontentsline{toc}{chapter}\listtablename}
-                                                        % 将表格目录加入全文目录
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-[9
+ [9
 
 ] [10
 
@@ -3028,222 +3020,45 @@ Such booboos are generally harmless, so keep going.
 \c@pagesLTS.current.local.arabic=\count563
 \openout2 = `tex/intro.aux'.
 
- (./tex/intro.tex
+
+(./tex/intro.tex
 Chapter 1
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 13.
-
-LaTeX Warning: Citation 'mikko2013' on page 1 undefined on input line 13.
-
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 13.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 13.
-
-LaTeX Warning: Citation 'danziger2019' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'newman2010' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'boccaletti2014' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'domenico2013' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'tomasini2015' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'namkhanhvu2017' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'huberman2004' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'zuev2012' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'laguna2004' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'masuda2015' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'bianconi2018' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation 'hua2014' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'shenyu2018' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'zhou2018' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'alvarez2016' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'gomez2015' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'diep2017' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'rocca2014' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'velasquez2018' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'abrams2003' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'vazquez2010' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'rocca2014' on page 1 undefined on input line 15.
-
-
-Overfull \hbox (34.60555pt too wide) in paragraph at lines 15--16
-\T1/ntxtlf/m/n/12.045 memes, dis-eases and ru-mors$[]$.
- []
-
+File: figure/chap1_topic.png Graphic file (type bmp)
+<figure/chap1_topic.png>
 File: figure/chap1_singlemulti.png Graphic file (type bmp)
 <figure/chap1_singlemulti.png>
 
-LaTeX Warning: Citation 'alvarez2016' on page 1 undefined on input line 25.
+LaTeX Warning: Citation 'chau2014' on page 1 undefined on input line 30.
 
 
-LaTeX Warning: Citation 'naim2003' on page 1 undefined on input line 25.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-LaTeX Warning: Citation 'chau2014' on page 1 undefined on input line 25.
-
-
-LaTeX Warning: Citation 'rocca2014' on page 1 undefined on input line 25.
-
-
-LaTeX Warning: Citation 'abrams2003' on page 1 undefined on input line 25.
-
-
-LaTeX Warning: Citation 'vazquez2010' on page 1 undefined on input line 25.
-
-
-LaTeX Warning: Citation 'patriarca2012' on page 1 undefined on input line 25.
-
-[1
+ [1
 
 
 
 
 ]
-
-LaTeX Warning: Citation 'alvarez2016' on page 2 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'amato2017' on page 2 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'diep2017' on page 2 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'gomez2015' on page 2 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'alvarez2016' on page 2 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'diep2017' on page 2 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'amato2017' on page 2 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'gomez2015' on page 2 undefined on input line 27.
-
-
-LaTeX Warning: Citation 'erdos1960' on page 2 undefined on input line 31.
-
-
-LaTeX Warning: Citation 'watts1998' on page 2 undefined on input line 31.
-
-
-LaTeX Warning: Citation 'barabasi1999' on page 2 undefined on input line 31.
-
 [2]
-
-LaTeX Warning: Citation 'sirbu2017' on page 3 undefined on input line 43.
-
-
-LaTeX Warning: Citation 'hoffman2011' on page 3 undefined on input line 43.
-
-
-LaTeX Warning: Citation 'dietrich2004' on page 3 undefined on input line 43.
-
-
-LaTeX Warning: Citation 'hoffman2011' on page 3 undefined on input line 43.
-
-
-LaTeX Warning: Citation 'dietrich2004' on page 3 undefined on input line 44.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
 
-LaTeX Warning: Citation 'freeman1979' on page 4 undefined on input line 47.
+LaTeX Warning: Citation 'koschutzki2008' on page 4 undefined on input line 42.
 
 
-LaTeX Warning: Citation 'koschutzki2008' on page 4 undefined on input line 47.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-LaTeX Warning: Citation 'francisco2019' on page 4 undefined on input line 51.
-
-
-LaTeX Warning: Citation 'bianconi2018' on page 4 undefined on input line 51.
-
-
-LaTeX Warning: Citation 'alvarez2016' on page 4 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'gomez2015' on page 4 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'diep2017' on page 4 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'rocca2014' on page 4 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'alvarez2016' on page 4 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'gomez2015' on page 4 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'diep2017' on page 4 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'alvarez2016' on page 4 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'gomez2015' on page 4 undefined on input line 54.
-
-[4]
-File: figure/chap1_topic.png Graphic file (type bmp)
-<figure/chap1_topic.png>
-) [5] [6]
+ [4]
+[5]) [6]
 \openout2 = `tex/chap2.aux'.
 
  (./tex/chap2.tex
 Chapter 2
 File: figure/chap2_modeling.png Graphic file (type bmp)
 <figure/chap2_modeling.png>
-
-LaTeX Warning: Citation 'rocca2014' on page 7 undefined on input line 24.
-
 
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
@@ -3253,15 +3068,9 @@ Underfull \vbox (badness 1062) has occurred while \output is active []
 
 ]
 [8]
-
-LaTeX Warning: Citation 'abrams2003' on page 9 undefined on input line 74.
-
-
-LaTeX Warning: Citation 'vazquez2010' on page 9 undefined on input line 74.
-
 File: figure/chap2_dynamics.png Graphic file (type bmp)
 <figure/chap2_dynamics.png>
-[9]
+ [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
@@ -3293,13 +3102,6 @@ File: figure/chap2_AS_total(BA3_BA3).png Graphic file (type bmp)
 
  (./tex/chap3.tex
 Chapter 3
-
-LaTeX Warning: Citation 'kimsangwoo2012' on page 15 undefined on input line 19.
-
-
-
-LaTeX Warning: Citation 'bela2001' on page 15 undefined on input line 19.
-
 File: figure/chap3_RR(5)_RR(5).png Graphic file (type bmp)
 <figure/chap3_RR(5)_RR(5).png>
 File: figure/chap3_RR(5)_RR(5)_2d.png Graphic file (type bmp)
@@ -3368,174 +3170,96 @@ File: figure/chap3_internal_edge_AB_total.png Graphic file (type bmp)
 File: figure/chap3_internal_edge_summary.png Graphic file (type bmp)
 <figure/chap3_internal_edge_summary.png>
 
-
-LaTeX Warning: Citation 'barabasi1999' on page 23 undefined on input line 138.
-
 [23]
 File: figure/chap3_changing_structure_type.png Graphic file (type bmp)
 <figure/chap3_changing_structure_type.png>
-
-
-LaTeX Warning: File `chap3_network_type_total.png' not found on input line 151.
-
-
-! Unable to load picture or PDF file 'chap3_network_type_total.png'.
-<to be read again> 
-                   }
-l.151 ...dth=\hsize]{chap3_network_type_total.png}
-                                                  
-The requested image couldn't be read because
-it was not a recognized image format.
-
-
-! Package graphics Error: Division by 0.
-
-See the graphics package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.151 ...dth=\hsize]{chap3_network_type_total.png}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-File: chap3_network_type_total.png Graphic file (type bmp)
-<chap3_network_type_total.png>
-[24]
-
-LaTeX Warning: File `chap3_network_type_internal_degree.png' not found on input
- line 160.
-
-! Unable to load picture or PDF file 'chap3_network_type_internal_degree.png'.
-<to be read again> 
-                   }
-l.160 ...]{chap3_network_type_internal_degree.png}
-                                                  
-The requested image couldn't be read because
-it was not a recognized image format.
-
-
-! Package graphics Error: Division by 0.
-
-See the graphics package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 ...]{chap3_network_type_internal_degree.png}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-File: chap3_network_type_internal_degree.png Graphic file (type bmp)
-<chap3_network_type_internal_degree.png>
-) [25] [26]
+ [24]
+File: figure/chap3_changing_network_type1.png Graphic file (type bmp)
+<figure/chap3_changing_network_type1.png>
+File: figure/chap3_changing_network_type2.png Graphic file (type bmp)
+<figure/chap3_changing_network_type2.png>
+ [25]) [26] [27]
 \openout2 = `tex/chap4.aux'.
 
- (./tex/chap4.tex
-Chapter 4
-
-LaTeX Warning: Citation 'barabasi1999' on page 27 undefined on input line 15.
-
-
-LaTeX Warning: File `figure/layerorder.png' not found on input line 64.
-
-! Unable to load picture or PDF file 'figure/layerorder.png'.
-<to be read again> 
-                   }
-l.64 ...phics[width=\hsize]{figure/layerorder.png}
-                                                  
-The requested image couldn't be read because
-it was not a recognized image format.
-
-
-! Package graphics Error: Division by 0.
-
-See the graphics package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 ...phics[width=\hsize]{figure/layerorder.png}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-File: figure/layerorder.png Graphic file (type bmp)
-<figure/layerorder.png>
-[27
-
-
-
-] [28]
-File: figure/chap4_nodeorder.png Graphic file (type bmp)
-<figure/chap4_nodeorder.png>
- [29]
-File: figure/chap4_edgeorder_explanation.png Graphic file (type bmp)
-<figure/chap4_edgeorder_explanation.png>
-
-
-! Package enumitem Error: (1) undefined.
-
-See the enumitem package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.93 \begin{enumerate}[(1)]
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[30]
-File: figure/chap4_edgeorder.png Graphic file (type bmp)
-<figure/chap4_edgeorder.png>
- [31]
-File: figure/chap4_ordertotal.png Graphic file (type bmp)
-<figure/chap4_ordertotal.png>
-File: figure/chap4_ordertotal2.png Graphic file (type bmp)
-<figure/chap4_ordertotal2.png>
-) [32] [33] [34]
-\openout2 = `tex/chap5.aux'.
-
- (./tex/chap5.tex
-Chapter 5
-[35
-
-
-
-]) [36]
-\openout2 = `tex/chap6.aux'.
-
- (./tex/chap6.tex
-Chapter 6
-[37
-
-
-
-]) [38]
-
-LaTeX Warning: Empty bibliography on input line 88.
-
-\openout2 = `tex/ack.aux'.
-
-(./tex/ack.tex) [39
-
+ (./tex/chap4.tex [28
 
 
 
 ]
+Chapter 4
+File: figure/chap4_layerorder.png Graphic file (type bmp)
+<figure/chap4_layerorder.png>
+
+LaTeX Warning: Reference `layerorder' on page 29 undefined on input line 68.
+
+[29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+File: figure/chap4_nodeorder.png Graphic file (type bmp)
+<figure/chap4_nodeorder.png>
+
+Underfull \vbox (badness 1281) has occurred while \output is active []
+
+ [31]
+File: figure/chap4_edgeorder_explanation.png Graphic file (type bmp)
+<figure/chap4_edgeorder_explanation.png>
+
+[32]
+File: figure/chap4_edgeorder.png Graphic file (type bmp)
+<figure/chap4_edgeorder.png>
+ [33]
+File: figure/chap4_ordertotal.png Graphic file (type bmp)
+<figure/chap4_ordertotal.png>
+File: figure/chap4_ordertotal2.png Graphic file (type bmp)
+<figure/chap4_ordertotal2.png>
+ [34]) [35]
+
+LaTeX Warning: Text page 36 contains only floats.
+
+[36] [37]
+\openout2 = `tex/chap5.aux'.
+
+ (./tex/chap5.tex [38
+
+
+
+]
+Chapter 5
+[39]) [40]
+\openout2 = `tex/chap6.aux'.
+
+ (./tex/chap6.tex
+Chapter 6
+[41
+
+
+
+]) [42]
+LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
+(Font)              scaled to size 12.045pt on input line 88.
+ [43
+
+
+
+] [44] [45]
+\openout2 = `tex/ack.aux'.
+
+ (./tex/ack.tex [46
+
+
+]) [47]
 \openout2 = `tex/pub.aux'.
 
- (./tex/pub.tex [40
+ (./tex/pub.tex [48
 
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 12.045pt on input line 11.
-) [41]
-
+)
+[49] 
 AED: pageslts setting LastPage 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 124.
@@ -3555,7 +3279,7 @@ Package pageslts Info: Total number of pages is odd.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8BF518F4E71690EC572BE0504BCE2575.
+(rerunfilecheck)             Checksum: 160F79E1CA1E191D8CFA7F3C440FB7B8.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3573,12 +3297,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53772 strings out of 492933
- 1075870 string characters out of 6134842
- 1608909 words of memory out of 5000000
- 56818 multiletter control sequences out of 15000+600000
- 659644 words of font info for 213 fonts, out of 8000000 for 9000
+ 53898 strings out of 492933
+ 1080299 string characters out of 6134842
+ 1608876 words of memory out of 5000000
+ 56946 multiletter control sequences out of 15000+600000
+ 656852 words of font info for 213 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,17n,94p,1552b,1357s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,94p,1660b,5384s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (63 pages).
+Output written on thesis.pdf (71 pages).
