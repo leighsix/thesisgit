@@ -1,7 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \contentsline {chapter}{List of Figures}{VIII}{chapter*.4}% 
 \contentsline {chapter}{List of Tables}{IX}{chapter*.5}% 
-\contentsline {chapter}{List of Algorithms}{XI}{chapter*.6}% 
 \contentsline {chapter}{Nomenclature}{XIII}{chapter*.7}% 
 \contentsline {chapter}{\numberline {Chapter 1}Introduction}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}% 
@@ -32,5 +31,5 @@
 \contentsline {section}{\numberline {6.1}Summary}{41}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Discussion}{42}{section.6.2}% 
 \contentsline {chapter}{Bibliography}{43}{appendix*.39}% 
-\contentsline {chapter}{Acknowledgements}{47}{appendix*.40}% 
-\contentsline {chapter}{Publications}{49}{appendix*.41}% 
+\contentsline {chapter}{Publications}{47}{appendix*.40}% 
+\contentsline {chapter}{Projects}{49}{appendix*.41}% 

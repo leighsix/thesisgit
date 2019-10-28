@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  27 OCT 2019 16:18
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  28 OCT 2019 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2390,7 +2390,7 @@ LaTeX Warning: Unused global option(s):
 \c@pagesLTS.Roman.1.local.cnt=\count547
  (./tex/intro.aux)
 (./tex/chap2.aux) (./tex/chap3.aux) (./tex/chap4.aux) (./tex/chap5.aux)
-(./tex/chap6.aux) (./tex/ack.aux) (./tex/pub.aux)
+(./tex/chap6.aux) (./tex/pubreview.aux) (./tex/projectsreview.aux)
 \c@pagesLTS.arabic.1.local.cnt=\count548
 )
 \openout1 = `thesis.aux'.
@@ -2742,25 +2742,6 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 [4
 
 ]
-LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <18.06749> not availabl
-e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 18.06749pt on input line 43.
-
-
-LaTeX Font Warning: Font shape `TU/SimHei(0)/bx/n' undefined
-(Font)              using `TU/SimHei(0)/m/n' instead on input line 43.
-
-[5
-
-] [6
-
-] [7
-
-] [8
-
-]
 \c@pagesLTS.Alph.1.local.count=\count556
 \c@pagesLTS.pnc.Roman=\count557
 \c@pagesLTS.double.Roman=\count558
@@ -2774,6 +2755,11 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <16.06> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 16.06pt on input line 9.
+
+
+LaTeX Font Warning: Font shape `TU/SimHei(0)/bx/n' undefined
+(Font)              using `TU/SimHei(0)/m/n' instead on input line 9.
+
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.53937pt on input line 13.
 
@@ -2806,7 +2792,7 @@ e
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 10.53937pt on input line 13.
- [1
+[1
 
 
 
@@ -2829,8 +2815,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
-
-[6] (./thesis.lof
+ [6] (./thesis.lof
 Overfull \hbox (23.4394pt too wide) detected at line 4
 \T1/ntxtlf/m/n/12.045 Figure 1--1 
  []
@@ -2957,14 +2942,14 @@ Overfull \hbox (23.4394pt too wide) detected at line 31
 \T1/ntxtlf/m/n/12.045 Figure 4--2 
  []
 
+[7
 
+]
 Overfull \hbox (23.4394pt too wide) detected at line 32
 \T1/ntxtlf/m/n/12.045 Figure 4--3 
  []
 
-[7
 
-]
 Overfull \hbox (23.4394pt too wide) detected at line 33
 \T1/ntxtlf/m/n/12.045 Figure 4--4 
  []
@@ -3046,7 +3031,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
 
-LaTeX Warning: Citation 'koschutzki2008' on page 4 undefined on input line 42.
+LaTeX Warning: Citation 'koschutzki2008' on page 4 undefined on input line 43.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3243,23 +3228,27 @@ LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
 
 
 ] [44] [45]
-\openout2 = `tex/ack.aux'.
+\openout2 = `tex/pubreview.aux'.
 
- (./tex/ack.tex [46
-
-
-]) [47]
-\openout2 = `tex/pub.aux'.
-
- (./tex/pub.tex [48
-
+ (./tex/pubreview.tex [46
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 12.045pt on input line 11.
-)
-[49] 
+(Font)              scaled to size 12.045pt on input line 7.
+
+
+LaTeX Font Warning: Font shape `TU/SimSun(0)/m/sc' undefined
+(Font)              using `TU/SimSun(0)/m/n' instead on input line 7.
+
+) [47]
+\openout2 = `tex/projectsreview.aux'.
+
+ (./tex/projectsreview.tex [48
+
+
+
+]) [49] 
 AED: pageslts setting LastPage 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 124.
@@ -3275,11 +3264,11 @@ Package pageslts Info: Total number of pages is odd.
 
 (./thesis.aux (./tex/abstract.aux) (./tex/symbol.aux) (./tex/intro.aux)
 (./tex/chap2.aux) (./tex/chap3.aux) (./tex/chap4.aux) (./tex/chap5.aux)
-(./tex/chap6.aux) (./tex/ack.aux) (./tex/pub.aux))
+(./tex/chap6.aux) (./tex/pubreview.aux) (./tex/projectsreview.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 160F79E1CA1E191D8CFA7F3C440FB7B8.
+(rerunfilecheck)             Checksum: 47407611BC0E35ACEE4D4E09E2F1987F.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3297,12 +3286,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53898 strings out of 492933
- 1080299 string characters out of 6134842
- 1608876 words of memory out of 5000000
- 56946 multiletter control sequences out of 15000+600000
- 656852 words of font info for 213 fonts, out of 8000000 for 9000
+ 53760 strings out of 492933
+ 1071265 string characters out of 6134842
+ 1609499 words of memory out of 5000000
+ 56809 multiletter control sequences out of 15000+600000
+ 654044 words of font info for 211 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,17n,94p,1660b,5384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,94p,1668b,5384s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (71 pages).
+Output written on thesis.pdf (67 pages).
