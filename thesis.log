@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  28 OCT 2019 16:31
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  31 OCT 2019 14:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3092,81 +3092,84 @@ File: figure/chap3_RR(5)_RR(5).png Graphic file (type bmp)
 File: figure/chap3_RR(5)_RR(5)_2d.png Graphic file (type bmp)
 <figure/chap3_RR(5)_RR(5)_2d.png>
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.53937pt on input line 32.
+(Font)              scaled to size 10.53937pt on input line 28.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: figure/chap3_RR(5)_RR(5)_total.png Graphic file (type bmp)
 <figure/chap3_RR(5)_RR(5)_total.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [15
 
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
+LaTeX Warning: Text page 16 contains only floats.
+
+
+Overfull \vbox (2.25485pt too high) has occurred while \output is active []
+
+
+[16]
+Underfull \vbox (badness 3769) has occurred while \output is active []
+
+ [17]
 File: figure/chap3_HM.png Graphic file (type bmp)
 <figure/chap3_HM.png>
-
-[17]
 File: figure/chap3_HMs_AStotal.png Graphic file (type bmp)
 <figure/chap3_HMs_AStotal.png>
 File: figure/chap3_HMs_total.png Graphic file (type bmp)
 <figure/chap3_HMs_total.png>
- [18]
+
+[18] [19] [20]
 File: figure/chap3_changing_internal_edges.png Graphic file (type bmp)
 <figure/chap3_changing_internal_edges.png>
+File: figure/chap3_internal_edge_A_total1.png Graphic file (type bmp)
+<figure/chap3_internal_edge_A_total1.png>
 
 
-LaTeX Warning: Reference `chap3_internal_edge_A' on page 19 undefined on input 
-line 85.
+LaTeX Warning: Reference `chap3_interal_edge_A_total' on page 21 undefined on i
+nput line 89.
 
-File: figure/chap3_internal_edge_A_total.png Graphic file (type bmp)
-<figure/chap3_internal_edge_A_total.png>
+File: figure/chap3_internal_edge_B_total1.png Graphic file (type bmp)
+<figure/chap3_internal_edge_B_total1.png>
 
-LaTeX Warning: Reference `chap3_interal_edge_A_total' on page 19 undefined on i
-nput line 94.
-
-[19]
-File: figure/chap3_internal_edge_B_total.png Graphic file (type bmp)
-<figure/chap3_internal_edge_B_total.png>
+LaTeX Warning: Reference `chap3_internal_edge_B' on page 21 undefined on input 
+line 97.
 
 
-LaTeX Warning: Reference `chap3_internal_edge_B' on page 20 undefined on input 
-line 104.
+LaTeX Warning: Reference `chap3_interal_edge_B_total' on page 21 undefined on i
+nput line 97.
 
-
-LaTeX Warning: Reference `chap3_interal_edge_B_total' on page 20 undefined on i
-nput line 104.
-
-
-Underfull \vbox (badness 4582) has occurred while \output is active []
-
- [20]
 File: figure/chap3_internal_edge_two_total.png Graphic file (type bmp)
 <figure/chap3_internal_edge_two_total.png>
-
-Underfull \vbox (badness 6078) has occurred while \output is active []
-
- [21]
-Underfull \vbox (badness 4543) has occurred while \output is active []
-
- [22]
 File: figure/chap3_internal_edge_AB_total.png Graphic file (type bmp)
 <figure/chap3_internal_edge_AB_total.png>
 File: figure/chap3_internal_edge_summary.png Graphic file (type bmp)
 <figure/chap3_internal_edge_summary.png>
+[21] [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[23]
+ [23]
+[24]
 File: figure/chap3_changing_structure_type.png Graphic file (type bmp)
 <figure/chap3_changing_structure_type.png>
- [24]
-File: figure/chap3_changing_network_type1.png Graphic file (type bmp)
-<figure/chap3_changing_network_type1.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+File: figure/chap3_changing_network_type11.png Graphic file (type bmp)
+<figure/chap3_changing_network_type11.png>
 File: figure/chap3_changing_network_type2.png Graphic file (type bmp)
 <figure/chap3_changing_network_type2.png>
- [25]) [26] [27]
+
+[26]) [27] [28] [29]
 \openout2 = `tex/chap4.aux'.
 
- (./tex/chap4.tex [28
+ (./tex/chap4.tex [30
 
 
 
@@ -3175,62 +3178,62 @@ Chapter 4
 File: figure/chap4_layerorder.png Graphic file (type bmp)
 <figure/chap4_layerorder.png>
 
-LaTeX Warning: Reference `layerorder' on page 29 undefined on input line 68.
+LaTeX Warning: Reference `layerorder' on page 31 undefined on input line 68.
 
-[29]
+[31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
+ [32]
 File: figure/chap4_nodeorder.png Graphic file (type bmp)
 <figure/chap4_nodeorder.png>
 
 Underfull \vbox (badness 1281) has occurred while \output is active []
 
- [31]
+ [33]
 File: figure/chap4_edgeorder_explanation.png Graphic file (type bmp)
 <figure/chap4_edgeorder_explanation.png>
 
-[32]
+[34]
 File: figure/chap4_edgeorder.png Graphic file (type bmp)
 <figure/chap4_edgeorder.png>
- [33]
+ [35]
 File: figure/chap4_ordertotal.png Graphic file (type bmp)
 <figure/chap4_ordertotal.png>
 File: figure/chap4_ordertotal2.png Graphic file (type bmp)
 <figure/chap4_ordertotal2.png>
- [34]) [35]
+ [36]) [37]
 
-LaTeX Warning: Text page 36 contains only floats.
+LaTeX Warning: Text page 38 contains only floats.
 
-[36] [37]
+[38] [39]
 \openout2 = `tex/chap5.aux'.
 
- (./tex/chap5.tex [38
+ (./tex/chap5.tex [40
 
 
 
 ]
 Chapter 5
-[39]) [40]
+[41]) [42]
 \openout2 = `tex/chap6.aux'.
 
  (./tex/chap6.tex
 Chapter 6
-[41
+[43
 
 
 
-]) [42]
+]) [44]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
 (Font)              scaled to size 12.045pt on input line 88.
- [43
+ [45
 
 
 
-] [44] [45]
+] [46] [47]
 \openout2 = `tex/pubreview.aux'.
 
- (./tex/pubreview.tex [46
+ (./tex/pubreview.tex [48
 
 
 ]
@@ -3241,14 +3244,14 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 LaTeX Font Warning: Font shape `TU/SimSun(0)/m/sc' undefined
 (Font)              using `TU/SimSun(0)/m/n' instead on input line 7.
 
-) [47]
+) [49]
 \openout2 = `tex/projectsreview.aux'.
 
- (./tex/projectsreview.tex [48
+ (./tex/projectsreview.tex [50
 
 
 
-]) [49] 
+]) [51] 
 AED: pageslts setting LastPage 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 124.
@@ -3286,12 +3289,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53760 strings out of 492933
- 1071265 string characters out of 6134842
- 1609499 words of memory out of 5000000
- 56809 multiletter control sequences out of 15000+600000
+ 53759 strings out of 492933
+ 1071254 string characters out of 6134842
+ 1609865 words of memory out of 5000000
+ 56808 multiletter control sequences out of 15000+600000
  654044 words of font info for 211 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,17n,94p,1668b,5384s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (67 pages).
+Output written on thesis.pdf (69 pages).

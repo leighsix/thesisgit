@@ -11,25 +11,25 @@
 \contentsline {section}{\numberline {2.2}Simulations and Analysis}{9}{section.2.2}% 
 \contentsline {chapter}{\numberline {Chapter 3}Competition on two layer with various structural network}{15}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Competition on Random Regular Networks}{15}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Competition on Networks with different number of external links}{17}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Competition on Networks with different number of internal links}{19}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Competition on networks with different structures}{24}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Conclusion}{26}{section.3.5}% 
-\contentsline {chapter}{\numberline {Chapter 4}Competition on two layer with various updating rules}{29}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Order of layers}{29}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Order of nodes}{31}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Order of edges}{32}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Comparison and Analysis}{34}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Conclusion}{35}{section.4.5}% 
-\contentsline {chapter}{\numberline {Chapter 5}Finding key nodes on two layer networks}{39}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Method for finding key nodes}{39}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Key nodes on layer A}{39}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Key nodes on layer B}{40}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Key nodes on two layers with different structures}{40}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Conclusion}{40}{section.5.5}% 
-\contentsline {chapter}{\numberline {Chapter 6}Conclusion}{41}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Summary}{41}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}Discussion}{42}{section.6.2}% 
-\contentsline {chapter}{Bibliography}{43}{appendix*.39}% 
-\contentsline {chapter}{Publications}{47}{appendix*.40}% 
-\contentsline {chapter}{Projects}{49}{appendix*.41}% 
+\contentsline {section}{\numberline {3.2}Competition on Networks with different number of external links}{18}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Competition on Networks with different number of internal links}{21}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Competition on networks with different structures}{26}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Conclusion}{28}{section.3.5}% 
+\contentsline {chapter}{\numberline {Chapter 4}Competition on two layer with various updating rules}{31}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Order of layers}{31}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Order of nodes}{33}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Order of edges}{34}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Comparison and Analysis}{36}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Conclusion}{37}{section.4.5}% 
+\contentsline {chapter}{\numberline {Chapter 5}Finding key nodes on two layer networks}{41}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Method for finding key nodes}{41}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Key nodes on layer A}{41}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Key nodes on layer B}{42}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Key nodes on two layers with different structures}{42}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Conclusion}{42}{section.5.5}% 
+\contentsline {chapter}{\numberline {Chapter 6}Conclusion}{43}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Summary}{43}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Discussion}{44}{section.6.2}% 
+\contentsline {chapter}{Bibliography}{45}{appendix*.39}% 
+\contentsline {chapter}{Publications}{49}{appendix*.40}% 
+\contentsline {chapter}{Projects}{51}{appendix*.41}% 
