@@ -91,10 +91,11 @@ where $i_i$ is the number of internal edges and $e_i$ is the number of external 
 
 
 \section{Simulations and Analysis}
+This modeling is nonlinear in that the structure of the model changes with the states of nodes. In this model, helpful mathematical tools are no longer applicable and  it turns out, moreover, that rigorous analytical results are difficult to obtain.\parencite{nicolas2017, rainer2002}. For that reason, we would try to carry out the analysis of the above nonlinear model to a large extent by simulations on the computer.
+
 To start with a polarized competition, as the initial conditions,  nodes in layer A are all positive, and nodes in layer B are all negative as shown in Fig.~\ref{chap2_modeling}. For nodes in layer A, it begins with the status where half of nodes are $+1$ and the others are $+2$. The initial state of nodes in layer B have only $-1$. 
 
 There are two parameters in the dynamics of layer A. To simply represent the probability $p$ and probability $q$ together, we set $p+q=1$. So, $p$ represents the tendency of opinion such as extreme or moderate, which is scaled to be $0$ to $1$. And, the scale of $v$, in the dynamics of layer B, is also $0$ to $1$. 
-
 
 To implement the interconnected dynamics, one step consists of two layers dynamics, where every node in layer A is checked with opinion dynamics, and every node in layer B updates its state according to the decision-making dynamics. Basically, the dynamics order follows updating state of layer B after updating state of layer A. The dynamics orders and updating rules would be discussed specifically in chapter 4.      
 

@@ -537,6 +537,65 @@
       \endverb
       \keyw{masuda2014}
     \endentry
+    \entry{smyrnakis2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=79470f9f5de7985136555649299c4c33}{%
+           family={Smyrnakis},
+           familyi={S\bibinitperiod},
+           given={Michalis},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6d3dfac01eac9487ada6b6434d879ebc}{%
+           family={Bauso},
+           familyi={B\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c4ea383f77a70da5c5c88ebb25e84285}{%
+           family={Hamidou},
+           familyi={H\bibinitperiod},
+           given={Tembine},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{128d56fdfb7e6023d392c44af59db4a2}
+      \strng{fullhash}{6ed0816b90ed7c51fc2241750e8d0ec4}
+      \strng{bibnamehash}{6ed0816b90ed7c51fc2241750e8d0ec4}
+      \strng{authorbibnamehash}{6ed0816b90ed7c51fc2241750e8d0ec4}
+      \strng{authornamehash}{128d56fdfb7e6023d392c44af59db4a2}
+      \strng{authorfullhash}{6ed0816b90ed7c51fc2241750e8d0ec4}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quantised consensus has been used in the context of opinion dynamics. In this context agents interact with their neighbours and they change their opinion according to their interests and the opinions of their neighbours. We consider various quantised consensus models, where agents have different levels of susceptibility to the inputs received from their neighbours. The provided models share similarities with collective decision making models inspired by honeybees and evolutionary games. As first contribution, we develop an evolutionary game-theoretic model that accommodates the different consensus dynamics in a unified framework. As second contribution, we study equilibrium points and extend such study to the symmetric case where the transition probabilities of the evolutionary game dynamics are symmetric. Symmetry is associated with the case of equally favourable options. As third contribution, we study stability of the equilibrium points for the different cases. We corroborate the theoretical results with some simulations to study the outcomes of the various models.}
+      \field{journaltitle}{PLOS ONE}
+      \field{langid}{english}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{An evolutionary game perspective on quantised consensus in opinion dynamics}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{14}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0209212
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1371/journal.pone.0209212
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1371/journal.pone.0209212
+      \endverb
+      \keyw{smyrnakis2019}
+    \endentry
     \entry{bianconi2018}{book}{}
       \name{author}{1}{}{%
         {{hash=aebe511a004007053d73a0a6a9fe706b}{%
@@ -576,6 +635,224 @@
       \verb https://books.google.co.kr/books?id=6v5cDwAAQBAJ
       \endverb
       \keyw{bianconi2018}
+    \endentry
+    \entry{redner2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=eabe84fd527aec7e856b89de52d1721f}{%
+           family={{Redner}},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{eabe84fd527aec7e856b89de52d1721f}
+      \strng{fullhash}{eabe84fd527aec7e856b89de52d1721f}
+      \strng{bibnamehash}{eabe84fd527aec7e856b89de52d1721f}
+      \strng{authorbibnamehash}{eabe84fd527aec7e856b89de52d1721f}
+      \strng{authornamehash}{eabe84fd527aec7e856b89de52d1721f}
+      \strng{authorfullhash}{eabe84fd527aec7e856b89de52d1721f}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{arXiv:1705.02249}
+      \field{eprintclass}{physics.soc-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{arXiv e-prints}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Dynamics of Voter Models on Simple and Complex Networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{arXiv:1705.02249}
+      \range{pages}{-1}
+      \verb{eprint}
+      \verb 1705.02249
+      \endverb
+      \keyw{Physics - Physics and Society,Physics - Data Analysis,Statistics and Probability}
+    \endentry
+    \entry{haibo2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b05cd4b008856bfd3d2b1b5e12d9263e}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Haibo},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{b05cd4b008856bfd3d2b1b5e12d9263e}
+      \strng{fullhash}{b05cd4b008856bfd3d2b1b5e12d9263e}
+      \strng{bibnamehash}{b05cd4b008856bfd3d2b1b5e12d9263e}
+      \strng{authorbibnamehash}{b05cd4b008856bfd3d2b1b5e12d9263e}
+      \strng{authornamehash}{b05cd4b008856bfd3d2b1b5e12d9263e}
+      \strng{authorfullhash}{b05cd4b008856bfd3d2b1b5e12d9263e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Opinion competition is a common phenomenon in real life, such as with opinions on controversial issues or political candidates; however, modelling this competition remains largely unexplored. To bridge this gap, we propose a model of competing opinion diffusion on social networks taking into account degree-dependent fitness or persuasiveness. We study the combined influence of social networks, individual fitnesses and attributes, as well as mass media on people’s opinions, and find that both social networks and mass media act as amplifiers in opinion diffusion, the amplifying effect of which can be quantitatively characterized. We analytically obtain the probability that each opinion will ultimately pervade the whole society when there are no committed people in networks, and the final proportion of each opinion at the steady state when there are committed people in networks. The results of numerical simulations show good agreement with those obtained through an analytical approach. This study provides insight into the collective influence of individual attributes, local social networks and global media on opinion diffusion, and contributes to a comprehensive understanding of competing diffusion behaviours in the real world.}
+      \field{journaltitle}{Royal Society Open Science}
+      \field{langid}{english}
+      \field{number}{11}
+      \field{title}{Competing opinion diffusion on social networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{4}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{171160}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rsos.171160
+      \endverb
+      \verb{eprint}
+      \verb https://royalsocietypublishing.org/doi/pdf/10.1098/rsos.171160
+      \endverb
+      \verb{urlraw}
+      \verb https://royalsocietypublishing.org/doi/abs/10.1098/rsos.171160
+      \endverb
+      \verb{url}
+      \verb https://royalsocietypublishing.org/doi/abs/10.1098/rsos.171160
+      \endverb
+      \keyw{haibo2017}
+    \endentry
+    \entry{amato2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=341a3fcee776244201e8e74e8b111ee0}{%
+           family={Amato},
+           familyi={A\bibinitperiod},
+           given={Roberta},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d8fcc72e1c2a9668f99fb840addbff9e}{%
+           family={Kouvaris},
+           familyi={K\bibinitperiod},
+           given={Nikos},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6fc367b65e90b5c13537b916f8a401e4}{%
+           family={San\bibnamedelima Miguel},
+           familyi={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Maxi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=685d9adb1fdb8e575f5225ad7a1d7845}{%
+           family={Diaz-Guilera},
+           familyi={D\bibinithyphendelim G\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d2d05bbbb8384ff0be2404a469167884}
+      \strng{fullhash}{d9bb7fd4004ecaef7a16f183d4882140}
+      \strng{bibnamehash}{f12d2192f403331554a931e55ad53655}
+      \strng{authorbibnamehash}{f12d2192f403331554a931e55ad53655}
+      \strng{authornamehash}{d2d05bbbb8384ff0be2404a469167884}
+      \strng{authorfullhash}{d9bb7fd4004ecaef7a16f183d4882140}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Journal of Physics}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{title}{Opinion competition dynamics on multiplex networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{19}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{123019}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1367-2630/aa936a
+      \endverb
+      \keyw{amato2017}
+    \endentry
+    \entry{quattrociocchi2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5e983e0a577fa17cd50abe418badad90}{%
+           family={Quattrociocchi},
+           familyi={Q\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+        {{hash=e7b00e797d140adf1c921c6c2e28ace3}{%
+           family={Caldarelli},
+           familyi={C\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod}}}%
+        {{hash=de0cc1cf7f439916ed1a87e1f1cb7d45}{%
+           family={Scala},
+           familyi={S\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{b4bca12595c192875589cc51548025d1}
+      \strng{fullhash}{018e5c5f1b51d0cd504fcfc2e0395061}
+      \strng{bibnamehash}{018e5c5f1b51d0cd504fcfc2e0395061}
+      \strng{authorbibnamehash}{018e5c5f1b51d0cd504fcfc2e0395061}
+      \strng{authornamehash}{b4bca12595c192875589cc51548025d1}
+      \strng{authorfullhash}{018e5c5f1b51d0cd504fcfc2e0395061}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific reports}
+      \field{langid}{english}
+      \field{month}{05}
+      \field{title}{Opinion dynamics on interacting networks: Media competition and social influence}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{4}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1038/srep04938
+      \endverb
+      \keyw{quattrociocchi2014}
+    \endentry
+    \entry{casey2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=42a799a035370ce2a07034eafe48fb3e}{%
+           family={Casey\bibnamedelimb M.\bibnamedelimi Schneider-Mizell},
+           familyi={C\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim S\bibinithyphendelim M\bibinitperiod},
+           given={Leonard\bibnamedelimb M.\bibnamedelimi Sander},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{42a799a035370ce2a07034eafe48fb3e}
+      \strng{fullhash}{42a799a035370ce2a07034eafe48fb3e}
+      \strng{bibnamehash}{42a799a035370ce2a07034eafe48fb3e}
+      \strng{authorbibnamehash}{42a799a035370ce2a07034eafe48fb3e}
+      \strng{authornamehash}{42a799a035370ce2a07034eafe48fb3e}
+      \strng{authorfullhash}{42a799a035370ce2a07034eafe48fb3e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J Stat Phys 136:59-71, DOI : 10.1007/s10955-009-9757-6}
+      \field{langid}{english}
+      \field{title}{A Generalized Voter Model on Complex Networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \keyw{casey2009}
     \endentry
     \entry{hua2014}{inproceedings}{}
       \name{author}{3}{}{%
@@ -1093,6 +1370,62 @@
       \endverb
       \keyw{naim2003}
     \endentry
+    \entry{chau2014}{article}{}
+      \name{author}{4}{}{%
+        {{hash=739640ac5e3144f9b623114ab8d68709}{%
+           family={Chau},
+           familyi={C\bibinitperiod},
+           given={H.\bibnamedelimi F.},
+           giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=9e7ce47794b5c09b0309bb64cdd0c1a0}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={C.\bibnamedelimi Y.},
+           giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=b808cd887cdbb674c9e4b962f5d181e6}{%
+           family={Chow},
+           familyi={C\bibinitperiod},
+           given={F.\bibnamedelimi K.},
+           giveni={F\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=e2aa658a81f5975d3a601360cf9c7cbe}{%
+           family={Fung},
+           familyi={F\bibinitperiod},
+           given={Chi-Hang\bibnamedelima Fred},
+           giveni={C\bibinithyphendelim H\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{2}{%
+        {Physica A: Statistical Mechanics}%
+        {its Applications}%
+      }
+      \strng{namehash}{46beb1d8de3bcfbfc3fca63929517f8e}
+      \strng{fullhash}{ef4b42bcc284332c41efb8bcefad22ff}
+      \strng{bibnamehash}{245def86f281d6a379a3cec729b5d0e4}
+      \strng{authorbibnamehash}{245def86f281d6a379a3cec729b5d0e4}
+      \strng{authornamehash}{46beb1d8de3bcfbfc3fca63929517f8e}
+      \strng{authorfullhash}{ef4b42bcc284332c41efb8bcefad22ff}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{title}{Social judgment theory based model on opinion formation, polarization and evolution}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{415}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{133\bibrangedash 140}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.physa.2014.07.082
+      \endverb
+      \keyw{chau2014}
+    \endentry
     \entry{patriarca2012}{article}{}
       \name{author}{5}{}{%
         {{hash=86217e977d22e093bc9c3adca7529f8f}{%
@@ -1144,59 +1477,6 @@
       \field{year}{2012}
       \field{dateera}{ce}
       \keyw{patriarca2012}
-    \endentry
-    \entry{amato2017}{article}{}
-      \name{author}{4}{}{%
-        {{hash=341a3fcee776244201e8e74e8b111ee0}{%
-           family={Amato},
-           familyi={A\bibinitperiod},
-           given={Roberta},
-           giveni={R\bibinitperiod}}}%
-        {{hash=d8fcc72e1c2a9668f99fb840addbff9e}{%
-           family={Kouvaris},
-           familyi={K\bibinitperiod},
-           given={Nikos},
-           giveni={N\bibinitperiod}}}%
-        {{hash=6fc367b65e90b5c13537b916f8a401e4}{%
-           family={San\bibnamedelima Miguel},
-           familyi={S\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={Maxi},
-           giveni={M\bibinitperiod}}}%
-        {{hash=685d9adb1fdb8e575f5225ad7a1d7845}{%
-           family={Diaz-Guilera},
-           familyi={D\bibinithyphendelim G\bibinitperiod},
-           given={Albert},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {english}%
-      }
-      \strng{namehash}{d2d05bbbb8384ff0be2404a469167884}
-      \strng{fullhash}{d9bb7fd4004ecaef7a16f183d4882140}
-      \strng{bibnamehash}{f12d2192f403331554a931e55ad53655}
-      \strng{authorbibnamehash}{f12d2192f403331554a931e55ad53655}
-      \strng{authornamehash}{d2d05bbbb8384ff0be2404a469167884}
-      \strng{authorfullhash}{d9bb7fd4004ecaef7a16f183d4882140}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{New Journal of Physics}
-      \field{langid}{english}
-      \field{month}{12}
-      \field{title}{Opinion competition dynamics on multiplex networks}
-      \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
-      \field{volume}{19}
-      \field{year}{2017}
-      \field{dateera}{ce}
-      \field{pages}{123019}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1367-2630/aa936a
-      \endverb
-      \keyw{amato2017}
     \endentry
     \entry{erdos1960}{article}{}
       \name{author}{1}{}{%
@@ -1316,8 +1596,8 @@
       \strng{authorbibnamehash}{b4063d5171bad9750494dbdb05406431}
       \strng{authornamehash}{5ec330763e285359b8f14e1705b366b0}
       \strng{authorfullhash}{b4063d5171bad9750494dbdb05406431}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Systems as diverse as genetic networks or the World Wide Web are best described as networks with complex topology. A common property of many large networks is that the vertex connectivities follow a scale-free power-law distribution. This feature was found to be a consequence of two generic mechanisms: (i) networks expand continuously by the addition of new vertices, and (ii) new vertices attach preferentially to sites that are already well connected. A model based on these two ingredients reproduces the observed stationary scale-free distributions, which indicates that the development of large networks is governed by robust self-organizing phenomena that go beyond the particulars of the individual systems.}
@@ -1380,8 +1660,8 @@
       \strng{authorbibnamehash}{f3be5f47583d81d12cac61213cecc3e0}
       \strng{authornamehash}{c987eec951811edc50628a31f0a3be10}
       \strng{authorfullhash}{3b380280ff47dbcad9d476d8afa63bca}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-319-25656-6}
@@ -1428,14 +1708,14 @@
       \strng{authorbibnamehash}{c37300682b865a3daae57303791808b3}
       \strng{authornamehash}{a1d87b880b60b6b043c35709fa99ee69}
       \strng{authorfullhash}{c37300682b865a3daae57303791808b3}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Economics Letters}
       \field{langid}{english}
       \field{month}{07}
-      \field{title}{Simultaneous versus Sequential Information Processing*}
+      \field{title}{Simultaneous versus Sequential Information Processing}
       \field{usera}{J}
       \field{userd}{english}
       \field{userf}{english}
@@ -1469,8 +1749,8 @@
       \strng{authorbibnamehash}{675ef0bdd0b4b4135b48c838ade149ef}
       \strng{authornamehash}{675ef0bdd0b4b4135b48c838ade149ef}
       \strng{authorfullhash}{675ef0bdd0b4b4135b48c838ade149ef}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Mathematical Sociology}
@@ -1538,6 +1818,325 @@
       \endverb
       \keyw{freeman1979}
     \endentry
+    \entry{koschutzki2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f08200b5f44bccde4b9c437c26cc8ff7}{%
+           family={Kosch{ü}tzki},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=92b66f3a725316d3bc7f37723ca6e2ed}{%
+           family={Schreiber},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{2}{%
+        {Gene regulation}%
+        {systems biology}%
+      }
+      \strng{namehash}{340b4eec5415809a8039503c07e00066}
+      \strng{fullhash}{46999827533d67ee9366a3de2bee6444}
+      \strng{bibnamehash}{46999827533d67ee9366a3de2bee6444}
+      \strng{authorbibnamehash}{46999827533d67ee9366a3de2bee6444}
+      \strng{authornamehash}{340b4eec5415809a8039503c07e00066}
+      \strng{authorfullhash}{46999827533d67ee9366a3de2bee6444}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Centrality analysis methods for biological networks and their application to gene regulatory networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{2}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{193\bibrangedash 201}
+      \range{pages}{9}
+      \keyw{koschutzki2008}
+    \endentry
+    \entry{eom2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=eacf2c4795aecd184723ddce3b17646c}{%
+           family={Eom},
+           familyi={E\bibinitperiod},
+           given={Young-Ho},
+           giveni={Y\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=535693e280fa492b1dd0314dc514683f}{%
+           family={Shepelyansky},
+           familyi={S\bibinitperiod},
+           given={Dima\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{b995414419d98aef25f5240f23ba1905}
+      \strng{fullhash}{07910bc8c77418df25f58bcdc68b2e58}
+      \strng{bibnamehash}{07910bc8c77418df25f58bcdc68b2e58}
+      \strng{authorbibnamehash}{07910bc8c77418df25f58bcdc68b2e58}
+      \strng{authornamehash}{b995414419d98aef25f5240f23ba1905}
+      \strng{authorfullhash}{07910bc8c77418df25f58bcdc68b2e58}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0378-4371}
+      \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{Opinion formation driven by PageRank node influence on directed networks}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{436}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{707\bibrangedash 715}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.physa.2015.05.095
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.physa.2015.05.095
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.physa.2015.05.095
+      \endverb
+      \keyw{eom2015}
+    \endentry
+    \entry{white2003}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=e7bb2d25410afa334632be159dc69953}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4940852a16a84802eb98552d6deace24}{%
+           family={Smyth},
+           familyi={S\bibinitperiod},
+           given={Padhraic},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Washington, D.C.}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{23d1d5c1a578e4de8e73df13264e8434}
+      \strng{fullhash}{a811ade6bb67e0025edb96417ebdd3dd}
+      \strng{bibnamehash}{a811ade6bb67e0025edb96417ebdd3dd}
+      \strng{authorbibnamehash}{a811ade6bb67e0025edb96417ebdd3dd}
+      \strng{authornamehash}{23d1d5c1a578e4de8e73df13264e8434}
+      \strng{authorfullhash}{a811ade6bb67e0025edb96417ebdd3dd}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{1-58113-737-0}
+      \field{langid}{english}
+      \field{series}{KDD '03}
+      \field{title}{Algorithms for Estimating Relative Importance in Networks}
+      \field{usera}{C}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{266\bibrangedash 275}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/956750.956782
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.acm.org/10.1145/956750.956782
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/956750.956782
+      \endverb
+      \keyw{Markov chains,PageRank,graphs,relative importance,social networks}
+    \endentry
+    \entry{mesgari2015}{book}{}
+      \name{author}{4}{}{%
+        {{hash=5791085b4643646348a9e9ee6ebd0063}{%
+           family={Mesgari},
+           familyi={M\bibinitperiod},
+           given={Iman},
+           giveni={I\bibinitperiod}}}%
+        {{hash=c06ea7fbdbc03894eda66f7fc55fed9c}{%
+           family={Kermani},
+           familyi={K\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7cba91e77ea46714c6f7795451863026}{%
+           family={Hanneman},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=dae0f4192b54593f6ea0e16374ed4c6b}{%
+           family={Aliahmadi},
+           familyi={A\bibinitperiod},
+           given={Alireza},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{da141b860cb7d93015fbb604246c2d49}
+      \strng{fullhash}{d5211fa740cc42cb5b3f5db995ab0a21}
+      \strng{bibnamehash}{e1161dbd619308cfc23cdcf1c1ba17fa}
+      \strng{authorbibnamehash}{e1161dbd619308cfc23cdcf1c1ba17fa}
+      \strng{authornamehash}{da141b860cb7d93015fbb604246c2d49}
+      \strng{authorfullhash}{d5211fa740cc42cb5b3f5db995ab0a21}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{month}{01}
+      \field{title}{Identifying Key Nodes in Social Networks Using Multi-Criteria Decision-Making Tools}
+      \field{usera}{M}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{128}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{pages}{137\bibrangedash 150}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/978-3-319-16619-3_10
+      \endverb
+      \keyw{mesgari2015}
+    \endentry
+    \entry{hwang1981}{book}{}
+      \name{author}{2}{}{%
+        {{hash=69cdf2df4369ddfc0c25b12d4e5e9aca}{%
+           family={Hwang},
+           familyi={H\bibinitperiod},
+           given={C.L.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=334585ff084afbdf4508256551d7a18d}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{a4328d2b5691e59f1c1b8e8f2b49a30b}
+      \strng{fullhash}{b970ce001d13f5d797551178bb8f588d}
+      \strng{bibnamehash}{b970ce001d13f5d797551178bb8f588d}
+      \strng{authorbibnamehash}{b970ce001d13f5d797551178bb8f588d}
+      \strng{authornamehash}{a4328d2b5691e59f1c1b8e8f2b49a30b}
+      \strng{authorfullhash}{b970ce001d13f5d797551178bb8f588d}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Multiple Attribute Decision Making: Methods and Applications}
+      \field{usera}{M}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{1981}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1007/978-3-642-48318-9
+      \endverb
+      \keyw{hwang1981}
+    \endentry
+    \entry{huang2014}{article}{}
+      \name{author}{6}{}{%
+        {{hash=7a7407b62830f4a8a8a326639a12f2a9}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Shaobin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=430b529a0a17aab4929a3732781e90a6}{%
+           family={Lv},
+           familyi={L\bibinitperiod},
+           given={Tianyang},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f839647462e83351c0de48fa478497f2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xizhe},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d216eb7dce6e3e38a5ee533dddf3a8cf}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yange},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=87e2f66d642825dc0e7802a8138a614b}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Weimin},
+           giveni={W\bibinitperiod}}}%
+        {{hash=99ffa293c14afe4e56d191f8e0612cdf}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{0abf52c81f737fc66b80d5a3ebfc4895}
+      \strng{fullhash}{ea3aa9c8a86f557ceafe0658fb839ed6}
+      \strng{bibnamehash}{ccb21a7b41722b3e0ec948744c004519}
+      \strng{authorbibnamehash}{ccb21a7b41722b3e0ec948744c004519}
+      \strng{authornamehash}{0abf52c81f737fc66b80d5a3ebfc4895}
+      \strng{authorfullhash}{ea3aa9c8a86f557ceafe0658fb839ed6}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is a classic topic of social network analysis to evaluate the importance of nodes and identify the node that takes on the role of core or bridge in a network. Because a single indicator is not sufficient to analyze multiple characteristics of a node, it is a natural solution to apply multiple indicators that should be selected carefully. An intuitive idea is to select some indicators with weak correlations to efficiently assess different characteristics of a node. However, this paper shows that it is much better to select the indicators with strong correlations. Because indicator correlation is based on the statistical analysis of a large number of nodes, the particularity of an important node will be outlined if its indicator relationship doesn't comply with the statistical correlation. Therefore, the paper selects the multiple indicators including degree, ego-betweenness centrality and eigenvector centrality to evaluate the importance and the role of a node. The importance of a node is equal to the normalized sum of its three indicators. A candidate for core or bridge is selected from the great degree nodes or the nodes with great ego-betweenness centrality respectively. Then, the role of a candidate is determined according to the difference between its indicators' relationship with the statistical correlation of the overall network. Based on 18 real networks and 3 kinds of model networks, the experimental results show that the proposed methods perform quite well in evaluating the importance of nodes and in identifying the node role.}
+      \field{journaltitle}{PLOS ONE}
+      \field{langid}{english}
+      \field{month}{08}
+      \field{number}{8}
+      \field{title}{Identifying Node Role in Social Network Based on Multiple Indicators}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{9}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0103733
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1371/journal.pone.0103733
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1371/journal.pone.0103733
+      \endverb
+      \keyw{huang2014}
+    \endentry
     \entry{francisco2019}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=d2a9c4a5cd57d45d605c24481934ff2c}{%
@@ -1567,6 +2166,81 @@
       \field{year}{2019}
       \field{dateera}{ce}
       \keyw{francisco2019}
+    \endentry
+    \entry{nicolas2017}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ce5effd83d521b8e43ea866ae0507297}{%
+           family={Lanchier},
+           familyi={L\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Arizona State University, School of Mathematical}%
+        {Statistical Sciences}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature, DOI:1007/978-3-319-50038-6}%
+      }
+      \strng{namehash}{ce5effd83d521b8e43ea866ae0507297}
+      \strng{fullhash}{ce5effd83d521b8e43ea866ae0507297}
+      \strng{bibnamehash}{ce5effd83d521b8e43ea866ae0507297}
+      \strng{authorbibnamehash}{ce5effd83d521b8e43ea866ae0507297}
+      \strng{authornamehash}{ce5effd83d521b8e43ea866ae0507297}
+      \strng{authorfullhash}{ce5effd83d521b8e43ea866ae0507297}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Stochastic Modeling}
+      \field{usera}{M}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \keyw{nicolas2017}
+    \endentry
+    \entry{rainer2002}{article}{}
+      \name{author}{2}{}{%
+        {{hash=aaf95a640c24593ff5ad99b4da93bc3a}{%
+           family={Hegselmann},
+           familyi={H\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4647a365f0d2ce7fa24de0b8c50bc06a}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{3b70d58592425588f9162c62a25af746}
+      \strng{fullhash}{c11c172b875d96146e821e713b9f880f}
+      \strng{bibnamehash}{c11c172b875d96146e821e713b9f880f}
+      \strng{authorbibnamehash}{c11c172b875d96146e821e713b9f880f}
+      \strng{authornamehash}{3b70d58592425588f9162c62a25af746}
+      \strng{authorfullhash}{c11c172b875d96146e821e713b9f880f}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Artificial Societies and Social Simulation}
+      \field{langid}{english}
+      \field{month}{07}
+      \field{title}{Opinion Dynamics and Bounded Confidence Models, Analysis and Simulation}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{5}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \keyw{rainer2002}
     \endentry
     \entry{kimsangwoo2012}{thesis}{}
       \name{author}{1}{}{%
@@ -1600,6 +2274,36 @@
       \field{year}{2012}
       \field{dateera}{ce}
       \keyw{kimsangwoo2012}
+    \endentry
+    \entry{choi2011}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=b849c01288f74ca592889c26df9953ba}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Woosik},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{b849c01288f74ca592889c26df9953ba}
+      \strng{fullhash}{b849c01288f74ca592889c26df9953ba}
+      \strng{bibnamehash}{b849c01288f74ca592889c26df9953ba}
+      \strng{authorbibnamehash}{b849c01288f74ca592889c26df9953ba}
+      \strng{authornamehash}{b849c01288f74ca592889c26df9953ba}
+      \strng{authorfullhash}{b849c01288f74ca592889c26df9953ba}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{A Study on the Characteristics and the Transition of the Complex System Network Structure and Dynamics}
+      \field{usera}{D}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \keyw{choi2011}
     \endentry
     \entry{bela2001}{book}{}
       \name{author}{1}{}{%
