@@ -23,9 +23,9 @@
 \contentsline {chapter}{\numberline {Chapter 5}Finding key nodes on two layer networks}{43}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Method for finding key nodes}{43}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Key nodes on layer A}{44}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Key nodes on layer B}{45}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Key nodes on two layers with different structures}{46}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Conclusion}{47}{section.5.5}% 
+\contentsline {section}{\numberline {5.3}Key nodes on layer B}{46}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Key nodes on two layers with different structures}{47}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Conclusion}{48}{section.5.5}% 
 \contentsline {chapter}{\numberline {Chapter 6}Conclusion}{49}{chapter.6}% 
 \contentsline {section}{\numberline {6.1}Summary}{49}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Discussion}{50}{section.6.2}% 

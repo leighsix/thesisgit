@@ -34,8 +34,8 @@
 \contentsline {figure}{\numberline {4--6}{\ignorespaces Total results of 25 updating rules with \textit {CI}\relax }}{40}{figure.caption.35}% 
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {5--1}{\ignorespaces Simulation results according to single node centrality for finding key nodes on layer A\relax }}{44}{figure.caption.36}% 
-\contentsline {figure}{\numberline {5--2}{\ignorespaces Comparison by using indexes, stability and distance \relax }}{46}{figure.caption.37}% 
-\contentsline {figure}{\numberline {5--3}{\ignorespaces Comparison between multiple indicator(pagerank and degree) and single indicator\relax }}{47}{figure.caption.38}% 
+\contentsline {figure}{\numberline {5--2}{\ignorespaces Comparison of single indicators according to stability and distance \relax }}{46}{figure.caption.37}% 
+\contentsline {figure}{\numberline {5--3}{\ignorespaces Comparison between multiple indicator(pagerank and degree) and single indicator: (a) AS with increasing the ratio of stubborn nodes, (b) Stability with increasing the ratio of stubborn nodes\relax }}{47}{figure.caption.38}% 
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}

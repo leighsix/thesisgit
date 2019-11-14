@@ -57,28 +57,28 @@ Pagerank, degree centrality and betweenness centrality have almost same results.
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{figure/chap5_keynode_A_2.png}
-	\caption{Comparison by using indexes, stability and distance  }
+	\caption{Comparison of single indicators according to stability and distance  }
 	\label{chap5_keynode_A_2}
 \end{figure}
 
-Fig.~\ref{chap5_keynode_A_2} shows the simulation results by using indexes, \textit{distance} and \textit{stability}. The order is distance is like pagerank, degree, and betweenness. Fluctuation is also shown as same order. Pagerank has the smallest fluctuation and distance. Therefore, it could be thought that pagerank is the best and most efficient method to recognize key nodes as a single indicator.  
+Fig.~\ref{chap5_keynode_A_2} shows the simulation results by using indexes, \textit{distance} and \textit{stability}. The order is distance is like pagerank(4.8265), degree(5.2890), and betweenness(5.5431). Stability of fluctuation is also shown as same order. Pagerank has the smallest fluctuation and distance. Therefore, it could be thought that pagerank is the best and most efficient method to recognize key nodes as a single indicator.  
 Next, we would try to find key node by using multiple indicators. It could be known that pagerank, degree and betweenness are effective to identify key nodes. Therefore, we would select these node centralities as the factors of combined node centrality.
-Fig.~\ref{} presents the result of combined node centrality with pagerank and degree. 
+Fig.~\ref{chap5_keynode_A_3} presents the result of combined node centrality with pagerank and degree. 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{figure/chap5_keynode_A_3.png}
-	\caption{Comparison between multiple indicator(pagerank and degree) and single indicator}
+	\caption{Comparison between multiple indicator(pagerank and degree) and single indicator:
+	(a) AS with increasing the ratio of stubborn nodes, (b) Stability with increasing the ratio of stubborn nodes}
 	\label{chap5_keynode_A_3}
 \end{figure}
+In Fig.~\ref{chap5_keynode_A_3} (a), combined node centrality has almost same result with single node centrality(pagerank, degree, betweenness). However, Fig.~\ref{chap5_keynode_A_3} (b) presents that the multiple indicator(PR+DE) has the smallest distance and fluctuation. It could be found out that multiple indicator is more effective than single indicator.  
+
 
 
 
   
- 
-
-
- 
-    
+  
+  
 \section{Key nodes on layer B}
 To find key nodes on layer B, parameters are set to be positive consensus state like $p=0.3, v=0.5$. Firstly, Only node centralities would be compared as single indicator for identifying key nodes. 5 node centralities(pagerank, degree, eigenvector, closeness, betweenness) are used as a single indicator. And random selected nodes are compared with 5 node centralities. 
 Fig.~\ref{chap5_keynode_A_1} shows the simulation result for single node centralities. As shown in Fig.~\ref{chap5_keynode_A_1}, the rank of effective way to recognize important nodes follow like this. 
