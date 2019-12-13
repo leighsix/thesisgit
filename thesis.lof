@@ -23,7 +23,7 @@
 \contentsline {figure}{\numberline {3--11}{\ignorespaces Total results with different internal degrees on two layers\relax }}{27}{figure.caption.23}% 
 \contentsline {figure}{\numberline {3--12}{\ignorespaces Categorizing network state according to internal degrees on two layers\relax }}{27}{figure.caption.24}% 
 \contentsline {figure}{\numberline {3--13}{\ignorespaces Competition on interconnected networks with different structures\relax }}{28}{figure.caption.25}% 
-\contentsline {figure}{\numberline {3--14}{\ignorespaces Simulation results with different network types\relax }}{28}{figure.caption.26}% 
+\contentsline {figure}{\numberline {3--14}{\ignorespaces Simulation results with different network types\relax }}{29}{figure.caption.26}% 
 \contentsline {figure}{\numberline {3--15}{\ignorespaces BA-BA networks with changing internal degrees\relax }}{29}{figure.caption.27}% 
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {4--1}{\ignorespaces Simulation results according to orders of layers\relax }}{35}{figure.caption.30}% 
@@ -33,9 +33,12 @@
 \contentsline {figure}{\numberline {4--5}{\ignorespaces Total results of 25 updating rules with \textit {AS}\relax }}{39}{figure.caption.34}% 
 \contentsline {figure}{\numberline {4--6}{\ignorespaces Total results of 25 updating rules with \textit {CI}\relax }}{40}{figure.caption.35}% 
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {5--1}{\ignorespaces Simulation results according to single node centrality for finding key nodes on layer A\relax }}{44}{figure.caption.36}% 
-\contentsline {figure}{\numberline {5--2}{\ignorespaces Comparison of single indicators according to stability and distance \relax }}{46}{figure.caption.37}% 
-\contentsline {figure}{\numberline {5--3}{\ignorespaces Comparison between multiple indicator(pagerank and degree) and single indicator: (a) AS with increasing the ratio of stubborn nodes, (b) Stability with increasing the ratio of stubborn nodes\relax }}{47}{figure.caption.38}% 
+\contentsline {figure}{\numberline {5--1}{\ignorespaces Key nodes on layer A in BA-BA network($p=0.2, v=0.4$) : (a) Single indicator methods, (b) Multiple indicator methods\relax }}{44}{figure.caption.36}% 
+\contentsline {figure}{\numberline {5--2}{\ignorespaces Key nodes on layer B in BA-BA network($p=0.3, v=0.5$) : (a) Single indicator methods, (b) Multiple indicator methods\relax }}{45}{figure.caption.37}% 
+\contentsline {figure}{\numberline {5--3}{\ignorespaces Key nodes on layer A in Hierarchical Model($p=0.2, v=0.2$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{46}{figure.caption.38}% 
+\contentsline {figure}{\numberline {5--4}{\ignorespaces Key nodes on layer B in Hierarchical Model($p=0.25, v=0.3$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{47}{figure.caption.39}% 
+\contentsline {figure}{\numberline {5--5}{\ignorespaces Key nodes on layer A in BA-RR Model($p=0.2, v=0.4$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{48}{figure.caption.40}% 
+\contentsline {figure}{\numberline {5--6}{\ignorespaces Key nodes on layer B in RR-BA Model($p=0.3, v=0.5$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{48}{figure.caption.41}% 
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}

@@ -15,12 +15,13 @@ In this chapter, it would be investigated that what nodes are important to keep 
 
 \section{Method for finding key nodes}
 \label{sec:method for finding key nodes}
-As initial condition for finding key nodes, each layer is made of \textit{BA} network with $2048$ nodes, $K=3$, and $1$ external edge. Each simulation takes $100$ steps, and $100$ simulations are considered for average results. To demonstrate the difference of network state clearly, for finding key nodes on layer A, the parameters would be set to be negative consensus state. Then, as the stubborn nodes on layer A are increased, the network state would be gradually changed into positive state.  Inversely for finding key nodes on layer B, the parameters would be set to be positive consensus state. Then, as the stubborn nodes on layer B are increased, the network state would be gradually changed into negative state.
-Here is the way to find key nodes by using single node centrality..
+As initial condition for finding key nodes, each layer is made of \textit{BA} network with $512$ nodes, $K=3$, and $1$ external edge. Each simulation takes $100$ steps, and $100$ simulations are considered for average results. To demonstrate the difference of network state clearly, for finding key nodes on layer A, the parameters would be set to be negative consensus state. Then, as the stubborn nodes on layer A are increased, the network state would be gradually changed into positive state.  Inversely for finding key nodes on layer B, the parameters would be set to be positive consensus state. Then, as the stubborn nodes on layer B are increased, the network state would be gradually changed into negative state.
+Here is the way to find key nodes by using single node centrality.
 \begin{enumerate}
 	\item All nodes are ranked by 6 node centralities(pagerank, degree, eigenvector, closeness, betweenness).
 	\item The nodes would be deactivated from high ranked order until the state of network has significant difference, i.e. the ratio of stubborn node would be increased according to high ranked order. 
 	\item The results would be compared according to node centralities. If the least ratio of stubborn node makes the largest difference of network state, its node centrality is the most influential for competition of the interconnected network
+	\item To clarify which method is the most effective, each single indicator is calculated with summation of all AS according to the ratio of stubborn nodes. That means the summation of graph line. It could be recognized that the larger the value is on layer A, the more influential that indicator is, inversely the smaller the value is on layer B, the more influential that indicator is.
 \end{enumerate}
 
 And, we would research the way to recognize important node by using multiple indicator such as combined node centrality. Combined node centrality is made up with several selected node centralities. When it is proven that a node centrality is effective to find key nodes through the simulations, it would be selected as a factor of combined node centrality. $2$ or $3$ node centralities would be selected. 
@@ -35,70 +36,114 @@ The way to recognize key nodes by using combined node centrality follow like thi
 \section{Key nodes on layer A}
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=\hsize]{figure/chap5_keynode_A_1.png}
-	\caption{Simulation results according to single node centrality for finding key nodes on layer A}
-	\label{chap5_keynode_A_1}
+	\includegraphics[width=\hsize]{figure/chap5_keynode_A.png}
+	\caption{Key nodes on layer A in BA-BA network($p=0.2, v=0.4$) : (a) Single indicator methods, (b) Multiple indicator methods}
+	\label{chap5_keynode_A}
 \end{figure}
-To find key nodes on layer A, parameters are set to be negative consensus state like $p=0.2, v=0.4$. Firstly, Only node centralities would be compared as single indicator for identifying key nodes. 5 node centralities(pagerank, degree, eigenvector, closeness, betweenness) are used as a single indicator. And random selected nodes are compared with 5 node centralities. 
-Fig.~\ref{chap5_keynode_A_1} shows the simulation result for single node centralities. As shown in Fig.~\ref{chap5_keynode_A_1}, the rank of effective way to recognize important nodes follow like this. 
-\begin{enumerate}
-	\item pagerank > degree > betweenness  
-	\item closeness
-	\item eigenvector       
-	\item random
-\end{enumerate}
-Pagerank, degree centrality and betweenness centrality have almost same results. But, pagerank reaches positive consensus firstly, and then degree centrality reaches secondly though the gap between them is very slight. The next rank order is like closeness, eigenvector and random. To clarify which method is the best and most effective, we would use the indexes \textit{ `stability'} and \textit{`distance' } for measuring stability and distance to end state. \textit{`stability'} and \textit{`distance'} are derived as following steps. 
-\begin{enumerate}
-	\item As described in \ref{sec:method for finding key nodes}, all \textit{AS}s are calculated according to ratio of stubborn nodes   
-	\item all \textit{AS}s are arranged according to ratio of stubborn nodes. 
-	\item \textit{`stability'} is defined as the absolute value of gap between a \textit{AS} and the next \text{AS}. Fluctuation of stability shows which method is the best and fastest way to find key nodes. Small fluctuation is the best and stablest way to identify key nodes. 
-	\item \textit{`distance'} is the summation of all \textit{`stability'}. As the \textit{distance} is large, the method is slow and unstable to recognize key nodes.
-\end{enumerate}
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=\hsize]{figure/chap5_keynode_A_2.png}
-	\caption{Comparison of single indicators according to stability and distance  }
-	\label{chap5_keynode_A_2}
-\end{figure}
+To find key nodes on layer A, parameters are set to be negative consensus state like $p=0.2, v=0.4$. And we would separate single indicators and multiple indicators to identify and compare the simulation results. As single indicators, 5 node centralities(pagerank, degree, eigenvector, closeness, betweenness) are used, and random selected nodes are compared with 5 node centralities. As multiple indicators, 2 or 3 node centralities are combined such as pagerank, degree and betweenness which have good performance as single indicators.  
+Fig.~\ref{chap5_keynode_A} shows the simulation result for recognizing keynode on layer A. As single indicator, degree centrality has the best performance. The next rank is pagerank and betweenness. As multiple indicator, \textit{PR+BE} has the most effective result. The next is \textit{PR+DE}. These two methods of multiple indicators work better than degree centrality. Totally, compared with all methods, the best method is PR+BE. It could be found out that some multiple indicators are more effective than single indicators. 
 
-Fig.~\ref{chap5_keynode_A_2} shows the simulation results by using indexes, \textit{distance} and \textit{stability}. The order is distance is like pagerank(4.8265), degree(5.2890), and betweenness(5.5431). Stability of fluctuation is also shown as same order. Pagerank has the smallest fluctuation and distance. Therefore, it could be thought that pagerank is the best and most efficient method to recognize key nodes as a single indicator.  
-Next, we would try to find key node by using multiple indicators. It could be known that pagerank, degree and betweenness are effective to identify key nodes. Therefore, we would select these node centralities as the factors of combined node centrality.
-Fig.~\ref{chap5_keynode_A_3} presents the result of combined node centrality with pagerank and degree. 
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=\hsize]{figure/chap5_keynode_A_3.png}
-	\caption{Comparison between multiple indicator(pagerank and degree) and single indicator:
-	(a) AS with increasing the ratio of stubborn nodes, (b) Stability with increasing the ratio of stubborn nodes}
-	\label{chap5_keynode_A_3}
-\end{figure}
-In Fig.~\ref{chap5_keynode_A_3} (a), combined node centrality has almost same result with single node centrality(pagerank, degree, betweenness). However, Fig.~\ref{chap5_keynode_A_3} (b) presents that the multiple indicator(PR+DE) has the smallest distance and fluctuation. It could be found out that multiple indicator is more effective than single indicator.  
-
-
-
-
-  
-  
-  
 \section{Key nodes on layer B}
-To find key nodes on layer B, parameters are set to be positive consensus state like $p=0.3, v=0.5$. Firstly, Only node centralities would be compared as single indicator for identifying key nodes. 5 node centralities(pagerank, degree, eigenvector, closeness, betweenness) are used as a single indicator. And random selected nodes are compared with 5 node centralities. 
-Fig.~\ref{chap5_keynode_A_1} shows the simulation result for single node centralities. As shown in Fig.~\ref{chap5_keynode_A_1}, the rank of effective way to recognize important nodes follow like this. 
-\begin{enumerate}
-	\item pagerank > degree > betweenness  
-	\item closeness
-	\item eigenvector       
-	\item random
-\end{enumerate}
-Pagerank, degree centrality and betweenness centrality have almost same results. But, pagerank reaches positive consensus firstly, and then degree centrality reaches secondly though the gap between them is very slight. The next rank order is like closeness, eigenvector and random. It could be known that pagerank, degree and betweenness are effective to identify key nodes. There, we would select 2 or 3 node centralities as the factors of combined node centrality. 
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{figure/chap5_keynode_B.png}
+	\caption{Key nodes on layer B in BA-BA network($p=0.3, v=0.5$) : (a) Single indicator methods, (b) Multiple indicator methods}
+	\label{chap5_keynode_B}
+\end{figure}
 
-
-
-
+To find key nodes on layer B, parameters are set to be positive consensus state like $p=0.3, v=0.5$. Fig.~\ref{chap5_keynode_B} shows the simulation result for identifying key nodes on layer B. As single indicators, the most effective way to recognize important nodes is pagerank centrality. The next ranks are degree and betweenness. As multiple indicators, \textit{PR+DE} has the best performance. Totally, pagerank is the most effective method for finding key nodes on layer B. However, all multiple indicators work better than degree centrality, the second rank in single indicators. It could be found out that combined node centralities have good performance to find key nodes, though they are not the best. 
 
 \section{Key nodes on two layers with different structures}
-In this section, we use the hierarchical models described in chapter.~\ref{chap:competition on two layer with various structural network} with \textit{BA} network. Each layer consists of \textit{BA} network with $k=3$. Layer A has 2048 nodes, and layer B has $256$ nodes. We denote these models as \textit{HM(8) with BA(3)}. 
+In this section, we would try to find the key nodes in the various structural networks described in chapter.~\ref{chap:competition on two layer with various structural network}. Node centralities and combined node centralities are also used as the methods for finding key nodes. First, Hierarchical Model would be applied to identify important nodes. Second, we would consider the case that each layer has different network type, such as \textit{BA-RR} or \textit{RR-BA} networks. Third, it would be taken into account that each layer has different number of edges. Layer A would have more internal links or Layer B would be have more internal links. Both cases would be checked. 
+
+\subsection{Key nodes in Hierarchical Model}
+Each layer consists of \textit{BA} network with $k=3$. Layer A has $512$ nodes, and layer B has $64$ nodes. We denote these models as \textit{HM(8) with BA(3)}.
+Fig.~\ref{chap5_keynode_HM_A} shows the simulation result of key nodes on layer A.
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{figure/chap5_keynode_HM_A.png}
+	\caption{Key nodes on layer A in Hierarchical Model($p=0.2, v=0.2$):
+		(a) Single indicator methods, (b) Multiple indicator methods}
+	\label{chap5_keynode_HM_A}
+\end{figure}
+Simulations results show that degree centrality is the best method for recognizing key nodes on \textit{HM}. The second method is \textit{PR+DE} as multiple indicator. 
+Fig.~\ref{chap5_keynode_HM_B} shows the simulation result of key nodes on layer B.
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{figure/chap5_keynode_HM_B.png}
+	\caption{Key nodes on layer B in Hierarchical Model($p=0.25, v=0.3$):
+		(a) Single indicator methods, (b) Multiple indicator methods}
+	\label{chap5_keynode_HM_B}
+\end{figure}
+
+\subsection{Key nodes on two layers with different network types}
+Here, we would consider two types of network, \textit{BA-RR} and \textit{RR-BA}. The number of internal links on each layer would be set up as same or almost same number to exclude the influence of internal links. These models would be compared with \textit{BA-BA} to find out the influence of network types under same conditions, such as $p$, $v$, and $ratio of stubborn nodes$.  
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{figure/chap5_keynode_BA_RR_A.png}
+	\caption{Key nodes on layer A in BA-RR Model($p=0.2, v=0.4$):
+		(a) Single indicator methods, (b) Multiple indicator methods}
+	\label{chap5_keynode_BA_RR_A}
+\end{figure}
+First, \textit{BA-RR} network would be investigated.
+Fig.~\ref{chap5_keynode_BA_RR_A} shows the simulation result of key nodes on layer A. As single indicator, betweenness is the most influential method. However, 3 multiple indicators have better performance than betweenness. And all multiple indicators work better than the second rank(pagerank) in single indicators. Compared with \textit{BA-BA} shown in Fig.~\ref{chap5_keynode_A} , \textit{BA-RR} has smaller \textit{AS} values and more gentle curve to change the state of network.  
+Fig.~\ref{}
+
+
+Next, \textit{RR-BA} network would be considered. Fig.~\ref{chap5_keynode_RR_BA_B} shows the simulation result of key nodes on layer B. Compared with \textit{BA-BA} shown in Fig.~\ref{chap5_keynode_B} , \textit{RR-BA} also has larger \textit{AS} values and more gentle curve to change the state of network.  
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{figure/chap5_keynode_RR_BA_B.png}
+	\caption{Key nodes on layer B in RR-BA Model($p=0.3, v=0.5$):
+		(a) Single indicator methods, (b) Multiple indicator methods}
+	\label{chap5_keynode_RR_BA_B}
+\end{figure}
+
+
+
+Totally, compared with \textit{BA-BA} network, both \textit{BA-RR} and \textit{RR-BA} have more gentle curve. It could be analyzed that RR network makes it slow to change the state.  
+
+
+
+
+
+\subsection{Key nodes on two layers with different number of internal links}
+In case that layer A has more internal links, layer A consists of \textit{BA} network with $k=4$, but Layer B consists of \textit{BA} network with $k=2$. Inversely, in case that layer B has more internal links, layer B consists of \textit{BA} network with $k=4$, but Layer A consists of \textit{BA} network with $k=2$. 
+
+Fig.~\ref{} shows the simulation result of key nodes on layer A
 
 
 
 \section{Conclusion}
-By using node centrality, key nodes on each layer have been found out. 
-And under the hierarchical models, key nodes also have been found out. 
+By using node centrality, key nodes on each layer have been found out on various structural networks. It could be found out that the best and most influential method is different according to network structures and layers. Table.~\ref{effective methods} shows total simulation results for finding key nodes on various interconnected networks. 
+\begin{table}[!htb]
+	\scriptsize
+	\centering
+	\caption{Effective methods for finding key nodes on various networks}
+	\label{effective methods}
+	\begin{center}
+		\begin{tabular}{c|c|c|c|c|c|c|c|c} \hline\hline
+		  Div                              & A nodes & B nodes & A edges & B edges & layer & 1st method & 2nd method  & 3rd method  \\ \hline \hline
+         \multirow{1}{*}{BA(3)-BA(3)}      & 512 	 & 512     & 1,527   & 1,527   & A     & PR+BE      & PR+DE       & degree      \\ 
+			                               &  	     &         &         &         & B     & pagerank   & PR+DE       & PR+BE       \\ \hline   
+	     \multirow{1}{*}{BA(3)-RR(6)}      & 512     & 512     & 1,527   & 1,536   & A     & DE+BE      & PR+BE       & betweenness \\
+	                                       &         &         &         &         & B     &            &             &             \\ \hline
+	     \multirow{1}{*}{RR(6)-BA(3)}      & 512     & 512     & 1,536   & 1,527   & A     &            &             &             \\ 
+	                                       &         &         &         &         & B     & pagerank   & PR+DE       & PR+DE+BE    \\ \hline
+	   
+		 \multirow{1}{*}{BA(4)-BA(2)}      & 512     & 512     & 2,032   & 1,020   & A     &            &             &             \\ 
+		                                   &         &         &         &         & B     &            &             &             \\ \hline
+		 \multirow{1}{*}{BA(2)-BA(4)}      & 512     & 512     & 1,020   & 2,032   & A     &            &             &             \\ 
+		                                   &         &         &         &         & B     &            &             &             \\ \hline
+		 \multirow{1}{*}{HM(4) with BA(3)} & 512     & 128     & 1,527   & 375     & A     &            &             &             \\ 
+		                                   &         &         &         &         & B     &            &             &             \\ \hline
+			\hline
+		\end{tabular}
+	\end{center}
+\end{table}
+
+
+
+
+
