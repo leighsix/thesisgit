@@ -57,8 +57,6 @@ To find key nodes on layer B, parameters are set to be positive consensus state 
 In this section, we would try to find the key nodes in the various structural networks described in chapter.~\ref{chap:competition on two layer with various structural network}. Node centralities and combined node centralities are also used as the methods for finding key nodes. First, Hierarchical Model would be applied to identify important nodes. Second, we would consider the case that each layer has different network type, such as \textit{BA-RR} or \textit{RR-BA} networks. Third, it would be taken into account that each layer has different number of edges. Layer A would have more internal links or Layer B would be have more internal links. Both cases would be checked. 
 
 \subsection{Key nodes in Hierarchical Model}
-Each layer consists of \textit{BA} network with $k=3$. Layer A has $512$ nodes, and layer B has $64$ nodes. We denote these models as \textit{HM(8) with BA(3)}.
-Fig.~\ref{chap5_keynode_HM_A} shows the simulation result of key nodes on layer A.
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{figure/chap5_keynode_HM_A.png}
@@ -66,8 +64,6 @@ Fig.~\ref{chap5_keynode_HM_A} shows the simulation result of key nodes on layer 
 		(a) Single indicator methods, (b) Multiple indicator methods}
 	\label{chap5_keynode_HM_A}
 \end{figure}
-Simulations results show that degree centrality is the best method for recognizing key nodes on \textit{HM}. The second method is \textit{PR+DE} as multiple indicator. 
-Fig.~\ref{chap5_keynode_HM_B} shows the simulation result of key nodes on layer B.
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{figure/chap5_keynode_HM_B.png}
@@ -75,6 +71,10 @@ Fig.~\ref{chap5_keynode_HM_B} shows the simulation result of key nodes on layer 
 		(a) Single indicator methods, (b) Multiple indicator methods}
 	\label{chap5_keynode_HM_B}
 \end{figure}
+Each layer consists of \textit{BA} network with $k=3$. Layer A has $512$ nodes, and layer B has $64$ nodes. We denote these models as \textit{HM(8) with BA(3)}.
+Fig.~\ref{chap5_keynode_HM_A} shows the simulation result of key nodes on layer A. 
+Simulations results show that degree centrality is the best method for recognizing key nodes on \textit{HM}. The second method is \textit{PR+DE} as multiple indicator. The curve of changing the network states shown in Fig.~\ref{chap5_keynode_HM_A} is more straight than Fig.~\ref{chap5_keynode_A}. That means the speed of changing network states is faster. 
+Fig.~\ref{chap5_keynode_HM_B} shows the simulation result of key nodes on layer B. However, the result is different from other simulation results. The best performance method is random method. That means node centralities do not work on this model. And the curve of changing the network states shown in Fig.~\ref{chap5_keynode_HM_B} is also more straight than Fig.~\ref{chap5_keynode_B}. That means the speed of changing network states is faster. Decreasing the number of nodes in layer B make it hard to recognizing key nodes and make it easy to have consensus of two layers. 
 
 \subsection{Key nodes on two layers with different network types}
 Here, we would consider two types of network, \textit{BA-RR} and \textit{RR-BA}. The number of internal links on each layer would be set up as same or almost same number to exclude the influence of internal links. These models would be compared with \textit{BA-BA} to find out the influence of network types under same conditions, such as $p$, $v$, and $ratio of stubborn nodes$.  
@@ -86,8 +86,8 @@ Here, we would consider two types of network, \textit{BA-RR} and \textit{RR-BA}.
 	\label{chap5_keynode_BA_RR_A}
 \end{figure}
 First, \textit{BA-RR} network would be investigated.
-Fig.~\ref{chap5_keynode_BA_RR_A} shows the simulation result of key nodes on layer A. As single indicator, betweenness is the most influential method. However, 3 multiple indicators have better performance than betweenness. And all multiple indicators work better than the second rank(pagerank) in single indicators. Compared with \textit{BA-BA} shown in Fig.~\ref{chap5_keynode_A} , \textit{BA-RR} has smaller \textit{AS} values and more gentle curve to change the state of network.  
-Fig.~\ref{}
+Fig.~\ref{chap5_keynode_BA_RR_A} shows the simulation result of key nodes on layer A. As single indicator, betweenness is the most influential method. However, 3 multiple indicators have better performance than betweenness. And all multiple indicators work better than the second rank(pagerank) in single indicators. Compared with \textit{BA-BA} shown in Fig.~\ref{chap5_keynode_A} , \textit{BA-RR} has smaller \textit{AS} values and more gentle curve to change the state of network.\\  
+
 
 
 Next, \textit{RR-BA} network would be considered. Fig.~\ref{chap5_keynode_RR_BA_B} shows the simulation result of key nodes on layer B. Compared with \textit{BA-BA} shown in Fig.~\ref{chap5_keynode_B} , \textit{RR-BA} also has larger \textit{AS} values and more gentle curve to change the state of network.  
@@ -100,23 +100,48 @@ Next, \textit{RR-BA} network would be considered. Fig.~\ref{chap5_keynode_RR_BA_
 	\label{chap5_keynode_RR_BA_B}
 \end{figure}
 
-
-
-Totally, compared with \textit{BA-BA} network, both \textit{BA-RR} and \textit{RR-BA} have more gentle curve. It could be analyzed that RR network makes it slow to change the state.  
-
-
-
+Totally, compared with \textit{BA-BA} network, both \textit{BA-RR} and \textit{RR-BA} have more gentle curve. It could be analyzed that \textit{RR} network makes it slow to change the state.  
 
 
 \subsection{Key nodes on two layers with different number of internal links}
 In case that layer A has more internal links, layer A consists of \textit{BA} network with $k=4$, but Layer B consists of \textit{BA} network with $k=2$. Inversely, in case that layer B has more internal links, layer B consists of \textit{BA} network with $k=4$, but Layer A consists of \textit{BA} network with $k=2$. 
-
-Fig.~\ref{} shows the simulation result of key nodes on layer A
-
-
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{figure/chap5_keynode_internal_A.png}
+	\caption{Key nodes on layer A in BA(4)-BA(2) Model($p=0.15, v=0.3$):
+		(a) Single indicator methods, (b) Multiple indicator methods}
+	\label{chap5_keynode_internal_A}
+\end{figure}
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{figure/chap5_keynode_internal_B.png}
+	\caption{Key nodes on layer B in BA(4)-BA(2) Model($p=0.2, v=0.4$):
+		(a) Single indicator methods, (b) Multiple indicator methods}
+	\label{chap5_keynode_internal_B}
+\end{figure}
+First, the case of more internal links on layer A than layer B would be investigated. 
+Fig.~\ref{chap5_keynode_internal_A} shows the simulation result of key nodes on layer A in \textit{BA(4)-BA(2)} network. Betweenness has the best performance for changing network states. Next ranks are \textit{DE+BE}, \textit{PR+DE+BE} and pagerank. Betweenness is the best method but totally multiple indicators work well for change the network state.  
+Fig.~\ref{chap5_keynode_internal_B} shows the simulation result of key nodes on layer B in \textit{BA(4)-BA(2)} network. \textit{PR+DE} is the most influential method. Next ranks are pagerank, \textit{PR+DE+BE} and \textit{PR+BE}. The most effective method on layer B is different from the most influential method on layer A. However, totally, multiple indicators also work well for changing the network states.  
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{figure/chap5_keynode_internal_A2.png}
+	\caption{Key nodes on layer A in BA(2)-BA(4) Model($p=0.57, v=0.37$):
+		(a) Single indicator methods, (b) Multiple indicator methods}
+	\label{chap5_keynode_internal_A2}
+\end{figure}
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=\hsize]{figure/chap5_keynode_internal_B2.png}
+	\caption{Key nodes on layer B in BA(2)-BA(4) Model($p=0.6, v=0.4$):
+		(a) Single indicator methods, (b) Multiple indicator methods}
+	\label{chap5_keynode_internal_B2}
+\end{figure}
+Next, the case of more internal links on layer B than layer B would be researched. 
+Fig.~\ref{chap5_keynode_internal_A2} shows the simulation result of key nodes on layer A in \textit{BA(2)-BA(4)} network. However, the simulation results are different from other results, because random method has the best performance. That means node centralities do not work on this model. Compared with \textit{BA(4)-BA(2)} network, the curve of changing the state that is shown in Fig.~\ref{chap5_keynode_internal_A2}  is much slower. Decreasing the number of internal links on layer A makes it hard to find key nodes and to have positive consensus. 
+Fig.~\ref{chap5_keynode_internal_B2} shows the simulation result of key nodes on layer B in \textit{BA(2)-BA(4)} network. Pagerank has the most effective performance. Next ranks are \textit{PR+BE}, \textit{PR+DE} and \textit{DE+BE}. Compared with \textit{BA(4)-BA(2)} network, the curve of changing the state that is shown in Fig.~\ref{chap5_keynode_internal_A2}  is much faster. But consensus doesn't happen in this model. It could be analyzed that decreasing the number of internal links on layer A have influence on making consensus of two layers hard .   
 
 \section{Conclusion}
-By using node centrality, key nodes on each layer have been found out on various structural networks. It could be found out that the best and most influential method is different according to network structures and layers. Table.~\ref{effective methods} shows total simulation results for finding key nodes on various interconnected networks. 
+By using node centrality, key nodes on each layer have been found out on various structural networks. Table.~\ref{effective methods} shows total simulation results for finding key nodes on various interconnected networks. 
 \begin{table}[!htb]
 	\scriptsize
 	\centering
@@ -132,17 +157,17 @@ By using node centrality, key nodes on each layer have been found out on various
 	     \multirow{1}{*}{RR(6)-BA(3)}      & 512     & 512     & 1,536   & 1,527   & A     &            &             &             \\ 
 	                                       &         &         &         &         & B     & pagerank   & PR+DE       & PR+DE+BE    \\ \hline
 	   
-		 \multirow{1}{*}{BA(4)-BA(2)}      & 512     & 512     & 2,032   & 1,020   & A     &            &             &             \\ 
-		                                   &         &         &         &         & B     &            &             &             \\ \hline
-		 \multirow{1}{*}{BA(2)-BA(4)}      & 512     & 512     & 1,020   & 2,032   & A     &            &             &             \\ 
-		                                   &         &         &         &         & B     &            &             &             \\ \hline
-		 \multirow{1}{*}{HM(4) with BA(3)} & 512     & 128     & 1,527   & 375     & A     &            &             &             \\ 
-		                                   &         &         &         &         & B     &            &             &             \\ \hline
+		 \multirow{1}{*}{BA(4)-BA(2)}      & 512     & 512     & 2,032   & 1,020   & A     & betweenness& DE+BE       & PR+DE+BE    \\ 
+		                                   &         &         &         &         & B     & PR+DE      & pagerank    & PR+DE+BE    \\ \hline
+		 \multirow{1}{*}{BA(2)-BA(4)}      & 512     & 512     & 1,020   & 2,032   & A     & random     & pagerank    & PR+DE       \\ 
+		                                   &         &         &         &         & B     & pagerank   & PR+BE       & PR+DE       \\ \hline
+		 \multirow{1}{*}{HM(8) with BA(3)} & 512     & 64      & 1,527   & 183     & A     & degree     & PR+DE       & pagerank    \\ 
+		                                   &         &         &         &         & B     & random     & DE+BE       & PR+DE       \\ \hline
 			\hline
 		\end{tabular}
 	\end{center}
 \end{table}
-
+Here, we could found out several facts from these simulation results. First, it could be found out that the best and most influential method is different according to network structures and layers. Second, as single indicators, pagerank, degree and betweenness are good method to find key nodes. Second, as multiple indicators, combined node centrality has good performance to recognize the key nodes on various networks. Combined node centralities are first or second method on every model.(except random method)  Third, as the results shown in networks with different internal links, decreasing the number of links on layer A makes it hard to find key nodes and to have consensus by stubborn nodes.  Fourth, as the results shown in \textit{HM} network, decreasing the number of nodes on layer B makes it hard to identify key nodes and makes it easy to have consensus by stubborn nodes. Fifth, as the results shown in networks with different network types, network types have the influence on making consensus by stubborn nodes. It is found out that \textit{RR} network makes it slow to have consensus by stubborn nodes. 
 
 
 
