@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  16 DEC 2019 15:42
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  17 DEC 2019 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3011,6 +3011,11 @@ Overfull \hbox (27.05295pt too wide) detected at line 46
 \T1/ntxtlf/m/n/12.045 Figure 5--10 
  []
 
+
+Overfull \hbox (27.05295pt too wide) detected at line 47
+\T1/ntxtlf/m/n/12.045 Figure 5--11 
+ []
+
 )
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
@@ -3055,10 +3060,14 @@ File: figure/chap1_singlemulti.png Graphic file (type bmp)
 <figure/chap1_singlemulti.png>
 File: figure/chap1_network_type.png Graphic file (type bmp)
 <figure/chap1_network_type.png>
-[1
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
 
 
-] [2]
+]
+[2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
@@ -3165,17 +3174,17 @@ File: figure/chap3_internal_edge_A_total1.png Graphic file (type bmp)
 [24]
 
 LaTeX Warning: Reference `chap3_interal_edge_A_total' on page 25 undefined on i
-nput line 89.
+nput line 88.
 
 File: figure/chap3_internal_edge_B_total1.png Graphic file (type bmp)
 <figure/chap3_internal_edge_B_total1.png>
 
 LaTeX Warning: Reference `chap3_internal_edge_B' on page 25 undefined on input 
-line 97.
+line 96.
 
 
 LaTeX Warning: Reference `chap3_interal_edge_B_total' on page 25 undefined on i
-nput line 97.
+nput line 96.
 
 File: figure/chap3_internal_edge_two_total.png Graphic file (type bmp)
 <figure/chap3_internal_edge_two_total.png>
@@ -3264,12 +3273,9 @@ File: figure/chap5_keynode_HM_B.png Graphic file (type bmp)
  [46]
 File: figure/chap5_keynode_BA_RR_A.png Graphic file (type bmp)
 <figure/chap5_keynode_BA_RR_A.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--90
-
- []
-
-[47]
+File: figure/chap5_keynode_BA_RR_B.png Graphic file (type bmp)
+<figure/chap5_keynode_BA_RR_B.png>
+ [47] [48]
 File: figure/chap5_keynode_RR_BA_B.png Graphic file (type bmp)
 <figure/chap5_keynode_RR_BA_B.png>
 File: figure/chap5_keynode_internal_A.png Graphic file (type bmp)
@@ -3280,21 +3286,25 @@ File: figure/chap5_keynode_internal_A2.png Graphic file (type bmp)
 <figure/chap5_keynode_internal_A2.png>
 File: figure/chap5_keynode_internal_B2.png Graphic file (type bmp)
 <figure/chap5_keynode_internal_B2.png>
- [48] [49] [50] [51]) [52]
+ [49] [50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+[52]) [53]
 \openout2 = `tex/chap6.aux'.
 
- (./tex/chap6.tex
+ (./tex/chap6.tex [54
+
+
+
+]
 Chapter 6
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
-[53
-
-
-
-]
+[55]
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
@@ -3302,25 +3312,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54]
-[55] [56
+ [56]
+[57] [58
 
 
 ]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
 (Font)              scaled to size 12.045pt on input line 88.
- [57
+ [59
 
-] [58] [59] [60] [61]
+] [60] [61] [62] [63]
 \openout2 = `tex/pubreview.aux'.
 
- (./tex/pubreview.tex [62
+ (./tex/pubreview.tex [64
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 12.045pt on input line 7.
-) [63]
+) [65]
 
 AED: pageslts setting LastPage 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
@@ -3341,7 +3351,7 @@ Package pageslts Info: Total number of pages is odd.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: E9BB6BBB11312E74AF1A76F61359DD63.
+(rerunfilecheck)             Checksum: E58E64A239C4D4E8A17A85FAF5C99C3A.
 
 
 LaTeX Warning: There were undefined references.
@@ -3351,12 +3361,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53821 strings out of 492933
- 1073449 string characters out of 6134842
- 1608269 words of memory out of 5000000
- 56877 multiletter control sequences out of 15000+600000
+ 53826 strings out of 492933
+ 1073606 string characters out of 6134842
+ 1608424 words of memory out of 5000000
+ 56881 multiletter control sequences out of 15000+600000
  654028 words of font info for 209 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,17n,94p,1760b,5390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,94p,1826b,5390s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (75 pages).
+Output written on thesis.pdf (77 pages).
