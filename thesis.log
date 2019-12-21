@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  17 DEC 2019 17:13
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  18 DEC 2019 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3016,11 +3016,18 @@ Overfull \hbox (27.05295pt too wide) detected at line 47
 \T1/ntxtlf/m/n/12.045 Figure 5--11 
  []
 
+
+Overfull \hbox (27.05295pt too wide) detected at line 48
+\T1/ntxtlf/m/n/12.045 Figure 5--12 
+ []
+
 )
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [6] (./thesis.lot
+ [6] [7] [8
+
+] (./thesis.lot
 Overfull \hbox (18.69368pt too wide) detected at line 5
 \T1/ntxtlf/m/n/12.045 Table 3--1 
  []
@@ -3039,9 +3046,7 @@ Overfull \hbox (18.69368pt too wide) detected at line 9
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [7
-
-] [8
+ [9] [10
 
 ]
 \c@pagesLTS.Roman.1.local.count=\count560
@@ -3262,10 +3267,13 @@ Chapter 5
 [43]
 File: figure/chap5_keynode_A.png Graphic file (type bmp)
 <figure/chap5_keynode_A.png>
- [44]
 File: figure/chap5_keynode_B.png Graphic file (type bmp)
 <figure/chap5_keynode_B.png>
- [45]
+
+Underfull \vbox (badness 1975) has occurred while \output is active []
+
+ [44]
+[45]
 File: figure/chap5_keynode_HM_A.png Graphic file (type bmp)
 <figure/chap5_keynode_HM_A.png>
 File: figure/chap5_keynode_HM_B.png Graphic file (type bmp)
@@ -3276,8 +3284,11 @@ File: figure/chap5_keynode_BA_RR_A.png Graphic file (type bmp)
 File: figure/chap5_keynode_BA_RR_B.png Graphic file (type bmp)
 <figure/chap5_keynode_BA_RR_B.png>
  [47] [48]
+File: figure/chap5_keynode_RR_BA_A.png Graphic file (type bmp)
+<figure/chap5_keynode_RR_BA_A.png>
 File: figure/chap5_keynode_RR_BA_B.png Graphic file (type bmp)
 <figure/chap5_keynode_RR_BA_B.png>
+ [49]
 File: figure/chap5_keynode_internal_A.png Graphic file (type bmp)
 <figure/chap5_keynode_internal_A.png>
 File: figure/chap5_keynode_internal_B.png Graphic file (type bmp)
@@ -3286,33 +3297,34 @@ File: figure/chap5_keynode_internal_A2.png Graphic file (type bmp)
 <figure/chap5_keynode_internal_A2.png>
 File: figure/chap5_keynode_internal_B2.png Graphic file (type bmp)
 <figure/chap5_keynode_internal_B2.png>
- [49] [50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [50] [51] [52]
+Overfull \hbox (18.3941pt too wide) in paragraph at lines 164--180
+ [] 
+ []
 
- [51]
-[52]) [53]
+[53]) [54]
 \openout2 = `tex/chap6.aux'.
 
- (./tex/chap6.tex [54
-
-
-
-]
+ (./tex/chap6.tex
 Chapter 6
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
-[55]
+[55
+
+
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
+ [56])
 [57] [58
 
 
@@ -3351,7 +3363,7 @@ Package pageslts Info: Total number of pages is odd.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: E58E64A239C4D4E8A17A85FAF5C99C3A.
+(rerunfilecheck)             Checksum: 40AE92BC131BB9F1A5409E7CEE2A2913.
 
 
 LaTeX Warning: There were undefined references.
@@ -3361,12 +3373,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53826 strings out of 492933
- 1073606 string characters out of 6134842
- 1608424 words of memory out of 5000000
- 56881 multiletter control sequences out of 15000+600000
+ 53831 strings out of 492933
+ 1073770 string characters out of 6134842
+ 1608591 words of memory out of 5000000
+ 56885 multiletter control sequences out of 15000+600000
  654028 words of font info for 209 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,17n,94p,1826b,5390s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (77 pages).
+Output written on thesis.pdf (79 pages).
