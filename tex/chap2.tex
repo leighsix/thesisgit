@@ -10,7 +10,7 @@
 %%==================================================
 
 \chapter{Modeling and Analysis}
-\label{chap:modeling and analysis methods}
+\label{chap2}
 In this chapter, a basic model would be introduced for competition on two-layer network. It would be also explained that how each layer is made up and what kind of function and dynamics it has. After modeling, many simulations would be fulfilled under the various conditions. Several indexes would be provided to analyze the interaction between two-layers. Simulation results would be analyzed with these indexes. 
 \begin{figure}[!htb]
 	\centering
@@ -19,9 +19,9 @@ In this chapter, a basic model would be introduced for competition on two-layer 
 	\label{chap2_modeling}
 \end{figure}
  
-\section{Modeling of two layer network}
+\section{Modeling of two-layers network}
 \label{sec:modeling of two layer network}
-The model consists of two layers, and each layer has different dynamics. For layer A, the node change its states according to $M$ model as introduced in \parencite{rocca2014}. Here, we choose $M=2$, that each node has four states $(-2, -1, +1, +2)$. For each link $(k, j)$ belong to layer A,  the dynamics are designed as follows:
+The model consists of two-layers, and each layer has different dynamics. For layer A, the node change its states according to $M$ model as introduced in \parencite{rocca2014}. Here, we choose $M=2$, that each node has four states $(-2, -1, +1, +2)$. For each link $(k, j)$ belong to layer A,  the dynamics are designed as follows:
 \begin{itemize}
 	\item Compromise : if two nodes connected with link$(k, j)$ have opposite orientations, their states become more moderate with probability $q$ :
 	\begin{align}
@@ -97,7 +97,7 @@ To start with a polarized competition, as the initial conditions,  nodes in laye
 
 There are two parameters, $p$ and $q$ in the dynamics of layer A. To simply represent the probability $p$ and probability $q$ together, we set $p+q=1$. So, $p$ represents the reinforcement or strength of opinion such as extreme or moderate, which is scaled to be $0$ to $1$. And, there are only 1 parameter, $v$ in the dynamics of layer B. The scale of $v$ is also $0$ to $1$ as $p$. $v$ represents the volatility, which means how prone the state can be changed into the opposite state.  
 
-To implement the interconnected dynamics, one step consists of two layers dynamics, where every node in layer A is checked with opinion dynamics, and every node in layer B updates its state according to the decision-making dynamics. Basically, the dynamics order follows updating state of layer B after updating state of layer A. The dynamics orders and time-related updating rules would be discussed specifically in chapter 4.      
+To implement the interconnected dynamics, one step consists of two layers dynamics, where every node in layer A is checked with opinion dynamics, and every node in layer B updates its state according to the decision-making dynamics. Basically, the dynamics order follows updating state of layer B after updating state of layer A. The dynamics orders and updating rules would be discussed specifically in chapter.\ref{chap4}.      
 
 Each simulation takes $100$ steps, and $100$ simulations are considered for average results. To analyze the simulation results, we use \textit{`Average State'(AS)} to measure the average states of network and \textit{`Consensus Index'(CI)} to measure how close the states of network is to consensus. 
 

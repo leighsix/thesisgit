@@ -9,12 +9,12 @@
 %% Encoding: UTF-8
 %%==================================================
 
-\chapter{Competition on two layer with time-related updating rules}
-\label{chap:competition on two layer with time-related updating rules}
-In this chapter, we would control dynamics orders between layers and time-related updating rules of nodes states. With changing dynamics orders and time-related updating rules, it would be investigated how the states of network are changed.
+\chapter{Competition with different updating rules}
+\label{chap4}
+In this chapter, we would control dynamics orders between layers and updating rules of nodes and edges. With changing these updating rules, it would be investigated how the states of network are changed.
 Here, each layer consists of \textit{Barabasi-Albert(BA)} network that has $N$ nodes with attaching new nodes each with $K$ edges that are preferentially attached to existing nodes with high degree as introduced in \parencite{barabasi1999}. Each node of one layer is connected with a random node on the other layer. This means each node has only $1$ external un-directed edge. Simulations are performed on network with $N=2048$, and $K=3$.
 
-When considering dynamics orders and time-related updating rules on two-layer networks, there are many ways to update the state of nodes. Dynamics orders of two layer can be considered whether layer A works first or layer B works first or both layers work together. And, orders of nodes can be thought about whether the states of nodes are changed simultaneously or sequentially or randomly. Orders of edges connected with a node also can be deliberated whether edges are activated on a node sequentially or simultaneously or randomly. But, in layer B dynamics, order of edges in one node always follows simultaneous updating rule, because dynamics formula already considers states of all connected neighbor nodes simultaneously. To sum up, as shown in Table.\ref{25updating_rules}, 25 time-related updating rules would be considered according to layers, nodes and edges. 
+When considering updating rules on two-layer networks, there are many ways to update the state of nodes. Dynamics orders of two-layers can be considered whether layer A works first or layer B works first or both layers work together. And, orders of nodes can be thought about whether the states of nodes are changed simultaneously or sequentially or randomly. Orders of edges connected with a node also can be deliberated whether edges are activated on a node sequentially or simultaneously or randomly. But, in layer B dynamics, order of edges in one node always follows simultaneous updating rule, because dynamics formula already considers states of all connected neighbor nodes simultaneously. To sum up, as shown in Table.\ref{25updating_rules}, 25 updating rules would be considered according to layers, nodes and edges. 
 \begin{table}[htp]
 	\scriptsize
 	\begin{center}
