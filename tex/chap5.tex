@@ -92,8 +92,8 @@ Here, we would consider two types of network, \textit{BA-RR} and \textit{RR-BA}.
 		(a) Single indicator methods, (b) Multiple indicator methods}
 	\label{chap5_keynode_BA_RR_B}
 \end{figure}
-First, \textit{BA-RR} network would be investigated. Fig.~\ref{chap5_keynode_BA_RR_A} shows the simulation result of key nodes on layer A.\textit{PR+BE} is the most influential method. Next rank is betweenness as a single indicator. Compared with \textit{BA-BA} shown in Fig.~\ref{chap5_keynode_A}, \textit{BA-RR} has smaller \textit{AS} values and more gentle curve to change the state of network. \\
-Fig.~\ref{chap5_keynode_BA_RR_B} shows the simulation result of key nodes on layer B. Betweenness is the best method for finding key nodes on layer B in \textit{BA-RR} network. In this model, degree is not meaningful method because degree of each node is same in \textit{RR} network. However, degree and random method is the third and fourth method for recognizing key nodes. That means other methods except for betweenness do not work for finding key nodes. Compared with \textit{BA-BA} shown in Fig.~\ref{chap5_keynode_B}, \textit{BA-RR} has larger \textit{AS} values and more gentle curve to change the state of network. 
+First, \textit{BA-RR} network would be investigated. Fig.~\ref{chap5_keynode_BA_RR_A} shows the simulation result of key nodes on layer A.\textit{PR+BE} is the most influential method. Next rank is pagerank as a single indicator. Compared with \textit{BA-BA} shown in Fig.~\ref{chap5_keynode_A}, \textit{BA-RR} has smaller \textit{AS} values and more gentle curve to change the state of network. \\
+Fig.~\ref{chap5_keynode_BA_RR_B} shows the simulation result of key nodes on layer B. Betweenness is the best method for finding key nodes on layer B in \textit{BA-RR} network. In this model, degree is not meaningful method because degree of each node is same in \textit{RR} network. However, random and degree method is the third and fourth method for recognizing key nodes. That means other methods except for betweenness do not work for finding key nodes. Compared with \textit{BA-BA} shown in Fig.~\ref{chap5_keynode_B}, \textit{BA-RR} has larger \textit{AS} values and more gentle curve to change the state of network. 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{figure/chap5_keynode_RR_BA_A.png}
@@ -163,8 +163,8 @@ By using node centrality and combined node centrality, key nodes on each layer h
 		  Div                              & A nodes & B nodes & A edges & B edges & layer & 1st method & 2nd method  & 3rd method  & remarks    \\ \hline \hline
          \multirow{1}{*}{BA(3)-BA(3)}      & 512 	 & 512     & 1,527   & 1,527   & A     & PR+BE      & PR+DE       & pagerank    &            \\ 
 			                               &  	     &         &         &         & B     & pagerank   & PR+DE       & PR+BE       &		     \\ \hline   
-	     \multirow{1}{*}{BA(3)-RR(6)}      & 512     & 512     & 1,527   & 1,536   & A     & PR+BE      & betweenness & PR+DE+BE    &            \\
-	                                       &         &         &         &         & B     & betweenness& DE+BE       & degree      & not working\\ \hline
+	     \multirow{1}{*}{BA(3)-RR(6)}      & 512     & 512     & 1,527   & 1,536   & A     & PR+BE      & pagerank    & PR+DE+BE    &            \\
+	                                       &         &         &         &         & B     & betweenness& DE+BE       & random      & not working\\ \hline
 	     \multirow{1}{*}{RR(6)-BA(3)}      & 512     & 512     & 1,536   & 1,527   & A     & degree     & DE+BE       & betweenness & not working\\ 
 	                                       &         &         &         &         & B     & pagerank   & PR+DE       & PR+BE       &            \\ \hline
 		 \multirow{1}{*}{BA(4)-BA(2)}      & 512     & 512     & 2,032   & 1,020   & A     & betweenness& DE+BE       & PR+BE       &            \\ 
