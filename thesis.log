@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  26 DEC 2019 17:02
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  27 DEC 2019 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3074,29 +3074,20 @@ File: figure/chap1_topic.png Graphic file (type bmp)
 <figure/chap1_topic.png>
 File: figure/chap1_singlemulti.png Graphic file (type bmp)
 <figure/chap1_singlemulti.png>
-File: figure/chap1_network_type.png Graphic file (type bmp)
-<figure/chap1_network_type.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--46
-
- []
-
 [1
 
 
 ] [2]
+File: figure/chap1_network_type.png Graphic file (type bmp)
+<figure/chap1_network_type.png>
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
-
- []
-
-
 Underfull \vbox (badness 7963) has occurred while \output is active []
 
  [4]
-Underfull \hbox (badness 10000) in paragraph at lines 50--53
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
@@ -3104,25 +3095,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--53
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-
- []
-
 [6]) [7]
 \openout2 = `tex/chap2.aux'.
 
@@ -3487,17 +3459,7 @@ Overfull \hbox (16.33138pt too wide) in paragraph at lines 166--182
 
 ]
 Chapter 6
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
-
- []
-
 [57]
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
@@ -3556,10 +3518,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  53831 strings out of 492933
  1073583 string characters out of 6134842
- 1604922 words of memory out of 5000000
+ 1603922 words of memory out of 5000000
  56885 multiletter control sequences out of 15000+600000
  654028 words of font info for 209 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,17n,94p,1705b,5390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,94p,1813b,5390s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on thesis.pdf (81 pages).
