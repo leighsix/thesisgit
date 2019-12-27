@@ -1596,8 +1596,8 @@
       \strng{authorbibnamehash}{b4063d5171bad9750494dbdb05406431}
       \strng{authornamehash}{5ec330763e285359b8f14e1705b366b0}
       \strng{authorfullhash}{b4063d5171bad9750494dbdb05406431}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Systems as diverse as genetic networks or the World Wide Web are best described as networks with complex topology. A common property of many large networks is that the vertex connectivities follow a scale-free power-law distribution. This feature was found to be a consequence of two generic mechanisms: (i) networks expand continuously by the addition of new vertices, and (ii) new vertices attach preferentially to sites that are already well connected. A model based on these two ingredients reproduces the observed stationary scale-free distributions, which indicates that the development of large networks is governed by robust self-organizing phenomena that go beyond the particulars of the individual systems.}
@@ -1859,6 +1859,36 @@
       \field{pages}{193\bibrangedash 201}
       \range{pages}{9}
       \keyw{koschutzki2008}
+    \endentry
+    \entry{francisco2019}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=d2a9c4a5cd57d45d605c24481934ff2c}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Francisco\bibnamedelima Aparecido},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d2a9c4a5cd57d45d605c24481934ff2c}
+      \strng{fullhash}{d2a9c4a5cd57d45d605c24481934ff2c}
+      \strng{bibnamehash}{d2a9c4a5cd57d45d605c24481934ff2c}
+      \strng{authorbibnamehash}{d2a9c4a5cd57d45d605c24481934ff2c}
+      \strng{authornamehash}{d2a9c4a5cd57d45d605c24481934ff2c}
+      \strng{authorfullhash}{d2a9c4a5cd57d45d605c24481934ff2c}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Network Centrality: An Introduction}
+      \field{usera}{C}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \keyw{francisco2019}
     \endentry
     \entry{eom2015}{article}{}
       \name{author}{2}{}{%
@@ -2136,36 +2166,6 @@
       \verb https://doi.org/10.1371/journal.pone.0103733
       \endverb
       \keyw{huang2014}
-    \endentry
-    \entry{francisco2019}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{hash=d2a9c4a5cd57d45d605c24481934ff2c}{%
-           family={Rodrigues},
-           familyi={R\bibinitperiod},
-           given={Francisco\bibnamedelima Aparecido},
-           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {english}%
-      }
-      \strng{namehash}{d2a9c4a5cd57d45d605c24481934ff2c}
-      \strng{fullhash}{d2a9c4a5cd57d45d605c24481934ff2c}
-      \strng{bibnamehash}{d2a9c4a5cd57d45d605c24481934ff2c}
-      \strng{authorbibnamehash}{d2a9c4a5cd57d45d605c24481934ff2c}
-      \strng{authornamehash}{d2a9c4a5cd57d45d605c24481934ff2c}
-      \strng{authorfullhash}{d2a9c4a5cd57d45d605c24481934ff2c}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{title}{Network Centrality: An Introduction}
-      \field{usera}{C}
-      \field{userd}{english}
-      \field{userf}{english}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \keyw{francisco2019}
     \endentry
     \entry{nicolas2017}{book}{}
       \name{author}{1}{}{%

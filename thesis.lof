@@ -7,9 +7,9 @@
 \contentsline {figure}{\numberline {2--1}{\ignorespaces Competition of Interconnected Network\relax }}{9}{figure.caption.8}% 
 \contentsline {figure}{\numberline {2--2}{\ignorespaces Dynamics on two layers\relax }}{12}{figure.caption.9}% 
 \contentsline {figure}{\numberline {2--3}{\ignorespaces AS values per each step according to all parameters\relax }}{14}{figure.caption.10}% 
-\contentsline {figure}{\numberline {2--4}{\ignorespaces CI values according to all ${K_ + }^A$ and ${K_ + }^B$ \relax }}{15}{figure.caption.11}% 
+\contentsline {figure}{\numberline {2--4}{\ignorespaces CI values according to all ${K_ + }^A$ and ${K_ + }^B$ \relax }}{14}{figure.caption.11}% 
 \contentsline {figure}{\numberline {2--5}{\ignorespaces CI values per each step according to all parameters\relax }}{15}{figure.caption.12}% 
-\contentsline {figure}{\numberline {2--6}{\ignorespaces The example of simulation : BA-BA network\relax }}{17}{figure.caption.13}% 
+\contentsline {figure}{\numberline {2--6}{\ignorespaces The example of simulation : BA-BA network\relax }}{16}{figure.caption.13}% 
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {3--1}{\ignorespaces Competition on random regular network\relax }}{19}{figure.caption.14}% 
 \contentsline {figure}{\numberline {3--2}{\ignorespaces (a) $p$-\textit {AS} chart according to certain $v$ values. (b) $v$-\textit {AS} chart according to certain $p$ values.\relax }}{20}{figure.caption.15}% 
@@ -17,7 +17,7 @@
 \contentsline {figure}{\numberline {3--4}{\ignorespaces Competition on \textit {Hierarchical Model}\relax }}{22}{figure.caption.17}% 
 \contentsline {figure}{\numberline {3--5}{\ignorespaces \textit {AS total} on various \textit {Hierarchical Models}\relax }}{23}{figure.caption.18}% 
 \contentsline {figure}{\numberline {3--6}{\ignorespaces Histogram for \textit {PCR, NCR, AS total} of \textit {Hierarchical Models(HM(n))}\relax }}{24}{figure.caption.19}% 
-\contentsline {figure}{\numberline {3--7}{\ignorespaces Competition on interconnected networks with different internal edges\relax }}{25}{figure.caption.20}% 
+\contentsline {figure}{\numberline {3--7}{\ignorespaces Competition on interconnected networks with different internal edges\relax }}{24}{figure.caption.20}% 
 \contentsline {figure}{\numberline {3--8}{\ignorespaces Simulation results with different internal degrees on layer A\relax }}{25}{figure.caption.21}% 
 \contentsline {figure}{\numberline {3--9}{\ignorespaces Simulation results with different internal degrees on layer B\relax }}{26}{figure.caption.22}% 
 \contentsline {figure}{\numberline {3--10}{\ignorespaces Simulation results with changing internal degrees on both layers\relax }}{27}{figure.caption.23}% 
