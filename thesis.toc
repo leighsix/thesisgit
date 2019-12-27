@@ -16,15 +16,15 @@
 \contentsline {section}{\numberline {3.5}Conclusion}{31}{section.3.5}% 
 \contentsline {chapter}{\numberline {Chapter 4}Competition with different updating rules}{33}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Order of layers}{34}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Order of nodes}{35}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Order of edges}{37}{section.4.3}% 
+\contentsline {section}{\numberline {4.2}Order of nodes}{36}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Order of edges}{36}{section.4.3}% 
 \contentsline {section}{\numberline {4.4}Comparison and Analysis}{39}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Conclusion}{39}{section.4.5}% 
+\contentsline {section}{\numberline {4.5}Conclusion}{42}{section.4.5}% 
 \contentsline {chapter}{\numberline {Chapter 5}Key nodes selection on two-layers network}{43}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Method for selecting key nodes}{43}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Key nodes on layer A}{45}{section.5.2}% 
 \contentsline {section}{\numberline {5.3}Key nodes on layer B}{46}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Key nodes on two layers with different structures}{46}{section.5.4}% 
+\contentsline {section}{\numberline {5.4}Key nodes on two layers with different structures}{47}{section.5.4}% 
 \contentsline {subsection}{\numberline {5.4.1}Key nodes in Hierarchical Model}{47}{subsection.5.4.1}% 
 \contentsline {subsection}{\numberline {5.4.2}Key nodes on two layers with different network types}{48}{subsection.5.4.2}% 
 \contentsline {subsection}{\numberline {5.4.3}Key nodes on two layers with different number of internal links}{51}{subsection.5.4.3}% 
