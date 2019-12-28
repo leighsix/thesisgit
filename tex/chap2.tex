@@ -11,7 +11,7 @@
 
 \chapter{Modeling and Analysis}
 \label{chap2}
-In this chapter, a basic model would be introduced for competition on two-layers network. It would be also described that how each layer is made up and what kind of function and dynamics it has. In addition, several indexes would be provided to analyze and measure the interaction between two-layers.
+In this chapter, a basic model would be introduced for competition on two-layer network. It would be also described that how each layer is made up and what kind of function and dynamics it has. In addition, several indexes would be provided to analyze and measure the interaction between two-layer.
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{chap2_modeling.png}
@@ -19,9 +19,9 @@ In this chapter, a basic model would be introduced for competition on two-layers
 	\label{chap2_modeling}
 \end{figure}
  
-\section{Modeling of two-layers network}
+\section{Modeling of two-layer network}
 \label{sec:modeling of two layer network}
-The model consists of two-layers, and each layer has different dynamics. For layer A, the node changes its state according to $M$ model as introduced in \parencite{rocca2014}. Here, we choose $M=2$, that each node can have one of four states $(-2, -1, +1, +2)$. For each link $(k, j)$ belong to layer A,  the dynamics are designed as follows:
+The model consists of two-layer, and each layer has different dynamics. For layer A, the node changes its state according to $M$ model as introduced in \parencite{rocca2014}. Here, we choose $M=2$, that each node can have one of four states $(-2, -1, +1, +2)$. For each link $(k, j)$ belong to layer A,  the dynamics are designed as follows:
 \begin{itemize}
 	\item Compromise: if two nodes connected with link$(k, j)$ have opposite orientations, their states become more moderate with probability $q$ :
 	\begin{align}
@@ -98,7 +98,7 @@ To start with a polarized competition, as the initial conditions,  nodes in laye
 
 There are two parameters, $p$ and $q$ in the dynamics of layer A. To simply represent the probability $p$ and probability $q$ together, we set $p+q=1$. So, $p$ represents the reinforcement or strength of opinion such as extreme and moderate, which is scaled to be $0$ to $1$. And, there are only $1$ parameter, $v$ in the dynamics of layer B. The scale of $v$ is also $0$ to $1$ as $p$. $v$ represents the volatility, which means how prone the state of a node can be changed into the opposite state.
 
-To implement the interconnected dynamics, one step consists of two layers dynamics, where every node in layer A is checked with opinion dynamics, and every node in layer B updates its state according to the decision-making dynamics. Basically, the dynamics order follows updating the state of layer B after updating the state of layer A. The dynamics orders and updating rules of two-layers network would be discussed specifically in chapter.\ref{chap4}.     
+To implement the interconnected dynamics, one step consists of two layers dynamics, where every node in layer A is checked with opinion dynamics, and every node in layer B updates its state according to the decision-making dynamics. Basically, the dynamics order follows updating the state of layer B after updating the state of layer A. The dynamics orders and updating rules of two-layer network would be discussed specifically in chapter.\ref{chap4}.     
 
 Each simulation takes $100$ steps, and $100$ simulations are considered for average results. To analyze the simulation results, we use \textit{`Average State'(AS)} to measure the average states of network and \textit{`Consensus Index'(CI)} to measure how close the states of network is to consensus. The formula follow as
 
@@ -141,7 +141,7 @@ Fig.~\ref{chap2_CI_values} shows the characteristics of \textit{CI}. Same orient
 	\label{chap2_timeflow_CI(BA3_BA3)}
 \end{figure}
 
-As Fig.~\ref{chap2_timeflow_CI(BA3_BA3)} shown, \textit{CI} values are convergent to $+1$, $0$, or other values as step(time) goes by. $0$ means positive or negative consensus of two-layers. $+1$ means seperated opposite states of two-layers. The other values means mixed states of two-layers. By using \textit{CI}, coexistence states can be divided into two categories, separated state and mixed state. 
+As Fig.~\ref{chap2_timeflow_CI(BA3_BA3)} shown, \textit{CI} values are convergent to $+1$, $0$, or other values as step(time) goes by. $0$ means positive or negative consensus of two-layer. $+1$ means seperated opposite states of two-layer. The other values means mixed states of two-layer. By using \textit{CI}, coexistence states can be divided into two categories, separated state and mixed state. 
 
 To measure and evaluate the consensus results regarding to two parameters $p$ and $v$, we use four kinds of indexes including \textit{`AS total'}, \textit{`Positive Consensus Ratio'(PCR)}, \textit{`Negative Consensus ratio'(NCR)} and \textit{`Consensus Ratio'(CR)}. \textit{AS total} means the summation of \textit{AS} for all $p$s and all $v$s. \textit{PCR} is the ratio of positive consensus over all simulations. Similarly, \textit{NCR} is the ratio of experiments with negative consensus. \textit{CR} is the ratio of experiments reaching consensus, i.e. summation of \textit{PCR} and \textit{NCR}.
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  27 DEC 2019 18:17
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  28 DEC 2019 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2759,7 +2759,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 Underfull \vbox (badness 2809) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 16.
+(Font)              scaled to size 10.53937pt on input line 18.
 
 Package fontspec Info: Could not resolve font "KaiTi/BI" (it probably doesn't
 (fontspec)             exist).
@@ -2784,24 +2784,24 @@ Package fontspec Info: Font family 'KaiTi(0)' created for font 'KaiTi' with
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 16.
+(Font)              scaled to size 9.03374pt on input line 18.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.53937> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 16.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.53937pt on input line 16.
+(Font)              scaled to size 10.53937pt on input line 18.
  [1
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
@@ -3087,7 +3087,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 7963) has occurred while \output is active []
 
  [4]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
@@ -3136,10 +3136,10 @@ File: figure/chap2_timeflow_CI(BA3_BA3).png Graphic file (type bmp)
 Underfull \vbox (badness 3009) has occurred while \output is active []
 
  [14]
-[15]
 File: figure/chap2_AS_total(BA3_BA3).png Graphic file (type bmp)
 <figure/chap2_AS_total(BA3_BA3).png>
- [16]) [17]
+
+[15] [16]) [17]
 \openout2 = `tex/chap3.aux'.
 
  (./tex/chap3.tex [18
@@ -3309,19 +3309,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 File: figure/chap5_keynode_A.png Graphic file (type bmp)
 <figure/chap5_keynode_A.png>
 [45]
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 File: figure/chap5_keynode_B.png Graphic file (type bmp)
 <figure/chap5_keynode_B.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
@@ -3330,41 +3330,45 @@ File: figure/chap5_keynode_HM_A.png Graphic file (type bmp)
 File: figure/chap5_keynode_HM_B.png Graphic file (type bmp)
 <figure/chap5_keynode_HM_B.png>
 [47]
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
 File: figure/chap5_keynode_BA_RR_A.png Graphic file (type bmp)
 <figure/chap5_keynode_BA_RR_A.png>
-[48]
 File: figure/chap5_keynode_BA_RR_B.png Graphic file (type bmp)
 <figure/chap5_keynode_BA_RR_B.png>
- [49]
 File: figure/chap5_keynode_RR_BA_A.png Graphic file (type bmp)
 <figure/chap5_keynode_RR_BA_A.png>
 File: figure/chap5_keynode_RR_BA_B.png Graphic file (type bmp)
 <figure/chap5_keynode_RR_BA_B.png>
- [50]
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+[49] [50]
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
+[51]
 File: figure/chap5_keynode_internal_A.png Graphic file (type bmp)
 <figure/chap5_keynode_internal_A.png>
 File: figure/chap5_keynode_internal_B.png Graphic file (type bmp)
 <figure/chap5_keynode_internal_B.png>
-[51] [52]
+ [52]
 File: figure/chap5_keynode_internal_A2.png Graphic file (type bmp)
 <figure/chap5_keynode_internal_A2.png>
 File: figure/chap5_keynode_internal_B2.png Graphic file (type bmp)
 <figure/chap5_keynode_internal_B2.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+ [53]
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
-[53]
-Overfull \hbox (16.33138pt too wide) in paragraph at lines 187--203
+
+Overfull \hbox (16.33138pt too wide) in paragraph at lines 188--204
  [] 
  []
 
@@ -3378,7 +3382,7 @@ Overfull \hbox (16.33138pt too wide) in paragraph at lines 187--203
 ]
 Chapter 6
 [57]
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
@@ -3424,18 +3428,18 @@ Package pageslts Info: Total number of pages is odd.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A780506F13D5317A788DD27C2532F006.
+(rerunfilecheck)             Checksum: A0DEF5BBB985EAEDF0E573383F99FEC9.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53828 strings out of 492933
- 1073504 string characters out of 6134842
- 1605922 words of memory out of 5000000
- 56882 multiletter control sequences out of 15000+600000
+ 53831 strings out of 492933
+ 1073533 string characters out of 6134842
+ 1606023 words of memory out of 5000000
+ 56885 multiletter control sequences out of 15000+600000
  654028 words of font info for 209 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,17n,94p,1813b,5390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,94p,1893b,5390s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on thesis.pdf (81 pages).
