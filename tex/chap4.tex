@@ -11,9 +11,11 @@
 
 \chapter{Competition with different updating rules}
 \label{chap4}
-In this chapter, we control dynamics orders and updating rules for nodes and edges. With changing these updating rules, it is investigated how the states of network are changed. Here, each layer consists of \textit{Barabasi-Albert(BA)} network that has $N$ nodes with attaching new nodes, each with $K$ edges that are preferentially attached to existing nodes with a high degree as introduced in \parencite{barabasi1999}. Each node of one layer is connected with a random node on the other layer. That means each node has only one external edge. Simulations are performed on the network with $N=2048$ and $K=3$.
+In this chapter, we control dynamics orders and updating rules for nodes and edges. With changing these updating rules, it is investigated how the states of network are changed. Moreover, it is shown how the updating rules are analyzed in the real world, and which updating rule is more influential for changing a state of the network.\\
 
-When considering updating rules on two-layer networks, there are many ways to update the state of nodes. Dynamics orders of two layers can be considered whether layer A works first, or layer B works first or both layers work together. Moreover, orders of nodes can be thought as to whether the states of nodes are changed simultaneously or sequentially or randomly. Orders of edges connected with a node also can be deliberated as to whether edges are activated on a node sequentially or simultaneously or randomly. However, in layer B dynamics, the order of edges in one node always follows the simultaneous updating rule, because dynamics formula already considers the states of all connected neighbor nodes simultaneously. To sum up, as shown in Table.~\ref{25updating_rules}, 25 updating rules are considered according to layers, nodes, and edges.
+\section{Updating rules}
+
+When considering updating rules on two-layer networks, there are many ways to update the state of nodes. Dynamics orders of two layers can be considered whether layer A works first, or layer B works first or both layers work together. Moreover, orders of nodes can be thought as to whether the states of nodes are changed simultaneously or sequentially or randomly. Orders of edges connected with a node also can be deliberated as to whether edges are activated on a node sequentially or simultaneously or randomly. However, in layer B dynamics, the order of edges in one node always follows the simultaneous updating rule, because dynamics formula already considers the states of all connected neighbor nodes simultaneously. To sum up, as shown in Table~\ref{25updating_rules}, 25 updating rules are considered according to layers, nodes, and edges.
 
 \begin{table}[htp]
 	\begin{center}
@@ -52,9 +54,13 @@ When considering updating rules on two-layer networks, there are many ways to up
 	\label{25updating_rules}
 \end{table}
 
-Updating rules are indicated as follows. `O' and `D'  represent `Opinion layer' and `Decision Making layer' individually. `o' and `s' indicate sequential updating rule and simultaneous updating rule individually. Moreover, the arrow direction indicates the order of layers. In table remarks, `O(o, o) $\to$ D(s)' represents `Opinion layer(nodes: sequential order updating, edges: sequential order updating) $\to$ Decision-Making layer(node: simultaneous updating)', which means according to the arrow direction, all nodes in opinion layer are updated with the order of nodes and edges, and then all nodes in the decision-making layer are updated with the order of nodes. `O(o, o) $\Leftrightarrow$ D(o)' means that one node in opinion layer is updated, and then one node in the decision-making layer is updated until all nodes are updated. Dynamics with 25 updating rules are simulated with the parameters such as $p=0.4$ and $v=0.4$. Simulation results are divided by the order of layers, nodes, and edges. \\
+Updating rules are indicated as follows. `O' and `D'  represent `Opinion layer' and `Decision Making layer' individually. `o' and `s' indicate sequential updating rule and simultaneous updating rule individually. Moreover, the arrow direction indicates the order of layers. In the table remarks, `O(o, o) $\to$ D(s)' represents `Opinion layer(nodes: sequential order updating, edges: sequential order updating) $\to$ Decision-Making layer(node: simultaneous updating)', which means according to the arrow direction, all nodes in opinion layer are updated with the order of nodes and edges, and then all nodes in the decision-making layer are updated with the order of nodes. `O(o, o) $\Leftrightarrow$ D(o)' means that one node in opinion layer is updated, and then one node in the decision-making layer is updated until all nodes are updated. Dynamics with 25 updating rules are simulated with the parameters such as $p=0.4$ and $v=0.4$. \\
 
-\section{Order of layers}
+\section{Competition results}
+As the conditions for simulations, each layer consists of \textit{Barabasi-Albert(BA)} network that has $N$ nodes with attaching new nodes, each with $K$ edges that are preferentially attached to existing nodes with a high degree as introduced in \parencite{barabasi1999}. Each node of one layer is connected with a random node on the other layer. That means each node has only one external edge. Simulations are performed on the network with $N=2048$ and $K=3$. Simulation results are divided by the order of layers, nodes, and edges.\\
+
+\subsection{Order of layers}
+\label{order of layer}
 There exist two layers on the interconnected network. Moreover, each layer has its dynamics, such as \textit{M-Model} and \textit{AS-Model}. Two dynamics can be operated simultaneously or sequentially. If two layers act sequentially, the dynamics of layer A can act first, or the dynamics of layer B can work previously. If two layers are operated simultaneously, the order of nodes becomes the simultaneous updating rule automatically because the states of nodes are also changed according to the dynamics of layers. Otherwise, regardless of layers' order, nodes of two layers can interact mutually, i.e., one node in layer A is updated, and then one node in layer B is updated until all nodes are updated. In this case, the order of nodes becomes the sequential updating rule automatically.
 
 There are four ways in order of two layers, \textit{Layer A $\to$ Layer B(sequential), Layer A $\leftarrow$ Layer B(sequential), Layer A $\leftrightarrow$ Layer B(simultaneous), Layer A $\Leftrightarrow$ Layer B(interaction regardless of layers' order)}. 
@@ -68,9 +74,10 @@ There are four ways in order of two layers, \textit{Layer A $\to$ Layer B(sequen
 
 Fig.~\ref{chap4_layerorder} shows simulation results related to orders of layers. The graph line indicates \textit{AS} value per each step. If the line reaches to $1$ or $-1$, that means the state of the network has a positive or negative consensus state.
 
-As seen in Fig.~\ref{chap4_layerorder}, it is shown that there is little difference according to orders of layers, but there is a significant difference according to nodes' order. The order of nodes is described in the next section. Though consensus time is a little faster when the decision-making layer works first, two orders of layers have almost the same consensus time and result. Regardless of dynamics orders, when other conditions such as updating rules of nodes and edges are the same, the results of the dynamics are also very similar. It is observed that the dynamics order of layers does not have a significant influence on the state of the network. \\
+As seen in Fig.~\ref{chap4_layerorder}, it is shown that there is little difference according to orders of layers, but there is a significant difference according to nodes' order. The order of nodes is described in the next subsection~\ref{order of node}. Though consensus time is a little faster when the decision-making layer works first, two orders of layers have almost the same consensus time and result. Regardless of dynamics orders, when other conditions such as updating rules of nodes and edges are the same, the results of the dynamics are also very similar. It is observed that the dynamics order of layers does not have a significant influence on the state of the network. \\
 
-\section{Order of nodes}
+\subsection{Order of nodes}
+\label{order of node}
 In the simulation models, each layer has $2048$ nodes, and each node has interactions with other nodes. Now, the interaction order of nodes is considered. One node can be updated sequentially after neighbor nodes are updated. Otherwise, every node can be updated simultaneously. Moreover, nodes also can be updated randomly. As the method of random order, one edge is selected randomly and updated until all edges are considered regardless of nodes' orders or edges' orders.(For layer B, random order can not be applied because it has the formula that all edges of a node are considered together) Therefore, simulations are implemented according to three orders of nodes, such as sequential order, simultaneous order, and random order. The interaction orders of nodes can be analyzed as communication methods in the real world. If networks follow a sequential updating rule of nodes, communication methods of networks might be translated as discussion or conversation with enough time. However, if networks follow simultaneous updating rules of nodes, communication methods of networks might be analyzed as vote or election.
 
 \begin{figure}[!htb]
@@ -84,7 +91,8 @@ Fig.~\ref{chap4_nodeorder} shows simulation results according to the interaction
 
 In conclusion, it is found out that the simultaneous order of nodes makes a slow consensus, and the sequential order of nodes makes a fast consensus. Also, interaction order of nodes in layer B has more influence on consensus time than in layer A. To make quick social consensus, both opinion layer and decision-making layer need sequential updating rule of nodes, such as conversation and discussion.\\     
 
-\section{Order of edges}
+\subsection{Order of edges}
+\label{order of edge}
 Each node has several edges connected with other nodes. Updating rules also can be divided according to whether edges are activated sequentially or simultaneously. If the edges work sequentially, a state of the node is changed whenever each edge is activated. Otherwise, if edges of a node are activated simultaneously, a state of the node is changed considering all connected nodes. In the real world, the order of edges in one node can be analyzed as characteristics of nodes. If the order of edges is sequential, the node is analyzed as `rash' because a state of the node is changed whenever edges are activated. If the order of edges is simultaneous, the node is analyzed as `considerate' because it considers all connected nodes together. 
 
 \begin{figure}[!htb]
@@ -129,7 +137,7 @@ In Eq.(\ref{probabilities}), $K$ means the set of an integer from $0$ to the num
 
 Fig.~\ref{edgeorder} shows the simulation result according to edges' orders. The results can be categorized into consensus and coexistence(not reaching consensus). The sequential updating rule of edges makes consensus under the same conditions, such as orders of nodes and layers, i.e., rash nodes make consensus. However, the simultaneous updating rule of edges makes it hard to reach consensus under the same conditions such as orders of nodes and layers, i.e., considerate nodes do not make consensus. It can be analyzed that the rash node is extreme and makes it easy to reach consensus, but the considerate node is moderate and makes it hard to reach consensus.\\
  
-\section{Comparison and Analysis}
+\subsection{Comparison and Analysis}
 It is found out that there are different simulation results according to orders of layers, nodes, and edges. To sum up all updating rules, they can be categorized into three parts, positive consensus, coexistence, and negative consensus, as shown in Fig.~\ref{ordertotal}. 
  
 \begin{figure}[!htb]

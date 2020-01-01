@@ -61,8 +61,8 @@ Fig.~\ref{chap5_keynode_A} shows the simulation result for recognizing key nodes
 
 To select key nodes on layer B, parameters are set to be positive consensus state such as $p=0.3, v=0.5$. Fig.~\ref{chap5_keynode_B} shows the simulation result for identifying key nodes on layer B. As a single indicator, the most effective way to recognize important nodes is Pagerank centrality. The next ranks are degree and betweenness. As multiple indicators, \textit{PR+DE} has the best performance. Pagerank is the most effective method for selecting key nodes on layer B. But, all multiple indicators work better than degree centrality, the second rank in single indicators. It can be found out that combined node centralities also have a good performance for selecting key nodes, though they are not the best. \\
 
-\section{Key nodes on two-layer with different structures}
-In this section, we select the key nodes in the networks with various structures that are described in the chapter.\ref{chap3}. Node centralities and combined node centralities are also used as the methods for selecting key nodes. First, \textit{Hierarchical Model} is applied to identify critical nodes. Second, we consider the case that each layer has a different network type, such as \textit{BA-RR} or \textit{RR-BA} networks. Third, the case is considered that each layer has a different number of internal edges. Layer A can have more internal links, or layer B can have more internal links. Both cases are simulated. \\
+\section{Key nodes on two-layer networks with different structures}
+In this section, we select the key nodes in the networks with various structures that are described in the chapter~\ref{chap3}. Node centralities and combined node centralities are also used as the methods for selecting key nodes. First, \textit{Hierarchical Model} is applied to identify critical nodes. Second, we consider the case that each layer has a different network type, such as \textit{BA-RR} or \textit{RR-BA} networks. Third, the case is considered that each layer has a different number of internal edges. Layer A can have more internal links, or layer B can have more internal links. Both cases are simulated. \\
 
 \subsection{Key nodes in Hierarchical Model}
 \begin{figure}[!htb]
@@ -80,7 +80,7 @@ In this section, we select the key nodes in the networks with various structures
 	\label{chap5_keynode_HM_B}
 \end{figure}
 
-As described in the chapter.\ref{chap3}, \textit{Hierarchical Model} is the two-layer network that the number of nodes in layer B is reduced at a specific rate, and the external links from nodes in layer B are increased accordingly. Here, each layer consists of a \textit{BA} network with $k=3$. Layer A has $512$ nodes, and layer B has $64$ nodes. We denote this model as \textit{HM(8) with BA(3)}.
+As described in the chapter~\ref{chap3}, \textit{Hierarchical Model} is the two-layer network that the number of nodes in layer B is reduced at a specific rate, and the external links from nodes in layer B are increased accordingly. Here, each layer consists of a \textit{BA} network with $k=3$. Layer A has $512$ nodes, and layer B has $64$ nodes. We denote this model as \textit{HM(8) with BA(3)}.
 
 Fig.~\ref{chap5_keynode_HM_A} shows the simulation result of key nodes on layer A. Simulation result represents that \textit{PR+DE} is the best method for recognizing key nodes on \textit{HM(8) with BA(3)}. The next ranks are \textit{PR+BE} and Pagerank. The curve of changing the network states shown in Fig.~\ref{chap5_keynode_HM_A} is more straight than Fig.~\ref{chap5_keynode_A}. That means the speed of changing network states(consensus time) is much faster. 
 
@@ -175,7 +175,7 @@ Fig.~\ref{chap5_keynode_internal_B2} shows the simulation result of key nodes on
 Compared with the \textit{BA(4)-BA(2)} network, it can be analyzed that the larger number of internal edges on layer B makes consensus by key nodes hard. Moreover, decreasing internal edges on layer A makes it hard to select key nodes on layer A.\\   
 
 \section{Conclusion}
-By using node centrality and combined node centrality, key nodes on each layer have been recognized on networks with various structures. Table.~\ref{effective methods} shows total simulation results for selecting key nodes on various interconnected networks.
+By using node centrality and combined node centrality, key nodes on each layer have been recognized on networks with various structures. Table~\ref{effective methods} shows total simulation results for selecting key nodes on various interconnected networks.
  
 \begin{table}[!htb]
 	\scriptsize
