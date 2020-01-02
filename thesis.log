@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  2 JAN 2020 05:18
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  2 JAN 2020 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3149,12 +3149,16 @@ File: figure/chap2_timeflow_CI(BA3_BA3).png Graphic file (type bmp)
  [12]
 File: figure/chap2_AS_total(BA3_BA3).png Graphic file (type bmp)
 <figure/chap2_AS_total(BA3_BA3).png>
- [13]
+
 Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
-[14]) [15]
+[13]
+Underfull \vbox (badness 1019) has occurred while \output is active []
+
+ [14])
+[15]
 \openout2 = `tex/chap3.aux'.
 
  (./tex/chap3.tex [16
@@ -3241,7 +3245,7 @@ Overfull \hbox (46.76068pt too wide) in paragraph at lines 181--208
  []
 
 
-Underfull \vbox (badness 1983) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29])
 [30] [31]
@@ -3453,8 +3457,12 @@ LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 12.045pt on input line 7.
-) [69]
 
+
+LaTeX Font Warning: Font shape `TU/SimSun(0)/m/sc' undefined
+(Font)              using `TU/SimSun(0)/m/n' instead on input line 7.
+
+) [69] 
 AED: pageslts setting LastPage 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 125.
@@ -3484,12 +3492,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53885 strings out of 492933
- 1076583 string characters out of 6134842
- 1605133 words of memory out of 5000000
- 56936 multiletter control sequences out of 15000+600000
+ 53888 strings out of 492933
+ 1076651 string characters out of 6134842
+ 1605075 words of memory out of 5000000
+ 56939 multiletter control sequences out of 15000+600000
  654052 words of font info for 212 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,17n,94p,1918b,5390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,94p,1910b,5390s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on thesis.pdf (85 pages).
