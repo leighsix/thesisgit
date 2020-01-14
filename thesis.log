@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  9 JAN 2020 16:51
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  14 JAN 2020 23:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2390,7 +2390,7 @@ LaTeX Warning: Unused global option(s):
 \c@pagesLTS.Roman.1.local.cnt=\count547
  (./tex/intro.aux) (./tex/chap2.aux)
 (./tex/chap3.aux) (./tex/chap4.aux) (./tex/chap5.aux) (./tex/chap6.aux)
-(./tex/pubreview.aux)
+(./tex/ack.aux) (./tex/pub.aux)
 \c@pagesLTS.arabic.1.local.cnt=\count548
 )
 \openout1 = `thesis.aux'.
@@ -2742,6 +2742,25 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 [4
 
 ]
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <18.06749> not availabl
+e
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 44.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 18.06749pt on input line 44.
+
+
+LaTeX Font Warning: Font shape `TU/SimHei(0)/bx/n' undefined
+(Font)              using `TU/SimHei(0)/m/n' instead on input line 44.
+
+[5
+
+] [6
+
+] [7
+
+] [8
+
+]
 \c@pagesLTS.Alph.1.local.count=\count556
 \c@pagesLTS.pnc.Roman=\count557
 \c@pagesLTS.double.Roman=\count558
@@ -2755,11 +2774,6 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <16.06> not available
 (Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 16.06pt on input line 9.
-
-
-LaTeX Font Warning: Font shape `TU/SimHei(0)/bx/n' undefined
-(Font)              using `TU/SimHei(0)/m/n' instead on input line 9.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
@@ -3451,20 +3465,23 @@ LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
  [63
 
 ] [64] [65] [66] [67]
-\openout2 = `tex/pubreview.aux'.
+\openout2 = `tex/ack.aux'.
 
- (./tex/pubreview.tex [68
+ (./tex/ack.tex [68
+
+
+]) [69]
+\openout2 = `tex/pub.aux'.
+
+ (./tex/pub.tex
+[70
+
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 12.045pt on input line 7.
-
-
-LaTeX Font Warning: Font shape `TU/SimSun(0)/m/sc' undefined
-(Font)              using `TU/SimSun(0)/m/n' instead on input line 7.
-
-) [69] 
+(Font)              scaled to size 12.045pt on input line 11.
+) [71] 
 AED: pageslts setting LastPage 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 125.
@@ -3480,11 +3497,11 @@ Package pageslts Info: Total number of pages is odd.
 
 (./thesis.aux (./tex/abstract.aux) (./tex/intro.aux) (./tex/chap2.aux)
 (./tex/chap3.aux) (./tex/chap4.aux) (./tex/chap5.aux) (./tex/chap6.aux)
-(./tex/pubreview.aux))
+(./tex/ack.aux) (./tex/pub.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 125.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7211DEDA8E06434C29B18BF76A2D0571.
+(rerunfilecheck)             Checksum: BC2A8D30A9BE84C98B48182085359CEE.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3494,12 +3511,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53888 strings out of 492933
- 1076651 string characters out of 6134842
- 1605075 words of memory out of 5000000
- 56939 multiletter control sequences out of 15000+600000
- 654052 words of font info for 212 fonts, out of 8000000 for 9000
+ 53994 strings out of 492933
+ 1083216 string characters out of 6134842
+ 1608659 words of memory out of 5000000
+ 57037 multiletter control sequences out of 15000+600000
+ 656860 words of font info for 214 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,17n,94p,1910b,5390s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (85 pages).
+Output written on thesis.pdf (91 pages).

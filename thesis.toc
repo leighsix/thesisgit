@@ -36,4 +36,5 @@
 \contentsline {section}{\numberline {6.1}Summary}{59}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Discussion}{61}{section.6.2}% 
 \contentsline {chapter}{Bibliography}{63}{appendix*.51}% 
-\contentsline {chapter}{Publications}{69}{appendix*.52}% 
+\contentsline {chapter}{Acknowledgements}{69}{appendix*.52}% 
+\contentsline {chapter}{Publications}{71}{appendix*.53}% 
