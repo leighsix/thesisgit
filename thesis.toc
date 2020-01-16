@@ -13,7 +13,7 @@
 \contentsline {section}{\numberline {3.2}Competition on Networks with different network structures}{20}{section.3.2}% 
 \contentsline {subsection}{\numberline {3.2.1}Competition on Networks with different number of external links}{20}{subsection.3.2.1}% 
 \contentsline {subsection}{\numberline {3.2.2}Competition on Networks with different number of internal links}{22}{subsection.3.2.2}% 
-\contentsline {subsection}{\numberline {3.2.3}Competition on Networks with different network types}{27}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {3.2.3}Competition on Networks with different network types}{28}{subsection.3.2.3}% 
 \contentsline {section}{\numberline {3.3}Conclusion}{30}{section.3.3}% 
 \contentsline {chapter}{\numberline {Chapter 4}Competition with different updating rules}{33}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Updating rules}{33}{section.4.1}% 
@@ -21,8 +21,8 @@
 \contentsline {subsection}{\numberline {4.2.1}Order of layers}{35}{subsection.4.2.1}% 
 \contentsline {subsection}{\numberline {4.2.2}Order of nodes}{36}{subsection.4.2.2}% 
 \contentsline {subsection}{\numberline {4.2.3}Order of edges}{38}{subsection.4.2.3}% 
-\contentsline {subsection}{\numberline {4.2.4}Comparison and Analysis}{39}{subsection.4.2.4}% 
-\contentsline {section}{\numberline {4.3}Conclusion}{43}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.2.4}Comparison and Analysis}{40}{subsection.4.2.4}% 
+\contentsline {section}{\numberline {4.3}Conclusion}{42}{section.4.3}% 
 \contentsline {chapter}{\numberline {Chapter 5}Influences of key nodes on competition}{45}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Method for selecting key nodes}{45}{section.5.1}% 
 \contentsline {subsection}{\numberline {5.1.1}Key nodes on layer A}{47}{subsection.5.1.1}% 
@@ -35,6 +35,7 @@
 \contentsline {chapter}{\numberline {Chapter 6}Conclusion}{59}{chapter.6}% 
 \contentsline {section}{\numberline {6.1}Summary}{59}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Discussion}{61}{section.6.2}% 
-\contentsline {chapter}{Bibliography}{63}{appendix*.51}% 
-\contentsline {chapter}{Acknowledgements}{69}{appendix*.52}% 
-\contentsline {chapter}{Publications}{71}{appendix*.53}% 
+\contentsline {chapter}{\numberline {Appendix A}Selecting keynodes by single and multiple indicators}{63}{appendix.A}% 
+\contentsline {chapter}{Bibliography}{65}{appendix*.51}% 
+\contentsline {chapter}{Acknowledgements}{71}{appendix*.52}% 
+\contentsline {chapter}{Publications}{73}{appendix*.53}% 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  14 JAN 2020 23:02
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  16 JAN 2020 18:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2390,7 +2390,7 @@ LaTeX Warning: Unused global option(s):
 \c@pagesLTS.Roman.1.local.cnt=\count547
  (./tex/intro.aux) (./tex/chap2.aux)
 (./tex/chap3.aux) (./tex/chap4.aux) (./tex/chap5.aux) (./tex/chap6.aux)
-(./tex/ack.aux) (./tex/pub.aux)
+(./tex/app_setup.aux) (./tex/ack.aux) (./tex/pub.aux)
 \c@pagesLTS.arabic.1.local.cnt=\count548
 )
 \openout1 = `thesis.aux'.
@@ -3107,10 +3107,10 @@ File: figure/chap1_network_type.png Graphic file (type bmp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-Underfull \vbox (badness 7963) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
@@ -3118,7 +3118,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
@@ -3142,8 +3142,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [10]
 File: figure/chap2_timeflow_AS(BA3_BA3).png Graphic file (type bmp)
 <figure/chap2_timeflow_AS(BA3_BA3).png>
-
-[11]
 File: figure/chap2_CI_values.png Graphic file (type bmp)
 <figure/chap2_CI_values.png>
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
@@ -3160,7 +3158,8 @@ LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 5.0pt on input line 132.
 File: figure/chap2_timeflow_CI(BA3_BA3).png Graphic file (type bmp)
 <figure/chap2_timeflow_CI(BA3_BA3).png>
- [12]
+
+[11] [12] [13]
 File: figure/chap2_AS_total(BA3_BA3).png Graphic file (type bmp)
 <figure/chap2_AS_total(BA3_BA3).png>
 
@@ -3168,10 +3167,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
-[13]
-Underfull \vbox (badness 1019) has occurred while \output is active []
+) [14]
 
- [14])
+LaTeX Warning: Text page 15 contains only floats.
+
+
+Overfull \vbox (5.30873pt too high) has occurred while \output is active []
+
+
 [15]
 \openout2 = `tex/chap3.aux'.
 
@@ -3195,20 +3198,24 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 File: figure/chap3_RR(5)_RR(5)_total.png Graphic file (type bmp)
 <figure/chap3_RR(5)_RR(5)_total.png>
 [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-[18] [19]
+
 Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
 File: figure/chap3_HM.png Graphic file (type bmp)
 <figure/chap3_HM.png>
+[20]
 File: figure/chap3_HMs_AStotal.png Graphic file (type bmp)
 <figure/chap3_HMs_AStotal.png>
-[20]
 File: figure/chap3_HMs_total.png Graphic file (type bmp)
 <figure/chap3_HMs_total.png>
 
@@ -3221,16 +3228,22 @@ File: figure/chap3_changing_internal_edges.png Graphic file (type bmp)
 <figure/chap3_changing_internal_edges.png>
 File: figure/chap3_internal_edge_A_total1.png Graphic file (type bmp)
 <figure/chap3_internal_edge_A_total1.png>
- [22] [23]
+ [22]
+Underfull \vbox (badness 4072) has occurred while \output is active []
+
+ [23]
 File: figure/chap3_internal_edge_B_total1.png Graphic file (type bmp)
 <figure/chap3_internal_edge_B_total1.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [24]
 File: figure/chap3_internal_edge_two_total.png Graphic file (type bmp)
 <figure/chap3_internal_edge_two_total.png>
- [25]
 File: figure/chap3_internal_edge_AB_total.png Graphic file (type bmp)
 <figure/chap3_internal_edge_AB_total.png>
- [26]
+
+[25] [26]
 File: figure/chap3_internal_edge_summary.png Graphic file (type bmp)
 <figure/chap3_internal_edge_summary.png>
 
@@ -3238,14 +3251,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
+[27]
 File: figure/chap3_changing_structure_type.png Graphic file (type bmp)
 <figure/chap3_changing_structure_type.png>
-[27]
 File: figure/chap3_changing_network_type11.png Graphic file (type bmp)
 <figure/chap3_changing_network_type11.png>
 File: figure/chap3_changing_network_type2.png Graphic file (type bmp)
 <figure/chap3_changing_network_type2.png>
  [28]
+Underfull \vbox (badness 3635) has occurred while \output is active []
+
+ [29]
 Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
@@ -3255,11 +3271,7 @@ Overfull \hbox (46.76068pt too wide) in paragraph at lines 181--208
  [] 
  []
 
-
-Underfull \vbox (badness 1983) has occurred while \output is active []
-
- [29])
-[30] [31]
+) [30] [31]
 \openout2 = `tex/chap4.aux'.
 
  (./tex/chap4.tex [32
@@ -3299,15 +3311,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 [35] [36]
 File: figure/chap4_nodeorder.png Graphic file (type bmp)
 <figure/chap4_nodeorder.png>
-
+ [37]
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-[37]
 File: figure/chap4_edgeorder_explanation.png Graphic file (type bmp)
 <figure/chap4_edgeorder_explanation.png>
- [38]
+[38]
 File: figure/chap4_edgeorder.png Graphic file (type bmp)
 <figure/chap4_edgeorder.png>
 
@@ -3315,29 +3326,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
+[39]
 File: figure/chap4_ordertotal.png Graphic file (type bmp)
 <figure/chap4_ordertotal.png>
-[39]
 File: figure/chap4_ordertotal2.png Graphic file (type bmp)
 <figure/chap4_ordertotal2.png>
+
+
+LaTeX Warning: Float too large for page by 12.56566pt on input line 153.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 [40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
 Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41]
-
-LaTeX Warning: Text page 42 contains only floats.
-
-[42]) [43]
+) [42] [43]
 \openout2 = `tex/chap5.aux'.
 
  (./tex/chap5.tex [44
@@ -3456,32 +3467,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-) [61] [62
+) [61]
+\openout2 = `tex/app_setup.aux'.
+
+ (./tex/app_setup.tex [62
+
+
+
+]
+Appendix A
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 10.
+) [63] [64
 
 
 ]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
 (Font)              scaled to size 12.045pt on input line 89.
- [63
+ [65
 
-] [64] [65] [66] [67]
+] [66] [67] [68] [69]
 \openout2 = `tex/ack.aux'.
 
- (./tex/ack.tex [68
+ (./tex/ack.tex [70
 
 
-]) [69]
+]) [71]
 \openout2 = `tex/pub.aux'.
 
  (./tex/pub.tex
-[70
+[72
 
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 12.045pt on input line 11.
-) [71] 
+) [73] 
 AED: pageslts setting LastPage 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 125.
@@ -3497,11 +3519,11 @@ Package pageslts Info: Total number of pages is odd.
 
 (./thesis.aux (./tex/abstract.aux) (./tex/intro.aux) (./tex/chap2.aux)
 (./tex/chap3.aux) (./tex/chap4.aux) (./tex/chap5.aux) (./tex/chap6.aux)
-(./tex/ack.aux) (./tex/pub.aux))
+(./tex/app_setup.aux) (./tex/ack.aux) (./tex/pub.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 125.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BC2A8D30A9BE84C98B48182085359CEE.
+(rerunfilecheck)             Checksum: 71CF2D7F34784F06E6FEB93EDAA24539.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3511,12 +3533,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 53994 strings out of 492933
- 1083216 string characters out of 6134842
- 1608659 words of memory out of 5000000
- 57037 multiletter control sequences out of 15000+600000
+ 54032 strings out of 492933
+ 1083848 string characters out of 6134842
+ 1612368 words of memory out of 5000000
+ 57068 multiletter control sequences out of 15000+600000
  656860 words of font info for 214 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,17n,94p,1910b,5390s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (91 pages).
+Output written on thesis.pdf (93 pages).

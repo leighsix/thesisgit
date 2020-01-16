@@ -129,7 +129,7 @@
 \RequirePackage[inline]{enumitem}
 \RequirePackage{pdfpages}
 \RequirePackage{calc}
-\RequirePackage{algorithm, algorithmicx, algpseudocode}
+\RequirePackage{algorithm, algorithmicx, algpseudocode, float}
 \RequirePackage{siunitx}
 \RequirePackage{xparse}
 \RequirePackage{tikz}
@@ -407,6 +407,8 @@
 \algnewcommand\algorithmicswitch{\textbf{switch}}
 \algnewcommand\algorithmiccase{\textbf{case}}
 \algnewcommand\algorithmicdefault{\textbf{default}}
+\algnewcommand\algorithmicforeach{\textbf{for each}}
+\algdef{S}[FOR]{ForEach}[1]{\algorithmicforeach\ #1\ \algorithmicdo}
 
 % New "environments"
 % using \algtext*{<env>} removes any typesetting of that command
