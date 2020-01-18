@@ -20,7 +20,7 @@ When considering updating rules on two-layer networks, there are many ways to up
 \begin{table}[htp]
 	\begin{center}
 		\begin{tabular}{c|c|c|c|c}
-			Order of layers                                  & \multicolumn{2}{|c|}{Layer A}                                      & Layer B                & remarks   \\ \cline{2-4}
+			Order of layers                 & \multicolumn{2}{c|}{Layer A}       & Layer B                & remarks   \\ \cline{2-4}
 			& Order of nodes                 & Order of edges                     & Order of nodes         &  \\ \hline
 			\multirow{10}{*}{Layer A $\rightarrow$ Layer B} & \multirow{4}{*}{Sequential}    & \multirow{2}{*}{Sequential}        & Sequential             & O(o, o) $\to$ D(o) \\  \cline{4-5}  
 			&                                &                                    & Simultaneous           & O(o, o) $\to$ D(s) \\  \cline{3-5}     

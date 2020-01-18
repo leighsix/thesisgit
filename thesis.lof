@@ -15,37 +15,37 @@
 \contentsline {figure}{\numberline {3--2}{\ignorespaces (a) $p$-\textit {AS} chart according to specific $v$ values. (b) $v$-\textit {AS} chart according to specific $p$ values.\relax }}{18}{figure.caption.16}% 
 \contentsline {figure}{\numberline {3--3}{\ignorespaces \textit {AS} according to all $p$s and $v$s\relax }}{19}{figure.caption.17}% 
 \contentsline {figure}{\numberline {3--4}{\ignorespaces Competition on \textit {Hierarchical Model}\relax }}{21}{figure.caption.18}% 
-\contentsline {figure}{\numberline {3--5}{\ignorespaces \textit {AS total} on various \textit {Hierarchical Models}\relax }}{22}{figure.caption.19}% 
-\contentsline {figure}{\numberline {3--6}{\ignorespaces Histogram for \textit {PCR, NCR, AS total} of \textit {Hierarchical Models(HM(n))}\relax }}{23}{figure.caption.20}% 
+\contentsline {figure}{\numberline {3--5}{\ignorespaces \textit {AS total} on various \textit {Hierarchical Models}\relax }}{21}{figure.caption.19}% 
+\contentsline {figure}{\numberline {3--6}{\ignorespaces Histogram for \textit {PCR, NCR, AS total} of \textit {Hierarchical Models(HM(n))}\relax }}{22}{figure.caption.20}% 
 \contentsline {figure}{\numberline {3--7}{\ignorespaces Competition on interconnected networks with different internal edges\relax }}{23}{figure.caption.21}% 
 \contentsline {figure}{\numberline {3--8}{\ignorespaces Simulation results with different internal degrees on layer A\relax }}{24}{figure.caption.22}% 
-\contentsline {figure}{\numberline {3--9}{\ignorespaces Simulation results with different internal degrees on layer B\relax }}{25}{figure.caption.23}% 
-\contentsline {figure}{\numberline {3--10}{\ignorespaces Simulation results with changing internal degrees on both layers\relax }}{26}{figure.caption.24}% 
-\contentsline {figure}{\numberline {3--11}{\ignorespaces Total results with different internal degrees on two layers\relax }}{27}{figure.caption.25}% 
-\contentsline {figure}{\numberline {3--12}{\ignorespaces Categorizing the state of the network according to internal degrees on two layers\relax }}{27}{figure.caption.26}% 
-\contentsline {figure}{\numberline {3--13}{\ignorespaces Competition on networks with different structures\relax }}{28}{figure.caption.27}% 
-\contentsline {figure}{\numberline {3--14}{\ignorespaces Simulation results with different network types\relax }}{29}{figure.caption.28}% 
-\contentsline {figure}{\numberline {3--15}{\ignorespaces Simulation results of BA-BA networks with different internal degrees\relax }}{29}{figure.caption.29}% 
+\contentsline {figure}{\numberline {3--9}{\ignorespaces Simulation results with different internal degrees on layer B\relax }}{26}{figure.caption.23}% 
+\contentsline {figure}{\numberline {3--10}{\ignorespaces Simulation results with changing internal degrees on both layers\relax }}{27}{figure.caption.24}% 
+\contentsline {figure}{\numberline {3--11}{\ignorespaces Total results with different internal degrees on two layers\relax }}{28}{figure.caption.25}% 
+\contentsline {figure}{\numberline {3--12}{\ignorespaces Categorizing the state of the network according to internal degrees on two layers\relax }}{29}{figure.caption.26}% 
+\contentsline {figure}{\numberline {3--13}{\ignorespaces Competition on networks with different structures\relax }}{29}{figure.caption.27}% 
+\contentsline {figure}{\numberline {3--14}{\ignorespaces Simulation results with different network types\relax }}{30}{figure.caption.28}% 
+\contentsline {figure}{\numberline {3--15}{\ignorespaces Simulation results of BA-BA networks with different internal degrees\relax }}{31}{figure.caption.29}% 
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {4--1}{\ignorespaces Simulation results according to orders of layers: Comparison between orders of layers under the same conditions, such as orders of nodes and edges.\relax }}{36}{figure.caption.32}% 
-\contentsline {figure}{\numberline {4--2}{\ignorespaces Simulation results according to orders of nodes: Comparison between orders of nodes under the same conditions, such as orders of layers and edges.\relax }}{37}{figure.caption.33}% 
-\contentsline {figure}{\numberline {4--3}{\ignorespaces Order of edges: One node connected with other nodes is updated according to the sequential or simultaneous order of edges\relax }}{38}{figure.caption.34}% 
-\contentsline {figure}{\numberline {4--4}{\ignorespaces Simulation results according to orders of edges: Comparison between orders of edges under the same conditions, such as orders of layers and nodes\relax }}{40}{figure.caption.35}% 
-\contentsline {figure}{\numberline {4--5}{\ignorespaces Total results of 25 updating rules with measuring \textit {AS}\relax }}{41}{figure.caption.36}% 
-\contentsline {figure}{\numberline {4--6}{\ignorespaces Total results of 25 updating rules with measuring \textit {CI}\relax }}{43}{figure.caption.37}% 
+\contentsline {figure}{\numberline {4--1}{\ignorespaces Simulation results according to orders of layers: Comparison between orders of layers under the same conditions, such as orders of nodes and edges.\relax }}{38}{figure.caption.32}% 
+\contentsline {figure}{\numberline {4--2}{\ignorespaces Simulation results according to orders of nodes: Comparison between orders of nodes under the same conditions, such as orders of layers and edges.\relax }}{39}{figure.caption.33}% 
+\contentsline {figure}{\numberline {4--3}{\ignorespaces Order of edges: One node connected with other nodes is updated according to the sequential or simultaneous order of edges\relax }}{40}{figure.caption.34}% 
+\contentsline {figure}{\numberline {4--4}{\ignorespaces Simulation results according to orders of edges: Comparison between orders of edges under the same conditions, such as orders of layers and nodes\relax }}{42}{figure.caption.35}% 
+\contentsline {figure}{\numberline {4--5}{\ignorespaces Total results of 25 updating rules with measuring \textit {AS}\relax }}{43}{figure.caption.36}% 
+\contentsline {figure}{\numberline {4--6}{\ignorespaces Total results of 25 updating rules with measuring \textit {CI}\relax }}{45}{figure.caption.37}% 
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {5--1}{\ignorespaces Key nodes on layer A in \textit {BA(3)-BA(3)} network($p=0.2, v=0.4$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{47}{figure.caption.38}% 
-\contentsline {figure}{\numberline {5--2}{\ignorespaces Key nodes on layer B in \textit {BA(3)-BA(3)} network($p=0.3, v=0.5$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{48}{figure.caption.39}% 
-\contentsline {figure}{\numberline {5--3}{\ignorespaces Key nodes on layer A in \textit {Hierarchical Model(8)}($p=0.2, v=0.2$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{49}{figure.caption.40}% 
-\contentsline {figure}{\numberline {5--4}{\ignorespaces Key nodes on layer B in \textit {Hierarchical Model(8)}($p=0.25, v=0.3$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{50}{figure.caption.41}% 
-\contentsline {figure}{\numberline {5--5}{\ignorespaces Key nodes on layer A in \textit {BA(3)-RR(6)} network($p=0.2, v=0.4$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{51}{figure.caption.42}% 
-\contentsline {figure}{\numberline {5--6}{\ignorespaces Key nodes on layer B in \textit {BA(3)-RR(6)} network($p=0.3, v=0.5$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{52}{figure.caption.43}% 
-\contentsline {figure}{\numberline {5--7}{\ignorespaces Key nodes on layer A in \textit {RR(6)-BA(3)} network($p=0.2, v=0.4$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{52}{figure.caption.44}% 
-\contentsline {figure}{\numberline {5--8}{\ignorespaces Key nodes on layer B in \textit {RR(6)-BA(3)} network($p=0.3, v=0.5$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{53}{figure.caption.45}% 
-\contentsline {figure}{\numberline {5--9}{\ignorespaces Key nodes on layer A in \textit {BA(4)-BA(2)} network($p=0.15, v=0.3$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{54}{figure.caption.46}% 
-\contentsline {figure}{\numberline {5--10}{\ignorespaces Key nodes on layer B in \textit {BA(4)-BA(2)} network($p=0.2, v=0.4$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{55}{figure.caption.47}% 
-\contentsline {figure}{\numberline {5--11}{\ignorespaces Key nodes on layer A in \textit {BA(2)-BA(4)} network($p=0.57, v=0.37$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{55}{figure.caption.48}% 
-\contentsline {figure}{\numberline {5--12}{\ignorespaces Key nodes on layer B in \textit {BA(2)-BA(4)} network($p=0.6, v=0.4$): (a) Single indicator methods, (b) Multiple indicator methods\relax }}{56}{figure.caption.49}% 
+\contentsline {figure}{\numberline {5--1}{\ignorespaces Key nodes on layer A in \textit {BA(3)-BA(3)} network($p=0.2, v=0.4$)\relax }}{49}{figure.caption.38}% 
+\contentsline {figure}{\numberline {5--2}{\ignorespaces Key nodes on layer B in \textit {BA(3)-BA(3)} network($p=0.3, v=0.5$)\relax }}{50}{figure.caption.39}% 
+\contentsline {figure}{\numberline {5--3}{\ignorespaces Key nodes on layer A in \textit {Hierarchical Model(8)}($p=0.2, v=0.2$)\relax }}{51}{figure.caption.40}% 
+\contentsline {figure}{\numberline {5--4}{\ignorespaces Key nodes on layer B in \textit {Hierarchical Model(8)}($p=0.25, v=0.3$)\relax }}{52}{figure.caption.41}% 
+\contentsline {figure}{\numberline {5--5}{\ignorespaces Key nodes on layer A in \textit {BA(3)-RR(6)} network($p=0.2, v=0.4$)\relax }}{53}{figure.caption.42}% 
+\contentsline {figure}{\numberline {5--6}{\ignorespaces Key nodes on layer B in \textit {BA(3)-RR(6)} network($p=0.3, v=0.5$)\relax }}{54}{figure.caption.43}% 
+\contentsline {figure}{\numberline {5--7}{\ignorespaces Key nodes on layer A in \textit {RR(6)-BA(3)} network($p=0.2, v=0.4$)\relax }}{54}{figure.caption.44}% 
+\contentsline {figure}{\numberline {5--8}{\ignorespaces Key nodes on layer B in \textit {RR(6)-BA(3)} network($p=0.3, v=0.5$)\relax }}{55}{figure.caption.45}% 
+\contentsline {figure}{\numberline {5--9}{\ignorespaces Key nodes on layer A in \textit {BA(4)-BA(2)} network($p=0.15, v=0.3$)\relax }}{56}{figure.caption.46}% 
+\contentsline {figure}{\numberline {5--10}{\ignorespaces Key nodes on layer B in \textit {BA(4)-BA(2)} network($p=0.2, v=0.4$)\relax }}{57}{figure.caption.47}% 
+\contentsline {figure}{\numberline {5--11}{\ignorespaces Key nodes on layer A in \textit {BA(2)-BA(4)} network($p=0.57, v=0.37$)\relax }}{57}{figure.caption.48}% 
+\contentsline {figure}{\numberline {5--12}{\ignorespaces Key nodes on layer B in \textit {BA(2)-BA(4)} network($p=0.6, v=0.4$)\relax }}{58}{figure.caption.49}% 
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \addvspace {10.0pt}
