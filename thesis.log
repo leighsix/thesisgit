@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  18 JAN 2020 18:15
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  19 JAN 2020 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3093,15 +3093,6 @@ Overfull \hbox (18.69368pt too wide) detected at line 9
 Chapter 1
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.0pt on input line 13.
-
-LaTeX Warning: Citation 'serazzi2003' on page 1 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'massad2013' on page 1 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'liu2018' on page 1 undefined on input line 14.
-
 File: figure/chap1_topic.png Graphic file (type bmp)
 <figure/chap1_topic.png>
 File: figure/chap1_singlemulti.png Graphic file (type bmp)
@@ -3116,7 +3107,7 @@ File: figure/chap1_network_type.png Graphic file (type bmp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1769) has occurred while \output is active []
 
  [4]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
@@ -3181,7 +3172,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--185
 LaTeX Warning: Text page 15 contains only floats.
 
 
-Overfull \vbox (5.30873pt too high) has occurred while \output is active []
+Overfull \vbox (4.84451pt too high) has occurred while \output is active []
 
 
 [15]
@@ -3210,7 +3201,9 @@ File: figure/chap3_RR(5)_RR(5)_total.png Graphic file (type bmp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-[19]
+Underfull \vbox (badness 4279) has occurred while \output is active []
+
+ [19]
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
@@ -3243,7 +3236,7 @@ File: figure/chap3_internal_edge_A_total1.png Graphic file (type bmp)
 LaTeX Warning: Text page 24 contains only floats.
 
 
-Overfull \vbox (6.84445pt too high) has occurred while \output is active []
+Overfull \vbox (7.44026pt too high) has occurred while \output is active []
 
 
 [24]
@@ -3261,7 +3254,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Warning: Text page 26 contains only floats.
 
 
-Overfull \vbox (1.63791pt too high) has occurred while \output is active []
+Overfull \vbox (3.04599pt too high) has occurred while \output is active []
 
 
 [26]
@@ -3359,7 +3352,7 @@ File: figure/chap4_ordertotal2.png Graphic file (type bmp)
 <figure/chap4_ordertotal2.png>
 
 
-LaTeX Warning: Float too large for page by 12.56566pt on input line 153.
+LaTeX Warning: Float too large for page by 8.46692pt on input line 153.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
@@ -3433,7 +3426,7 @@ File: figure/chap5_keynode_RR_BA_B.png Graphic file (type bmp)
 <figure/chap5_keynode_RR_BA_B.png>
 
 [53]
-Underfull \vbox (badness 7740) has occurred while \output is active []
+Underfull \vbox (badness 7291) has occurred while \output is active []
 
  [54]
 Underfull \hbox (badness 10000) in paragraph at lines 124--125
@@ -3441,7 +3434,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3872) has occurred while \output is active []
 
  [55]
 File: figure/chap5_keynode_internal_A.png Graphic file (type bmp)
@@ -3450,12 +3443,10 @@ File: figure/chap5_keynode_internal_B.png Graphic file (type bmp)
 <figure/chap5_keynode_internal_B.png>
 File: figure/chap5_keynode_internal_A2.png Graphic file (type bmp)
 <figure/chap5_keynode_internal_A2.png>
-File: figure/chap5_keynode_internal_B2.png Graphic file (type bmp)
-<figure/chap5_keynode_internal_B2.png>
 
 [56]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+File: figure/chap5_keynode_internal_B2.png Graphic file (type bmp)
+<figure/chap5_keynode_internal_B2.png>
  [57]
 Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
@@ -3464,11 +3455,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
 Overfull \hbox (16.33138pt too wide) in paragraph at lines 176--192
  [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
-
  []
 
 [58]) [59]
@@ -3559,25 +3545,17 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                thesis
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54032 strings out of 492933
- 1083840 string characters out of 6134842
- 1611644 words of memory out of 5000000
- 57068 multiletter control sequences out of 15000+600000
+ 54041 strings out of 492933
+ 1084155 string characters out of 6134842
+ 1611788 words of memory out of 5000000
+ 57077 multiletter control sequences out of 15000+600000
  656860 words of font info for 214 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,17n,94p,1910b,5390s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,94p,1916b,5385s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on thesis.pdf (93 pages).
