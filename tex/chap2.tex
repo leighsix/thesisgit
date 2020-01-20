@@ -11,7 +11,7 @@
 
 \chapter{A two-layer network model}
 \label{chap2}
-In this chapter, a basic model is introduced for competition on a two-layer network. It is also described that how each layer is made up and what kind of function and dynamics it has. Also, several indexes are provided to analyze and measure the interaction between two-layers.
+In this chapter, a basic model is introduced for competition on a two-layer network. It is also described that how each layer is made up and what kinds of functions and dynamics it has. Also, several indexes are provided to analyze and measure the interaction between two-layers.
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=\hsize]{chap2_modeling.png}
@@ -21,7 +21,7 @@ In this chapter, a basic model is introduced for competition on a two-layer netw
  
 \section{Modeling of a two-layer network}
 \label{sec:modeling of two layer network}
-The model consists of two layers, and each layer has different dynamics. For layer A, the node changes its state according to the $M$ model, as introduced in \parencite{rocca2014}. Here, we choose $M=2$, that each node can have one of four states $(-2, -1, +1, +2)$. For each link $(k, j)$ belong to layer A, the dynamics are designed as follows:
+The model consists of two layers, and each layer has different dynamics. For layer A, a node changes its state according to the $M$ model, as introduced in \parencite{rocca2014}. Here, we choose $M=2$, that each node can have one of four states $(-2, -1, +1, +2)$. For each link $(k, j)$ belonged to layer A, the dynamics are designed as follows:
 \begin{itemize}
 	\item Compromise: if two nodes connected with link$(k, j)$ have opposite orientations, their states become more moderate with probability $q$ :
 	\begin{align}
@@ -43,7 +43,7 @@ The model consists of two layers, and each layer has different dynamics. For lay
 	\end{align}
 \end{itemize}
 
-For each external link $(k,j)$ with $k$ belong to layer A, the state of node $k$ is updated according to :
+For each external link $(k,j)$ with $k$ belonged to layer A, the state of node $k$ is updated according to :
 \begin{itemize}
 	\item $S_k \cdot S_j < 0$ :
 	\begin{align}
@@ -93,7 +93,7 @@ where $i_i$ is an internal degree of node $i$ and $e_i$ is an external degree of
 \end{figure}
 
 \section{Simulations and Analysis}
-This model is nonlinear, and the applied dynamics are switched according to the states of nodes. In this model, practical mathematical tools can not be applied, and that precise analytical results are challenging to achieve.\parencite{nicolas2017, rainer2002}. For that reason, we analyze the above nonlinear model through a large number of simulations on the computer.
+This model is nonlinear, and the applied dynamics are switched according to the states of nodes. In this model, practical mathematical tools can not be applied, and that precise analytical results are challenging to achieve.\parencite{nicolas2017, rainer2002} For that reason, we analyze the above nonlinear model through a large number of simulations on the computer.
 
 To start with a polarized competition, as the initial conditions,  nodes in layer A are all positive states, and nodes in layer B are all negative states, as shown in Fig.~\ref{chap2_modeling}. For nodes in layer A, it begins with the states where half of the nodes are $+1$, and the others are $+2$. The initial states of nodes in layer B have only $-1$.
 
@@ -113,7 +113,7 @@ CI = \frac{{({K_ + }^A \cdot {K_ - }^B) + ({K_ - }^A \cdot {K_ + }^B)}}{{{K^A} \
 
 In these formulas, $S_i^A$ means the state of node $i$ in layer A, and $K^A$ is the number of nodes in layer A. ${K_ + }^A$ represents the number of nodes with the positive state in layer A.   
 
-With \textit{AS}, it could be verified whether a consensus happens under the change of $p$ and $v$.  If a positive consensus happens, the \textit{AS} is close to the value of $+1$. If a negative consensus happens, the \textit{AS} is close to the value of $-1$. And, the medium values between $+1$ and $-1$ mean that the state of the network belongs to the coexistence or dissent part.
+\textit{AS} can verify whether a consensus happens under the change of $p$ and $v$.  If a positive consensus happens, the \textit{AS} is close to the value of $+1$. If a negative consensus happens, the \textit{AS} is close to the value of $-1$. And, the medium values between $+1$ and $-1$ mean that the state of the network belongs to the coexistence or dissent part.
 
 \begin{figure}[!htb]
 	\centering
@@ -124,7 +124,7 @@ With \textit{AS}, it could be verified whether a consensus happens under the cha
 
 Fig.~\ref{chap2_timeflow_AS(BA3_BA3)} shows that \textit{AS} values are convergent to $+1$, $-1$, or other values as step(time) goes by. Reaching $+1$ means making a positive consensus, and reaching $-1$ means making a negative consensus. The other values mean a coexistence or dissent state. 
 
-With \textit{CI}, it could be measured how close the state of the network is to consensus. If the \textit{CI} is close to $0$, the state of the network is close to a positive or negative consensus. If the \textit{CI} is close to $1$, a state of the network is a separated coexistence, where states of all nodes in layer A is opposed to states of all nodes in layer B. If the \textit{CI} is close to $0.5$, a state of the network is a mixed coexistence, where each layer has both positive and negative states of nodes.
+\textit{CI} can measure how close the state of the network is to consensus. If the \textit{CI} is close to $0$, the state of the network is close to a positive or negative consensus. If the \textit{CI} is close to $1$, a state of the network is a separated coexistence, where states of all nodes in layer A is opposed to states of all nodes in layer B. If the \textit{CI} is close to $0.5$, a state of the network is a mixed coexistence, where each layer has both positive and negative states of nodes.
 
 \begin{figure}[!htb]
 	\centering

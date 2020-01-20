@@ -11,7 +11,7 @@
 
 \chapter{Competition with different updating rules}
 \label{chap4}
-In this chapter, we control dynamics orders and updating rules for nodes and edges. With changing these updating rules, it is investigated how the states of network are changed. Moreover, it is shown how the updating rules are analyzed in the real world, and which updating rule is more influential for changing a state of the network.\\
+In this chapter, we control dynamics orders and updating rules for nodes and edges. With changing these updating rules, it is investigated how the states of network are changed. Moreover, it is shown how the updating rules are analyzed in the real world, and which updating rule is more influential for changing the state of a network.\\
 
 \section{Updating rules}
 
@@ -61,9 +61,9 @@ As the conditions for simulations, each layer consists of the \textit{Barabasi-A
 
 \subsection{Order of layers}
 \label{order of layer}
-There exist two layers on the interconnected network. Moreover, each layer has its dynamics, such as \textit{M-Model} and \textit{AS-Model}. Two dynamics can be operated simultaneously or sequentially. If two layers act sequentially, the dynamics of layer A can act first, or the dynamics of layer B can work previously. If two layers are operated simultaneously, the order of nodes becomes the simultaneous updating rule automatically because the states of nodes are also changed according to the dynamics of layers. Otherwise, regardless of layers' order, nodes of two layers can interact mutually, i.e., one node in layer A is updated, and then one node in layer B is updated until all nodes are updated. In this case, the order of nodes becomes the sequential updating rule automatically.
+There exist two layers in the interconnected network. Moreover, each layer has its dynamics, such as \textit{M-Model} and \textit{AS-Model}. Two dynamics can be operated simultaneously or sequentially. If two layers act sequentially, the dynamics of layer A can act first, or the dynamics of layer B can work previously. If two layers are operated simultaneously, the order of nodes becomes the simultaneous updating rule automatically because the states of nodes are also changed according to the dynamics of layers. Otherwise, regardless of layers' order, nodes of two layers can interact mutually, i.e., one node in layer A is updated, and then one node in layer B is updated until all nodes are updated. In this case, the order of nodes becomes the sequential updating rule automatically.
 
-There are four ways in order of two layers, \textit{Layer A $\to$ Layer B(sequential), Layer A $\leftarrow$ Layer B(sequential), Layer A $\leftrightarrow$ Layer B(simultaneous), Layer A $\Leftrightarrow$ Layer B(interaction regardless of layers' order)}. 
+There are four ways in the orders of two layers, \textit{Layer A $\to$ Layer B(sequential), Layer A $\leftarrow$ Layer B(sequential), Layer A $\leftrightarrow$ Layer B(simultaneous), Layer A $\Leftrightarrow$ Layer B(interaction regardless of layers' order)}. 
 
 \begin{figure}[!htb]
 	\centering
