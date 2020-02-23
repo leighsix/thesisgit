@@ -3,31 +3,387 @@
 % !TEX root = ../thesis.tex
 % !TEX encoding = UTF-8 Unicode
 
+\chapter{Procedures for evaluating the state of networks}
+\label{appendixA}
+\begin{algorithm}[H]
+	\caption{Algorithm for evaluating the state of networks}
+	\label{algo:evaluating}
+	\begin{algorithmic} 
+		\State  \bf{INPUT : Two-layer Network G(V, E), interval (m, n), repeat\_number} \normalfont \\
+		\Comment{In this study, The number of nodes(V/2) on each layer is $2048$, The number of edges is different according to network structures, and the interval of both parameters is $m = n = 40$}
+		\State  \bf{OUTPUT : array Average\_States} \normalfont 
+		\Comment{Array for Average States according to all parameters}
+		\State N = len(V), P = linspace(0, 1, m), V = linspace(0, 1, n), M = len(P), N = len(V)
+		\State set array Average\_States[M][N]
+		\State set temp\_Array[i]
+		\ForEach {$p \in \mathcal P $}
+			\ForEach {$v \in \mathcal V $}
+				\For{$i$ to repeat\_number}  
+				\Comment{In this work, simulations are repeated 100times for average values}
+					\State \Call{Doing\_Interacting\_Dynamics}{G(V,E), p, v}
+					\State temp\_Array = GET\_STATE(G(V,E))
+					\Comment{The summation of all nodes' states }
+				\EndFor
+				\State Average\_States[p][v] = SUM(temp\_Array)/repeat\_number
+			\EndFor
+		\EndFor
+		\State \Return {array Average\_States[M][N]}\\
+		
+		\Function {Doing\_Interacting\_Dynamics}{G(V,E), p, v}
+		    \For{$i$ to $100$steps}
+		    \Comment{100 steps for opinion evolutions}
+				\State \Call{Doing\_layer\_A\_dynamics}{G(V, E), p, sequential}
+				\State \Call{Doing\_layer\_B\_dynamics}{G(V,E), v}
+			\EndFor
+			\State \Return {G(V, E)}
+		\EndFunction
+		\Comment{In this function, the updating rule are assumed as O(o, o) $\to$ D(o), other updating rules are presented in Appendix \ref{appendixC}}
+	\end{algorithmic}
+\end{algorithm}
 
-\chapter{Selecting keynodes by single and multiple indicators}
+
+\chapter{Procedures for two-layer network dynamics}
+\label{appendixB}
+\begin{breakablealgorithm}
+	\caption{Algorithm for layer A dynamics}
+	\label{algo:layer A}
+	\begin{algorithmic} 
+	\Function {Doing\_layer\_A\_dynamics}{G(V, E), p, sequential}
+		\State in\_edge\_list = GET\_INTERNAL\_EDGE\_LIST(G(V,E))
+		\State ex\_edge\_list = GET\_EXTERNAL\_EDGE\_LIST(G(V,E))\\
+		\Comment{List of links between two nodes such as (i, j)}
+		\ForEach {edge $\in$ in\_edge\_list}
+		    \State (a, b) = \Call{Two\_Node\_Change}{edge[0], edge[1]}
+		    \State G(V, E)[edge[0]][state] = a
+		    \State G(V, E)[edge[1]][state] = b
+		\EndFor  
+		\ForEach {edge $\in$ ex\_edge\_list}
+			\State a = \Call{One\_Node\_Change}{edge[0], edges[1]}
+			\State G(V, E)[edge[0]][state] = a 
+		\EndFor
+		\State \Return {G(V, E)}    
+	\EndFunction
+		
+	\Function{One\_Node\_Change}{edge[0], edges[1], G(V, E)}
+	    \Comment{In the case that the state of only one node is changed when two nodes interact: external edges, simultaneous updating rules}	
+		\If {edge[0][state] * edge[1][state] > 0}
+			\State node\_state(a, b) = {Persuasion\_Process}{edge[0], edge[1]}
+			\State a = node\_state(a, b)[0]
+		\EndIf
+		\If {edge[0][state] * edge[1][state] < 0}
+			\If {edge[0] * edge[1] = -1}
+				\If {random z > (1-p)/2}   
+					\Comment{0<z<1}
+					\State a = node\_state(+1, +1)[0]
+				\Else
+					\State a = node\_state(-1, -1)[0]
+				\EndIf
+			\Else
+				\State node\_state(a, b) = \Call{Compromise\_Process}{edge[0], edge[1]}
+				\State a = node\_state(a, b)[0]
+			\EndIf
+		\EndIf
+		\State \Return{a}
+	\EndFunction
+
+	\Function{Two\_Node\_Change}{edge[0], edge[1]}
+	\Comment{In the case that the state of two nodes are changed when two nodes interact: internal edges, sequential updating rules}	
+		\If {edge[0][state] * edge[1][state] > 0}
+			\State node\_state(a, b) = \Call{Persuasion\_Process}{edge[0], edge[1]}
+		\EndIf
+		\If {edge[0][state] * edge[1][state] < 0}
+			\If {edge[0][state] * edge[1][state] = -1}
+				\If {random z > (1-p)/2}   
+				\Comment{0<z<1}
+					\State  node\_state(+1, +1)
+				\Else
+					\State node\_state(-1, -1)
+				\EndIf
+			\Else
+				\State node\_state(a, b) = \Call{Compromise\_Process}{edge[0], edge[1]}
+			\EndIf
+		\EndIf	
+		\State \Return{node\_state(a, b)}  
+	\EndFunction
+	
+	\Function {Persuasion\_Process}{edge[0], edge[1]}
+	\Comment{The states of nodes become extreme}
+		\If {edge[0]>0 and edge[1]>0}
+			\State node\_state(a, b) = (\Call{move\_right}{edge[0]}, \Call{move\_right}{edge[1]})
+		\EndIf
+		\If {edge[0]<0 and edge[1]<0}
+			\State node\_state(a, b) = (\Call{move\_left}{edge[0]}, \Call{move\_left}{edge[1]})
+		\EndIf
+		\State \Return {node\_state(a, b)}
+	\EndFunction
+	
+	\Function {Compromise\_Process}{edge[0], edge[1]}
+	\Comment{The states of nodes become moderate}
+		\If {edge[0]>0 and edge[1]<0}
+			\State node\_state(a, b) = (\Call{move\_left}{edge[0]}, \Call{move\_right}{edge[1]})
+		\EndIf
+		\If {edge[0]<0 and edge[1]>0}
+			\State node\_state(a, b) = (\Call{move\_right}{edge[0]}, \Call{move\_left}{edge[1]})
+		\EndIf
+		\State \Return {node\_state(a, b)}
+	\EndFunction
+		
+	\Function {move\_left}{a}
+	\Comment{the state of a node is changed into -1 or unchanged}
+		\State set Min = -2
+		\If {a = Min}
+			\State a = a
+		\Else
+			\State a = a - 1
+		\EndIf
+		\State \Return {a}
+	\EndFunction
+	
+	\Function {move\_right}{a}
+	\Comment{the state of a node is changed into +1 or unchanged}
+		\State set Max = +2
+		\If {a = Max}
+			\State a = a
+		\Else
+			\State a = a + 1
+		\EndIf
+		\State \Return {a}
+	\EndFunction
+	\end{algorithmic}
+\end{breakablealgorithm}
 
 \begin{algorithm}[H]
+	\caption{Algorithm for layer B dynamics}
+	\label{algo:layer B}
+	\begin{algorithmic} 
+		\State set A = [for node i in layer A]
+		\State set B = [for node j in layer B]
+		\Function {Doing\_layer\_B\_dynamics}{G(V,E), v, sequential}
+			\State same = 0
+			\State opposite = 0
+			\ForEach {node\_i $\in \mathcal B $}
+				\State neighbor\_list = GET\_NEIGHBOR\_NODES(node\_i)
+				\ForEach{node\_j $\in$ neighbor\_list}
+					\If {node\_i * node\_j > 0}
+						\State same += 1
+						\Comment {the number of the same orientation node}
+					\Else
+						\State opposite += 1
+						\Comment {the number of the opposite orientation node}
+					\EndIf
+				\EndFor
+				\If {opposite = 0}
+					\State prob = 0
+				\Else
+					\If {v = 0}
+						\State prob = 1
+					\Else
+						\State prob = ${{opposite / len(neighbor\_list)}^{1 / v}} {\cdot} {len(neighbor\_list) / opposite}$
+					\EndIf
+				\EndIf
+				\If {prob < random z}
+					\State G(V, E)[node\_i][state] = -G(V, E)[node\_i][state]
+				\EndIf
+			\EndFor
+			\State \Return G(V, E)
+		\EndFunction
+	\end{algorithmic}
+\end{algorithm}
+
+\chapter{Procedures for applying updating rules on a two-layer network}
+\label{appendixC}
+\begin{breakablealgorithm}
+	\caption{Updating rules of the layers' order}
+	\label{layers_order}
+	\begin{algorithmic} 
+		\Function{Layer\_Order}{layer\_order}
+			\State set A = [for node i in layer A]
+			\State set B = [for node j in layer B]
+			\If {layer\_order = sequential order}
+				\If{Layer A $\to$ Layer B}
+					\State \Call{Doing\_layer\_A\_dynamics}{G(V, E), p}
+                	\State \Call{Doing\_layer\_B\_dynamics}{G(V, E), v}
+            	\EndIf
+				\If{Layer A $\leftarrow$ Layer B}
+			    	\State \Call{Doing\_layer\_B\_dynamics}{G(V, E), v}
+			   		\State \Call{Doing\_layer\_A\_dynamics}{G(V, E), p}
+				\EndIf
+			\EndIf
+			\If{layer\_order = simultaneous order}
+				\State copy\_G(V, E) = DEEPCOPY(G(V, E))
+				\State A\_G(V, E) = \Call{Doing\_layer\_A\_dynamics}{copy\_G(V, E), p}
+				\State B\_G(V, E) = \Call{Doing\_layer\_B\_dynamics}{copy\_G(V, E), v}
+				\ForEach {node\_i $\in \mathcal A $}
+					\State G(V, E)[node\_i][state] =  A\_G(V, E)[node\_i][state]
+				\EndFor
+				\ForEach {node\_j $\in \mathcal B $}
+					\State G(V, E)[node\_j][state] =  B\_G(V, E)[node\_j][state]
+				\EndFor
+			\EndIf
+			\If{layer\_order = random order} 
+				\State node\_i = CHOOSE\_ONE\_NODE(V)
+				\If{node\_i $\in \mathcal A $}
+					\State \Call{Doing\_layer\_A\_dynamics}{copy\_G(V, E), p}
+				\EndIf
+				\If{node\_i $\in \mathcal B $}
+					\State \Call{Doing\_layer\_B\_dynamics}{copy\_G(V, E), v}
+				\EndIf
+			\EndIf
+		\EndFunction
+	\end{algorithmic}
+\end{breakablealgorithm}
+
+
+\begin{breakablealgorithm}
+	\caption{Updating rules of the nodes' order}
+	\label{nodes_order}
+	\begin{algorithmic} 
+		\State in\_edge\_list = GET\_INTERNAL\_EDGE\_LIST(G(V,E))
+		\State ex\_edge\_list = GET\_EXTERNAL\_EDGE\_LIST(G(V,E))\\
+		\Comment{List of links between two nodes such as (i, j)}
+		\If {sequential order}
+			\ForEach {edge $\in$ in\_edge\_list}
+			\Comment{internal edges}
+				\If {edge$\in$ Layer A}
+				\Comment{When the layer A includes the edge}
+					\State (a, b) = \Call{Two\_Node\_Change}{edge[0], edge[1], G(V, E)}
+					\State G(V, E)[edge[0]][state] = a
+					\State G(V, E)[edge[1]][state] = b
+				\EndIf
+				\If {edge$\in$ Layer B}
+				\Comment{When the layer B includes the edge}
+					\State \Call{Doing\_layer\_B\_dynamics}{G(V, E), v, sequential}
+				\EndIf
+			\EndFor  
+			\ForEach {edge $\in$ ex\_edge\_list}
+			\Comment{external edge}
+				\State \Call{One\_Node\_Change}{edge[0], edges[1], G(V, E)}
+				\State G(V, E)[edge[0]][state] = a
+			\EndFor
+			\State \Return {G(V, E)}
+		\EndIf
+		\If {simultaneous order}
+			copy\_G(V, E) = DEEPCOPY(G(V, E))
+			\ForEach {edge $\in$ in\_edge\_list}
+				\If {edge$\in$ Layer A}
+					\State previous\_state = copy\_G(V, E)
+					\State a = \Call{One\_Node\_Change}{edge[0], edge[1], copy\_G(V, E)}
+					\State G(V, E)[edge[0]][state] = a
+					\State copy\_G(V, E) = previous\_state
+				\EndIf
+				\If {edge$\in$ Layer B}
+					\State previous\_state = copy\_G(V, E)
+					\State G(V, E)[edge[0][state]
+					\State = \Call{Doing\_layer\_B\_dynamics}{copy\_G(V, E), v, sequential}[edge[0]][state]
+					\State G(V, E)[edge[1][state]
+					\State = \Call{Doing\_layer\_B\_dynamics}{copy\_G(V, E), v, sequential}[edge[1]][state]
+					\State copy\_G(V, E) = previous\_state
+				\EndIf
+			\EndFor  
+				\ForEach {edge $\in$ ex\_edge\_list}
+					\State a = \Call{One\_Node\_Change}{edge[0], edges[1], copy\_G(V, E)}
+					\State G(V, E)[edge[0]][state] = a
+				\EndFor
+				\State \Return {G(V, E)}
+		\EndIf
+		\If {random order}
+			\While{len(edge\_list) = 0}
+				\State SELECT edge IN edge\_list
+				\Comment{select an edge among the edge lists until all edges are selected}
+				\If {edge $\in$ in\_edge\_list}
+					\If {edge$\in$ Layer A}	
+						\State (a, b) = \Call{Two\_Node\_Change}{edge[0], edge[1], G(V, E)}
+						\State G(V, E)[edge[0]][state] = a
+						\State G(V, E)[edge[1]][state] = b
+					\EndIf
+					\If {edge$\in$ Layer B}	
+						\State \Call{Doing\_layer\_B\_dynamics}{G(V, E), v, sequential}
+					\EndIf
+				\EndIf
+				\If {edge $\in$ ex\_edge\_list}
+					\State a = \Call{One\_Node\_Change}{edge[0], edges[1], G(V, E)}
+					\State G(V, E)[edge[0]][state] = a
+				\EndIf
+			\EndWhile
+			\State \Return {G(V, E)}
+		\EndIf
+	\end{algorithmic}
+\end{breakablealgorithm}
+
+
+\begin{breakablealgorithm}
+	\caption{Updating rules of the edges' order(Simultaneous)}
+	\label{edges_order}
+	\begin{algorithmic} 
+		\ForEach {node i $ \in \mathcal V $}
+			\State (a, b, c) = \Call{Calculate\_Prob}{G(V, E), p, node i}
+			\State set random z
+			\Comment{0 < z < 1}
+			\If {z > a + b}
+				\State s = COMPROMISE\_FUNC(node i)
+				\Comment {the state of node i becomes moderate, the state of node i is returned}
+			\EndIf
+			\If {z < a}
+				\State s = UNCHANGE(node i)
+				\Comment {the state of node i is unchanged, the state of node i is returned}
+			\EndIf
+			\If {z > a and z < a + b}
+			 	\State s = PERSUASION\_FUNC(node i)
+			 	\Comment {the state of node i becomes extreme, the state of node i is returned}
+			\EndIf
+			\State G(V, E)[node i][state] = s
+		\EndFor
+		\State \Return {G(V, E)}
+		
+		\Function{Calculate\_Prob}{G(V, E), p, node i}
+			\State same = GET\_SAME\_ORIENTATION\_NUM(node i)
+			\State opposite = GET\_OPPOSITE\_ORIENTATION\_NUM(node i)
+			\For{$n$ to same}
+				\For{$m$ to opposite}
+					\State n\_combi = $_{same} C_n$
+					\State m\_combi = $_{opposite} C_m$
+					\If {$n = m$}
+						\State $unchange += {p^{n+opposite-m}} * {(1 - p)^{same-n+m}} * n\_combi * m\_combi$
+					\EndIf
+					\If{$n > m$}
+						\State $persuasion += {p^{n+opposite-m}} * {(1 - p)^{same-n+m}} * n\_combi * m\_combi$
+					\EndIf
+					\If{$n < m$}
+						\State $compromise += {p^{n+opposite-m}} * {(1 - p)^{same-n+m}} * n\_combi * m\_combi$
+					\EndIf
+				\EndFor
+			\EndFor
+			\State \Return {unchange, persuasion, compromise}
+		\EndFunction			
+	\end{algorithmic}
+\end{breakablealgorithm}
+
+
+
+\chapter{Selecting keynodes by single and multiple indicators}
+\label{appendixD}
+\begin{algorithm}[!htb]
 	\caption{Algorithm for ranking by single and multiple indicators}
 	\label{algo:keynodes}
 	\begin{algorithmic} %每行显示行号
 		\State  \bf{INPUT : Network G(V, E), selected\_layer, parameters $(p, v)$, indicators} \normalfont 
 		\State  \bf{OUTPUT : array critical\_nodes\_order} \normalfont 
-        \State set N = len(V), M = len(indicators);
-		\State set array node\_centrality[N][M];
-		\State set array node\_rank[N][M];
-		\State set array temp[N];
-		\State set array critical\_nodes\_order[N];
-		\State node\_centrality = Calculate\_Centrality(G(V, E), selected\_layer);
-		\State node\_rank = Get\_Rank(node\_centrality);
+        \State set N = len(V), M = len(indicators)
+		\State set array node\_centrality[N][M]
+		\State set array node\_rank[N][M]
+		\State set array temp[N]
+		\State set array critical\_nodes\_order[N]
+		\State node\_centrality = Calculate\_Centrality(G(V, E), selected\_layer)
+		\State node\_rank = Get\_Rank(node\_centrality)
         \ForEach {$i \in \mathcal V $}
             \For{$m \gets 0$ to $M-1$}
-				\State temp[i] += node\_rank[i][m];
+				\State temp[i] += node\_rank[i][m]
 		 	\EndFor
 		\EndFor
         \ForEach {$i \in \mathcal V $}
-			\State critical nodes order.append(temp.index(min(temp)));
-			\State temp[temp.index(min(temp))] = $2*N$ or $\inf$;
-		\EndFor\\
-		\Return array critical\_nodes\_order[N];
+			\State critical nodes order.append(temp.index(min(temp)))
+			\State temp[temp.index(min(temp))] = $2*N$ or $\inf$
+		\EndFor
+		\State \Return array critical\_nodes\_order[N]
 	\end{algorithmic}
 \end{algorithm}

@@ -8,26 +8,30 @@
 
 \begin{abstract}
 	
-在诸如社会问题探讨、总统竞选投票等问题上，不同的群体通常会有不同的意见，竞争是不可避免的。社会舆论竞争一直是复杂网络和社会行为学的研究热点。本文研究了双层网络中的竞争，以及网络结构、更新规则以及关键节点对竞争结果的影响。
+在诸如社会问题探讨、总统竞选投票等问题上，不同的群体通常会有不同的意见，竞争是不可避免的。社会舆论竞争一直是复杂网络和社会行为学的研究热点。本文在已有研究的基础上, 研究了双层网络的竞争，以及网络结构、更新规则以及关键节点对竞争结果的影响。
 
-首先，采用双层网络对两个群体的竞争进行建模，其中A层为意见形成组，B层为决策组。初始极化竞争状态设置为A层节点均持正面观点，B层节点均持负面观点，分析了网络结构、内部度和外部度对竞争状态的影响。仿真结果表明，内外部连边在竞争中都起着至关重要的作用。值得注意的是，增加某层的内部连边和外部连边，可以更容易战胜另一个群体并最终达成共识。
+首先，采用双层网络对两个群体的竞争进行建模，其中A层为意见形成组，B层为决策组。假设两层的初始状态在竞争中是相反的。初始极化竞争状态设置为A层节点均持正面观点，B层节点均持负面观点，分析了网络结构、内部度和外部度对竞争状态的影响。仿真结果表明，内外部连边在竞争中都起着至关重要的作用。值得注意的是，增加某层的内部连边和外部连边，可以更容易战胜另一个群体并最终达成共识。
 
 其次，基于双层意见模型，研究了更新规则对竞争的影响。从层、节点、边等不同角度，考虑了更新规则，包括顺序更新规则和同步更新规则。实验表明，同步更新规则更容易使网络达到共存状态并且容易被改变为相反状态，而顺序更新规则可以更快地达成共识。
 
-此外，通过固定一些关键节点在观点演化中的状态，研究了其对竞争的影响。利用Pagerank、度中心性、特征向量中心性、介数中心性、接近中心性等中心性指标及其组合选择关键节点。通过仿真发现关键节点的影响因网络结构和观点动态而不同。此外，使用单中心性指标和多中心性指标的方法选取出的关键节点，都能很好地说服其他群体的节点改变观点。 \\ 
+此外，通过固定一些关键节点在观点演化中的状态，研究了其对竞争的影响。利用Pagerank、度中心性、特征向量中心性、介数中心性、接近中心性等中心性指标及其组合选择关键节点。通过仿真发现关键节点的影响因网络结构和观点动态而不同。此外，使用单中心性指标和多中心性指标的方法选取出的关键节点，都能很好地说服其他群体的节点改变观点。 
+
+通过各种仿真结果，可以通过管理边数和更新规则的方法来控制两层网络的状态。此外，通过选择关键节点的方法，可以识别和控制关键节点。最后，这些事实给出了一些初步的结果。\\ 
 
 \end{abstract}
 
 
 \begin{englishabstract}
 	
-Different groups usually have different opinions, such as opposite opinions during votes on social issues, presidential campaigns, and so on, where competition is unavoidable. Competition on the interconnected networks has always been a hot topic in the field of complex networks. In this paper, we investigate the competition on a two-layer network and study the influence of network structures, updating rules as well as key nodes on the competition results.
+Different groups usually have different opinions, such as opposite opinions during votes on social issues, presidential campaigns, and so on, where competition is unavoidable. Competition on the interconnected networks has always been a hot topic in the field of complex networks. In this paper, we investigate the competition on a two-layer network based on pre-existed research, and study the influence of network structures, updating rules as well as key nodes on the competition results.
 
-First, the influence of network structures is studied by switching internal degrees, external degrees and network types. A two-layer network is used to model the competition of two groups, where layer A is an opinion formation group, and layer B is a decision-making group. Starting with a polarized competition state, where all nodes in layer A have positive opinions while all nodes in layer B have negative opinions, the state of a network is changed through the evolution of opinions. Various network structures are simulated and analyzed. Simulation results show that both internal and external links play vital roles in the competition. Notably, increasing the number of external and internal links on one layer can make it easy to prevail over the other group and reach consensus.
+First, the influence of network structures is studied by switching internal degrees, external degrees and network types. A two-layer network is used to model the competition of two groups, where layer A is an opinion formation group, and layer B is a decision-making group. The initial states of two layers are assumed to be opposite for competition. Starting with a polarized competition state, where all nodes in layer A have positive opinions while all nodes in layer B have negative opinions, the state of a network is changed through the evolution of opinions. Various network structures are simulated and analyzed. Simulation results show that both internal and external links play vital roles in the competition. Notably, increasing the number of external and internal links on one layer can make it easy to prevail over the other group and reach consensus.
 
 Second, the influence of updating rules is investigated based on the previous two-layer opinion model. The updating rules, including sequential order and simultaneous order, are considered according to different levels, such as layers, nodes, and edges. It is observed that a simultaneous updating rule is more likely to make the state of a network have a coexistence state and easily be changed to the opposite state, while a sequential updating rule can enable consensus more quickly.
 
-Moreover, the influence of critical nodes on the competition is studied by fixing their states during the evolution of opinions. Several centrality indexes, including Pagerank, degree, eigenvector, betweenness, closeness, and their combinations, are used to select the key nodes. Through simulations, it is found that the influence of key nodes is different according to network structures and opinion dynamics. Besides, both single centrality and multiple centralities have an excellent performance for selecting key nodes, so that the selected critical agents persuade the other group of agents to change their opinion more quickly.\\ 
+Moreover, the influence of critical nodes on the competition is studied by fixing their states during the evolution of opinions. Several centrality indexes, including Pagerank, degree, eigenvector, betweenness, closeness, and their combinations, are used to select the key nodes. Through simulations, it is found that the influence of key nodes is different according to network structures and opinion dynamics. Besides, both single centrality and multiple centralities have an excellent performance for selecting key nodes, so that the selected critical agents persuade the other group of agents to change their opinion more quickly.
+
+Through various simulation results, the state of a two-layer network could be controlled by managing the number of edges and the method of updating rules. Furthermore, critical nodes might be recognized and controlled by using the method to select key nodes. Finally, those facts give some preliminary results.\\ 
 
 \end{englishabstract}
 

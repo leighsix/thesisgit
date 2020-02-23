@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.2)  20 JAN 2020 16:50
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.3)  24 FEB 2020 02:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1577,7 +1577,7 @@ Package biblatex Info: Trying to load bibliography style 'gb7714-2015'...
 Package biblatex Info: ... file 'gb7714-2015.bbx' found.
 
 (c:/usr/texlive/2018/texmf-dist/tex/latex/biblatex-gb7714-2015/gb7714-2015.bbx
-File: gb7714-2015.bbx 2019/03/28 v1.0rbiblatex bibliography style
+File: gb7714-2015.bbx 2018/11/04 v1.0n biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
@@ -1737,28 +1737,22 @@ Invalid UTF-8 byte or sequence at line 1007 replaced by U+FFFD.
 )
 Package: xstring 2018/12/09 v1.81 String manipulations (CT)
 )
-\footbibmargin=\skip145
-\footbiblabelsep=\skip146
-\c@gbnamefmtcase=\count453
-\c@gbalignlabel=\count454
-\c@gbcitelocalcase=\count455
-\c@gbbiblocalcase=\count456
-\bibitemindent=\skip147
-Package biblatex Info: Delimiter 'finalnamedelim' in context '' already defined
-, overwriting.
+\c@namefmtcase=\count453
+\c@alignlabel=\count454
+\bibitemindent=\skip145
 )
 Package biblatex Info: Trying to load citation style 'gb7714-2015'...
 Package biblatex Info: ... file 'gb7714-2015.cbx' found.
 
 (c:/usr/texlive/2018/texmf-dist/tex/latex/biblatex-gb7714-2015/gb7714-2015.cbx
-File: gb7714-2015.cbx 2019/03/28 v1.0rbiblatex citation style
+File: gb7714-2015.cbx 2018/11/04 v1.0n biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 (c:/usr/texlive/2018/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count457
-\c@cbx@tempcntb=\count458
+\c@cbx@tempcnta=\count455
+\c@cbx@tempcntb=\count456
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1772,7 +1766,6 @@ Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -1797,23 +1790,23 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (c:/usr/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count459
+\lst@mode=\count457
 \lst@gtempboxa=\box83
 \lst@token=\toks36
-\lst@length=\count460
+\lst@length=\count458
 \lst@currlwidth=\dimen296
-\lst@column=\count461
-\lst@pos=\count462
+\lst@column=\count459
+\lst@pos=\count460
 \lst@lostspace=\dimen297
 \lst@width=\dimen298
-\lst@newlines=\count463
-\lst@lineno=\count464
+\lst@newlines=\count461
+\lst@lineno=\count462
 \lst@maxwidth=\dimen299
 
 (c:/usr/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count465
-\lst@skipnumbers=\count466
+\c@lstnumber=\count463
+\lst@skipnumbers=\count464
 \lst@framebox=\box84
 )
 (c:/usr/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
@@ -1823,28 +1816,28 @@ Package: listings 2018/09/02 1.7 (Carsten Heinz)
 
 (c:/usr/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip148
-\LTright=\skip149
-\LTpre=\skip150
-\LTpost=\skip151
-\LTchunksize=\count467
+\LTleft=\skip146
+\LTright=\skip147
+\LTpre=\skip148
+\LTpost=\skip149
+\LTchunksize=\count465
 \LTcapwidth=\dimen300
 \LT@head=\box85
 \LT@firsthead=\box86
 \LT@foot=\box87
 \LT@lastfoot=\box88
-\LT@cols=\count468
-\LT@rows=\count469
-\c@LT@tables=\count470
-\c@LT@chunks=\count471
+\LT@cols=\count466
+\LT@rows=\count467
+\c@LT@tables=\count468
+\c@LT@chunks=\count469
 \LT@p@ftn=\toks37
 )
 (c:/usr/texlive/2018/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks38
 \footnotemargin=\dimen301
-\c@pp@next@reset=\count472
-\c@@fnserial=\count473
+\c@pp@next@reset=\count470
+\c@@fnserial=\count471
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -1856,11 +1849,11 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 )
 (c:/usr/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2018/11/30 v3.6 Customized lists
-\labelindent=\skip152
+\labelindent=\skip150
 \enit@outerparindent=\dimen302
 \enit@toks=\toks39
 \enit@inbox=\box89
-\enitdp@description=\count474
+\enitdp@description=\count472
 )
 (c:/usr/texlive/2018/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
@@ -1880,7 +1873,7 @@ File: ppxetex.def 2017/10/31 v0.5l Pdfpages driver for XeTeX (AM)
 \AM@pagebox=\box90
 \AM@global@opts=\toks40
 \AM@toc@title=\toks41
-\c@AM@survey=\count475
+\c@AM@survey=\count473
 \AM@templatesizebox=\box91
 )
 (c:/usr/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
@@ -1890,60 +1883,63 @@ nment
 
 (c:/usr/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count476
+\c@float@type=\count474
 \float@exts=\toks42
 \float@box=\box92
 \@float@everytoks=\toks43
 \@floatcapt=\box93
 )
 \@float@every@algorithm=\toks44
-\c@algorithm=\count477
+\c@algorithm=\count475
 )
 (c:/usr/texlive/2018/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count478
-\c@ALG@rem=\count479
-\c@ALG@nested=\count480
-\ALG@tlm=\skip153
-\ALG@thistlm=\skip154
-\c@ALG@Lnr=\count481
-\c@ALG@blocknr=\count482
-\c@ALG@storecount=\count483
-\c@ALG@tmpcounter=\count484
-\ALG@tmplength=\skip155
+\c@ALG@line=\count476
+\c@ALG@rem=\count477
+\c@ALG@nested=\count478
+\ALG@tlm=\skip151
+\ALG@thistlm=\skip152
+\c@ALG@Lnr=\count479
+\c@ALG@blocknr=\count480
+\c@ALG@storecount=\count481
+\c@ALG@tmpcounter=\count482
+\ALG@tmplength=\skip153
 ) (c:/usr/texlive/2018/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
 
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (c:/usr/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx.sty
+) (c:/usr/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2018/11/24 v2.1a 150 paragraphs of Lorem Ipsum dummy text
+)
+(c:/usr/texlive/2018/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
 \l__siunitx_tmp_box=\box94
 \l__siunitx_tmp_dim=\dimen305
-\l__siunitx_tmp_int=\count485
-\l__siunitx_number_mantissa_length_int=\count486
-\l__siunitx_number_uncert_length_int=\count487
-\l__siunitx_round_int=\count488
-\l__siunitx_process_decimal_int=\count489
-\l__siunitx_process_uncertainty_int=\count490
-\l__siunitx_process_fixed_int=\count491
-\l__siunitx_process_integer_min_int=\count492
-\l__siunitx_process_precision_int=\count493
-\l__siunitx_group_min_int=\count494
+\l__siunitx_tmp_int=\count483
+\l__siunitx_number_mantissa_length_int=\count484
+\l__siunitx_number_uncert_length_int=\count485
+\l__siunitx_round_int=\count486
+\l__siunitx_process_decimal_int=\count487
+\l__siunitx_process_uncertainty_int=\count488
+\l__siunitx_process_fixed_int=\count489
+\l__siunitx_process_integer_min_int=\count490
+\l__siunitx_process_precision_int=\count491
+\l__siunitx_group_min_int=\count492
 \l__siunitx_angle_marker_box=\box95
 \l__siunitx_angle_unit_box=\box96
 \l__siunitx_angle_marker_dim=\dimen306
 \l__siunitx_angle_unit_dim=\dimen307
-\l__siunitx_unit_int=\count495
-\l__siunitx_unit_denominator_int=\count496
-\l__siunitx_unit_numerator_int=\count497
-\l__siunitx_unit_prefix_int=\count498
-\l__siunitx_unit_prefix_base_int=\count499
-\l__siunitx_unit_prefix_gram_int=\count500
-\l__siunitx_number_product_int=\count501
-\c__siunitx_one_fill_skip=\skip156
-\l__siunitx_table_unit_align_skip=\skip157
+\l__siunitx_unit_int=\count493
+\l__siunitx_unit_denominator_int=\count494
+\l__siunitx_unit_numerator_int=\count495
+\l__siunitx_unit_prefix_int=\count496
+\l__siunitx_unit_prefix_base_int=\count497
+\l__siunitx_unit_prefix_gram_int=\count498
+\l__siunitx_number_product_int=\count499
+\c__siunitx_one_fill_skip=\skip154
+\l__siunitx_table_unit_align_skip=\skip155
 \l__siunitx_table_exponent_dim=\dimen308
 \l__siunitx_table_integer_dim=\dimen309
 \l__siunitx_table_mantissa_dim=\dimen310
@@ -1957,8 +1953,8 @@ Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
 \l__siunitx_table_post_box=\box98
 \l__siunitx_table_mantissa_box=\box99
 \l__siunitx_table_result_box=\box100
-\l__siunitx_table_number_align_skip=\skip158
-\l__siunitx_table_text_align_skip=\skip159
+\l__siunitx_table_number_align_skip=\skip156
+\l__siunitx_table_text_align_skip=\skip157
 
 (c:/usr/texlive/2018/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
@@ -2004,10 +2000,10 @@ tex
 \pgf@yc=\dimen326
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count502
-\c@pgf@countb=\count503
-\c@pgf@countc=\count504
-\c@pgf@countd=\count505
+\c@pgf@counta=\count500
+\c@pgf@countb=\count501
+\c@pgf@countc=\count502
+\c@pgf@countd=\count503
 \t@pgf@toka=\toks49
 \t@pgf@tokb=\toks50
 \t@pgf@tokc=\toks51
@@ -2026,13 +2022,13 @@ File: pgfsys-dvipdfmx.def 2014/07/09  (rcs-revision 1.14)
 ef
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )
-\pgfsys@objnum=\count506
+\pgfsys@objnum=\count504
 )))
 (c:/usr/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code
 .tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count507
-\pgfsyssoftpath@bigbuffer@items=\count508
+\pgfsyssoftpath@smallbuffer@items=\count505
+\pgfsyssoftpath@bigbuffer@items=\count506
 )
 (c:/usr/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code
 .tex
@@ -2046,7 +2042,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (c:/usr/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/usr/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen327
-\pgfmath@count=\count509
+\pgfmath@count=\count507
 \pgfmath@box=\box102
 \pgfmath@toks=\toks52
 \pgfmath@stack@operand=\toks53
@@ -2070,7 +2066,7 @@ e.tex)
 (c:/usr/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerar
 ithmetics.code.tex)))
 (c:/usr/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count510
+\c@pgfmathroundto@lastzeros=\count508
 ))
 (c:/usr/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.t
 ex
@@ -2108,7 +2104,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box103
 \pgf@hbox=\box104
 \pgf@layerbox@main=\box105
-\pgf@picture@serial@count=\count511
+\pgf@picture@serial@count=\count509
 )
 (c:/usr/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.
 code.tex
@@ -2143,7 +2139,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 x
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen351
-\pgf@sys@shading@range@num=\count512
+\pgf@sys@shading@range@num=\count510
 )
 (c:/usr/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.te
 x
@@ -2204,7 +2200,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (c:/usr/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandler
 s.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count513
+\pgf@plot@mark@count=\count511
 \pgfplotmarksize=\dimen356
 )
 \tikz@lastx=\dimen357
@@ -2217,19 +2213,19 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box109
 \tikz@tempbox=\box110
 \tikz@tempbox@bg=\box111
-\tikztreelevel=\count514
-\tikznumberofchildren=\count515
-\tikznumberofcurrentchild=\count516
-\tikz@fig@count=\count517
+\tikztreelevel=\count512
+\tikznumberofchildren=\count513
+\tikznumberofcurrentchild=\count514
+\tikz@fig@count=\count515
 
 (c:/usr/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.te
 x
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count518
-\pgfmatrixcurrentcolumn=\count519
-\pgf@matrix@numberofcolumns=\count520
+\pgfmatrixcurrentrow=\count516
+\pgfmatrixcurrentcolumn=\count517
+\pgf@matrix@numberofcolumns=\count518
 )
-\tikz@expandcount=\count521
+\tikz@expandcount=\count519
 
 (c:/usr/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
 kzlibrarytopaths.code.tex
@@ -2238,7 +2234,7 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 (c:/usr/texlive/2018/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen363
-\c@nlinenum=\count522
+\c@nlinenum=\count520
 \TeXr@lab=\toks57
 )
 (c:/usr/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/ti
@@ -2297,13 +2293,13 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen365
-\Hy@linkcounter=\count523
-\Hy@pagecounter=\count524
+\Hy@linkcounter=\count521
+\Hy@pagecounter=\count522
 
 (c:/usr/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count525
+\Hy@SavedSpaceFactor=\count523
 
 (c:/usr/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -2320,10 +2316,10 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count526
+\c@Hy@tempcnt=\count524
 LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen366
-\Fld@menulength=\count527
+\Fld@menulength=\count525
 \Field@Width=\dimen367
 \Fld@charsize=\dimen368
 Package hyperref Info: Hyper figures OFF on input line 6380.
@@ -2335,9 +2331,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count528
-\c@Item=\count529
-\c@Hfootnote=\count530
+\Hy@abspage=\count526
+\c@Item=\count527
+\c@Hfootnote=\count528
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -2349,19 +2345,19 @@ Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box112
-\c@Hy@AnnotLevel=\count531
-\HyField@AnnotCount=\count532
-\Fld@listcount=\count533
-\c@bookmark@seq@number=\count534
-\Hy@SectionHShift=\skip160
+\c@Hy@AnnotLevel=\count529
+\HyField@AnnotCount=\count530
+\Fld@listcount=\count531
+\c@bookmark@seq@number=\count532
+\Hy@SectionHShift=\skip158
 )
-\c@algo=\count535
-\c@thm=\count536
-\c@defn=\count537
-\c@conj=\count538
-\c@exmp=\count539
-\c@rem=\count540
-\c@case=\count541
+\c@algo=\count533
+\c@thm=\count534
+\c@defn=\count535
+\c@conj=\count536
+\c@exmp=\count537
+\c@rem=\count538
+\c@case=\count539
 )
 (./sjtuthesis.cfg
 File: sjtuthesis.cfg 2016/04/06 v0.9 sjtuthesis configuration file
@@ -2372,26 +2368,26 @@ Package biblatex Info: ... file 'english.lbx' found.
 (c:/usr/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
-\@quotelevel=\count542
-\@quotereset=\count543
+\@quotelevel=\count540
+\@quotereset=\count541
 
 (c:/usr/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2018/04/30 v3.7.1 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count544
-\l__xeCJK_listings_flag_int=\count545
+\l__xeCJK_listings_max_char_int=\count542
+\l__xeCJK_listings_flag_int=\count543
 )
 
 LaTeX Warning: Unused global option(s):
     [windows].
 
 (./thesis.aux
-\c@pagesLTS.Alph.1.local.cnt=\count546
+\c@pagesLTS.Alph.1.local.cnt=\count544
  (./tex/abstract.aux)
-\c@pagesLTS.Roman.1.local.cnt=\count547
+\c@pagesLTS.Roman.1.local.cnt=\count545
  (./tex/intro.aux) (./tex/chap2.aux)
 (./tex/chap3.aux) (./tex/chap4.aux) (./tex/chap5.aux) (./tex/chap6.aux)
-(./tex/app_code.aux) (./tex/ack.aux) (./tex/pub.aux)
-\c@pagesLTS.arabic.1.local.cnt=\count548
+(./tex/ack.aux) (./tex/pub.aux)
+\c@pagesLTS.arabic.1.local.cnt=\count546
 )
 \openout1 = `thesis.aux'.
 
@@ -2495,8 +2491,8 @@ Package pageslts Warning: Package pdfpages detected.
 (pageslts)                https://www.ctan.org/pkg/pax
 (pageslts)                for the Pdf Annotations eXtractor, pax.
 
-\c@mv@tabular=\count549
-\c@mv@boldtabular=\count550
+\c@mv@tabular=\count547
+\c@mv@boldtabular=\count548
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2517,7 +2513,7 @@ Package biblatex Info: ... file 'thesis.bbl' found.
  (./thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 27.
 Package biblatex Info: Reference segment=0 on input line 27.
-\c@lstlisting=\count551
+\c@lstlisting=\count549
 \AtBeginShipoutBox=\box113
 (c:/usr/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -2546,7 +2542,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (c:/usr/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count552
+\c@section@level=\count550
 )
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
@@ -2556,9 +2552,9 @@ LaTeX Info: Redefining \nameref on input line 27.
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
 
-\c@pagesLTS.pnc.Alph=\count553
-\c@pagesLTS.double.Alph=\count554
-\c@pagesLTS.current.local.Alph=\count555
+\c@pagesLTS.pnc.Alph=\count551
+\c@pagesLTS.double.Alph=\count552
+\c@pagesLTS.current.local.Alph=\count553
 LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 2
 7.
 
@@ -2761,10 +2757,10 @@ LaTeX Font Warning: Font shape `TU/SimHei(0)/bx/n' undefined
 ] [8
 
 ]
-\c@pagesLTS.Alph.1.local.count=\count556
-\c@pagesLTS.pnc.Roman=\count557
-\c@pagesLTS.double.Roman=\count558
-\c@pagesLTS.current.local.Roman=\count559
+\c@pagesLTS.Alph.1.local.count=\count554
+\c@pagesLTS.pnc.Roman=\count555
+\c@pagesLTS.double.Roman=\count556
+\c@pagesLTS.current.local.Roman=\count557
 \openout2 = `tex/abstract.aux'.
 
  (./tex/abstract.tex
@@ -2775,12 +2771,15 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <16.06> not available
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 16.06pt on input line 9.
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
+
+Underfull \vbox (badness 1796) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.53937pt on input line 22.
+(Font)              scaled to size 10.53937pt on input line 20.
 
 Package fontspec Info: Could not resolve font "KaiTi/BI" (it probably doesn't
 (fontspec)             exist).
@@ -2805,26 +2804,26 @@ Package fontspec Info: Font family 'KaiTi(0)' created for font 'KaiTi' with
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.03374pt on input line 22.
+(Font)              scaled to size 9.03374pt on input line 20.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.53937> not availabl
 e
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 22.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.53937pt on input line 22.
-[1
+(Font)              scaled to size 10.53937pt on input line 20.
+ [1
 
 
 
-
-] [2
 
 ]
+[2]
 Underfull \vbox (badness 2809) has occurred while \output is active []
 
  [3
 
+
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
@@ -2963,14 +2962,14 @@ Overfull \hbox (27.05295pt too wide) detected at line 28
 \T1/ntxtlf/m/n/12.045 Figure 3--15 
  []
 
+[7
 
+]
 Overfull \hbox (23.4394pt too wide) detected at line 30
 \T1/ntxtlf/m/n/12.045 Figure 4--1 
  []
 
-[7
 
-]
 Overfull \hbox (23.4394pt too wide) detected at line 31
 \T1/ntxtlf/m/n/12.045 Figure 4--2 
  []
@@ -3083,16 +3082,14 @@ Overfull \hbox (18.69368pt too wide) detected at line 9
 ] [10
 
 ]
-\c@pagesLTS.Roman.1.local.count=\count560
-\c@pagesLTS.pnc.arabic=\count561
-\c@pagesLTS.double.arabic=\count562
-\c@pagesLTS.current.local.arabic=\count563
+\c@pagesLTS.Roman.1.local.count=\count558
+\c@pagesLTS.pnc.arabic=\count559
+\c@pagesLTS.double.arabic=\count560
+\c@pagesLTS.current.local.arabic=\count561
 \openout2 = `tex/intro.aux'.
 
  (./tex/intro.tex
 Chapter 1
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 13.
 File: figure/chap1_topic.png Graphic file (type bmp)
 <figure/chap1_topic.png>
 File: figure/chap1_singlemulti.png Graphic file (type bmp)
@@ -3110,82 +3107,85 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1769) has occurred while \output is active []
 
  [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5]
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-) [6]
+[6]) [7]
 \openout2 = `tex/chap2.aux'.
 
- (./tex/chap2.tex
+ (./tex/chap2.tex [8
+
+
+
+]
 Chapter 2
 File: figure/chap2_modeling.png Graphic file (type bmp)
 <figure/chap2_modeling.png>
-[7
-
-
-
-] [8]
+[9] [10] [11]
 File: figure/chap2_dynamics.png Graphic file (type bmp)
 <figure/chap2_dynamics.png>
- [9]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
+Underfull \vbox (badness 3977) has occurred while \output is active []
+
+ [12]
+[13]
 File: figure/chap2_timeflow_AS(BA3_BA3).png Graphic file (type bmp)
 <figure/chap2_timeflow_AS(BA3_BA3).png>
 File: figure/chap2_CI_values.png Graphic file (type bmp)
 <figure/chap2_CI_values.png>
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 132.
+(Font)              scaled to size 7.0pt on input line 140.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.0pt on input line 132.
+(Font)              scaled to size 5.0pt on input line 140.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 132.
+(Font)              scaled to size 6.29996pt on input line 140.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 4.49997pt on input line 132.
+(Font)              scaled to size 4.49997pt on input line 140.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 7.0pt on input line 132.
+(Font)              scaled to size 7.0pt on input line 140.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 5.0pt on input line 132.
+(Font)              scaled to size 5.0pt on input line 140.
 File: figure/chap2_timeflow_CI(BA3_BA3).png Graphic file (type bmp)
 <figure/chap2_timeflow_CI(BA3_BA3).png>
+ [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[11] [12]
+ [15]
 File: figure/chap2_AS_total(BA3_BA3).png Graphic file (type bmp)
 <figure/chap2_AS_total(BA3_BA3).png>
- [13]
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-) [14]
+) [16]
 
-LaTeX Warning: Text page 15 contains only floats.
+LaTeX Warning: Text page 17 contains only floats.
 
 
 Overfull \vbox (4.84451pt too high) has occurred while \output is active []
 
 
-[15]
+[17]
 \openout2 = `tex/chap3.aux'.
 
- (./tex/chap3.tex [16
+ (./tex/chap3.tex [18
 
 
 
 ]
 Chapter 3
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
@@ -3194,52 +3194,56 @@ File: figure/chap3_RR(5)_RR(5).png Graphic file (type bmp)
 File: figure/chap3_RR(5)_RR(5)_2d.png Graphic file (type bmp)
 <figure/chap3_RR(5)_RR(5)_2d.png>
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.53937pt on input line 28.
+(Font)              scaled to size 10.53937pt on input line 30.
 File: figure/chap3_RR(5)_RR(5)_total.png Graphic file (type bmp)
 <figure/chap3_RR(5)_RR(5)_total.png>
-[17]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
+ [19]
+[20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
 Underfull \vbox (badness 4279) has occurred while \output is active []
 
- [19]
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+ [22]
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
 
 File: figure/chap3_HM.png Graphic file (type bmp)
 <figure/chap3_HM.png>
-[20]
+[23]
 File: figure/chap3_HMs_AStotal.png Graphic file (type bmp)
 <figure/chap3_HMs_AStotal.png>
- [21]
+ [24]
 File: figure/chap3_HMs_total.png Graphic file (type bmp)
 <figure/chap3_HMs_total.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
-[22]
+[25]
 File: figure/chap3_changing_internal_edges.png Graphic file (type bmp)
 <figure/chap3_changing_internal_edges.png>
 File: figure/chap3_internal_edge_A_total1.png Graphic file (type bmp)
 <figure/chap3_internal_edge_A_total1.png>
- [23]
+ [26]
 
-LaTeX Warning: Text page 24 contains only floats.
+LaTeX Warning: Text page 27 contains only floats.
 
 
 Overfull \vbox (7.44026pt too high) has occurred while \output is active []
 
 
-[24]
+[27]
 File: figure/chap3_internal_edge_B_total1.png Graphic file (type bmp)
 <figure/chap3_internal_edge_B_total1.png>
 File: figure/chap3_internal_edge_two_total.png Graphic file (type bmp)
@@ -3249,157 +3253,167 @@ File: figure/chap3_internal_edge_AB_total.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
+ [28]
 
-LaTeX Warning: Text page 26 contains only floats.
+LaTeX Warning: Text page 29 contains only floats.
 
 
 Overfull \vbox (3.04599pt too high) has occurred while \output is active []
 
 
-[26]
+[29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
+ [30]
 File: figure/chap3_internal_edge_summary.png Graphic file (type bmp)
 <figure/chap3_internal_edge_summary.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
 File: figure/chap3_changing_structure_type.png Graphic file (type bmp)
 <figure/chap3_changing_structure_type.png>
-[28]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
 File: figure/chap3_changing_network_type11.png Graphic file (type bmp)
 <figure/chap3_changing_network_type11.png>
- [29]
 
-LaTeX Warning: Text page 30 contains only floats.
+Underfull \vbox (badness 1521) has occurred while \output is active []
 
-[30]
+ [32]
+
+LaTeX Warning: Text page 33 contains only floats.
+
+[33]
 File: figure/chap3_changing_network_type2.png Graphic file (type bmp)
 <figure/chap3_changing_network_type2.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
-[31]
-Overfull \hbox (46.76068pt too wide) in paragraph at lines 181--208
+[34]
+Overfull \hbox (49.78397pt too wide) in paragraph at lines 184--211
  [] 
  []
 
-) [32] [33]
+) [35] [36]
 \openout2 = `tex/chap4.aux'.
 
- (./tex/chap4.tex [34
+ (./tex/chap4.tex
+Chapter 4
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+[37
 
 
 
 ]
-Chapter 4
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-
-Overfull \hbox (25.26183pt too wide) in paragraph at lines 22--52
+Overfull \hbox (25.26183pt too wide) in paragraph at lines 26--56
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-[35] [36]
+[38] [39]
 File: figure/chap4_layerorder.png Graphic file (type bmp)
 <figure/chap4_layerorder.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
-[37] [38]
+[40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
 File: figure/chap4_nodeorder.png Graphic file (type bmp)
 <figure/chap4_nodeorder.png>
- [39]
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 File: figure/chap4_edgeorder_explanation.png Graphic file (type bmp)
 <figure/chap4_edgeorder_explanation.png>
-[40]
+[43]
 File: figure/chap4_edgeorder.png Graphic file (type bmp)
 <figure/chap4_edgeorder.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
-[41]
+[44]
 File: figure/chap4_ordertotal.png Graphic file (type bmp)
 <figure/chap4_ordertotal.png>
 File: figure/chap4_ordertotal2.png Graphic file (type bmp)
 <figure/chap4_ordertotal2.png>
 
 
-LaTeX Warning: Float too large for page by 8.46692pt on input line 153.
+LaTeX Warning: Float too large for page by 8.46692pt on input line 163.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-[42]
+[45]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+ [46]
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
-) [44] [45]
+) [47] [48]
 \openout2 = `tex/chap5.aux'.
 
- (./tex/chap5.tex [46
+ (./tex/chap5.tex
+Chapter 5
+[49
 
 
 
 ]
-Chapter 5
-[47]
 Underfull \vbox (badness 4940) has occurred while \output is active []
 
- [48]
+ [50]
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
 File: figure/chap5_keynode_A.png Graphic file (type bmp)
 <figure/chap5_keynode_A.png>
-[49]
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 File: figure/chap5_keynode_B.png Graphic file (type bmp)
 <figure/chap5_keynode_B.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
@@ -3407,99 +3421,88 @@ File: figure/chap5_keynode_HM_A.png Graphic file (type bmp)
 <figure/chap5_keynode_HM_A.png>
 File: figure/chap5_keynode_HM_B.png Graphic file (type bmp)
 <figure/chap5_keynode_HM_B.png>
-[51]
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+[53]
+Underfull \vbox (badness 7291) has occurred while \output is active []
+
+ [54]
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [52]
 File: figure/chap5_keynode_BA_RR_A.png Graphic file (type bmp)
 <figure/chap5_keynode_BA_RR_A.png>
 File: figure/chap5_keynode_BA_RR_B.png Graphic file (type bmp)
 <figure/chap5_keynode_BA_RR_B.png>
+[55]
 File: figure/chap5_keynode_RR_BA_A.png Graphic file (type bmp)
 <figure/chap5_keynode_RR_BA_A.png>
 File: figure/chap5_keynode_RR_BA_B.png Graphic file (type bmp)
 <figure/chap5_keynode_RR_BA_B.png>
 
-[53]
+Underfull \vbox (badness 3872) has occurred while \output is active []
+
+ [56]
 Underfull \vbox (badness 7291) has occurred while \output is active []
 
- [54]
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+ [57]
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
-
-Underfull \vbox (badness 3872) has occurred while \output is active []
-
- [55]
 File: figure/chap5_keynode_internal_A.png Graphic file (type bmp)
 <figure/chap5_keynode_internal_A.png>
 File: figure/chap5_keynode_internal_B.png Graphic file (type bmp)
 <figure/chap5_keynode_internal_B.png>
 File: figure/chap5_keynode_internal_A2.png Graphic file (type bmp)
 <figure/chap5_keynode_internal_A2.png>
-
-[56]
 File: figure/chap5_keynode_internal_B2.png Graphic file (type bmp)
 <figure/chap5_keynode_internal_B2.png>
- [57]
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+[58]
+Underfull \vbox (badness 7291) has occurred while \output is active []
+
+ [59]
+Underfull \vbox (badness 7291) has occurred while \output is active []
+
+ [60]
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 
-Overfull \hbox (16.33138pt too wide) in paragraph at lines 176--192
+Overfull \hbox (16.33138pt too wide) in paragraph at lines 178--194
  [] 
  []
 
-[58]) [59]
+) [61] [62]
 \openout2 = `tex/chap6.aux'.
 
- (./tex/chap6.tex [60
+ (./tex/chap6.tex
+Chapter 6
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+[63
 
 
 
 ]
-Chapter 6
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-[61]
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
-
- []
-
-) [63]
-\openout2 = `tex/app_code.aux'.
-
- (./tex/app_code.tex [64
-
-
-
-]
-Appendix A
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 10.
-) [65] [66
+ [64])
+[65] [66
 
 
 ]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
+(Font)              scaled to size 12.045pt on input line 89.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 12.045pt on input line 89.
  [67
 
@@ -3517,14 +3520,11 @@ LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
 
 
 
-]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 12.045pt on input line 11.
-) [75] 
+]) [75] 
 AED: pageslts setting LastPage 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 125.
-\c@pagesLTS.arabic.1.local.count=\count564
+\c@pagesLTS.arabic.1.local.count=\count562
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
 
@@ -3536,11 +3536,11 @@ Package pageslts Info: Total number of pages is odd.
 
 (./thesis.aux (./tex/abstract.aux) (./tex/intro.aux) (./tex/chap2.aux)
 (./tex/chap3.aux) (./tex/chap4.aux) (./tex/chap5.aux) (./tex/chap6.aux)
-(./tex/app_code.aux) (./tex/ack.aux) (./tex/pub.aux))
+(./tex/ack.aux) (./tex/pub.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 125.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 71CF2D7F34784F06E6FEB93EDAA24539.
+(rerunfilecheck)             Checksum: BC2A8D30A9BE84C98B48182085359CEE.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3550,12 +3550,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 54041 strings out of 492933
- 1084155 string characters out of 6134842
- 1611788 words of memory out of 5000000
- 57077 multiletter control sequences out of 15000+600000
- 656860 words of font info for 214 fonts, out of 8000000 for 9000
+ 54054 strings out of 492933
+ 1085560 string characters out of 6134842
+ 1662870 words of memory out of 5000000
+ 57093 multiletter control sequences out of 15000+600000
+ 654052 words of font info for 213 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,17n,94p,1916b,5385s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,94p,2104b,5380s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on thesis.pdf (93 pages).

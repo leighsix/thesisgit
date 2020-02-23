@@ -69,8 +69,6 @@
       \field{langid}{english}
       \field{title}{Multilayer networks}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{2}
       \field{year}{2014}
       \field{dateera}{ce}
@@ -119,8 +117,6 @@
       \field{langid}{english}
       \field{title}{Dynamic interdependence and competition in multilayer networks}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{15}
       \field{year}{2019}
       \field{dateera}{ce}
@@ -155,8 +151,6 @@
       \field{langid}{english}
       \field{title}{Networks: An Introduction}
       \field{usera}{M}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{year}{2010}
       \field{dateera}{ce}
       \keyw{newman2010}
@@ -226,8 +220,6 @@
       \field{langid}{english}
       \field{title}{The structure and dynamics of multilayer networks}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{abs/1407.0742}
       \field{year}{2014}
       \field{dateera}{ce}
@@ -298,22 +290,11 @@
       \field{month}{12}
       \field{title}{Mathematical Formulation of Multilayer Networks}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{3}
       \field{year}{2013}
       \field{dateera}{ce}
       \field{pages}{041022}
       \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevX.3.041022
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevX.3.041022
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevX.3.041022
-      \endverb
       \keyw{domenico2013}
     \endentry
     \entry{tomasini2015}{inproceedings}{}
@@ -341,8 +322,6 @@
       \field{month}{12}
       \field{title}{An Introduction to Multilayer Networks}
       \field{usera}{C}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{year}{2015}
       \field{dateera}{ce}
       \verb{doi}
@@ -352,11 +331,11 @@
     \endentry
     \entry{namkhanhvu2017}{thesis}{}
       \name{author}{1}{}{%
-        {{hash=74856068c91776c9b14e420471a29e73}{%
-           family={Vu},
-           familyi={V\bibinitperiod},
-           given={Nam\bibnamedelima Khanh},
-           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=47760e795a5fea807d5d06d4ccacf1d8}{%
+           family={KhanhVu},
+           familyi={K\bibinitperiod},
+           given={Nam},
+           giveni={N\bibinitperiod}}}%
       }
       \list{institution}{1}{%
         {Yonsei University Department of Computer Science}%
@@ -364,22 +343,19 @@
       \list{language}{1}{%
         {english}%
       }
-      \strng{namehash}{74856068c91776c9b14e420471a29e73}
-      \strng{fullhash}{74856068c91776c9b14e420471a29e73}
-      \strng{bibnamehash}{74856068c91776c9b14e420471a29e73}
-      \strng{authorbibnamehash}{74856068c91776c9b14e420471a29e73}
-      \strng{authornamehash}{74856068c91776c9b14e420471a29e73}
-      \strng{authorfullhash}{74856068c91776c9b14e420471a29e73}
+      \strng{namehash}{47760e795a5fea807d5d06d4ccacf1d8}
+      \strng{fullhash}{47760e795a5fea807d5d06d4ccacf1d8}
+      \strng{bibnamehash}{47760e795a5fea807d5d06d4ccacf1d8}
+      \strng{authorbibnamehash}{47760e795a5fea807d5d06d4ccacf1d8}
+      \strng{authornamehash}{47760e795a5fea807d5d06d4ccacf1d8}
+      \strng{authorfullhash}{47760e795a5fea807d5d06d4ccacf1d8}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{Robustness of Interconnected Complex Networks with Directed Dependency}
-      \field{type}{phdthesis}
       \field{usera}{D}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{year}{2017}
       \field{dateera}{ce}
       \keyw{namkhanhvu2017}
@@ -397,6 +373,9 @@
            given={Bernardo\bibnamedelima A.},
            giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
+      \list{institution}{1}{%
+        {University Library of Munich, Germany}%
+      }
       \list{language}{1}{%
         {english}%
       }
@@ -410,13 +389,20 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational Economics}
       \field{langid}{english}
+      \field{month}{7}
+      \field{number}{0407002}
       \field{title}{Social Structure and Opinion Formation}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{year}{2004}
       \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://ideas.repec.org/p/wpa/wuwpco/0407002.html
+      \endverb
+      \verb{url}
+      \verb https://ideas.repec.org/p/wpa/wuwpco/0407002.html
+      \endverb
       \keyw{fangwu2004}
     \endentry
     \entry{zuev2012}{article}{}
@@ -447,8 +433,6 @@
       \field{langid}{english}
       \field{title}{Models of opinion control for agents in social networks}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{73}
       \field{year}{2012}
       \field{dateera}{ce}
@@ -483,8 +467,6 @@
       \field{langid}{english}
       \field{title}{The dynamics of opinion in hierarchical organizations}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{351}
       \field{year}{2005}
       \field{dateera}{ce}
@@ -503,9 +485,6 @@
       \list{language}{1}{%
         {english}%
       }
-      \list{publisher}{1}{%
-        {IOP(Institute of Physics}%
-      }
       \strng{namehash}{7df048eb2aad541fce900a6741f5d272}
       \strng{fullhash}{7df048eb2aad541fce900a6741f5d272}
       \strng{bibnamehash}{7df048eb2aad541fce900a6741f5d272}
@@ -516,24 +495,16 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{CoRR}
+      \field{journaltitle}{New Journal of Physics}
       \field{langid}{english}
+      \field{month}{11}
       \field{title}{Opinion control in complex networks}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
-      \field{volume}{abs/1412.2170}
+      \field{volume}{17}
       \field{year}{2014}
       \field{dateera}{ce}
-      \verb{eprint}
-      \verb 1412.2170
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/1412.2170
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1412.2170
+      \verb{doi}
+      \verb 10.1088/1367-2630/17/3/033031
       \endverb
       \keyw{masuda2014}
     \endentry
@@ -578,8 +549,6 @@
       \field{month}{12}
       \field{title}{Opinion competition dynamics on multiplex networks}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{19}
       \field{year}{2017}
       \field{dateera}{ce}
@@ -611,14 +580,11 @@
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Opinion competition is a common phenomenon in real life, such as with opinions on controversial issues or political candidates; however, modelling this competition remains largely unexplored. To bridge this gap, we propose a model of competing opinion diffusion on social networks taking into account degree-dependent fitness or persuasiveness. We study the combined influence of social networks, individual fitnesses and attributes, as well as mass media on people’s opinions, and find that both social networks and mass media act as amplifiers in opinion diffusion, the amplifying effect of which can be quantitatively characterized. We analytically obtain the probability that each opinion will ultimately pervade the whole society when there are no committed people in networks, and the final proportion of each opinion at the steady state when there are committed people in networks. The results of numerical simulations show good agreement with those obtained through an analytical approach. This study provides insight into the collective influence of individual attributes, local social networks and global media on opinion diffusion, and contributes to a comprehensive understanding of competing diffusion behaviours in the real world.}
       \field{journaltitle}{Royal Society Open Science}
       \field{langid}{english}
       \field{number}{11}
       \field{title}{Competing opinion diffusion on social networks}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{4}
       \field{year}{2017}
       \field{dateera}{ce}
@@ -626,15 +592,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1098/rsos.171160
-      \endverb
-      \verb{eprint}
-      \verb https://royalsocietypublishing.org/doi/pdf/10.1098/rsos.171160
-      \endverb
-      \verb{urlraw}
-      \verb https://royalsocietypublishing.org/doi/abs/10.1098/rsos.171160
-      \endverb
-      \verb{url}
-      \verb https://royalsocietypublishing.org/doi/abs/10.1098/rsos.171160
       \endverb
       \keyw{haibo2017}
     \endentry
@@ -674,8 +631,6 @@
       \field{month}{05}
       \field{title}{Opinion dynamics on interacting networks: Media competition and social influence}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{4}
       \field{year}{2014}
       \field{dateera}{ce}
@@ -684,10 +639,15 @@
       \endverb
       \keyw{quattrociocchi2014}
     \endentry
-    \entry{redner2017}{article}{}
-      \name{author}{1}{}{%
+    \entry{redner2005}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a77db7b6ddcdbd803cc8fbf189b3da88}{%
+           family={Sood},
+           familyi={S\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
         {{hash=eabe84fd527aec7e856b89de52d1721f}{%
-           family={{Redner}},
+           family={Redner},
            familyi={R\bibinitperiod},
            given={S.},
            giveni={S\bibinitperiod}}}%
@@ -695,64 +655,72 @@
       \list{language}{1}{%
         {english}%
       }
-      \strng{namehash}{eabe84fd527aec7e856b89de52d1721f}
-      \strng{fullhash}{eabe84fd527aec7e856b89de52d1721f}
-      \strng{bibnamehash}{eabe84fd527aec7e856b89de52d1721f}
-      \strng{authorbibnamehash}{eabe84fd527aec7e856b89de52d1721f}
-      \strng{authornamehash}{eabe84fd527aec7e856b89de52d1721f}
-      \strng{authorfullhash}{eabe84fd527aec7e856b89de52d1721f}
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{4645aca5118e5adc3ad804acefb225dc}
+      \strng{fullhash}{d9c03a1af2ab648e717c8a489ce73d3c}
+      \strng{bibnamehash}{d9c03a1af2ab648e717c8a489ce73d3c}
+      \strng{authorbibnamehash}{d9c03a1af2ab648e717c8a489ce73d3c}
+      \strng{authornamehash}{4645aca5118e5adc3ad804acefb225dc}
+      \strng{authorfullhash}{d9c03a1af2ab648e717c8a489ce73d3c}
       \field{sortinit}{4}
       \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eid}{arXiv:1705.02249}
-      \field{eprintclass}{physics.soc-ph}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{arXiv e-prints}
+      \field{issue}{17}
+      \field{journaltitle}{Phys. Rev. Lett.}
       \field{langid}{english}
-      \field{month}{4}
-      \field{title}{Dynamics of Voter Models on Simple and Complex Networks}
+      \field{month}{5}
+      \field{title}{Voter Model on Heterogeneous Graphs}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
-      \field{year}{2017}
+      \field{volume}{94}
+      \field{year}{2005}
       \field{dateera}{ce}
-      \field{pages}{arXiv:1705.02249}
-      \range{pages}{-1}
-      \verb{eprint}
-      \verb 1705.02249
+      \field{pages}{178701}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.94.178701
       \endverb
-      \keyw{Physics - Physics and Society,Physics - Data Analysis,Statistics and Probability}
+      \keyw{redner2005}
     \endentry
     \entry{casey2009}{article}{}
-      \name{author}{1}{}{%
-        {{hash=42a799a035370ce2a07034eafe48fb3e}{%
-           family={Casey\bibnamedelimb M.\bibnamedelimi Schneider-Mizell},
-           familyi={C\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim S\bibinithyphendelim M\bibinitperiod},
-           given={Leonard\bibnamedelimb M.\bibnamedelimi Sander},
-           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      \name{author}{2}{}{%
+        {{hash=28a9539bf47632ae01638ab8abd818ca}{%
+           family={Schneider-Mizell},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Casey},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f7f14a5c90a7c207d9894f000ab12713}{%
+           family={Sander},
+           familyi={S\bibinitperiod},
+           given={Leonard},
+           giveni={L\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {english}%
       }
-      \strng{namehash}{42a799a035370ce2a07034eafe48fb3e}
-      \strng{fullhash}{42a799a035370ce2a07034eafe48fb3e}
-      \strng{bibnamehash}{42a799a035370ce2a07034eafe48fb3e}
-      \strng{authorbibnamehash}{42a799a035370ce2a07034eafe48fb3e}
-      \strng{authornamehash}{42a799a035370ce2a07034eafe48fb3e}
-      \strng{authorfullhash}{42a799a035370ce2a07034eafe48fb3e}
+      \strng{namehash}{192a4744053829373e5d8c81d3f4ee5b}
+      \strng{fullhash}{c84ff5115a30916cf59ca62c8bf34697}
+      \strng{bibnamehash}{c84ff5115a30916cf59ca62c8bf34697}
+      \strng{authorbibnamehash}{c84ff5115a30916cf59ca62c8bf34697}
+      \strng{authornamehash}{192a4744053829373e5d8c81d3f4ee5b}
+      \strng{authorfullhash}{c84ff5115a30916cf59ca62c8bf34697}
       \field{sortinit}{4}
       \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{J Stat Phys 136:59-71, DOI : 10.1007/s10955-009-9757-6}
+      \field{journaltitle}{Journal of Statistical Physics}
       \field{langid}{english}
+      \field{month}{05}
       \field{title}{A Generalized Voter Model on Complex Networks}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
-      \field{year}{2009}
+      \field{volume}{136}
+      \field{year}{2008}
       \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1007/s10955-009-9757-6
+      \endverb
       \keyw{casey2009}
     \endentry
     \entry{smyrnakis2019}{article}{}
@@ -789,29 +757,16 @@
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Quantised consensus has been used in the context of opinion dynamics. In this context agents interact with their neighbours and they change their opinion according to their interests and the opinions of their neighbours. We consider various quantised consensus models, where agents have different levels of susceptibility to the inputs received from their neighbours. The provided models share similarities with collective decision making models inspired by honeybees and evolutionary games. As first contribution, we develop an evolutionary game-theoretic model that accommodates the different consensus dynamics in a unified framework. As second contribution, we study equilibrium points and extend such study to the symmetric case where the transition probabilities of the evolutionary game dynamics are symmetric. Symmetry is associated with the case of equally favourable options. As third contribution, we study stability of the equilibrium points for the different cases. We corroborate the theoretical results with some simulations to study the outcomes of the various models.}
       \field{journaltitle}{PLOS ONE}
       \field{langid}{english}
       \field{month}{01}
-      \field{number}{1}
       \field{title}{An evolutionary game perspective on quantised consensus in opinion dynamics}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{14}
       \field{year}{2019}
       \field{dateera}{ce}
       \field{pages}{1\bibrangedash 17}
       \range{pages}{17}
-      \verb{doi}
-      \verb 10.1371/journal.pone.0209212
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1371/journal.pone.0209212
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1371/journal.pone.0209212
-      \endverb
       \keyw{smyrnakis2019}
     \endentry
     \entry{bianconi2018}{book}{}
@@ -842,8 +797,6 @@
       \field{langid}{english}
       \field{title}{Multilayer Networks: Structure and Function}
       \field{usera}{M}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{year}{2018}
       \field{dateera}{ce}
       \verb{urlraw}
@@ -854,7 +807,7 @@
       \endverb
       \keyw{bianconi2018}
     \endentry
-    \entry{serazzi2003}{inproceedings}{}
+    \entry{serazzi2003}{book}{}
       \name{author}{2}{}{%
         {{hash=9760b6fae0dbfc2e1c3e452703ebf3e8}{%
            family={Serazzi},
@@ -870,6 +823,9 @@
       \list{language}{1}{%
         {english}%
       }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
       \strng{namehash}{f0d7b8a9465e3ad02630f727c637bb2b}
       \strng{fullhash}{2a89b856cd2ece84816c6809bcd52846}
       \strng{bibnamehash}{2a89b856cd2ece84816c6809bcd52846}
@@ -880,12 +836,11 @@
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{booktitle}{Performance Tools and Applications to Networked Systems}
       \field{langid}{english}
-      \field{month}{01}
+      \field{month}{1}
       \field{title}{Computer Virus Propagation Models}
-      \field{usera}{C}
-      \field{userd}{english}
-      \field{userf}{english}
+      \field{usera}{M}
       \field{volume}{2965}
       \field{year}{2003}
       \field{dateera}{ce}
@@ -893,12 +848,12 @@
       \range{pages}{25}
       \keyw{serazzi2003}
     \endentry
-    \entry{hua2014}{inproceedings}{}
+    \entry{hua2014}{article}{}
       \name{author}{3}{}{%
-        {{hash=5245344e7a0198d0d0d0d0f9bce9e0fa}{%
+        {{hash=7f6c5ba3b4931c189b514600da719100}{%
            family={Hua},
            familyi={H\bibinitperiod},
-           given={Jun},
+           given={Jinxing},
            giveni={J\bibinitperiod}}}%
         {{hash=90363e7455b37d0f07cd7e927b294868}{%
            family={Wang},
@@ -914,48 +869,42 @@
       \list{language}{1}{%
         {english}%
       }
-      \strng{namehash}{64832330008b94836c1f83a685e70ef6}
-      \strng{fullhash}{244f69238eaca9d29759f128b6d344c6}
-      \strng{bibnamehash}{244f69238eaca9d29759f128b6d344c6}
-      \strng{authorbibnamehash}{244f69238eaca9d29759f128b6d344c6}
-      \strng{authornamehash}{64832330008b94836c1f83a685e70ef6}
-      \strng{authorfullhash}{244f69238eaca9d29759f128b6d344c6}
+      \strng{namehash}{e9f3f50e0f73d7b5a7bb11e3d2c6af32}
+      \strng{fullhash}{cb4c30259e1e9558b867143d47f79298}
+      \strng{bibnamehash}{cb4c30259e1e9558b867143d47f79298}
+      \strng{authorbibnamehash}{cb4c30259e1e9558b867143d47f79298}
+      \strng{authornamehash}{e9f3f50e0f73d7b5a7bb11e3d2c6af32}
+      \strng{authorfullhash}{cb4c30259e1e9558b867143d47f79298}
       \field{sortinit}{8}
       \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the 33rd Chinese Control Conference, CCC 2014}
+      \field{journaltitle}{Proceedings of the 33rd Chinese Control Conference}
       \field{langid}{english}
-      \field{month}{07}
       \field{title}{An information diffusion model based on individual characteristics}
-      \field{usera}{C}
-      \field{userd}{english}
-      \field{userf}{english}
+      \field{usera}{J}
       \field{year}{2014}
       \field{dateera}{ce}
       \field{pages}{2866\bibrangedash 2871}
       \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/ChiCC.2014.6897094
-      \endverb
       \keyw{hua2014}
     \endentry
-    \entry{alvarez2016}{inproceedings}{}
+    \entry{alvarez2016}{article}{}
       \name{author}{4}{}{%
         {{hash=d3e00968d11f9129a3e717387a6838cb}{%
            family={Alvarez-Zuzek},
            familyi={A\bibinithyphendelim Z\bibinitperiod},
-           given={Lucila\bibnamedelima G},
+           given={Lucila\bibnamedelima G.},
            giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=fbb8495ae240388fcad555b6ec83fd98}{%
-           family={Rocca},
-           familyi={R\bibinitperiod},
-           given={Cristian\bibnamedelimb E.\bibnamedelimi La},
-           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=fd3d3c8458c1ead30ac17bb2fad9dba2}{%
+        {{hash=6eebca085ed7225f9b9a3bb602e69a28}{%
+           family={La\bibnamedelima Rocca},
+           familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Cristian\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=0034fc9aae2f03f619a56cb45adf3bb4}{%
            family={Vazquez},
            familyi={V\bibinitperiod},
-           given={F.},
+           given={Federico},
            giveni={F\bibinitperiod}}}%
         {{hash=f666a781e51c0da0a97fa895449b00f2}{%
            family={Braunstein},
@@ -966,50 +915,56 @@
       \list{language}{1}{%
         {english}%
       }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
       \strng{namehash}{f836dae6d76082a875f6c515492e2cec}
-      \strng{fullhash}{97714f880d42bf1e3829c206db7dfa18}
-      \strng{bibnamehash}{deadaac68397f3077c4b8ca2466c3d2f}
-      \strng{authorbibnamehash}{deadaac68397f3077c4b8ca2466c3d2f}
+      \strng{fullhash}{a2ce14b75d725da22fe7e6fd29545315}
+      \strng{bibnamehash}{5b275bd0a97375b7b04714fe8315bd73}
+      \strng{authorbibnamehash}{5b275bd0a97375b7b04714fe8315bd73}
       \strng{authornamehash}{f836dae6d76082a875f6c515492e2cec}
-      \strng{authorfullhash}{97714f880d42bf1e3829c206db7dfa18}
+      \strng{authorfullhash}{a2ce14b75d725da22fe7e6fd29545315}
       \field{sortinit}{9}
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{PloS one}
+      \field{journaltitle}{PLOS ONE}
       \field{langid}{english}
+      \field{month}{09}
+      \field{number}{9}
       \field{title}{Interacting Social Processes on Interconnected Networks}
-      \field{usera}{C}
-      \field{userd}{english}
-      \field{userf}{english}
+      \field{usera}{J}
+      \field{volume}{11}
       \field{year}{2016}
       \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
       \keyw{alvarez2016}
     \endentry
     \entry{gomez2015}{article}{}
       \name{author}{5}{}{%
-        {{hash=2e8ac8fd6c83854a5ebf10dab31ea6e1}{%
-           family={G{ó}mez-Garde{ñ}es},
+        {{hash=c7d6c2dffeaf5a4a3adc4f472d9ed4fc}{%
+           family={Gómez-Gardeñes},
            familyi={G\bibinithyphendelim G\bibinitperiod},
-           given={Jes{ú}s},
+           given={Jesus},
            giveni={J\bibinitperiod}}}%
-        {{hash=5585efc173184b8f7dd7d6f7dd16fc91}{%
-           family={Domenico},
-           familyi={D\bibinitperiod},
-           given={Manlio\bibnamedelima De},
-           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=f67608e8bdcaacfab7263925741f39d7}{%
-           family={Guti{é}rrez},
-           familyi={G\bibinitperiod},
+        {{hash=6d536daa70fa51099e4f65e72e27f797}{%
+           family={De\bibnamedelima Domenico},
+           familyi={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Manlio},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d8f6e7206a1988e1c9b3f95c6967fc4c}{%
+           family={Guti{é}rrez-Guti{é}rrez},
+           familyi={G\bibinithyphendelim G\bibinitperiod},
            given={Gerardo},
            giveni={G\bibinitperiod}}}%
-        {{hash=990cd2985ce8dd2bd08a26c3afc058f2}{%
+        {{hash=6a357114624f649b1b1dedd6e3c92cbd}{%
            family={Arenas},
            familyi={A\bibinitperiod},
-           given={Alexandre},
+           given={Alex},
            giveni={A\bibinitperiod}}}%
-        {{hash=c857454925fd025cd349bfaafb6b24a0}{%
-           family={G{ó}mez},
+        {{hash=e8415fb291f9e3c068ab0b9c1fda809e}{%
+           family={Gomez},
            familyi={G\bibinitperiod},
            given={Sergio},
            giveni={S\bibinitperiod}}}%
@@ -1017,25 +972,27 @@
       \list{language}{1}{%
         {english}%
       }
-      \strng{namehash}{a9ab8bccd2dce10643caad110e305d48}
-      \strng{fullhash}{4c2817bd248022b3dbbecf39302819c2}
-      \strng{bibnamehash}{5d6a1c96ea0d1ae88f19fbaca3b84d0e}
-      \strng{authorbibnamehash}{5d6a1c96ea0d1ae88f19fbaca3b84d0e}
-      \strng{authornamehash}{a9ab8bccd2dce10643caad110e305d48}
-      \strng{authorfullhash}{4c2817bd248022b3dbbecf39302819c2}
+      \strng{namehash}{65716a9b84e4a2db5aa5ba1726fbf45f}
+      \strng{fullhash}{c12b94763fe59b16c366b82c39c52537}
+      \strng{bibnamehash}{9ca386c2783ef868573e552e006c015f}
+      \strng{authorbibnamehash}{9ca386c2783ef868573e552e006c015f}
+      \strng{authornamehash}{65716a9b84e4a2db5aa5ba1726fbf45f}
+      \strng{authorfullhash}{c12b94763fe59b16c366b82c39c52537}
       \field{sortinit}{9}
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Philosophical transactions. Series A, Mathematical, physical, and engineering sciences}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences}
       \field{langid}{english}
+      \field{month}{09}
       \field{title}{Layer-layer competition in multiplex complex networks}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
-      \field{volume}{373 2056}
+      \field{volume}{373}
       \field{year}{2015}
       \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1098/rsta.2015.0117
+      \endverb
       \keyw{gomez2015}
     \endentry
     \entry{diep2017}{article}{}
@@ -1073,8 +1030,6 @@
       \field{langid}{english}
       \field{title}{Dynamics of two-group conflicts: A statistical physics model}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{469}
       \field{year}{2017}
       \field{dateera}{ce}
@@ -1084,44 +1039,46 @@
     \endentry
     \entry{rocca2014}{article}{}
       \name{author}{3}{}{%
-        {{hash=fbb8495ae240388fcad555b6ec83fd98}{%
-           family={Rocca},
-           familyi={R\bibinitperiod},
-           given={Cristian\bibnamedelimb E.\bibnamedelimi La},
-           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=f666a781e51c0da0a97fa895449b00f2}{%
+        {{hash=a351d0e623e3335a6aac3ba83d8e448e}{%
+           family={La\bibnamedelima Rocca},
+           familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Cristian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=aa121cbf47df05a5e44c189ad9eb8e57}{%
            family={Braunstein},
            familyi={B\bibinitperiod},
-           given={Lidia\bibnamedelima A.},
-           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=fd3d3c8458c1ead30ac17bb2fad9dba2}{%
+           given={Lidia},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0034fc9aae2f03f619a56cb45adf3bb4}{%
            family={Vazquez},
            familyi={V\bibinitperiod},
-           given={F.},
+           given={Federico},
            giveni={F\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {english}%
       }
-      \strng{namehash}{84e039b088180ef882221d02a26f00d3}
-      \strng{fullhash}{e7e4f6afe36bd94633fe1a97f0dfdb87}
-      \strng{bibnamehash}{e7e4f6afe36bd94633fe1a97f0dfdb87}
-      \strng{authorbibnamehash}{e7e4f6afe36bd94633fe1a97f0dfdb87}
-      \strng{authornamehash}{84e039b088180ef882221d02a26f00d3}
-      \strng{authorfullhash}{e7e4f6afe36bd94633fe1a97f0dfdb87}
+      \strng{namehash}{b11197294365c1647cf0f34bcc7669bc}
+      \strng{fullhash}{dfac1765384e8cc971955a756d920ffe}
+      \strng{bibnamehash}{dfac1765384e8cc971955a756d920ffe}
+      \strng{authorbibnamehash}{dfac1765384e8cc971955a756d920ffe}
+      \strng{authornamehash}{b11197294365c1647cf0f34bcc7669bc}
+      \strng{authorfullhash}{dfac1765384e8cc971955a756d920ffe}
       \field{sortinit}{9}
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{CoRR}
+      \field{journaltitle}{EPL (Europhysics Letters)}
       \field{langid}{english}
+      \field{month}{03}
       \field{title}{The influence of persuasion in opinion formation and polarization}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
-      \field{volume}{abs/1403.3011}
+      \field{volume}{106}
       \field{year}{2014}
       \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1209/0295-5075/106/40004
+      \endverb
       \keyw{rocca2014}
     \endentry
     \entry{velasquez2018}{article}{}
@@ -1155,8 +1112,6 @@
       \field{month}{03}
       \field{title}{Opinion dynamics in two dimensions: Domain coarsening leads to stable bi-polarization and anomalous scaling exponents}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{2018}
       \field{year}{2018}
       \field{dateera}{ce}
@@ -1203,19 +1158,14 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Mathematical Sciences}
       \field{langid}{english}
-      \field{month}{01}
+      \field{month}{1}
       \field{title}{Modelling the Spread of Memes: How Inovations are Transmitted from Brain to Brain}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{7}
       \field{year}{2013}
       \field{dateera}{ce}
       \field{pages}{2295\bibrangedash 2306}
       \range{pages}{12}
-      \verb{doi}
-      \verb 10.12988/ams.2013.13205
-      \endverb
       \keyw{massad2013}
     \endentry
     \entry{shenyu2018}{inproceedings}{}
@@ -1254,8 +1204,6 @@
       \field{month}{07}
       \field{title}{Immunizations of Interacting Diseases}
       \field{usera}{C}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{year}{2018}
       \field{dateera}{ce}
       \field{pages}{9686\bibrangedash 9691}
@@ -1321,8 +1269,6 @@
       \field{month}{7}
       \field{title}{Propagation of interacting diseases on multilayer networks}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{98}
       \field{year}{2018}
       \field{dateera}{ce}
@@ -1330,12 +1276,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevE.98.012303
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevE.98.012303
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevE.98.012303
       \endverb
       \keyw{zhou2018}
     \endentry
@@ -1372,19 +1312,14 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Mathematics}
       \field{langid}{english}
-      \field{month}{01}
+      \field{month}{1}
       \field{title}{Dynamics of a New Rumor Propagation Model with the Spread of Truth}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{09}
       \field{year}{2018}
       \field{dateera}{ce}
       \field{pages}{536\bibrangedash 549}
       \range{pages}{14}
-      \verb{doi}
-      \verb 10.4236/am.2018.95038
-      \endverb
       \keyw{liu2018}
     \endentry
     \entry{abrams2003}{article}{}
@@ -1417,91 +1352,97 @@
       \field{langid}{english}
       \field{title}{Linguistics: Modelling the dynamics of language death}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{424}
       \field{year}{2003}
       \field{dateera}{ce}
-      \field{pages}{900\bibrangedash 900}
+      \field{pages}{900}
       \range{pages}{1}
       \keyw{abrams2003}
     \endentry
     \entry{vazquez2010}{article}{}
       \name{author}{3}{}{%
-        {{hash=054769849ee2c48b8b0fc5c51b69ec9d}{%
-           family={V{á}zquez},
+        {{hash=0034fc9aae2f03f619a56cb45adf3bb4}{%
+           family={Vazquez},
            familyi={V\bibinitperiod},
            given={Federico},
            giveni={F\bibinitperiod}}}%
-        {{hash=ee0bd0a354d9b9e6991a3baef1cb1483}{%
-           family={Castell{ó}},
+        {{hash=9c2fc27a7e55c24971cd55d6bdb9d8cc}{%
+           family={Castello},
            familyi={C\bibinitperiod},
-           given={Xavier},
+           given={X.},
            giveni={X\bibinitperiod}}}%
-        {{hash=1ccec3b0e939977f4e4b4846f7d8c6c2}{%
+        {{hash=4f50834780002b9f2996bce3617bd6b3}{%
            family={Miguel},
            familyi={M\bibinitperiod},
-           given={Maxi\bibnamedelima San},
-           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+           given={M.},
+           giveni={M\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {english}%
       }
-      \strng{namehash}{714c206186a228cf173bfd2837b335d2}
-      \strng{fullhash}{13f5edf148086fa2f57e3b3d7ea7d1a0}
-      \strng{bibnamehash}{13f5edf148086fa2f57e3b3d7ea7d1a0}
-      \strng{authorbibnamehash}{13f5edf148086fa2f57e3b3d7ea7d1a0}
-      \strng{authornamehash}{714c206186a228cf173bfd2837b335d2}
-      \strng{authorfullhash}{13f5edf148086fa2f57e3b3d7ea7d1a0}
+      \strng{namehash}{01c8a7535ab91536a445616a6227fef6}
+      \strng{fullhash}{c1e4973bbc12ffe2d92135b89af4feca}
+      \strng{bibnamehash}{c1e4973bbc12ffe2d92135b89af4feca}
+      \strng{authorbibnamehash}{c1e4973bbc12ffe2d92135b89af4feca}
+      \strng{authornamehash}{01c8a7535ab91536a445616a6227fef6}
+      \strng{authorfullhash}{c1e4973bbc12ffe2d92135b89af4feca}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Statistical Mechanics: Theory and Experiment}
+      \field{journaltitle}{Journal of Statistical Mechanics Theory and Experiment}
       \field{langid}{english}
-      \field{title}{Agent Based Models of Language Competition : Macroscopic descriptions and Order-Disorder transitions}
+      \field{month}{04}
+      \field{title}{Agent Based Models of Language Competition: Macroscopic descriptions and Order-Disorder transitions}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
+      \field{volume}{2010}
       \field{year}{2010}
       \field{dateera}{ce}
+      \field{pages}{P04007}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1742-5468/2010/04/P04007
+      \endverb
       \keyw{vazquez2010}
     \endentry
     \entry{naim2003}{article}{}
-      \name{author}{1}{}{%
-        {{hash=3d80c6ceec305006e507a13de12a43c6}{%
-           family={E.\bibnamedelimi Ben-Naim},
-           familyi={E\bibinitperiod\bibinitdelim B\bibinithyphendelim N\bibinitperiod},
-           given={S.\bibnamedelimi Redner},
-           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
-           suffix={P.\bibnamedelimi L.\bibnamedelimi Krapivsky},
-           suffixi={P\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      \name{author}{3}{}{%
+        {{hash=89f82e98460cdda8d46ca2711e90ed0e}{%
+           family={Ben-Naim},
+           familyi={B\bibinithyphendelim N\bibinitperiod},
+           given={Eli},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6a6eeb545ec5d30b9205340df1167b01}{%
+           family={Krapivsky},
+           familyi={K\bibinitperiod},
+           given={Pavel},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5fba943c2dc226131b5ff559b588fe63}{%
+           family={Redner},
+           familyi={R\bibinitperiod},
+           given={Sidney},
+           giveni={S\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {english}%
       }
-      \list{publisher}{1}{%
-        {Physica D: Nonlinear Phenomena}%
-      }
-      \strng{namehash}{3d80c6ceec305006e507a13de12a43c6}
-      \strng{fullhash}{3d80c6ceec305006e507a13de12a43c6}
-      \strng{bibnamehash}{3d80c6ceec305006e507a13de12a43c6}
-      \strng{authorbibnamehash}{3d80c6ceec305006e507a13de12a43c6}
-      \strng{authornamehash}{3d80c6ceec305006e507a13de12a43c6}
-      \strng{authorfullhash}{3d80c6ceec305006e507a13de12a43c6}
+      \strng{namehash}{d08c41fe4b3c72d26d607a6567b9b588}
+      \strng{fullhash}{1294534bc851fb4888bd51c3a65ac9ae}
+      \strng{bibnamehash}{1294534bc851fb4888bd51c3a65ac9ae}
+      \strng{authorbibnamehash}{1294534bc851fb4888bd51c3a65ac9ae}
+      \strng{authornamehash}{d08c41fe4b3c72d26d607a6567b9b588}
+      \strng{authorfullhash}{1294534bc851fb4888bd51c3a65ac9ae}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issue}{3-4}
+      \field{journaltitle}{Physica D: Nonlinear Phenomena}
       \field{langid}{english}
-      \field{month}{09}
-      \field{title}{Bifurcations and patterns in compromise processes}
+      \field{month}{12}
+      \field{title}{Bifurcation and patterns in compromise processes}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{183}
-      \field{year}{2003}
+      \field{year}{2002}
       \field{dateera}{ce}
       \field{pages}{190\bibrangedash 204}
       \range{pages}{15}
@@ -1554,16 +1495,11 @@
       \field{month}{12}
       \field{title}{Social judgment theory based model on opinion formation, polarization and evolution}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{415}
       \field{year}{2014}
       \field{dateera}{ce}
       \field{pages}{133\bibrangedash 140}
       \range{pages}{8}
-      \verb{doi}
-      \verb 10.1016/j.physa.2014.07.082
-      \endverb
       \keyw{chau2014}
     \endentry
     \entry{patriarca2012}{article}{}
@@ -1573,50 +1509,129 @@
            familyi={P\bibinitperiod},
            given={Marco},
            giveni={M\bibinitperiod}}}%
-        {{hash=ee0bd0a354d9b9e6991a3baef1cb1483}{%
+        {{hash=627026c4a1583c4ccd26703765ba48fa}{%
            family={Castell{ó}},
            familyi={C\bibinitperiod},
-           given={Xavier},
+           given={X.},
            giveni={X\bibinitperiod}}}%
-        {{hash=39ce8ff19fc914726b6af72911ed41d8}{%
+        {{hash=f1d002ea7295cd16d3938356e57ab125}{%
            family={Uriarte},
            familyi={U\bibinitperiod},
-           given={J.\bibnamedelimi R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=359ebd4a69f46e5d16088686bd77dadc}{%
+           given={Jose-Ramon},
+           giveni={J\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=27125a16cc5661c32a1e289af85718af}{%
            family={Egu{í}luz},
            familyi={E\bibinitperiod},
-           given={V{í}ctor\bibnamedelima M.},
-           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=1ccec3b0e939977f4e4b4846f7d8c6c2}{%
+           given={V{í}ctor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=4f50834780002b9f2996bce3617bd6b3}{%
            family={Miguel},
            familyi={M\bibinitperiod},
-           given={Maxi\bibnamedelima San},
-           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+           given={M.},
+           giveni={M\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {english}%
       }
       \strng{namehash}{8b482b0c598aa371662bd3c7db9b174c}
-      \strng{fullhash}{75d8f779769156c2021e7710cbf8598c}
-      \strng{bibnamehash}{7b926595e0dd3d690e62e50ea119637b}
-      \strng{authorbibnamehash}{7b926595e0dd3d690e62e50ea119637b}
+      \strng{fullhash}{ede784e8bd33d23adf5e7c1dd1b36f21}
+      \strng{bibnamehash}{5b5150ad7fd2bec6fef259122a5c5f50}
+      \strng{authorbibnamehash}{5b5150ad7fd2bec6fef259122a5c5f50}
       \strng{authornamehash}{8b482b0c598aa371662bd3c7db9b174c}
-      \strng{authorfullhash}{75d8f779769156c2021e7710cbf8598c}
+      \strng{authorfullhash}{ede784e8bd33d23adf5e7c1dd1b36f21}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Advances in Complex Systems}
       \field{langid}{english}
-      \field{title}{Modeling Two-Language Competition Dynamics}
+      \field{month}{05}
+      \field{title}{Modeling two-language competition dynamics}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{15}
       \field{year}{2012}
       \field{dateera}{ce}
+      \field{pages}{1250048}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1142/S0219525912500488
+      \endverb
       \keyw{patriarca2012}
+    \endentry
+    \entry{nicolas2017}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ce5effd83d521b8e43ea866ae0507297}{%
+           family={Lanchier},
+           familyi={L\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Arizona State University, School of Mathematical}%
+        {Statistical Sciences}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{ce5effd83d521b8e43ea866ae0507297}
+      \strng{fullhash}{ce5effd83d521b8e43ea866ae0507297}
+      \strng{bibnamehash}{ce5effd83d521b8e43ea866ae0507297}
+      \strng{authorbibnamehash}{ce5effd83d521b8e43ea866ae0507297}
+      \strng{authornamehash}{ce5effd83d521b8e43ea866ae0507297}
+      \strng{authorfullhash}{ce5effd83d521b8e43ea866ae0507297}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Stochastic Modeling}
+      \field{usera}{M}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 1007/978-3-319-50038-6
+      \endverb
+      \keyw{nicolas2017}
+    \endentry
+    \entry{rainer2002}{article}{}
+      \name{author}{2}{}{%
+        {{hash=aaf95a640c24593ff5ad99b4da93bc3a}{%
+           family={Hegselmann},
+           familyi={H\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4647a365f0d2ce7fa24de0b8c50bc06a}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{3b70d58592425588f9162c62a25af746}
+      \strng{fullhash}{c11c172b875d96146e821e713b9f880f}
+      \strng{bibnamehash}{c11c172b875d96146e821e713b9f880f}
+      \strng{authorbibnamehash}{c11c172b875d96146e821e713b9f880f}
+      \strng{authornamehash}{3b70d58592425588f9162c62a25af746}
+      \strng{authorfullhash}{c11c172b875d96146e821e713b9f880f}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Artificial Societies and Social Simulation}
+      \field{langid}{english}
+      \field{title}{Opinion Dynamics and Bounded Confidence, Models, Analysis and Simulation}
+      \field{usera}{J}
+      \field{volume}{5}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{pages}{2}
+      \range{pages}{1}
+      \keyw{rainer2002}
     \endentry
     \entry{erdos1960}{article}{}
       \name{author}{1}{}{%
@@ -1642,12 +1657,13 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{Publication Of The Mathematical Institute Of The Hungarian Academy Of Sciences}
       \field{langid}{english}
       \field{title}{On the Evolution of Random Graphs}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{5}
+      \field{year}{1960}
+      \field{dateera}{ce}
       \field{pages}{17\bibrangedash 61}
       \range{pages}{45}
       \keyw{erdos1960}
@@ -1668,10 +1684,6 @@
       \list{language}{1}{%
         {english}%
       }
-      \list{location}{2}{%
-        {Department of Theoretical}%
-        {Applied Mechanics, Cornell University, Ithaca, New York 14853, USA. djw24@columbia.edu}%
-      }
       \list{publisher}{1}{%
         {Nature Publishing Group}%
       }
@@ -1685,16 +1697,12 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{{Networks of coupled dynamical systems have been used to model biological oscillators1, 2, 3, 4, Josephson junction arrays5,6, excitable media7, neural networks8, 9, 10, spatial games11, genetic control networks12 and many other self-organizing systems. Ordinarily, the connection topology is assumed to be either completely regular or completely random. But many biological, technological and social networks lie somewhere between these two extremes. Here we explore simple models of networks that can be tuned through this middle ground: regular networks 'rewired' to introduce increasing amounts of disorder. We find that these systems can be highly clustered, like regular lattices, yet have small characteristic path lengths, like random graphs. We call them 'small-world' networks, by analogy with the small-world phenomenon13,14 (popularly known as six degrees of separation15). The neural network of the worm Caenorhabditis elegans, the power grid of the western United States, and the collaboration graph of film actors are shown to be small-world networks. Models of dynamical systems with small-world coupling display enhanced signal-propagation speed, computational power, and synchronizability. In particular, infectious diseases spread more easily in small-world networks than in regular lattices.}}
       \field{issn}{0028-0836}
       \field{journaltitle}{Nature}
       \field{langid}{english}
       \field{month}{6}
-      \field{number}{6684}
-      \field{title}{{Collective dynamics of 'small-world' networks}}
+      \field{title}{Collective dynamics of 'small-world' networks}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{393}
       \field{year}{1998}
       \field{dateera}{ce}
@@ -1703,70 +1711,46 @@
       \verb{doi}
       \verb 10.1038/30918
       \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1038/30918
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1038/30918
-      \endverb
       \keyw{small-world networks}
     \endentry
-    \entry{barabasi1999}{article}{}
+    \entry{barabasi2011}{inbook}{}
       \name{author}{2}{}{%
-        {{hash=15bacd7ddfc866c5dd96976d4b0244d5}{%
-           family={Barab{á}si},
+        {{hash=eaf67abd06c9c1119af300653997fbc0}{%
+           family={BarabÃ¡si},
            familyi={B\bibinitperiod},
-           given={Albert-L{á}szl{ó}},
+           given={A.-L},
            giveni={A\bibinithyphendelim L\bibinitperiod}}}%
-        {{hash=d85e8d2b76e8626b1a45373f4e027914}{%
+        {{hash=8430467fe4d62e6de244a3a76cc9f7f2}{%
            family={Albert},
            familyi={A\bibinitperiod},
-           given={R{é}ka},
+           given={R.},
            giveni={R\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {english}%
       }
-      \list{publisher}{1}{%
-        {American Association for the Advancement of Science}%
-      }
-      \strng{namehash}{5ec330763e285359b8f14e1705b366b0}
-      \strng{fullhash}{b4063d5171bad9750494dbdb05406431}
-      \strng{bibnamehash}{b4063d5171bad9750494dbdb05406431}
-      \strng{authorbibnamehash}{b4063d5171bad9750494dbdb05406431}
-      \strng{authornamehash}{5ec330763e285359b8f14e1705b366b0}
-      \strng{authorfullhash}{b4063d5171bad9750494dbdb05406431}
+      \strng{namehash}{6fb0842d99aaa4ac228af149343306f6}
+      \strng{fullhash}{666a7cf0eb3d5fd6c41c9cf172352ea9}
+      \strng{bibnamehash}{666a7cf0eb3d5fd6c41c9cf172352ea9}
+      \strng{authorbibnamehash}{666a7cf0eb3d5fd6c41c9cf172352ea9}
+      \strng{authornamehash}{6fb0842d99aaa4ac228af149343306f6}
+      \strng{authorfullhash}{666a7cf0eb3d5fd6c41c9cf172352ea9}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Systems as diverse as genetic networks or the World Wide Web are best described as networks with complex topology. A common property of many large networks is that the vertex connectivities follow a scale-free power-law distribution. This feature was found to be a consequence of two generic mechanisms: (i) networks expand continuously by the addition of new vertices, and (ii) new vertices attach preferentially to sites that are already well connected. A model based on these two ingredients reproduces the observed stationary scale-free distributions, which indicates that the development of large networks is governed by robust self-organizing phenomena that go beyond the particulars of the individual systems.}
-      \field{issn}{0036-8075}
-      \field{journaltitle}{Science}
+      \field{isbn}{9781400841356}
+      \field{journaltitle}{The Structure and Dynamics of Networks}
       \field{langid}{english}
-      \field{number}{5439}
+      \field{month}{12}
       \field{title}{Emergence of Scaling in Random Networks}
-      \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
-      \field{volume}{286}
-      \field{year}{1999}
+      \field{usera}{M}
+      \field{year}{2011}
       \field{dateera}{ce}
-      \field{pages}{509\bibrangedash 512}
-      \range{pages}{4}
       \verb{doi}
-      \verb 10.1126/science.286.5439.509
+      \verb 10.1515/9781400841356.349
       \endverb
-      \verb{eprint}
-      \verb https://science.sciencemag.org/content/286/5439/509.full.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://science.sciencemag.org/content/286/5439/509
-      \endverb
-      \verb{url}
-      \verb https://science.sciencemag.org/content/286/5439/509
-      \endverb
-      \keyw{barabasi1999}
+      \keyw{barabasi2011}
     \endentry
     \entry{sirbu2017}{inbook}{}
       \name{author}{4}{}{%
@@ -1800,8 +1784,8 @@
       \strng{authorbibnamehash}{f3be5f47583d81d12cac61213cecc3e0}
       \strng{authornamehash}{c987eec951811edc50628a31f0a3be10}
       \strng{authorfullhash}{3b380280ff47dbcad9d476d8afa63bca}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-319-25656-6}
@@ -1810,15 +1794,10 @@
       \field{month}{05}
       \field{title}{Opinion Dynamics: Models, Extensions and External Effects}
       \field{usera}{M}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{year}{2017}
       \field{dateera}{ce}
       \field{pages}{363\bibrangedash 401}
       \range{pages}{39}
-      \verb{doi}
-      \verb 10.1007/978-3-319-25658-0_17
-      \endverb
       \keyw{sirbu2017}
     \endentry
     \entry{hoffman2011}{article}{}
@@ -1848,8 +1827,8 @@
       \strng{authorbibnamehash}{c37300682b865a3daae57303791808b3}
       \strng{authornamehash}{a1d87b880b60b6b043c35709fa99ee69}
       \strng{authorfullhash}{c37300682b865a3daae57303791808b3}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Economics Letters}
@@ -1857,16 +1836,11 @@
       \field{month}{07}
       \field{title}{Simultaneous versus Sequential Information Processing}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{112}
       \field{year}{2011}
       \field{dateera}{ce}
       \field{pages}{16\bibrangedash 18}
       \range{pages}{3}
-      \verb{doi}
-      \verb 10.1016/j.econlet.2011.03.006
-      \endverb
       \keyw{hoffman2011}
     \endentry
     \entry{dietrich2004}{article}{}
@@ -1889,34 +1863,20 @@
       \strng{authorbibnamehash}{675ef0bdd0b4b4135b48c838ade149ef}
       \strng{authornamehash}{675ef0bdd0b4b4135b48c838ade149ef}
       \strng{authorfullhash}{675ef0bdd0b4b4135b48c838ade149ef}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Mathematical Sociology}
       \field{langid}{english}
       \field{number}{1}
-      \field{title}{DIFFICULTY FOR CONSENSUS IN SIMULTANEOUS OPINION FORMATION OF SZNAJD MODEL}
+      \field{title}{Difficulty for Consensus in Simultaneous Opinion Formation of SZNAJD Model}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{28}
       \field{year}{2004}
       \field{dateera}{ce}
       \field{pages}{25\bibrangedash 33}
       \range{pages}{9}
-      \verb{doi}
-      \verb 10.1080/00222500490278531
-      \endverb
-      \verb{eprint}
-      \verb https://doi.org/10.1080/00222500490278531
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1080/00222500490278531
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1080/00222500490278531
-      \endverb
       \keyw{dietrich2004}
     \endentry
     \entry{freeman1979}{article}{}
@@ -1930,9 +1890,6 @@
       \list{language}{1}{%
         {english}%
       }
-      \list{publisher}{1}{%
-        {Social Networks}%
-      }
       \strng{namehash}{add53b08df5983f0ea44ff5fe673830f}
       \strng{fullhash}{add53b08df5983f0ea44ff5fe673830f}
       \strng{bibnamehash}{add53b08df5983f0ea44ff5fe673830f}
@@ -1943,19 +1900,15 @@
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{Social Networks}
       \field{langid}{english}
       \field{title}{Centrality in Social Networks Conceptual Clarification}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{1}
       \field{year}{1979}
       \field{dateera}{ce}
       \field{pages}{215\bibrangedash 239}
       \range{pages}{25}
-      \verb{doi}
-      \verb http://dx.doi.org/10.1016/0378-8733(78)90021-7
-      \endverb
       \keyw{freeman1979}
     \endentry
     \entry{koschutzki2008}{article}{}
@@ -1974,10 +1927,6 @@
       \list{language}{1}{%
         {english}%
       }
-      \list{publisher}{2}{%
-        {Gene regulation}%
-        {systems biology}%
-      }
       \strng{namehash}{340b4eec5415809a8039503c07e00066}
       \strng{fullhash}{46999827533d67ee9366a3de2bee6444}
       \strng{bibnamehash}{46999827533d67ee9366a3de2bee6444}
@@ -1988,11 +1937,10 @@
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{Gene Regulation And Systems Biology}
       \field{langid}{english}
       \field{title}{Centrality analysis methods for biological networks and their application to gene regulatory networks}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{2}
       \field{year}{2008}
       \field{dateera}{ce}
@@ -2000,35 +1948,37 @@
       \range{pages}{9}
       \keyw{koschutzki2008}
     \endentry
-    \entry{francisco2019}{inproceedings}{}
+    \entry{francisco2018}{inbook}{}
       \name{author}{1}{}{%
-        {{hash=d2a9c4a5cd57d45d605c24481934ff2c}{%
+        {{hash=be28d3f489bfff161c830e799d5b1330}{%
            family={Rodrigues},
            familyi={R\bibinitperiod},
-           given={Francisco\bibnamedelima Aparecido},
-           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+           given={Francisco},
+           giveni={F\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {english}%
       }
-      \strng{namehash}{d2a9c4a5cd57d45d605c24481934ff2c}
-      \strng{fullhash}{d2a9c4a5cd57d45d605c24481934ff2c}
-      \strng{bibnamehash}{d2a9c4a5cd57d45d605c24481934ff2c}
-      \strng{authorbibnamehash}{d2a9c4a5cd57d45d605c24481934ff2c}
-      \strng{authornamehash}{d2a9c4a5cd57d45d605c24481934ff2c}
-      \strng{authorfullhash}{d2a9c4a5cd57d45d605c24481934ff2c}
+      \strng{namehash}{be28d3f489bfff161c830e799d5b1330}
+      \strng{fullhash}{be28d3f489bfff161c830e799d5b1330}
+      \strng{bibnamehash}{be28d3f489bfff161c830e799d5b1330}
+      \strng{authorbibnamehash}{be28d3f489bfff161c830e799d5b1330}
+      \strng{authornamehash}{be28d3f489bfff161c830e799d5b1330}
+      \strng{authorfullhash}{be28d3f489bfff161c830e799d5b1330}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
+      \field{month}{03}
       \field{title}{Network Centrality: An Introduction}
-      \field{usera}{C}
-      \field{userd}{english}
-      \field{userf}{english}
-      \field{year}{2019}
+      \field{usera}{M}
+      \field{year}{2018}
       \field{dateera}{ce}
-      \keyw{francisco2019}
+      \verb{doi}
+      \verb 10.1007/978-3-319-78512-7_10
+      \endverb
+      \keyw{francisco2018}
     \endentry
     \entry{eom2015}{article}{}
       \name{author}{2}{}{%
@@ -2065,22 +2015,11 @@
       \field{month}{10}
       \field{title}{Opinion formation driven by PageRank node influence on directed networks}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{436}
       \field{year}{2015}
       \field{dateera}{ce}
       \field{pages}{707\bibrangedash 715}
       \range{pages}{9}
-      \verb{doi}
-      \verb 10.1016/j.physa.2015.05.095
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1016/j.physa.2015.05.095
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1016/j.physa.2015.05.095
-      \endverb
       \keyw{eom2015}
     \endentry
     \entry{white2003}{inproceedings}{}
@@ -2120,22 +2059,11 @@
       \field{series}{KDD '03}
       \field{title}{Algorithms for Estimating Relative Importance in Networks}
       \field{usera}{C}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{year}{2003}
       \field{dateera}{ce}
       \field{pages}{266\bibrangedash 275}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/956750.956782
-      \endverb
-      \verb{urlraw}
-      \verb http://doi.acm.org/10.1145/956750.956782
-      \endverb
-      \verb{url}
-      \verb http://doi.acm.org/10.1145/956750.956782
-      \endverb
-      \keyw{Markov chains,PageRank,graphs,relative importance,social networks}
+      \keyw{white2003}
     \endentry
     \entry{mesgari2015}{book}{}
       \name{author}{4}{}{%
@@ -2177,16 +2105,11 @@
       \field{month}{01}
       \field{title}{Identifying Key Nodes in Social Networks Using Multi-Criteria Decision-Making Tools}
       \field{usera}{M}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{128}
       \field{year}{2015}
       \field{dateera}{ce}
       \field{pages}{137\bibrangedash 150}
       \range{pages}{14}
-      \verb{doi}
-      \verb 10.1007/978-3-319-16619-3_10
-      \endverb
       \keyw{mesgari2015}
     \endentry
     \entry{hwang1981}{book}{}
@@ -2224,12 +2147,10 @@
       \field{langid}{english}
       \field{title}{Multiple Attribute Decision Making: Methods and Applications}
       \field{usera}{M}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{year}{1981}
       \field{dateera}{ce}
       \verb{doi}
-      \verb http://dx.doi.org/10.1007/978-3-642-48318-9
+      \verb 10.1007/978-3-642-48318-9
       \endverb
       \keyw{hwang1981}
     \endentry
@@ -2282,105 +2203,18 @@
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{It is a classic topic of social network analysis to evaluate the importance of nodes and identify the node that takes on the role of core or bridge in a network. Because a single indicator is not sufficient to analyze multiple characteristics of a node, it is a natural solution to apply multiple indicators that should be selected carefully. An intuitive idea is to select some indicators with weak correlations to efficiently assess different characteristics of a node. However, this paper shows that it is much better to select the indicators with strong correlations. Because indicator correlation is based on the statistical analysis of a large number of nodes, the particularity of an important node will be outlined if its indicator relationship doesn't comply with the statistical correlation. Therefore, the paper selects the multiple indicators including degree, ego-betweenness centrality and eigenvector centrality to evaluate the importance and the role of a node. The importance of a node is equal to the normalized sum of its three indicators. A candidate for core or bridge is selected from the great degree nodes or the nodes with great ego-betweenness centrality respectively. Then, the role of a candidate is determined according to the difference between its indicators' relationship with the statistical correlation of the overall network. Based on 18 real networks and 3 kinds of model networks, the experimental results show that the proposed methods perform quite well in evaluating the importance of nodes and in identifying the node role.}
       \field{journaltitle}{PLOS ONE}
       \field{langid}{english}
       \field{month}{08}
       \field{number}{8}
       \field{title}{Identifying Node Role in Social Network Based on Multiple Indicators}
       \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{volume}{9}
       \field{year}{2014}
       \field{dateera}{ce}
       \field{pages}{1\bibrangedash 16}
       \range{pages}{16}
-      \verb{doi}
-      \verb 10.1371/journal.pone.0103733
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1371/journal.pone.0103733
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1371/journal.pone.0103733
-      \endverb
       \keyw{huang2014}
-    \endentry
-    \entry{nicolas2017}{book}{}
-      \name{author}{1}{}{%
-        {{hash=ce5effd83d521b8e43ea866ae0507297}{%
-           family={Lanchier},
-           familyi={L\bibinitperiod},
-           given={Nicolas},
-           giveni={N\bibinitperiod}}}%
-      }
-      \list{institution}{2}{%
-        {Arizona State University, School of Mathematical}%
-        {Statistical Sciences}%
-      }
-      \list{language}{1}{%
-        {english}%
-      }
-      \list{publisher}{1}{%
-        {Springer Nature, DOI:1007/978-3-319-50038-6}%
-      }
-      \strng{namehash}{ce5effd83d521b8e43ea866ae0507297}
-      \strng{fullhash}{ce5effd83d521b8e43ea866ae0507297}
-      \strng{bibnamehash}{ce5effd83d521b8e43ea866ae0507297}
-      \strng{authorbibnamehash}{ce5effd83d521b8e43ea866ae0507297}
-      \strng{authornamehash}{ce5effd83d521b8e43ea866ae0507297}
-      \strng{authorfullhash}{ce5effd83d521b8e43ea866ae0507297}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{title}{Stochastic Modeling}
-      \field{usera}{M}
-      \field{userd}{english}
-      \field{userf}{english}
-      \field{year}{2017}
-      \field{dateera}{ce}
-      \keyw{nicolas2017}
-    \endentry
-    \entry{rainer2002}{article}{}
-      \name{author}{2}{}{%
-        {{hash=aaf95a640c24593ff5ad99b4da93bc3a}{%
-           family={Hegselmann},
-           familyi={H\bibinitperiod},
-           given={Rainer},
-           giveni={R\bibinitperiod}}}%
-        {{hash=4647a365f0d2ce7fa24de0b8c50bc06a}{%
-           family={Krause},
-           familyi={K\bibinitperiod},
-           given={Ulrich},
-           giveni={U\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {english}%
-      }
-      \strng{namehash}{3b70d58592425588f9162c62a25af746}
-      \strng{fullhash}{c11c172b875d96146e821e713b9f880f}
-      \strng{bibnamehash}{c11c172b875d96146e821e713b9f880f}
-      \strng{authorbibnamehash}{c11c172b875d96146e821e713b9f880f}
-      \strng{authornamehash}{3b70d58592425588f9162c62a25af746}
-      \strng{authorfullhash}{c11c172b875d96146e821e713b9f880f}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Artificial Societies and Social Simulation}
-      \field{langid}{english}
-      \field{month}{07}
-      \field{title}{Opinion Dynamics and Bounded Confidence Models, Analysis and Simulation}
-      \field{usera}{J}
-      \field{userd}{english}
-      \field{userf}{english}
-      \field{volume}{5}
-      \field{year}{2002}
-      \field{dateera}{ce}
-      \keyw{rainer2002}
     \endentry
     \entry{kimsangwoo2012}{thesis}{}
       \name{author}{1}{}{%
@@ -2409,8 +2243,6 @@
       \field{langid}{english}
       \field{title}{Structure and dynamics of complex networks}
       \field{usera}{D}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{year}{2012}
       \field{dateera}{ce}
       \keyw{kimsangwoo2012}
@@ -2439,8 +2271,6 @@
       \field{langid}{english}
       \field{title}{A Study on the Characteristics and the Transition of the Complex System Network Structure and Dynamics}
       \field{usera}{D}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{year}{2011}
       \field{dateera}{ce}
       \keyw{choi2011}
@@ -2474,13 +2304,8 @@
       \field{series}{Cambridge Studies in Advanced Mathematics}
       \field{title}{Random Graphs}
       \field{usera}{M}
-      \field{userd}{english}
-      \field{userf}{english}
       \field{year}{2001}
       \field{dateera}{ce}
-      \verb{doi}
-      \verb 10.1017/CBO9780511814068
-      \endverb
       \keyw{bela2001}
     \endentry
   \enddatalist
