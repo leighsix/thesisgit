@@ -19,20 +19,20 @@
 	\label{chap2_modeling}
 \end{figure}
 
-Competition models such as two-layer networks have been studied by many researchers. Fig.~\ref{chap2_modeling}  shows the simple example of a two-layer competition model. There exist many ways to model a two-layer network. In this study, a well-proven model is applied to investigating competition models. This model has been researched in \parencite{diep2017, alvarez2016, gomez2015} and has been proven theoretically by mean-field theory and magnetization\parencite{amato2017, diep2017, alvarez2016, gomez2015}. The theoretical studies in \parencite{diep2017, alvarez2016, gomez2015} show that a two-layer network can have various final states according to dynamics parameters, and the state of the network can be different with internal interaction results on each layer if there exists the external interaction on the two-layer network. Also, they provide that mean-field results have the same main characteristics as those of Monte-Carlo simulations.
+Competition models such as two-layer networks have been studied by many researchers. Fig.~\ref{chap2_modeling}  shows a simple example of a two-layer competition model. There exist many approaches to model a two-layer network. In this study, a well-proven model is applied to investigate competition models. This model has been studied in \parencite{diep2017, alvarez2016, gomez2015} and has been proven theoretically by mean-field theory and magnetization\parencite{amato2017, diep2017, alvarez2016, gomez2015}. The theoretical studies in \parencite{diep2017, alvarez2016, gomez2015} show that a two-layer network can have various final states according to dynamics parameters, and the state of the network can be different with internal interaction results on each layer if there exists the external interaction on the two-layer network. Also, they point out that the results of mean-field method have the same main characteristics as those of Monte-Carlo simulations.
 
-In this chapter, a two-layer network model is introduced. And, it is described how each layer is made up and what kinds of functions and dynamics it has. Also, several indexes are provided to analyze the interaction between two-layers and measure the state of a network. 
+In this chapter, a two-layer network model is introduced. In addition, it is described how each layer is made up and what kinds of functions and dynamics it possesses. Also, several indices are provided to analyze the interaction between the two-layers and measure the state of the network. 
  
 \section{Modeling of a two-layer network}
 \label{sec:modeling of two layer network}
-The model consists of two layers, and each layer has different dynamics. For layer A, a node changes its state according to the $M$ model, as introduced in \parencite{rocca2014}. Here, we choose $M=2$, that each node can have one of four states $(-2, -1, +1, +2)$. For each link $(k, j)$ belonged to layer A, the dynamics are designed as follows:
+The model consists of two layers, and each layer has different dynamics. For layer A, a node changes its state according to the $M$ model, as introduced in \parencite{rocca2014}. Here, we choose $M=2$($M$ represents the absolute value of maximum or minimum opinion strength), that each node can have one of four states $(-2, -1, +1, +2)$. For each link $(k, j)$ belonged to layer A, the dynamics are designed as follows:
 \begin{itemize}
 	\item Compromise: if two nodes connected with link$(k, j)$ have opposite orientations, their states become more moderate with probability $q$ :
 	\begin{align}
 	\mbox{if } S_k<0 \mbox{ and } S_j>0  \Rightarrow (S_k, S_j) \rightarrow (S_k^r, S_j^l) \mbox{ with } prob.q,\\
 	\mbox{if } S_k>0 \mbox{ and } S_j<0  \Rightarrow (S_k, S_j) \rightarrow (S_k^l, S_j^r) \mbox{ with } prob.q.
 	\end{align}
-	If $S_k = \pm1$ and $S_j = \mp1$, one switches orientation at random:
+	If $S_k = \pm1$ and $S_j = \mp1$, one switches orientation randomly:
 	\begin{align}
 	(\pm 1, \mp 1)\rightarrow \left\{\begin{matrix}
 	(+1, +1) \mbox{ with } prob.q/2,
@@ -75,7 +75,7 @@ S_k^l &= \left\{\begin{matrix}
 \end{matrix}\right.
 \end{align}
 
-The sign of $S^A$ represents the opinion orientation of a node, and its absolute value $|S^A|$ measures the intensity of its opinion. So, $|S^A|=2$ represents a positive or negative extremist, while  $|S^A|=1$ corresponds to a moderate opinion of each side. In case of internal link $(k, j)$ belong to layer A, when the nodes have the same orientation$(S_kS_j>0)$, if the states of nodes are moderate, then they become extreme$(S_k=\pm1 \rightarrow \pm2, S_j= \pm1 \rightarrow \pm2)$ with probability $p$. If they are already extreme, they remain extreme$(S_k=\pm2 \rightarrow \pm2, S_j= \pm2 \rightarrow \pm2)$. On the other hand, when the nodes have opposite orientations$(S_kS_j<0)$, if they are extreme, the states of nodes become moderate$(S_k=\pm2 \rightarrow \pm1, S_j= \pm2 \rightarrow \pm1)$ with probability $q$. If they are already moderate, they switch orientations individually$(S_k=\pm1 \rightarrow \mp1, S_j= \pm1 \rightarrow \mp1)$.  In case of interaction between a node in layer A and a node in layer B, a node in layer A follows the opinion dynamics formula, but the state of a node in layer B does not change. In other words, the state of layer B affects layer A, but layer A dynamics do not affect the state of a node in layer B. For example, one node in the layer A, $S_k = +2$ is connected with  $S_j = -1$ node of layer B. Here, $S_k$ will change into $S_k = +1$ with $prob.q$, but $S_j$ will not change, which indicates that the states of layer B influence the states of layer A though the state of a node in layer B is not changed. 
+The sign of $S^A$ represents the opinion orientation of a node in layer A, and its absolute value $|S^A|$ measures the intensity of its opinion. So, $|S^A|=2$ represents a positive or negative extremist, while  $|S^A|=1$ corresponds to a moderate opinion of either side. For internal link $(k, j)$ belonging to layer A, when the nodes have the same orientation$(S_kS_j>0)$, if the states of nodes are moderate, then they become extreme$(S_k=\pm1 \rightarrow \pm2, S_j= \pm1 \rightarrow \pm2)$ with probability $p$. If they are already extreme, they remain extreme$(S_k=\pm2 \rightarrow \pm2, S_j= \pm2 \rightarrow \pm2)$. On the other hand, when the nodes have opposite orientations$(S_kS_j<0)$, if they are extreme, the states of nodes become moderate$(S_k=\pm2 \rightarrow \pm1, S_j= \pm2 \rightarrow \pm1)$ with probability $q$. If they are already moderate, they switch orientations individually$(S_k=\pm1 \rightarrow \mp1, S_j= \pm1 \rightarrow \mp1)$.  In the case of interaction between a node in layer A($S_k^A$) and a node in layer B($S_j^B$), $S_k^A$ follows the opinion dynamics formula, but $S_j^B$ does not change. In other words, the state of layer B affects layer A, but layer A dynamics do not affect the state of the node in layer B. For example, a node in the layer A with $S_k^A = +2$ is connected with  a node in layer B with $S_j^B = -1$. Here, $S_k^A$ will change into $S_k^A = +1$ with $prob.q$, but $S_j^B$ will not change, which indicates that the states of layer B influence the states of layer A though the state of the node in layer B is not changed. 
 
 The dynamics of layer B follows the decision-making dynamics as introduced in \parencite{abrams2003, vazquez2010}. The state of node $i$ in layer B can be $+1$ or $-1$, and it is updated according to
 
@@ -87,9 +87,9 @@ The dynamics of layer B follows the decision-making dynamics as introduced in \p
 \end{cases},
 \end{equation}
 
-where $i_i$ is an internal degree of node $i$ and $e_i$ is an external degree of node $i$. $n^{-S_i}$ is the number of neighbors of node $i$ with opposite state $-S_i$. $v$ represents the volatility that measures how prone the state of a node is changed. The scale of $v$ is from $0$ to $1$. If $v \simeq 0$,  a node is unlikely to change its state. On the other hand, if $v \simeq 1$, a node is very likely to change its state. Also, this formula shows that the more the edges connected with the opposite state is, the easier the nodal state is to be changed into the opposite state.
+where $i_i$ is the internal degree of node $i$ and $e_i$ is the external degree of node $i$. $n^{-S_i}$ is the number of neighbors of node $i$ with opposite state $-S_i$. $v$ represents the volatility that measures the tendency that the state of a node is changed. The scale of $v$ is $(0, 1)$. If $v \simeq 0$,  a node is unlikely to change its state. On the other hand, if $v \simeq 1$, a node is very likely to change its state. Also, this formula shows that the more the edges are connected with the opposite state, the easier the nodal state is to be changed into the opposite state.
 
-Fig.\ref{chap2_dynamics} shows how the mutual interaction works on each layer. Persuasion process on the layer A makes the node in layer A become extreme by probability p. Compromise process on the layer B makes the node in layer A become moderate by probability q. Volatility on layer B makes the node in layer B switch to the opposite orientation.   
+Fig.\ref{chap2_dynamics} shows how the mutual interaction works on each layer. The persuasion process on layer A makes the node in layer A become extreme by probability p. The compromise process on layer B makes the node in layer A become moderate by probability q. Volatility on layer B makes the node in layer B switch to the opposite orientation.   
 
 \begin{figure}[!htb]
 	\centering
@@ -99,17 +99,17 @@ Fig.\ref{chap2_dynamics} shows how the mutual interaction works on each layer. P
 \end{figure}
 
 \section{Simulations and Analysis}
-This model is nonlinear, and the applied dynamics are switched according to the states of nodes. In this model, practical mathematical tools can not be applied, and that precise analytical results are challenging to achieve\parencite{nicolas2017, rainer2002}. For that reason, we analyze the above nonlinear model through a large number of simulations on the computer.
+The model proposed above is nonlinear, and the applied dynamics changes according to the states of nodes. In this model, practical mathematical tools cannot be applied, and precise analytical results are challenging to achieve\parencite{nicolas2017, rainer2002}. For that reason, we analyze the above nonlinear model through a large number of simulations on the computer.
 
-To make the condition of strong competition, it is assumed that the state of one layer is totally opposite to the other layer. To start with a polarized competition, as the initial conditions,  nodes in layer A are all positive states, and nodes in layer B are all negative states. For nodes in layer A, it begins with the states where half of the nodes are $+1$, and the others are $+2$. The initial states of nodes in layer B have only $-1$.
+To simulate the condition of strong competition, it is assumed that the state of one layer is totally opposite to the other layer. To start a polarized competition, the initial conditions are set that nodes in layer A are all positive states, and nodes in layer B are all negative states. For nodes in layer A, it begins with the states where half of the nodes are $+1$, and the others are $+2$. The initial states of nodes in layer B are all $-1$.
 
-There are two parameters, $p$ and $q$, in the dynamics of layer A. To represent the probability $p$ and probability $q$ together simply; we set $p+q=1$. So, $p$ represents the reinforcement or strength of the opinion, such as extreme and moderate, which is scaled to be $0$ to $1$. And, there is only one parameter, $v$ in the dynamics of layer B. The scale of $v$ is also $0$ to $1$ as $p$. $v$ represents the volatility, which means how prone the state of a node can be changed into the opposite state.
+There are two parameters, $p$ and $q$, in the dynamics of layer A. To represent the probability $p$ and probability $q$ together simply; we set $p+q=1$. So, $p$ represents the reinforcement or strengthening of the opinion, such as from moderate to extreme, which is scaled to be from $0$ to $1$. On the other hand, there is only one parameter, $v$, in the dynamics of layer B. The scale of $v$ is also $0$ to $1$, the same as $p$. $v$ represents volatility, which means how prone the state of a node can be changed into the opposite state.
 
-In order to implement the interconnected dynamics, one step consists of two layers dynamics, where every node in layer A is checked with opinion dynamics, and every node in layer B updates its state according to the decision-making dynamics. The dynamics order follows updating the state of layer B after updating the state of layer A. The dynamics orders and updating rules of the two-layer network are explicitly discussed in chapter~\ref{chap4}.     
+In order to implement the interconnected dynamics, one step consists of two layers' dynamics, where every node in layer A is checked with opinion dynamics, and every node in layer B updates its state according to the decision-making dynamics. The dynamics order updates the state of layer B after updating the state of layer A. The dynamics orders and updating rules of the two-layer network are explicitly discussed in Chapter~\ref{chap4}.     
 
-Each simulation takes $100$ steps for the opinion evolution, and $100$ simulations are considered for average results. In this work, all the source code are implemented by using python libraries(networkX, pandas, numpy, and so on) and MySQL. The networkX library is used to generate the random two-layer networks. MySQL is used to save magnificent amount of simulations results. 
+Each simulation takes $100$ steps for the opinion evolution, and $100$ simulations are considered for average results. And, basically, initial conditions are set up as the number of nodes on each layer is $2048$ and each node has $5$ edges. Interval of two parameters$(p, v)$ is $40$, that means $1,600$ set of parameters. Therefore, $16,000,000$ simulation results need to be saved on every network. In this work, all the source codes are implemented by using python libraries(networkX, pandas, numpy, etc) and MySQL. The networkX library is used to generate the random two-layer networks. MySQL is used to save magnificent amount of simulations results. 
 
-To analyze the simulation results, we use \textit{`Average State'(AS)} to measure the average states of network and \textit{`Consensus Index'(CI)} to measure how close the state of the network is to consensus. The formulas follow as
+To analyze the simulation results, we use \textit{`Average State'(AS)} to measure the average state of the network and \textit{`Consensus Index'(CI)} to measure how close the state of the network is to consensus. The formulas is as follows
 
 \begin{equation}
 AS = avg\left( {\sum\limits_i^{{K^A}} {S_i^A/4} } \right) + avg\left( {\sum\limits_i^{{K^B}} {S_i^B/2} } \right),
@@ -119,9 +119,9 @@ AS = avg\left( {\sum\limits_i^{{K^A}} {S_i^A/4} } \right) + avg\left( {\sum\limi
 CI = \frac{{({K_ + }^A \cdot {K_ - }^B) + ({K_ - }^A \cdot {K_ + }^B)}}{{{K^A} \cdot {K^B}}}.
 \end{equation}
 
-In these formulas, $S_i^A$ means the state of node $i$ in layer A, and $K^A$ is the number of nodes in layer A. ${K_ + }^A$ represents the number of nodes with the positive state in layer A.   
+In these formulas, $S_i^A$ means the state of node $i$ in layer A, and $K^A$ is the number of nodes in layer A. ${K_ + }^A$ represents the number of nodes with positive state in layer A.   
 
-\textit{AS} can verify whether a consensus happens under the change of $p$ and $v$.  If a positive consensus happens, the \textit{AS} is close to the value of $+1$. If a negative consensus happens, the \textit{AS} is close to the value of $-1$. And, the medium values between $+1$ and $-1$ mean that the state of the network belongs to the coexistence or dissent part.  
+\textit{AS} can verify whether a consensus happens under the change of $p$ and $v$.  If a positive consensus happens, \textit{AS} is close to the value of $+1$. If a negative consensus happens, \textit{AS} is close to the value of $-1$. And, the medium values between $+1$ and $-1$ mean that the state of the network belongs to the coexistence or dissent states.  
 
 \begin{figure}[!htb]
 	\centering
@@ -130,9 +130,9 @@ In these formulas, $S_i^A$ means the state of node $i$ in layer A, and $K^A$ is 
 	\label{chap2_timeflow_AS(BA3_BA3)}
 \end{figure}
 
-Fig.~\ref{chap2_timeflow_AS(BA3_BA3)} shows that \textit{AS} values are convergent to $+1$, $-1$, or other values as step(time) goes by. Reaching $+1$ means making a positive consensus, and reaching $-1$ means making a negative consensus. The other values mean a coexistence or dissent state. 
+Fig.~\ref{chap2_timeflow_AS(BA3_BA3)} draws \textit{AS} values per each step according to all parameters$(p, v)$. Fig.~\ref{chap2_timeflow_AS(BA3_BA3)} shows that \textit{AS} values are convergent to $+1$, $-1$, or other values as step(time) goes by. Reaching $+1$ means making a positive consensus, and reaching $-1$ means making a negative consensus. The other values mean a coexistence or dissent state. 
 
-\textit{CI} can measure how close the state of the network is to consensus. If the \textit{CI} is close to $0$, the state of the network is close to a positive or negative consensus. If the \textit{CI} is close to $1$, a state of the network is a separated coexistence, where states of all nodes in layer A is opposed to states of all nodes in layer B. If the \textit{CI} is close to $0.5$, a state of the network is a mixed coexistence, where each layer has both positive and negative states of nodes.
+\textit{CI} can measure how close the state of the network is to consensus. If \textit{CI} is close to $0$, the state of the network is close to a positive or negative consensus. If \textit{CI} is close to $1$, the state of the network is a separated coexistence, where states of all nodes in layer A is opposed to states of all nodes in layer B. If \textit{CI} is close to $0.5$, the state of the network is a mixed coexistence, where each layer has both positive and negative states of nodes.
 
 \begin{figure}[!htb]
 	\centering
@@ -150,9 +150,9 @@ Fig.~\ref{chap2_CI_values} shows the characteristics of \textit{CI}. The same or
 	\label{chap2_timeflow_CI(BA3_BA3)}
 \end{figure}
 
-As Fig.~\ref{chap2_timeflow_CI(BA3_BA3)} shown, \textit{CI} values are convergent to $+1$, $0$, or other values as step(time) goes by. $0$ means positive or negative consensus of two-layer. $+1$ means separated opposite states of two-layers. The other values mean mixed states of two-layers. By using \textit{CI}, coexistence states can be divided into two categories, separated state and mixed state. 
+As Fig.~\ref{chap2_timeflow_CI(BA3_BA3)} shown, \textit{CI} values are convergent to $+1$, $0$, or other values as step(time) goes by. $0$ means positive or negative consensus of the two layers. $+1$ means separated opposite states of the two layers. Other values mean mixed states of two-layers. By using \textit{CI}, coexistence states can be divided into two categories, separated state and mixed state. 
 
-To measure and evaluate the consensus results regarding two parameters $p$ and $v$, we use four kinds of indexes, including \textit{`AS-Total'}, \textit{`Positive Consensus Ratio'(PCR)}, \textit{`Negative Consensus ratio'(NCR)}, and \textit{`Consensus Ratio'(CR)}. \textit{AS-Total} means the summation of \textit{AS} for all $p$s and all $v$s. \textit{PCR} is the ratio of positive consensus over all simulations. Similarly, \textit{NCR} is the ratio of experiments with negative consensus. \textit{CR} is the ratio of experiments reaching consensus, i.e., the summation of \textit{PCR} and \textit{NCR}.
+To measure and evaluate the consensus results regarding two parameters $p$ and $v$, we use four kinds of indices, including \textit{`AS-Total'}, \textit{`Positive Consensus Ratio'(PCR)}, \textit{`Negative Consensus ratio'(NCR)}, and \textit{`Consensus Ratio'(CR)}. \textit{AS-Total} means the summation of \textit{AS} for all $p$s and $v$s. \textit{PCR} is the ratio of positive consensus over all simulations. Similarly, \textit{NCR} is the ratio of experiments with negative consensus. \textit{CR} is the ratio of experiments reaching consensus, i.e., the summation of \textit{PCR} and \textit{NCR}.
 
 \begin{equation}
 \begin{array}{cl}
@@ -165,7 +165,7 @@ v {\rm{ = }}\left\{ {{v _{\rm{1}}},{v _{\rm{2}}},\left. {\cdot\cdot\cdot,{v _m}}
 \label{AS_total}
 \end{equation}
 
-In Eq(\ref{AS_total}), ${A{S_{{p _i},{v _j}}}}$ means $AS$ value according to parameters $p_i$ and $v_j$, which shows the total orientation and intensity of the interconnected network. When simulations are implemented according to all parameters, the intervals of each parameter are set up as $n = m = 40$ basically. \textit{`AS-Total'} is calculated by $1600$ $AS$ values.   
+In Eq(\ref{AS_total}), ${A{S_{{p _i},{v _j}}}}$ means $AS$ value with parameters $p_i$ and $v_j$, which shows the total orientation and intensity of the interconnected network. When simulations are implemented according to all parameters, the intervals of each parameter are set up as $n = m = 40$ basically. \textit{`AS-Total'} is calculated by $1600$ $AS$ values.   
 
 \begin{equation}
 PCR = \frac{{\sum\limits_j^m {\sum\limits_i^n {(A{S_{{p _i},{v _j}}} \simeq  1)} } }}{{n \times m}}.
@@ -189,7 +189,7 @@ In Eq(\ref{NCR}), ${A{S_{{p _i},{v _j}}} \simeq  -1}$ means negative consensus.
 	\label{chap2_AS_total(BA3_BA3)}
 \end{figure}
 
-Fig.~\ref{chap2_AS_total(BA3_BA3)} shows the states of the interconnected network according to all $p$s and all $v$s. The $X$-axis is the $p$, the $Y$-axis is the $v$, and the $Z$-axis represents \textit{AS}. The closer the color is to blue color, the more it has a positive consensus. Moreover, the closer the color is to red color, the more it has a negative consensus. Light-colored and white areas have coexistence with both positive states and negative states. Here, we can measure the consensus by using indexes, \textit{`AS-Total'}, \textit{`PCR'}, \textit{`NCR'}, and \textit{`CR'}. The average value of this figure means \textit{`AS-Total'}. The blue part area means \textit{`PCR'}, the red part area means \textit{`NCR'}, and the summation of both\textit{`PCR'} and \textit{`NCR'} means \textit{`CR'}. \\
+Fig.~\ref{chap2_AS_total(BA3_BA3)} shows the states of the interconnected network according to all $p$s and all $v$s. The $X$-axis is $p$, the $Y$-axis is $v$, and the $Z$-axis represents \textit{AS}. The closer the color is to blue, the more likely it has a positive consensus. Moreover, the closer the color is to red, the more likely it has a negative consensus. Light-colored and white areas represent coexistence with both positive states and negative states. Here, we can measure the consensus by using indices, \textit{`AS-Total'}, \textit{`PCR'}, \textit{`NCR'}, and \textit{`CR'}. The average value of this figure means \textit{`AS-Total'}. The blue area means \textit{`PCR'}, the red area means \textit{`NCR'}, and the summation of \textit{`PCR'} and \textit{`NCR'} derives \textit{`CR'}. \\
 
 
 

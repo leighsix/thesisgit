@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.3)  24 FEB 2020 02:22
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.3)  24 FEB 2020 12:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3110,12 +3110,12 @@ Underfull \vbox (badness 1769) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
@@ -3137,9 +3137,13 @@ File: figure/chap2_dynamics.png Graphic file (type bmp)
 Underfull \vbox (badness 3977) has occurred while \output is active []
 
  [12]
-[13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
 File: figure/chap2_timeflow_AS(BA3_BA3).png Graphic file (type bmp)
 <figure/chap2_timeflow_AS(BA3_BA3).png>
+
+[14]
 File: figure/chap2_CI_values.png Graphic file (type bmp)
 <figure/chap2_CI_values.png>
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
@@ -3156,9 +3160,6 @@ LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 5.0pt on input line 140.
 File: figure/chap2_timeflow_CI(BA3_BA3).png Graphic file (type bmp)
 <figure/chap2_timeflow_CI(BA3_BA3).png>
- [14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [15]
 File: figure/chap2_AS_total(BA3_BA3).png Graphic file (type bmp)
 <figure/chap2_AS_total(BA3_BA3).png>
@@ -3167,7 +3168,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-) [16]
+[16]
 
 LaTeX Warning: Text page 17 contains only floats.
 
@@ -3175,14 +3176,10 @@ LaTeX Warning: Text page 17 contains only floats.
 Overfull \vbox (4.84451pt too high) has occurred while \output is active []
 
 
-[17]
+[17]) [18]
 \openout2 = `tex/chap3.aux'.
 
- (./tex/chap3.tex [18
-
-
-
-]
+ (./tex/chap3.tex
 Chapter 3
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
@@ -3200,7 +3197,11 @@ File: figure/chap3_RR(5)_RR(5)_total.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [19
+
+
+
+]
 [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -3552,7 +3553,7 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 Here is how much of TeX's memory you used:
  54054 strings out of 492933
  1085560 string characters out of 6134842
- 1662870 words of memory out of 5000000
+ 1662869 words of memory out of 5000000
  57093 multiletter control sequences out of 15000+600000
  654052 words of font info for 213 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
